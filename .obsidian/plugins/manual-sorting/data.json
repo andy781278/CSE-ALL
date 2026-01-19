@@ -24,11 +24,11 @@
     },
     "CSE 21/Algorithms": {
       "children": [
+        "CSE 21/Algorithms/Algorithm.md",
         "CSE 21/Algorithms/Stirling's Approximation.md",
         "CSE 21/Algorithms/Loop Invariant.md",
         "CSE 21/Algorithms/Sorting",
         "CSE 21/Algorithms/Counting Seq of Sets",
-        "CSE 21/Algorithms/Algorithm.md",
         "CSE 21/Algorithms/Recursion.md",
         "CSE 21/Algorithms/Master Theorem.md",
         "CSE 21/Algorithms/Optimization",
@@ -144,8 +144,8 @@
     },
     "CSE 21/Probability": {
       "children": [
-        "CSE 21/Probability/Binomial Distribution.md",
         "CSE 21/Probability/Probabilities.md",
+        "CSE 21/Probability/Binomial Distribution.md",
         "CSE 21/Probability/Law of Total Expectation.md",
         "CSE 21/Probability/Conditional Expectation.md",
         "CSE 21/Probability/Distribution.md",
@@ -162,11 +162,11 @@
     },
     "CSE 21/Proof": {
       "children": [
+        "CSE 21/Proof/Proofs.md",
         "CSE 21/Proof/Binomial Theorem.md",
         "CSE 21/Proof/Induction.md",
         "CSE 21/Proof/Symmetry Identity.md",
         "CSE 21/Proof/Combinatorial proofs.md",
-        "CSE 21/Proof/Proofs.md",
         "CSE 21/Proof/Bijection Proof.md",
         "CSE 21/Proof/Same-Set Proof.md",
         "CSE 21/Proof/Sum Identity.md",

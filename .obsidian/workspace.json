@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3923fb6e812aecdd",
+        "id": "e45c82d80f1e502d",
         "type": "tabs",
         "children": [
           {
-            "id": "c6755dd013659665",
+            "id": "da2d2481a970a627",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE 140/Transistor.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Transistor"
+              "title": "New tab"
             }
           }
         ]
@@ -171,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -181,8 +177,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -207,8 +203,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6755dd013659665",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
+    "CSE 21/Algorithms/Algorithm.md",
+    "CSE 21/Algorithms/Stirling's Approximation.md",
+    "CSE 21/Proof/Proofs.md",
+    "CSE 21/Proof/Binomial Theorem.md",
+    "CSE 21/Probability/Law of Total Expectation.md",
+    "CSE 21/Probability/Probabilities.md",
+    "CSE 21/Counting/Counting.md",
+    "Oct 13th M.md",
+    "CSE 140/Transistor.md",
     "CSE-ALL",
     "CSE 101/Graph Search/Graph Search.md",
     "CSE 21/Graph.md",
@@ -217,24 +222,16 @@
     "CSE 21/Proof/Sum Identity.md",
     "CSE 21/Proof/Same-Set Proof.md",
     "CSE 21/Proof/Combinatorial proofs.md",
-    "CSE 21/Proof/Binomial Theorem.md",
     "CSE 21/Proof/Induction.md",
     "CSE 21/Proof/Symmetry Identity.md",
-    "CSE 21/Proof/Proofs.md",
     "CSE 21/Proof/Bijection Proof.md",
     "CSE 21/Probability/Binomial Distribution.md",
-    "CSE 21/Probability/Probabilities.md",
-    "CSE 21/Probability/Law of Total Expectation.md",
     "CSE 21/Probability/Conditional Expectation.md",
     "CSE 21/Probability/Distribution.md",
     "CSE 21/Probability/Linearity of Expectation.md",
     "CSE 21/Probability/Conditional Probabilities.md",
     "CSE 21/Probability/Bayes' Theorem.md",
     "CSE 21/Probability/Law of Total Probability.md",
-    "CSE 21/Probability/Expected Value (Average).md",
-    "CSE 21/Probability/Geometric Distribution.md",
-    "CSE 21/Probability/Uniform Distribution.md",
-    "CSE 21/Probability/Probability.md",
     "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
     "CSE 21/Pics/Pasted image 20251123231900.png",
     "CSE 21/Pics/Pasted image 20251123235144.png",
@@ -253,7 +250,6 @@
     "CSE 21/Probability",
     "CSE 21/Pics",
     "CSE 21/Encode",
-    "CSE 21/Counting",
-    "CSE 21/Algorithms"
+    "CSE 21/Counting"
   ]
 }

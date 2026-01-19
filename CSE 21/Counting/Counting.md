@@ -1,5 +1,4 @@
-#Counting
-###### [[Sep 26th F]] [[Sep 29th M]] [[Oct 1st W]] [[Oct 3rd F]] [[Oct 6th M]] [[Oct 8th W]]
+#Counting 
 
 Counting the number of all possible outcomes of a subset given a set and some restrictions.
 
