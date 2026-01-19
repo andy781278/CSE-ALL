@@ -1,0 +1,1 @@
+To turn some data structure into a list/array following some total ordering

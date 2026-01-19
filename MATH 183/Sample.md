@@ -1,0 +1,1 @@
+A group taken from the total population in order to make inferences

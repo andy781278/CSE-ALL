@@ -1,0 +1,1 @@
+Use an array of booleans to represent a set, true for the index existing, false for no

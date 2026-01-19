@@ -1,0 +1,271 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "CSE 140",
+        "CSE 101",
+        "MATH 183",
+        "CSE 29",
+        "CSE 21"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21": {
+      "children": [
+        "CSE 21/Counting",
+        "CSE 21/Probability",
+        "CSE 21/Proof",
+        "CSE 21/Algorithms",
+        "CSE 21/Encode",
+        "CSE 21/Graph.md",
+        "CSE 21/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Algorithms": {
+      "children": [
+        "CSE 21/Algorithms/Stirling's Approximation.md",
+        "CSE 21/Algorithms/Loop Invariant.md",
+        "CSE 21/Algorithms/Sorting",
+        "CSE 21/Algorithms/Counting Seq of Sets",
+        "CSE 21/Algorithms/Algorithm.md",
+        "CSE 21/Algorithms/Recursion.md",
+        "CSE 21/Algorithms/Master Theorem.md",
+        "CSE 21/Algorithms/Optimization",
+        "CSE 21/Algorithms/Time Analysis.md",
+        "CSE 21/Algorithms/Searching",
+        "CSE 21/Algorithms/Big Notation.md",
+        "CSE 21/Algorithms/Multiplication.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Algorithms/Counting Seq of Sets": {
+      "children": [
+        "CSE 21/Algorithms/Counting Seq of Sets/n-bit strings.md",
+        "CSE 21/Algorithms/Counting Seq of Sets/Tower of Hanoi.md",
+        "CSE 21/Algorithms/Counting Seq of Sets/Pair of Elements.md",
+        "CSE 21/Algorithms/Counting Seq of Sets/Homogeneous Recurrence Relations with Constant Coefficients.md",
+        "CSE 21/Algorithms/Counting Seq of Sets/Dominoes.md",
+        "CSE 21/Algorithms/Counting Seq of Sets/Counting Sequences of Sets.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Algorithms/Optimization": {
+      "children": [
+        "CSE 21/Algorithms/Optimization/Sum Triples.md",
+        "CSE 21/Algorithms/Optimization/Disjoint.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Algorithms/Searching": {
+      "children": [
+        "CSE 21/Algorithms/Searching/Searching.md",
+        "CSE 21/Algorithms/Searching/Linear Search.md",
+        "CSE 21/Algorithms/Searching/Binary Search.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Algorithms/Sorting": {
+      "children": [
+        "CSE 21/Algorithms/Sorting/Total Ordering.md",
+        "CSE 21/Algorithms/Sorting/Sorting.md",
+        "CSE 21/Algorithms/Sorting/Min Sort (Selection Sort).md",
+        "CSE 21/Algorithms/Sorting/Merge Sort.md",
+        "CSE 21/Algorithms/Sorting/Bubble Sort.md",
+        "CSE 21/Algorithms/Sorting/Arithmetic Series.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Counting": {
+      "children": [
+        "CSE 21/Counting/The 12-fold way.md",
+        "CSE 21/Counting/Stars and Bars.md",
+        "CSE 21/Counting/Counting.md",
+        "CSE 21/Counting/Fixed Density.md",
+        "CSE 21/Counting/Each character is used at least once.md",
+        "CSE 21/Counting/Integer Equations.md",
+        "CSE 21/Counting/Anagram.md",
+        "CSE 21/Counting/Permutations.md",
+        "CSE 21/Counting/Binomial Coefficient.md",
+        "CSE 21/Counting/r-Permutations.md",
+        "CSE 21/Counting/Quotient Rule.md",
+        "CSE 21/Counting/Product Rule.md",
+        "CSE 21/Counting/Multiset.md",
+        "CSE 21/Counting/Power Rule.md",
+        "CSE 21/Counting/Injective.md",
+        "CSE 21/Counting/Surjective.md",
+        "CSE 21/Counting/r-Combinations.md",
+        "CSE 21/Counting/Sum Rule.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Encode": {
+      "children": [
+        "CSE 21/Encode/Theoretical Optimal Encoding.md",
+        "CSE 21/Encode/Variable Length Encodings.md",
+        "CSE 21/Encode/Encode.md",
+        "CSE 21/Encode/Encoding Graph.md",
+        "CSE 21/Encode/Ranking and Unranking Algorithm.md",
+        "CSE 21/Encode/Fixed Length Encodings.md",
+        "CSE 21/Encode/Huffman Coding.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Pics": {
+      "children": [
+        "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
+        "CSE 21/Pics/Pasted image 20251123231900.png",
+        "CSE 21/Pics/Pasted image 20251123235144.png",
+        "CSE 21/Pics/Pasted image 20251123232429.png",
+        "CSE 21/Pics/Pasted image 20251117182734.png",
+        "CSE 21/Pics/Pasted image 20251124155119.png",
+        "CSE 21/Pics/Pasted image 20251124151419.png",
+        "CSE 21/Pics/Untitled.png",
+        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.35 PM.png",
+        "CSE 21/Pics/Pasted image 20251124151534.png",
+        "CSE 21/Pics/Pasted image 20251123231817.png",
+        "CSE 21/Pics/Screen Shot 2025-10-17 at 8.34.59 PM.png",
+        "CSE 21/Pics/Pasted image 20251124155141.png",
+        "CSE 21/Pics/Screen Shot 2025-11-17 at 2.36.39 PM.png",
+        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.17 PM.png",
+        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.05.07 PM.png",
+        "CSE 21/Pics/Screen Shot 2025-11-17 at 1.06.03 PM.png",
+        "CSE 21/Pics/Pasted image 20251124141935.png",
+        "CSE 21/Pics/Screen Shot 2025-11-17 at 2.40.36 PM.png",
+        "CSE 21/Pics/Pasted image 20251123233639.png",
+        "CSE 21/Pics/Pasted image 20251123234627.png",
+        "CSE 21/Pics/Pasted image 20251124104039.png",
+        "CSE 21/Pics/Pasted image 20251124145310.png",
+        "CSE 21/Pics/Pasted image 20251124155103.png",
+        "CSE 21/Pics/Screen Shot 2025-11-17 at 1.09.35 PM.png",
+        "CSE 21/Pics/Pasted image 20251124154557.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Probability": {
+      "children": [
+        "CSE 21/Probability/Binomial Distribution.md",
+        "CSE 21/Probability/Probabilities.md",
+        "CSE 21/Probability/Law of Total Expectation.md",
+        "CSE 21/Probability/Conditional Expectation.md",
+        "CSE 21/Probability/Distribution.md",
+        "CSE 21/Probability/Linearity of Expectation.md",
+        "CSE 21/Probability/Conditional Probabilities.md",
+        "CSE 21/Probability/Bayes' Theorem.md",
+        "CSE 21/Probability/Law of Total Probability.md",
+        "CSE 21/Probability/Expected Value (Average).md",
+        "CSE 21/Probability/Geometric Distribution.md",
+        "CSE 21/Probability/Uniform Distribution.md",
+        "CSE 21/Probability/Probability.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 21/Proof": {
+      "children": [
+        "CSE 21/Proof/Binomial Theorem.md",
+        "CSE 21/Proof/Induction.md",
+        "CSE 21/Proof/Symmetry Identity.md",
+        "CSE 21/Proof/Combinatorial proofs.md",
+        "CSE 21/Proof/Proofs.md",
+        "CSE 21/Proof/Bijection Proof.md",
+        "CSE 21/Proof/Same-Set Proof.md",
+        "CSE 21/Proof/Sum Identity.md",
+        "CSE 21/Proof/bijection.md",
+        "CSE 21/Proof/Pascal's Identity.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 29": {
+      "children": [
+        "CSE 29/C strings.md",
+        "CSE 29/Vim.md",
+        "CSE 29/SRAM Cell.md",
+        "CSE 29/stdio.h.md",
+        "CSE 29/Print Tricks.md",
+        "CSE 29/3 Tests, Week, 4, 8, 10.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101": {
+      "children": [
+        "CSE 101/Graph Search",
+        "CSE 101/General Info",
+        "CSE 101/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/General Info": {
+      "children": [
+        "CSE 101/General Info/General Progression of Algorithm Design.md",
+        "CSE 101/General Info/Homework Due Thursday.md",
+        "CSE 101/General Info/What class for.md",
+        "CSE 101/General Info/Algorithm.md",
+        "CSE 101/General Info/Obvious Algorithm.md",
+        "CSE 101/General Info/Methodical Algorithm.md",
+        "CSE 101/General Info/Fibonacci.md",
+        "CSE 101/General Info/Word Size.md",
+        "CSE 101/General Info/Set.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Graph Search": {
+      "children": [
+        "CSE 101/Graph Search/Graph Search.md",
+        "CSE 101/Graph Search/Adjacency List.md",
+        "CSE 101/Graph Search/Edge Types.md",
+        "CSE 101/Graph Search/back edges.md",
+        "CSE 101/Graph Search/DFS.md",
+        "CSE 101/Graph Search/Directed Acyclic Graphs.md",
+        "CSE 101/Graph Search/Linearization.md",
+        "CSE 101/Graph Search/Source.md",
+        "CSE 101/Graph Search/Sink.md",
+        "CSE 101/Graph Search/Strongly Connected Component.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Pics": {
+      "children": [
+        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",
+        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.29.48 PM.png",
+        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.08.42 PM.png",
+        "CSE 101/Pics/Screen Shot 2026-01-07 at 1.25.51 PM.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 140": {
+      "children": [
+        "CSE 140/Transistor.md",
+        "CSE 140/Transistors.md",
+        "CSE 140/Boolean Algebra.md",
+        "CSE 140/Logic Gates.md",
+        "CSE 140/General Info.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183": {
+      "children": [
+        "MATH 183/What plot to use for type of variables.md",
+        "MATH 183/Efficacy.md",
+        "MATH 183/Statistics.md",
+        "MATH 183/Statistical Inference.md",
+        "MATH 183/Observation.md",
+        "MATH 183/Variable.md",
+        "MATH 183/Constant.md",
+        "MATH 183/Sample.md",
+        "MATH 183/Population.md",
+        "MATH 183/Types of Variables.md",
+        "MATH 183/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Pics": {
+      "children": [
+        "MATH 183/Pics/Screen Shot 2026-01-08 at 2.19.27 PM.png"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

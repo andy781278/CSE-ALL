@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "a663da5c57a10a86",
+    "type": "split",
+    "children": [
+      {
+        "id": "3923fb6e812aecdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6755dd013659665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 140/Transistor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Transistor"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae4e7495695db527",
+    "type": "split",
+    "children": [
+      {
+        "id": "2055d9daf007c494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39fab3cc1ae41cf2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "573c117db44ab8c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "61114428e70a2bc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "23513dd6285ee950",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf6754c484cec038",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "376f8a40bf709677",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Methodical Algorithms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Methodical Algorithms"
+            }
+          },
+          {
+            "id": "865f28afba6e7bb3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Methodical Algorithms.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Methodical Algorithms"
+            }
+          },
+          {
+            "id": "18d943fdd12ab498",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "94376a76c3f8b327",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9e972eec3f5241e5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Methodical Algorithms.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Methodical Algorithms"
+            }
+          },
+          {
+            "id": "b524fadee3e2a038",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "0b2a90096c0cb5aa",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "c6755dd013659665",
+  "lastOpenFiles": [
+    "CSE-ALL",
+    "CSE 101/Graph Search/Graph Search.md",
+    "CSE 21/Graph.md",
+    "CSE 21/Proof/Pascal's Identity.md",
+    "CSE 21/Proof/bijection.md",
+    "CSE 21/Proof/Sum Identity.md",
+    "CSE 21/Proof/Same-Set Proof.md",
+    "CSE 21/Proof/Combinatorial proofs.md",
+    "CSE 21/Proof/Binomial Theorem.md",
+    "CSE 21/Proof/Induction.md",
+    "CSE 21/Proof/Symmetry Identity.md",
+    "CSE 21/Proof/Proofs.md",
+    "CSE 21/Proof/Bijection Proof.md",
+    "CSE 21/Probability/Binomial Distribution.md",
+    "CSE 21/Probability/Probabilities.md",
+    "CSE 21/Probability/Law of Total Expectation.md",
+    "CSE 21/Probability/Conditional Expectation.md",
+    "CSE 21/Probability/Distribution.md",
+    "CSE 21/Probability/Linearity of Expectation.md",
+    "CSE 21/Probability/Conditional Probabilities.md",
+    "CSE 21/Probability/Bayes' Theorem.md",
+    "CSE 21/Probability/Law of Total Probability.md",
+    "CSE 21/Probability/Expected Value (Average).md",
+    "CSE 21/Probability/Geometric Distribution.md",
+    "CSE 21/Probability/Uniform Distribution.md",
+    "CSE 21/Probability/Probability.md",
+    "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
+    "CSE 21/Pics/Pasted image 20251123231900.png",
+    "CSE 21/Pics/Pasted image 20251123235144.png",
+    "CSE 21/Pics/Pasted image 20251123232429.png",
+    "CSE 21/Pics/Pasted image 20251117182734.png",
+    "CSE 21/Pics/Pasted image 20251124155119.png",
+    "CSE 21/Pics/Pasted image 20251124151419.png",
+    "CSE 21/Pics/Untitled.png",
+    "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.35 PM.png",
+    "CSE 21/Pics/Pasted image 20251124151534.png",
+    "CSE 21/Algorithms/Sorting",
+    "CSE 21/Algorithms/Counting Seq of Sets",
+    "CSE 21/Algorithms/Optimization",
+    "CSE 21/Algorithms/Searching",
+    "CSE 21/Proof",
+    "CSE 21/Probability",
+    "CSE 21/Pics",
+    "CSE 21/Encode",
+    "CSE 21/Counting",
+    "CSE 21/Algorithms"
+  ]
+}

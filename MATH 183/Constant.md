@@ -1,0 +1,1 @@
+A characteristic that remains the same for all observations
