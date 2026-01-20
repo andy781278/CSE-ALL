@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 29/C strings.md",
+                "file": "MATH 183/Probability/Random Variable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C strings"
+              "title": "Random Variable"
             }
           }
         ]
@@ -209,17 +209,18 @@
   },
   "active": "c6755dd013659665",
   "lastOpenFiles": [
-    "CSE 29/Hexadecimal Quick Lookup.md",
+    "MATH 183/Probability/I think I already know this.md",
+    "MATH 183/Probability/Random Variable.md",
+    "CSE 29/Split Screen.md",
     "CSE 29/C strings.md",
+    "CSE 29/Hexadecimal Quick Lookup.md",
     "CSE 29/Vim.md",
     "CSE 29/SRAM Cell.md",
     "CSE 29/stdio.h.md",
     "CSE 29/3 Tests on Week 4, 8, 10.md",
     "CSE 29/Print Tricks.md",
-    "CSE 29/Split Screen.md",
     "CSE 140/Transistor Circuits.md",
     "CSE 140/Transistors.md",
-    "MATH 183/Probability/I think I already know this.md",
     "MATH 183/Probability",
     "MATH 183/Basic/What plot to use for type of variables.md",
     "MATH 183/Basic/Variable.md",
@@ -237,7 +238,6 @@
     "CSE-ALL",
     "CSE 101/Graph Search/Graph Search.md",
     "CSE 21/Graph.md",
-    "CSE 21/Proof/Pascal's Identity.md",
     "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
     "CSE 21/Pics/Pasted image 20251123231900.png",
     "CSE 21/Pics/Pasted image 20251123235144.png",
