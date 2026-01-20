@@ -1,1 +1,1 @@
-Exam 1/29, letter paper cheat sheet ^e28f10
+Exam 1/29, letter paper cheat sheet

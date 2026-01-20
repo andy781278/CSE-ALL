@@ -1,0 +1,1 @@
+also a rehash of what's in CSE21, which is a much more detailed experience

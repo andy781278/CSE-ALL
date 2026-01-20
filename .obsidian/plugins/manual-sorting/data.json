@@ -199,7 +199,6 @@
         "CSE 101/General Info/General Progression of Algorithm Design.md",
         "CSE 101/General Info/Homework Due Thursday.md",
         "CSE 101/General Info/What class for.md",
-        "CSE 101/General Info/Algorithm.md",
         "CSE 101/General Info/Obvious Algorithm.md",
         "CSE 101/General Info/Methodical Algorithm.md",
         "CSE 101/General Info/Fibonacci.md",
@@ -210,16 +209,17 @@
     },
     "CSE 101/Graph Search": {
       "children": [
+        "CSE 101/Graph Search/Bandwidth Problem.md",
         "CSE 101/Graph Search/Graph Search.md",
         "CSE 101/Graph Search/Adjacency List.md",
         "CSE 101/Graph Search/Edge Types.md",
         "CSE 101/Graph Search/back edges.md",
-        "CSE 101/Graph Search/DFS.md",
         "CSE 101/Graph Search/Directed Acyclic Graphs.md",
         "CSE 101/Graph Search/Linearization.md",
+        "CSE 101/Graph Search/DFS.md",
+        "CSE 101/Graph Search/Strongly Connected Component.md",
         "CSE 101/Graph Search/Source.md",
-        "CSE 101/Graph Search/Sink.md",
-        "CSE 101/Graph Search/Strongly Connected Component.md"
+        "CSE 101/Graph Search/Sink.md"
       ],
       "sortOrder": "custom"
     },
@@ -244,23 +244,36 @@
     },
     "MATH 183": {
       "children": [
-        "MATH 183/What plot to use for type of variables.md",
-        "MATH 183/Efficacy.md",
-        "MATH 183/Statistics.md",
-        "MATH 183/Statistical Inference.md",
-        "MATH 183/Observation.md",
-        "MATH 183/Variable.md",
-        "MATH 183/Constant.md",
-        "MATH 183/Sample.md",
-        "MATH 183/Population.md",
-        "MATH 183/Types of Variables.md",
+        "MATH 183/Probability",
+        "MATH 183/Basic",
         "MATH 183/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Basic": {
+      "children": [
+        "MATH 183/Basic/What plot to use for type of variables.md",
+        "MATH 183/Basic/Efficacy.md",
+        "MATH 183/Basic/Statistics.md",
+        "MATH 183/Basic/Statistical Inference.md",
+        "MATH 183/Basic/Observation.md",
+        "MATH 183/Basic/Variable.md",
+        "MATH 183/Basic/Constant.md",
+        "MATH 183/Basic/Sample.md",
+        "MATH 183/Basic/Population.md",
+        "MATH 183/Basic/Types of Variables.md"
       ],
       "sortOrder": "custom"
     },
     "MATH 183/Pics": {
       "children": [
         "MATH 183/Pics/Screen Shot 2026-01-08 at 2.19.27 PM.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Probability": {
+      "children": [
+        "MATH 183/Probability/I think I already know this.md"
       ],
       "sortOrder": "custom"
     }
