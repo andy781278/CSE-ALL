@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "67ba5a1efa383be8",
+        "id": "3923fb6e812aecdd",
         "type": "tabs",
         "children": [
           {
-            "id": "54716304a63301b8",
+            "id": "c6755dd013659665",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 140/Boolean Algebra.md",
+                "file": "CSE 29/C strings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boolean Algebra"
+              "title": "C strings"
             }
           }
         ]
@@ -207,37 +207,37 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "54716304a63301b8",
+  "active": "c6755dd013659665",
   "lastOpenFiles": [
-    "CSE 140/Transistor.md",
-    "CSE 140/Boolean Algebra.md",
+    "CSE 29/Hexadecimal Quick Lookup.md",
+    "CSE 29/C strings.md",
+    "CSE 29/Vim.md",
+    "CSE 29/SRAM Cell.md",
+    "CSE 29/stdio.h.md",
+    "CSE 29/3 Tests on Week 4, 8, 10.md",
+    "CSE 29/Print Tricks.md",
+    "CSE 29/Split Screen.md",
     "CSE 140/Transistor Circuits.md",
-    "CSE 140/General Info.md",
-    "CSE 140/Logic Gates.md",
-    "CSE 101/Graph Search/Bandwidth Problem.md",
-    "CSE 101/Graph Search/Graph Search.md",
-    "CSE 101/Graph Search/Strongly Connected Component.md",
-    "CSE 101/Graph Search/Sink.md",
-    "CSE 101/Graph Search/DFS.md",
-    "CSE 101/Graph Search/Directed Acyclic Graphs.md",
-    "CSE 101/Graph Search/Linearization.md",
-    "CSE 101/General Info/Algorithm.md",
-    "CSE 21/Algorithms/Algorithm.md",
+    "CSE 140/Transistors.md",
     "MATH 183/Probability/I think I already know this.md",
-    "MATH 183/Basic/What plot to use for type of variables.md",
     "MATH 183/Probability",
-    "MATH 183/Basic/Types of Variables.md",
-    "MATH 183/Basic",
-    "MATH 183/Basic/Population.md",
-    "MATH 183/Basic/Sample.md",
-    "MATH 183/Basic/Constant.md",
+    "MATH 183/Basic/What plot to use for type of variables.md",
     "MATH 183/Basic/Variable.md",
-    "MATH 183/Basic/Observation.md",
-    "MATH 183/Basic/Statistical Inference.md",
+    "MATH 183/Basic/Types of Variables.md",
     "MATH 183/Basic/Statistics.md",
+    "MATH 183/Basic/Statistical Inference.md",
+    "MATH 183/Basic/Sample.md",
+    "MATH 183/Basic/Population.md",
+    "MATH 183/Basic/Observation.md",
     "MATH 183/Basic/Efficacy.md",
-    "CSE 21/Algorithms/Stirling's Approximation.md",
+    "MATH 183/Basic/Constant.md",
+    "MATH 183/Basic",
+    "CSE 101/Graph Search/Bandwidth Problem.md",
+    "CSE 140/Transistor.md",
     "CSE-ALL",
+    "CSE 101/Graph Search/Graph Search.md",
+    "CSE 21/Graph.md",
+    "CSE 21/Proof/Pascal's Identity.md",
     "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
     "CSE 21/Pics/Pasted image 20251123231900.png",
     "CSE 21/Pics/Pasted image 20251123235144.png",

@@ -5,3 +5,7 @@ char msg[] = {'H','e','l','l','o','!','$\backslash \emptyset$'};
                72  101 108 108 111   33   0
              And then convert to binary via ascii
 
+When you pass an array, you pass the pointer of its first element, so you pretty much pass it by reference
+- When you need to alter an array, instead of altering it, you put the changed elements into another array, so that pretty much half deep copies it and half alters it in the same function
+
+strcpy() - deep copies a string
