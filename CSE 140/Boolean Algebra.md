@@ -43,3 +43,5 @@ Method to optimize circuits:
 ### Boolean Cubes
 Visualization technique for applying the uniting theorem
 n input variables = n dimensions for cube
+
+### K-Maps

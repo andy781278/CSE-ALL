@@ -177,18 +177,20 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/Split Screen.md",
+        "CSE 29/Hexadecimal Quick Lookup.md",
         "CSE 29/C strings.md",
         "CSE 29/Vim.md",
         "CSE 29/SRAM Cell.md",
         "CSE 29/stdio.h.md",
         "CSE 29/Print Tricks.md",
-        "CSE 29/3 Tests, Week, 4, 8, 10.md"
+        "CSE 29/3 Tests on Week 4, 8, 10.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 101": {
       "children": [
-        "CSE 101/Graph Search",
+        "CSE 101/Graph Algorithms",
         "CSE 101/General Info",
         "CSE 101/Pics"
       ],
@@ -207,19 +209,22 @@
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Graph Search": {
+    "CSE 101/Graph Algorithms": {
       "children": [
-        "CSE 101/Graph Search/Bandwidth Problem.md",
-        "CSE 101/Graph Search/Graph Search.md",
-        "CSE 101/Graph Search/Adjacency List.md",
-        "CSE 101/Graph Search/Edge Types.md",
-        "CSE 101/Graph Search/back edges.md",
-        "CSE 101/Graph Search/Directed Acyclic Graphs.md",
-        "CSE 101/Graph Search/Linearization.md",
-        "CSE 101/Graph Search/DFS.md",
-        "CSE 101/Graph Search/Strongly Connected Component.md",
-        "CSE 101/Graph Search/Source.md",
-        "CSE 101/Graph Search/Sink.md"
+        "CSE 101/Graph Algorithms/explore().md",
+        "CSE 101/Graph Algorithms/DFS().md",
+        "CSE 101/Graph Algorithms/Strongly Connected Component().md",
+        "CSE 101/Graph Algorithms/BFS().md",
+        "CSE 101/Graph Algorithms/Dijkstras().md",
+        "CSE 101/Graph Algorithms/Graph Search.md",
+        "CSE 101/Graph Algorithms/Bandwidth Problem.md",
+        "CSE 101/Graph Algorithms/Adjacency List.md",
+        "CSE 101/Graph Algorithms/Edge Types.md",
+        "CSE 101/Graph Algorithms/back edges.md",
+        "CSE 101/Graph Algorithms/Directed Acyclic Graphs.md",
+        "CSE 101/Graph Algorithms/Linearization.md",
+        "CSE 101/Graph Algorithms/Source.md",
+        "CSE 101/Graph Algorithms/Sink.md"
       ],
       "sortOrder": "custom"
     },
@@ -234,8 +239,8 @@
     },
     "CSE 140": {
       "children": [
+        "CSE 140/Transistor Circuits.md",
         "CSE 140/Transistor.md",
-        "CSE 140/Transistors.md",
         "CSE 140/Boolean Algebra.md",
         "CSE 140/Logic Gates.md",
         "CSE 140/General Info.md"
@@ -273,6 +278,7 @@
     },
     "MATH 183/Probability": {
       "children": [
+        "MATH 183/Probability/Random Variable.md",
         "MATH 183/Probability/I think I already know this.md"
       ],
       "sortOrder": "custom"

@@ -49,22 +49,13 @@ Proof:
 		- if w is in X, that means it can be a z, and its neighbors, the new w, must also be in X, this eventually goes down to v, which has to be in X.
 		- There is a contradiction, so the opposite must be true.
 
+# Mid Level
+![[Dijkstras()]]
+
 # Data Structures (Low Level)
 ### Frontier (F)
 ##### F as a Stack
-```
-Initialize a visited array of false for each vertex
-procedure explore(G=(V,E),s):
-	visited(s) = true
-	previsit(s)
-	component(s)=cc
-	for each edge (s,u):
-		if not visited(u):
-			prev(u)=s
-			explore(G,u)
-	postvisit(s)
-```
-
+ ![[explore()]]
 prev keeps track of where the vertex came from (makes a path)
 previsit/postvisit are ints, it keeps track of the order of the traversal
 ![[Screen Shot 2026-01-12 at 9.08.42 PM.png]]
@@ -72,7 +63,9 @@ You can construct a DFS output tree, but it misses info about the back edges
 ![[back edges]]
 theorem: an undirected graph G has a cycle iff its DFS output has back edges
 An undirected graph is connected if every vertex can reach every other vertex through a path.
-![[DFS]]
+![[DFS()]]
 
 ##### F as a Queue
+![[BFS()]]
+
 ##### F as a Priority Queue

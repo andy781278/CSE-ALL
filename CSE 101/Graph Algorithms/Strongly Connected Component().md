@@ -12,7 +12,7 @@ a non-DAG can be turned into a DAG if we group all the SCCs together and treat t
 SCC Algorithm(How to make SCC graph):
 - Construct $G^R$ (reverse graph)
 - Run DFS on $G^R$ and keep track of post numbers, make a list of the ordering from highest to lowest post number
-- Run DFS on $G^R$ and order the vertices in decreasing order of the post numbers from the previous step. Every time DFS increments cc, you have found a new SCC.
+- Run DFS on G and order the vertices in decreasing order of the post numbers from the previous step. Every time DFS increments cc, you have found a new SCC.
 
 Time Complexity:
 - Linear time

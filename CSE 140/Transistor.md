@@ -57,7 +57,5 @@ Z - disconnected, neither 0 or 1
 
 | A   | EN  | N   | P   | B   |
 | --- | --- | --- | --- | --- |
-| 0   | 0   | OFF | OFF | Z   |
-| 1   | 0   | OFF | OFF | Z   |
-| 0   | 1   | ON  | ON  | 0   |
-| 1   | 1   | ON  | ON  | 1   |
+| A   | 0   | OFF | OFF | Z   |
+| A   | 1   | ON  | ON  | A   |
