@@ -35,4 +35,3 @@ You can also control formatting:
 Possible Errors:
 - Mismatched # of format specifiers and values
 - no way to format a value with given specifier
-- 

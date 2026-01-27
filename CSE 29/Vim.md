@@ -88,3 +88,5 @@ ctrl g - command
 - g n - go to line n
 
 :help - opens the help manual
+
+:vert bot term - split screen, right side open terminal
