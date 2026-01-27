@@ -8,17 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6755dd013659665",
+            "id": "3166f5a538d52e94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 101/Graph Algorithms/Kruskals().md",
+                "file": "CSE 140/Transistor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kruskals()"
+              "title": "Transistor"
+            }
+          },
+          {
+            "id": "004b81a6aedeb2d0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 140/Transistor Circuits.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Transistor Circuits"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b428f611bf1c1713",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6309e142d5e064c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 140/Boolean Algebra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Boolean Algebra"
             }
           }
         ]
@@ -207,10 +239,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c6755dd013659665",
+  "active": "3166f5a538d52e94",
   "lastOpenFiles": [
-    "CSE 101/Graph Algorithms/Prims().md",
+    "CSE 140/Transistor Circuits.md",
+    "CSE 140/Transistor.md",
+    "CSE 140/Boolean Algebra.md",
+    "CSE 140/Imgs/Pasted image 20260127030755.png",
+    "CSE 140/Imgs",
     "CSE 101/Graph Algorithms/Kruskals().md",
+    "CSE 101/Graph Algorithms/Prims().md",
     "CSE 101/Graph Algorithms/Spanning Trees.md",
     "CSE 101/Graph Algorithms/Graph Search.md",
     "CSE 101/Graph Algorithms/Bandwidth Problem.md",
@@ -229,13 +266,9 @@
     "CSE 101/Graph Algorithms/Strongly Connected Component().md",
     "CSE 101/Algorithms",
     "CSE 101/Graph Algorithms/Source.md",
-    "CSE 140/Boolean Algebra.md",
-    "CSE 140/Transistor Circuits.md",
-    "CSE 140/Transistor.md",
     "MATH 183/Probability/Random Variable.md",
     "MATH 183/Probability/I think I already know this.md",
     "CSE 29/Split Screen.md",
-    "CSE 29/C strings.md",
     "MATH 183/Probability",
     "MATH 183/Basic",
     "CSE-ALL",
@@ -248,12 +281,10 @@
     "CSE 21/Pics/Pasted image 20251124151419.png",
     "CSE 21/Pics/Untitled.png",
     "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.35 PM.png",
-    "CSE 21/Pics/Pasted image 20251124151534.png",
     "CSE 21/Algorithms/Sorting",
     "CSE 21/Algorithms/Counting Seq of Sets",
     "CSE 21/Algorithms/Optimization",
     "CSE 21/Algorithms/Searching",
-    "CSE 21/Proof",
-    "CSE 21/Probability"
+    "CSE 21/Proof"
   ]
 }
