@@ -66,6 +66,12 @@ An undirected graph is connected if every vertex can reach every other vertex th
 ![[DFS()]]
 
 ##### F as a Queue
+
+Proving these shortest path algorithms require two parts:
+- Path Correspondence: establish the types of objects you are trying to minimize in the original problem correspond to the paths in the graph you built (Bi-directional)
+- Optimality: If you have done the path correspondence, then say "There can't be anything better than this because Dijkstra would have found the best path..."
+
 ![[BFS()]]
 
+![[Dijkstras()]]
 ##### F as a Priority Queue
