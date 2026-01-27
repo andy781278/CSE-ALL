@@ -1,4 +1,5 @@
-$B*(B+C)=B, B+(B*C)=B$, Covering
+![[Pasted image 20260127030755.png]]
+$B*(B+C)=B, B+(B*C)=B$, Covering/Absorption
 $(B*C)+(B*\overline C)=B, (B+C)*(B+\overline C)=B$, Combining
 $(A*B)+(B*C)+(A'*C)=A*B+A'*C$, Consensus
 
