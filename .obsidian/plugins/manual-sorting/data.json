@@ -177,7 +177,8 @@
     },
     "CSE 29": {
       "children": [
-        "CSE 29/Split Screen.md",
+        "CSE 29/Hashing.md",
+        "CSE 29/Pointers and References.md",
         "CSE 29/Hexadecimal Quick Lookup.md",
         "CSE 29/C strings.md",
         "CSE 29/Vim.md",
@@ -211,13 +212,7 @@
     },
     "CSE 101/Graph Algorithms": {
       "children": [
-        "CSE 101/Graph Algorithms/explore().md",
-        "CSE 101/Graph Algorithms/DFS().md",
-        "CSE 101/Graph Algorithms/Strongly Connected Component().md",
-        "CSE 101/Graph Algorithms/BFS().md",
-        "CSE 101/Graph Algorithms/Dijkstras().md",
-        "CSE 101/Graph Algorithms/Prims().md",
-        "CSE 101/Graph Algorithms/Kruskals().md",
+        "CSE 101/Graph Algorithms/Algorithms",
         "CSE 101/Graph Algorithms/Graph Search.md",
         "CSE 101/Graph Algorithms/Bandwidth Problem.md",
         "CSE 101/Graph Algorithms/Adjacency List.md",
@@ -229,6 +224,18 @@
         "CSE 101/Graph Algorithms/Sink.md",
         "CSE 101/Graph Algorithms/Binary Heap.md",
         "CSE 101/Graph Algorithms/Spanning Trees.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Graph Algorithms/Algorithms": {
+      "children": [
+        "CSE 101/Graph Algorithms/Algorithms/BFS().md",
+        "CSE 101/Graph Algorithms/Algorithms/DFS().md",
+        "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
+        "CSE 101/Graph Algorithms/Algorithms/explore().md",
+        "CSE 101/Graph Algorithms/Algorithms/Strongly Connected Component().md",
+        "CSE 101/Graph Algorithms/Algorithms/Prims().md",
+        "CSE 101/Graph Algorithms/Algorithms/Kruskals().md"
       ],
       "sortOrder": "custom"
     },
