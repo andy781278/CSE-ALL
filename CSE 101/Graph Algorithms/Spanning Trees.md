@@ -26,3 +26,23 @@ Pick the next lightest edge that keeps the graph connected and does not create a
 ### Kruskals
 Pick the next lightest edge that doesn't create a cycle
 ![[Kruskals()]]
+
+### Proving
+
+#### Cut property
+Suppose G'=(V,T) is a MST of G=(V,E), X subsets T.
+S subsets V such that there is no route from S to outside S (V-S) using edges from X
+Let $e \in E$ be the lightest edge connecting S to V-S
+Then X U {e} must be a part of MST
+
+Proof:
+Case 1: $e \in T$
+- Then X U {e} $\in T$
+
+Basically, it cuts a graph into vertices that are in the tree, and the rest of them.
+Then there's MST if you can add a new vertex into the tree
+
+Prims connects the lightest edge from the current vertex that doesn't form a cycle, make two groups, one is the explored vertices, the other is not. Then the edge connects the known with the unknown.
+
+Kruskals, group the vertices so that the new lightest edge that doesn't create a cycle connects two distinct vertex groups, doesn't matter how to group it, as long as the lightest edge connects two parts together, where the two groups are disjoint.
+
