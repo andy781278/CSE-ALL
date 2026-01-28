@@ -250,10 +250,11 @@
     },
     "CSE 140": {
       "children": [
-        "CSE 140/Transistor Circuits.md",
-        "CSE 140/Transistor.md",
         "CSE 140/Boolean Algebra.md",
         "CSE 140/Logic Gates.md",
+        "CSE 140/Transistor.md",
+        "CSE 140/Transistor Circuits.md",
+        "CSE 140/Homework.md",
         "CSE 140/General Info.md",
         "CSE 140/Imgs"
       ],
@@ -261,7 +262,11 @@
     },
     "CSE 140/Imgs": {
       "children": [
-        "CSE 140/Imgs/Pasted image 20260127030755.png"
+        "CSE 140/Imgs/Pasted image 20260127030755.png",
+        "CSE 140/Imgs/Pasted image 20260127214715.png",
+        "CSE 140/Imgs/Pasted image 20260127214308.png",
+        "CSE 140/Imgs/Pasted image 20260127215341.png",
+        "CSE 140/Imgs/Pasted image 20260127215407.png"
       ],
       "sortOrder": "custom"
     },
