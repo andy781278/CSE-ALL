@@ -31,18 +31,30 @@ Pick the next lightest edge that doesn't create a cycle
 
 #### Cut property
 Suppose G'=(V,T) is a MST of G=(V,E), X subsets T.
-S subsets V such that there is no route from S to outside S (V-S) using edges from X
+S subsets V such that there is no route from S to not S (V-S) using edges from X
 Let $e \in E$ be the lightest edge connecting S to V-S
 Then X U {e} must be a part of MST
 
 Proof:
 Case 1: $e \in T$
-- Then X U {e} $\in T$
+- Then X U {e} $\in T$ and we assume that T is the set of edges of an MST so X U {e} must be a part of that MST
+Case 2: $e\notin T$
+- Consider T U {e}. Since T is the edge set of a connected tree, T U {e} creates a cycle. Cycle contains e.
+- There must be $e' \in T$ that connects S to V-S.
+- The edge set TU{e} - {e'} is still a tree
+- w(e) $\leq$ w(e')
+- cost(T U {e} - {e'}) = cost(T) + w(e) - w(e')
+- cost(T U {e} - {e'}) $\leq$ cost(T)
+- But cost(T) is supposed to be minimal, so only case where it works is if they're equal
+- cost(T U {e} - {e'}) = cost(T)
+- X U {e} subsets T U {e} - {e'}
 
-Basically, it cuts a graph into vertices that are in the tree, and the rest of them.
-Then there's MST if you can add a new vertex into the tree
+#### Apply Cut Property to Prims and Kruskals
+Claim: After each iteration, the set of edges X (explored) is the subset of MST
 
-Prims connects the lightest edge from the current vertex that doesn't form a cycle, make two groups, one is the explored vertices, the other is not. Then the edge connects the known with the unknown.
+##### Prims
+Prims separate the graph (V) into vertices that is in the MST already (S), and ones that are not (V-S). Then we pick the lightest edge e that goes from connected to the not connected (S to V-S).
 
-Kruskals, group the vertices so that the new lightest edge that doesn't create a cycle connects two distinct vertex groups, doesn't matter how to group it, as long as the lightest edge connects two parts together, where the two groups are disjoint.
+##### Kruskals
+Kruskals selects edges from the lightest to the heaviest, as long as it doesn't form a cycle. The next lightest edge e connects two parts together. (Doesn't matter how you group the two parts, as long as e connects them together)
 

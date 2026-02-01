@@ -224,7 +224,8 @@
         "CSE 101/Graph Algorithms/Sink.md",
         "CSE 101/Graph Algorithms/Binary Heap.md",
         "CSE 101/Graph Algorithms/Spanning Trees.md",
-        "CSE 101/Graph Algorithms/Untitled.md"
+        "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md",
+        "CSE 101/Graph Algorithms/Greedy Method.md"
       ],
       "sortOrder": "custom"
     },
@@ -244,7 +245,9 @@
       "children": [
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.29.48 PM.png",
+        "CSE 101/Pics/Pasted image 20260201112406.png",
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.08.42 PM.png",
+        "CSE 101/Pics/Pasted image 20260201112330.png",
         "CSE 101/Pics/Screen Shot 2026-01-07 at 1.25.51 PM.png"
       ],
       "sortOrder": "custom"
