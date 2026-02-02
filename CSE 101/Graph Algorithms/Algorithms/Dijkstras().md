@@ -5,7 +5,7 @@ procedure GraphSearch(Dijkstra's)(G: directed graph with edge weights l, s:verte
 	dist(s) = 0
 	H = make PQ
 	While F is not empty:
-		u=deletemin(H)
+		v=deletemin(H)
 		For each neighbor u of v:
 			if dist(u)>dist(v)+l(v,u):
 				move u to F
@@ -69,3 +69,21 @@ deletemin: O(log(|V|))
 ^9e16c5
 
 So dense graphs, use array, sparse graphs, use binary heap
+
+Example
+![[Pasted image 20260202034925.png]]
+
+| PQ   | v   | A   | B        | C        | D        | E        | F        | G        | H        |
+| ---- | --- | --- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| A    |     | 0   | $\infty$ | $\infty$ | $\infty$ | $\infty$ | $\infty$ | $\infty$ | $\infty$ |
+| BEF  | A   | 0   | 1        | $\infty$ | $\infty$ | 4        | 8        | $\infty$ | $\infty$ |
+| EFCG | B   | 0   | 1        | 3        | $\infty$ | 4        | 8        | 7        | $\infty$ |
+| FCG  | E   | 0   | 1        | 3        | $\infty$ | 4        | 8        | 7        | $\infty$ |
+| CG   | F   | 0   | 1        | 3        | $\infty$ | 4        | 8        | 7        | $\infty$ |
+| DG   | C   | 0   | 1        | 3        | 4        | 4        | 8        | 5        | $\infty$ |
+| GH   | D   | 0   | 1        | 3        | 4        | 4        | 8        | 5        | 8        |
+| FH   | G   | 0   | 1        | 3        | 4        | 4        | 6        | 5        | 6        |
+| H    | F   | 0   | 1        | 3        | 4        | 4        | 6        | 5        | 6        |
+|      | H   | 0   | 1        | 3        | 4        | 4        | 6        | 5        | 6        |
+Shortest path:
+![[Pasted image 20260202035628.png]]

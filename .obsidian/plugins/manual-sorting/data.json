@@ -231,11 +231,11 @@
     },
     "CSE 101/Graph Algorithms/Algorithms": {
       "children": [
-        "CSE 101/Graph Algorithms/Algorithms/BFS().md",
-        "CSE 101/Graph Algorithms/Algorithms/DFS().md",
-        "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
         "CSE 101/Graph Algorithms/Algorithms/explore().md",
+        "CSE 101/Graph Algorithms/Algorithms/DFS().md",
         "CSE 101/Graph Algorithms/Algorithms/Strongly Connected Component().md",
+        "CSE 101/Graph Algorithms/Algorithms/BFS().md",
+        "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
         "CSE 101/Graph Algorithms/Algorithms/Prims().md",
         "CSE 101/Graph Algorithms/Algorithms/Kruskals().md"
       ],
@@ -243,6 +243,8 @@
     },
     "CSE 101/Pics": {
       "children": [
+        "CSE 101/Pics/Pasted image 20260202035628.png",
+        "CSE 101/Pics/Pasted image 20260202034925.png",
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.29.48 PM.png",
         "CSE 101/Pics/Pasted image 20260201112406.png",
