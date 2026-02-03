@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7d620437ac52dee6",
+        "id": "c4e85c1b7832a4e8",
         "type": "tabs",
         "children": [
           {
-            "id": "543a05c7d79f0b34",
+            "id": "0a0bc1b750db48c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 183/family of distributions/Discrete VS Continuous.md",
+                "file": "CSE 29/execvp(char* cmd, char** args).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discrete VS Continuous"
+              "title": "execvp(char* cmd, char** args)"
             }
           }
         ]
@@ -207,39 +207,40 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "543a05c7d79f0b34",
+  "active": "0a0bc1b750db48c0",
   "lastOpenFiles": [
-    "Pasted image 20260203063049.png",
+    "CSE 29/fork().md",
+    "CSE 29/execvp(char* cmd, char** args).md",
+    "CSE 29/All Imports.md",
+    "CSE 29/Program Memory.md",
+    "CSE 29/Hashing.md",
+    "CSE 29/C strings.md",
+    "CSE 29/Vim.md",
+    "CSE 29/Hexadecimal Quick Lookup.md",
+    "CSE 29/Pointers and References.md",
+    "MATH 183/Pics/Pasted image 20260203063049.png",
+    "CSE 21/Algorithms/Time Analysis.md",
     "MATH 183/family of distributions/X ~ Unif{a,b}.md",
-    "MATH 183/family of distributions/Discrete VS Continuous.md",
-    "MATH 183/family of distributions/X ~ Ber(p).md",
-    "MATH 183/family of distributions/X ~ Bin(n,p).md",
     "MATH 183/family of distributions/X ~ Poi(lambda).md",
-    "MATH 183/family of distributions/X ~ Geo(p).md",
     "MATH 183/family of distributions/X ~ Name(theta).md",
-    "CSE 21/Probability/Binomial Distribution.md",
-    "CSE 21/Probability/Law of Total Expectation.md",
-    "CSE 21/Probability/Conditional Expectation.md",
-    "CSE 21/Probability/Distribution.md",
-    "CSE 21/Probability/Linearity of Expectation.md",
-    "CSE 21/Probability/Conditional Probabilities.md",
-    "CSE 21/Probability/Law of Total Probability.md",
-    "CSE 21/Probability/Expected Value (Average).md",
-    "CSE 21/Probability/Probability.md",
-    "CSE 21/Probability/Uniform Distribution.md",
-    "CSE 21/Counting/Counting.md",
-    "MATH 183/Basic/iid.md",
+    "MATH 183/family of distributions/X ~ Geo(p).md",
+    "MATH 183/family of distributions/X ~ Bin(n,p).md",
+    "MATH 183/family of distributions/X ~ Ber(p).md",
+    "MATH 183/family of distributions/Discrete VS Continuous.md",
     "MATH 183/family of distributions",
-    "MATH 183/Untitled.md",
-    "CSE 21/Probability/Probabilities.md",
-    "CSE 21/Counting/r-Combinations.md",
-    "CSE 21/Counting/Surjective.md",
-    "CSE 21/Counting/Injective.md",
-    "CSE 21/Counting/Power Rule.md",
+    "MATH 183/Basic/iid.md",
     "CSE 101/Pics/Pasted image 20260202035628.png",
     "CSE 101/Pics/Pasted image 20260202034925.png",
     "CSE 101/Pics/Pasted image 20260201112406.png",
     "CSE 101/Pics/Pasted image 20260201112330.png",
+    "CSE 101/Graph Algorithms/Strongly Connected Component.md",
+    "CSE 101/Graph Algorithms/Greedy Method.md",
+    "CSE 101/General Info/Test Prep.md",
+    "CSE 101/Graph Algorithms/Spanning Trees.md",
+    "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md",
+    "CSE 101/Graph Algorithms/Algorithms/Kruskals().md",
+    "CSE 101/Graph Algorithms/Algorithms/Prims().md",
+    "CSE 101/Graph Algorithms/Algorithms/Strongly Connected Component().md",
     "CSE 140/Imgs/Pasted image 20260127215407.png",
     "CSE 140/Imgs/Pasted image 20260127215341.png",
     "CSE 140/Imgs/Pasted image 20260127214715.png",
@@ -251,7 +252,6 @@
     "MATH 183/Probability",
     "MATH 183/Basic",
     "CSE-ALL",
-    "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
     "CSE 21/Algorithms/Sorting",
     "CSE 21/Algorithms/Counting Seq of Sets",
     "CSE 21/Algorithms/Optimization"

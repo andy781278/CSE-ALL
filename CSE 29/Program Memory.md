@@ -1,0 +1,23 @@
+A program takes the following segments of memories when starting:
+- 
+- Operating System
+- 
+- CODE/TEXT
+	- imported functions
+		- string.h
+		- stdio.h
+	- user defined functions
+	- main
+- GLOBAL/STATIC
+	- user defined global/static variables
+	- stdin
+- HEAP
+- $\downarrow$ 
+- 
+- --- empty space ---
+- 
+- $\uparrow$
+- Main Stack Frame
+	- temp variables
+- argv
+- 

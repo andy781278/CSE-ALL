@@ -14,4 +14,4 @@ These mean the same thing, since an array variable only stores the address of th
 int strlen(char* str) - gives the number of bytes (not including null terminator)
 void strcpy(char* dest, char* src) - copies src to dest
 void strcat(char* dest, char* src) - appends src to end of dest
-
+char* strtok(char* str, char delimiter) - parses str between delimiters, only returns the first parsed segment, then the second when you call NULL with the same delimiter, or don't, and it uses the new delimiter.

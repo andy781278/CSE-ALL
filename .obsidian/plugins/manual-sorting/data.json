@@ -177,7 +177,10 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/fork().md",
+        "CSE 29/Program Memory.md",
         "CSE 29/Hashing.md",
+        "CSE 29/All Imports.md",
         "CSE 29/Pointers and References.md",
         "CSE 29/Hexadecimal Quick Lookup.md",
         "CSE 29/C strings.md",
@@ -316,6 +319,7 @@
     },
     "MATH 183/Pics": {
       "children": [
+        "MATH 183/Pics/Pasted image 20260203063049.png",
         "MATH 183/Pics/Screen Shot 2026-01-08 at 2.19.27 PM.png"
       ],
       "sortOrder": "custom"
