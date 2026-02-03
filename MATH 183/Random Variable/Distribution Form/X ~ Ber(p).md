@@ -1,5 +1,6 @@
 Bernoulli Distribution
 
+# Discrete
 When a random variable 𝑋 can only take **two** possible outcomes, it is referred to as a Bernoulli random variable.
 
 $$ 

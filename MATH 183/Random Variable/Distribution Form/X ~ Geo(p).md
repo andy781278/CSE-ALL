@@ -1,5 +1,6 @@
 Geometric Distribution
 
+# Discrete
 represents the number of trials it takes to observe the first success
 
 $$$supp(𝑋)=1,2,3,…$$

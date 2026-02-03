@@ -177,6 +177,7 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/execvp(char* cmd, char** args).md",
         "CSE 29/fork().md",
         "CSE 29/Program Memory.md",
         "CSE 29/Hashing.md",
@@ -282,7 +283,7 @@
     },
     "MATH 183": {
       "children": [
-        "MATH 183/family of distributions",
+        "MATH 183/Random Variable",
         "MATH 183/Probability",
         "MATH 183/Basic",
         "MATH 183/Pics"
@@ -305,18 +306,6 @@
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/family of distributions": {
-      "children": [
-        "MATH 183/family of distributions/X ~ Name(theta).md",
-        "MATH 183/family of distributions/Discrete VS Continuous.md",
-        "MATH 183/family of distributions/X ~ Unif{a,b}.md",
-        "MATH 183/family of distributions/X ~ Ber(p).md",
-        "MATH 183/family of distributions/X ~ Bin(n,p).md",
-        "MATH 183/family of distributions/X ~ Geo(p).md",
-        "MATH 183/family of distributions/X ~ Poi(lambda).md"
-      ],
-      "sortOrder": "custom"
-    },
     "MATH 183/Pics": {
       "children": [
         "MATH 183/Pics/Pasted image 20260203063049.png",
@@ -326,8 +315,48 @@
     },
     "MATH 183/Probability": {
       "children": [
-        "MATH 183/Probability/Random Variable.md",
+        "MATH 183/Probability/Independence.md",
         "MATH 183/Probability/I think I already know this.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Random Variable": {
+      "children": [
+        "MATH 183/Random Variable/Random Variable.md",
+        "MATH 183/Random Variable/Random Variable Properties",
+        "MATH 183/Random Variable/Random Variable Functions",
+        "MATH 183/Random Variable/Distribution Form"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Random Variable/Distribution Form": {
+      "children": [
+        "MATH 183/Random Variable/Distribution Form/X ~ Name(theta).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Unif{a,b}.md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Geo(p).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Poi(lambda).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Exp(lambda).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
+        "MATH 183/Random Variable/Distribution Form/X ~ Chi().md"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Random Variable/Random Variable Functions": {
+      "children": [
+        "MATH 183/Random Variable/Random Variable Functions/CDF.md",
+        "MATH 183/Random Variable/Random Variable Functions/PMF.md",
+        "MATH 183/Random Variable/Random Variable Functions/PDF.md",
+        "MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
+        "MATH 183/Random Variable/Random Variable Functions/Variance.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/Random Variable/Random Variable Properties": {
+      "children": [
+        "MATH 183/Random Variable/Random Variable Properties/supp().md",
+        "MATH 183/Random Variable/Random Variable Properties/P(X=x).md"
       ],
       "sortOrder": "custom"
     }
