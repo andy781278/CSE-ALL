@@ -6,6 +6,7 @@ $$p:S \rightarrow [0,1]$$
 And it has to have the following property:
 $$\sum_{a\in S}p(a)=1$$
 Some distribution is uniform,
+
 [[Uniform Distribution]]
 each outcome has the same possibility.
 Since there are |S| outcome and and sum of all outcomes is 1, each outcome's probability is $\frac{1}{S}$

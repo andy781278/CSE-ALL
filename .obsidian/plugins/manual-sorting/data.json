@@ -78,9 +78,9 @@
     },
     "CSE 21/Counting": {
       "children": [
+        "CSE 21/Counting/Counting.md",
         "CSE 21/Counting/The 12-fold way.md",
         "CSE 21/Counting/Stars and Bars.md",
-        "CSE 21/Counting/Counting.md",
         "CSE 21/Counting/Fixed Density.md",
         "CSE 21/Counting/Each character is used at least once.md",
         "CSE 21/Counting/Integer Equations.md",
@@ -199,6 +199,7 @@
     },
     "CSE 101/General Info": {
       "children": [
+        "CSE 101/General Info/Test Prep.md",
         "CSE 101/General Info/General Progression of Algorithm Design.md",
         "CSE 101/General Info/Homework Due Thursday.md",
         "CSE 101/General Info/What class for.md",
@@ -222,6 +223,7 @@
         "CSE 101/Graph Algorithms/Linearization.md",
         "CSE 101/Graph Algorithms/Source.md",
         "CSE 101/Graph Algorithms/Sink.md",
+        "CSE 101/Graph Algorithms/Strongly Connected Component.md",
         "CSE 101/Graph Algorithms/Binary Heap.md",
         "CSE 101/Graph Algorithms/Spanning Trees.md",
         "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md",
@@ -233,7 +235,6 @@
       "children": [
         "CSE 101/Graph Algorithms/Algorithms/explore().md",
         "CSE 101/Graph Algorithms/Algorithms/DFS().md",
-        "CSE 101/Graph Algorithms/Algorithms/Strongly Connected Component().md",
         "CSE 101/Graph Algorithms/Algorithms/BFS().md",
         "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
         "CSE 101/Graph Algorithms/Algorithms/Prims().md",
@@ -278,6 +279,7 @@
     },
     "MATH 183": {
       "children": [
+        "MATH 183/family of distributions",
         "MATH 183/Probability",
         "MATH 183/Basic",
         "MATH 183/Pics"
@@ -295,7 +297,20 @@
         "MATH 183/Basic/Constant.md",
         "MATH 183/Basic/Sample.md",
         "MATH 183/Basic/Population.md",
-        "MATH 183/Basic/Types of Variables.md"
+        "MATH 183/Basic/Types of Variables.md",
+        "MATH 183/Basic/iid.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "MATH 183/family of distributions": {
+      "children": [
+        "MATH 183/family of distributions/X ~ Name(theta).md",
+        "MATH 183/family of distributions/Discrete VS Continuous.md",
+        "MATH 183/family of distributions/X ~ Unif{a,b}.md",
+        "MATH 183/family of distributions/X ~ Ber(p).md",
+        "MATH 183/family of distributions/X ~ Bin(n,p).md",
+        "MATH 183/family of distributions/X ~ Geo(p).md",
+        "MATH 183/family of distributions/X ~ Poi(lambda).md"
       ],
       "sortOrder": "custom"
     },
