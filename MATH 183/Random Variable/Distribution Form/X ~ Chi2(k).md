@@ -6,3 +6,5 @@ $$PDF: F_X(x)=\frac{1}{2^{k/2}\Gamma(k/2)}x^{k/2-1}e^{-x/2}$$
 $$supp(X)=R_+$$
 $$E(X)=k$$
 $$Var(X)=2k$$
+Let $X \textasciitilde \chi^2(d)$, $Y \textasciitilde \chi^2(k)$, and $X \perp Y$, then
+$$X+Y \textasciitilde \chi^2(d+k)$$
