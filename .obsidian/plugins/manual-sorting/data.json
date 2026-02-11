@@ -197,6 +197,7 @@
     "CSE 101": {
       "children": [
         "CSE 101/Graph Algorithms",
+        "CSE 101/Greedy Algorithms",
         "CSE 101/General Info",
         "CSE 101/Pics"
       ],
@@ -232,8 +233,7 @@
         "CSE 101/Graph Algorithms/Strongly Connected Component.md",
         "CSE 101/Graph Algorithms/Binary Heap.md",
         "CSE 101/Graph Algorithms/Spanning Trees.md",
-        "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md",
-        "CSE 101/Graph Algorithms/Greedy Method.md"
+        "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md"
       ],
       "sortOrder": "custom"
     },
@@ -245,6 +245,14 @@
         "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
         "CSE 101/Graph Algorithms/Algorithms/Prims().md",
         "CSE 101/Graph Algorithms/Algorithms/Kruskals().md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Greedy Algorithms": {
+      "children": [
+        "CSE 101/Greedy Algorithms/Greedy Method.md",
+        "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
+        "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md"
       ],
       "sortOrder": "custom"
     },

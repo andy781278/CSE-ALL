@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 101/Graph Algorithms/Greedy Method.md",
+                "file": "CSE 101/Greedy Algorithms/Greedy Method.md",
                 "mode": "source",
                 "source": false
               },
@@ -209,6 +209,10 @@
   },
   "active": "c7c4aaf50e8eb021",
   "lastOpenFiles": [
+    "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
+    "CSE 101/Greedy Algorithms/Greedy Method.md",
+    "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
+    "CSE 101/Greedy Algorithms",
     "MATH 183/Random Variable/Random Variable.md",
     "MATH 183/Random Variable/Random Variable Properties/supp().md",
     "MATH 183/Random Variable/Random Variable Properties/P(X=x).md",
@@ -232,9 +236,6 @@
     "CSE 21/Probability/Expected Value (Average).md",
     "CSE 21/Probability/Bayes' Theorem.md",
     "CSE 21/Probability/Conditional Probabilities.md",
-    "CSE 21/Probability/Law of Total Expectation.md",
-    "CSE 21/Probability/Linearity of Expectation.md",
-    "CSE 21/Probability/Binomial Distribution.md",
     "MATH 183/Random Variable/Random Variable Functions",
     "MATH 183/Random Variable/Random Variable Properties",
     "MATH 183/Random Variable",
@@ -253,7 +254,6 @@
     "CSE 101/Graph Algorithms/Algorithms",
     "CSE 101/Algorithms",
     "MATH 183/Probability",
-    "MATH 183/Basic",
-    "CSE-ALL"
+    "MATH 183/Basic"
   ]
 }
