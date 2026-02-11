@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 101/Greedy Algorithms/Greedy Method.md",
+                "file": "CSE 29/struct.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Greedy Method"
+              "title": "struct"
             }
           }
         ]
@@ -209,8 +209,11 @@
   },
   "active": "c7c4aaf50e8eb021",
   "lastOpenFiles": [
-    "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
+    "CSE 29/C String Functions.md",
+    "CSE 29/struct.md",
+    "CSE 29/Print Tricks.md",
     "CSE 101/Greedy Algorithms/Greedy Method.md",
+    "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
     "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
     "CSE 101/Greedy Algorithms",
     "MATH 183/Random Variable/Random Variable.md",
@@ -233,9 +236,6 @@
     "CSE 21/Probability/Geometric Distribution.md",
     "CSE 21/Probability/Uniform Distribution.md",
     "CSE 21/Probability/Law of Total Probability.md",
-    "CSE 21/Probability/Expected Value (Average).md",
-    "CSE 21/Probability/Bayes' Theorem.md",
-    "CSE 21/Probability/Conditional Probabilities.md",
     "MATH 183/Random Variable/Random Variable Functions",
     "MATH 183/Random Variable/Random Variable Properties",
     "MATH 183/Random Variable",
