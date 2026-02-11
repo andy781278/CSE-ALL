@@ -177,6 +177,7 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/struct.md",
         "CSE 29/execvp().md",
         "CSE 29/fork().md",
         "CSE 29/Program Memory.md",
@@ -186,10 +187,10 @@
         "CSE 29/Hexadecimal Quick Lookup.md",
         "CSE 29/C String Functions.md",
         "CSE 29/C strings.md",
+        "CSE 29/Print Tricks.md",
         "CSE 29/Vim.md",
         "CSE 29/SRAM Cell.md",
         "CSE 29/stdio.h.md",
-        "CSE 29/Print Tricks.md",
         "CSE 29/3 Tests on Week 4, 8, 10.md"
       ],
       "sortOrder": "custom"
