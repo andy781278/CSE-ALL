@@ -1,4 +1,4 @@
-Exponential Distribution
+	Exponential Distribution
 
 # Continuous
 $$

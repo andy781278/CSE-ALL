@@ -146,11 +146,11 @@
       "children": [
         "CSE 21/Probability/Probabilities.md",
         "CSE 21/Probability/Binomial Distribution.md",
-        "CSE 21/Probability/Law of Total Expectation.md",
         "CSE 21/Probability/Conditional Expectation.md",
         "CSE 21/Probability/Distribution.md",
         "CSE 21/Probability/Linearity of Expectation.md",
         "CSE 21/Probability/Conditional Probabilities.md",
+        "CSE 21/Probability/Law of Total Expectation.md",
         "CSE 21/Probability/Bayes' Theorem.md",
         "CSE 21/Probability/Law of Total Probability.md",
         "CSE 21/Probability/Expected Value (Average).md",
@@ -294,6 +294,7 @@
     },
     "MATH 183/Basic": {
       "children": [
+        "MATH 183/Basic/Practice Test.md",
         "MATH 183/Basic/What plot to use for type of variables.md",
         "MATH 183/Basic/Efficacy.md",
         "MATH 183/Basic/Statistics.md",

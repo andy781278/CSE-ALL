@@ -1,4 +1,4 @@
-Binomial Distribution
+	iBinomial Distribution
 
 # Discrete
 number of successes in 𝑛 𝑖𝑖𝑑 trials from a Ber(𝑝) random variable

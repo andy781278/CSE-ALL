@@ -2,7 +2,7 @@ Uniform Distribution
 
 # Discrete
 A uniform random variable 𝑋 is a random variable wherein a finite number of values are equally likely to be observed.
-
+	
 $$
 CDF: f_X(x)=\begin{cases}
 0 & x \leq a \\
