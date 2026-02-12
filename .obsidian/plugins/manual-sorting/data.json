@@ -177,21 +177,31 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/malloc().md",
         "CSE 29/struct.md",
+        "CSE 29/wait().md",
         "CSE 29/execvp().md",
         "CSE 29/fork().md",
-        "CSE 29/Program Memory.md",
         "CSE 29/Hashing.md",
-        "CSE 29/All Imports.md",
         "CSE 29/Pointers and References.md",
-        "CSE 29/Hexadecimal Quick Lookup.md",
         "CSE 29/Standard Input Output Functions.md",
         "CSE 29/C String Functions.md",
         "CSE 29/C strings.md",
         "CSE 29/Print Tricks.md",
+        "CSE 29/All Imports.md",
         "CSE 29/Vim.md",
-        "CSE 29/SRAM Cell.md",
-        "CSE 29/3 Tests on Week 4, 8, 10.md"
+        "CSE 29/general"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 29/general": {
+      "children": [
+        "CSE 29/general/void*.md",
+        "CSE 29/general/size_t.md",
+        "CSE 29/general/Program Memory.md",
+        "CSE 29/general/Hexadecimal Quick Lookup.md",
+        "CSE 29/general/3 Tests on Week 4, 8, 10.md",
+        "CSE 29/general/SRAM Cell.md"
       ],
       "sortOrder": "custom"
     },

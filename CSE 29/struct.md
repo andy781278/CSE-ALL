@@ -6,3 +6,5 @@ use -> to access a member from a pointer struct
 
 use the following so you can refer to structs as their name instead of saying struct everytime:
 typedef (struct s) s;
+
+structs are passed by copy, not address, not like arrays

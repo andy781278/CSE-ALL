@@ -10,3 +10,10 @@ When you pass an array, you pass the pointer of its first element, so you pretty
 
 char* s = char s[]
 These mean the same thing, since an array variable only stores the address of the first element.
+
+two ways to initialize array:
+
+char s[n];
+
+char* s = malloc(n);
+sets aside space on the heap and returns the address of the first element

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4651a194581d7453",
+        "id": "35970d73cc2d365c",
         "type": "tabs",
         "children": [
           {
-            "id": "c7c4aaf50e8eb021",
+            "id": "ddc0e3f72e9dec49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Proof",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 287.5
   },
   "right": {
     "id": "23513dd6285ee950",
@@ -207,35 +207,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c7c4aaf50e8eb021",
+  "active": "ddc0e3f72e9dec49",
   "lastOpenFiles": [
-    "CSE 29/Standard Input Output Functions.md",
-    "CSE 29/All Imports.md",
-    "CSE 29/Vim.md",
-    "CSE 29/Hexadecimal Quick Lookup.md",
-    "CSE 29/C String Functions.md",
+    "CSE 29/malloc().md",
+    "CSE 29/wait().md",
+    "CSE 29/struct.md",
     "CSE 29/C strings.md",
-    "CSE 29/Pointers and References.md",
-    "CSE 29/Program Memory.md",
+    "CSE 29/C String Functions.md",
+    "CSE 29/general/void*.md",
     "CSE 29/Hashing.md",
-    "CSE 29/SRAM Cell.md",
-    "CSE 29/Print Tricks.md",
+    "CSE 29/general/Program Memory.md",
+    "CSE 29/All Imports.md",
+    "CSE 29/Standard Input Output Functions.md",
+    "CSE 29/Pointers and References.md",
+    "CSE 29/general/size_t.md",
+    "CSE 29/general",
+    "CSE 29/general/Hexadecimal Quick Lookup.md",
     "CSE 29/fork().md",
     "CSE 29/execvp().md",
-    "CSE 29/struct.md",
+    "MATH 183/Basic/Practice Test.md",
     "CSE 101/Greedy Algorithms/Greedy Method.md",
     "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
     "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
     "CSE 101/Greedy Algorithms",
-    "MATH 183/Random Variable/Random Variable.md",
-    "MATH 183/Random Variable/Random Variable Properties/supp().md",
-    "MATH 183/Random Variable/Random Variable Properties/P(X=x).md",
-    "MATH 183/Random Variable/Random Variable Functions/PDF.md",
     "MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
     "MATH 183/Random Variable/Random Variable Functions/Variance.md",
-    "MATH 183/Random Variable/Distribution Form/X ~ Chi2(k).md",
     "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
-    "MATH 183/Random Variable/Distribution Form/X ~ Exp(lambda).md",
+    "MATH 183/Random Variable/Distribution Form/X ~ Chi2(k).md",
+    "MATH 183/Random Variable/Random Variable Functions/PDF.md",
+    "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
+    "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
     "MATH 183/Random Variable/Random Variable Functions",
     "MATH 183/Random Variable/Random Variable Properties",
     "MATH 183/Random Variable",
@@ -253,7 +254,6 @@
     "CSE 140/Imgs",
     "CSE 101/Graph Algorithms/Algorithms",
     "CSE 101/Algorithms",
-    "MATH 183/Probability",
-    "MATH 183/Basic"
+    "MATH 183/Probability"
   ]
 }
