@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 140/Memory/SR Latch.md",
+                "file": "CSE 140/Memory/D Flip-Flop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SR Latch"
+              "title": "D Flip-Flop"
             }
           }
         ]
@@ -210,8 +210,19 @@
   "active": "ddc0e3f72e9dec49",
   "lastOpenFiles": [
     "CSE 140/Memory/Static RAM.md",
-    "CSE 140/Memory/Clock.md",
+    "CSE 140/Memory/Bit Storage.md",
+    "CSE 140/Memory/D Flip-Flop.md",
+    "CSE 140/Memory/D Latch.md",
+    "CSE 140/Imgs/Pasted image 20260215225503.png",
+    "CSE 140/Imgs/Pasted image 20260215225300.png",
+    "CSE 140/Imgs/Pasted image 20260215224826.png",
+    "CSE 140/Imgs/Pasted image 20260215224600.png",
+    "CSE 140/Imgs/Pasted image 20260215224454.png",
+    "CSE 140/Imgs/Pasted image 20260215221553.png",
     "CSE 140/Memory/SR Latch.md",
+    "CSE 140/Memory/Clock.md",
+    "CSE 140/Imgs/Pasted image 20260215214418.png",
+    "CSE 140/Imgs/Pasted image 20260215213031.png",
     "CSE 140/ALU Components/Control.md",
     "CSE 140/ALU Components/ALU.md",
     "CSE 140/Memory/Sequential Circuit.md",
@@ -220,14 +231,7 @@
     "CSE 140/Boolean Algebra.md",
     "CSE 140/Imgs/Pasted image 20260215180859.png",
     "CSE 140/Imgs/Pasted image 20260215181905.png",
-    "CSE 140/Imgs/Pasted image 20260215181748.png",
-    "CSE 140/Imgs/Pasted image 20260215181303.png",
-    "CSE 140/Imgs/Pasted image 20260215162430.png",
-    "CSE 140/Imgs/Pasted image 20260215163000.png",
-    "CSE 140/Imgs/Pasted image 20260215175927.png",
     "CSE 140/Memory",
-    "CSE 140/Imgs/Pasted image 20260215173805.png",
-    "CSE 140/Imgs/Pasted image 20260215164825.png",
     "CSE 140/ALU Components",
     "CSE 140/Transistor Circuits.md",
     "CSE 140/General Info.md",
@@ -242,15 +246,11 @@
     "CSE 29/general/Program Memory.md",
     "CSE 29/All Imports.md",
     "CSE 29/Standard Input Output Functions.md",
-    "CSE 29/Pointers and References.md",
-    "CSE 29/general/size_t.md",
     "CSE 29/general",
-    "CSE 29/general/Hexadecimal Quick Lookup.md",
     "CSE 101/Greedy Algorithms",
     "MATH 183/Random Variable/Random Variable Functions",
     "MATH 183/Random Variable/Random Variable Properties",
     "MATH 183/Random Variable",
-    "Screen Shot 2026-02-03 at 2.01.57 PM.png",
     "MATH 183/Random Variable/Distribution Form",
     "CSE 140/Imgs",
     "CSE 101/Graph Algorithms/Algorithms"

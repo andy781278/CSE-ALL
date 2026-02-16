@@ -303,6 +303,14 @@
     },
     "CSE 140/Imgs": {
       "children": [
+        "CSE 140/Imgs/Pasted image 20260215225503.png",
+        "CSE 140/Imgs/Pasted image 20260215225300.png",
+        "CSE 140/Imgs/Pasted image 20260215224826.png",
+        "CSE 140/Imgs/Pasted image 20260215224600.png",
+        "CSE 140/Imgs/Pasted image 20260215224454.png",
+        "CSE 140/Imgs/Pasted image 20260215221553.png",
+        "CSE 140/Imgs/Pasted image 20260215214418.png",
+        "CSE 140/Imgs/Pasted image 20260215213031.png",
         "CSE 140/Imgs/Pasted image 20260215181905.png",
         "CSE 140/Imgs/Pasted image 20260215181748.png",
         "CSE 140/Imgs/Pasted image 20260215181303.png",
@@ -322,8 +330,11 @@
     },
     "CSE 140/Memory": {
       "children": [
-        "CSE 140/Memory/Clock.md",
+        "CSE 140/Memory/Bit Storage.md",
         "CSE 140/Memory/SR Latch.md",
+        "CSE 140/Memory/Clock.md",
+        "CSE 140/Memory/D Latch.md",
+        "CSE 140/Memory/D Flip-Flop.md",
         "CSE 140/Memory/Static RAM.md",
         "CSE 140/Memory/Sequential Circuit.md"
       ],
