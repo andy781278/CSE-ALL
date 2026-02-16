@@ -196,7 +196,7 @@
     },
     "CSE 29/general": {
       "children": [
-        "CSE 29/general/void*.md",
+        "CSE 29/general/void star.md",
         "CSE 29/general/size_t.md",
         "CSE 29/general/Program Memory.md",
         "CSE 29/general/Hexadecimal Quick Lookup.md",
@@ -282,8 +282,10 @@
     },
     "CSE 140": {
       "children": [
-        "CSE 140/Boolean Algebra.md",
+        "CSE 140/Memory",
+        "CSE 140/ALU Components",
         "CSE 140/Logic Gates.md",
+        "CSE 140/Boolean Algebra.md",
         "CSE 140/Transistor.md",
         "CSE 140/Transistor Circuits.md",
         "CSE 140/Homework.md",
@@ -292,13 +294,38 @@
       ],
       "sortOrder": "custom"
     },
+    "CSE 140/ALU Components": {
+      "children": [
+        "CSE 140/ALU Components/ALU.md",
+        "CSE 140/ALU Components/Control.md"
+      ],
+      "sortOrder": "custom"
+    },
     "CSE 140/Imgs": {
       "children": [
+        "CSE 140/Imgs/Pasted image 20260215181905.png",
+        "CSE 140/Imgs/Pasted image 20260215181748.png",
+        "CSE 140/Imgs/Pasted image 20260215181303.png",
+        "CSE 140/Imgs/Pasted image 20260215180859.png",
+        "CSE 140/Imgs/Pasted image 20260215175927.png",
+        "CSE 140/Imgs/Pasted image 20260215173805.png",
+        "CSE 140/Imgs/Pasted image 20260215164825.png",
+        "CSE 140/Imgs/Pasted image 20260215163000.png",
+        "CSE 140/Imgs/Pasted image 20260215162430.png",
         "CSE 140/Imgs/Pasted image 20260127030755.png",
         "CSE 140/Imgs/Pasted image 20260127214715.png",
         "CSE 140/Imgs/Pasted image 20260127214308.png",
         "CSE 140/Imgs/Pasted image 20260127215341.png",
         "CSE 140/Imgs/Pasted image 20260127215407.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 140/Memory": {
+      "children": [
+        "CSE 140/Memory/Clock.md",
+        "CSE 140/Memory/SR Latch.md",
+        "CSE 140/Memory/Static RAM.md",
+        "CSE 140/Memory/Sequential Circuit.md"
       ],
       "sortOrder": "custom"
     },
