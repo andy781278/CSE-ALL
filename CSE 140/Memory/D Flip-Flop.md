@@ -21,6 +21,8 @@ NOT gate is connected to the slave, updates slave on falling edge
 3. master is locked in after Clk reaches 0, so it won't change anymore.
 
 ![[Pasted image 20260215221553.png]]
+Rising-edge takes in D when clock is high
+Falling-edge takes in D when clock is low
 ![[Pasted image 20260215224600.png]]
 ### Characteristic Equation
 ![[Pasted image 20260215224454.png]]
