@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "35970d73cc2d365c",
+        "id": "ce3a6471b47cb70f",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc0e3f72e9dec49",
+            "id": "cf73e1ca4afafda5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 29/C String Functions.md",
+                "file": "MATH 183/Statistics/Confidence Interval.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C String Functions"
+              "title": "Confidence Interval"
             }
           }
         ]
@@ -207,8 +207,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ddc0e3f72e9dec49",
+  "active": "cf73e1ca4afafda5",
   "lastOpenFiles": [
+    "MATH 183/Statistics/Sampling Distribution.md",
+    "MATH 183/Pics/Screen Shot 2026-02-12 at 3.06.24 PM.png",
+    "MATH 183/Statistics/Confidence Interval.md",
+    "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.35 PM.png",
+    "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.12 PM.png",
+    "MATH 183/Pics/Screen Shot 2026-02-12 at 2.45.29 PM.png",
+    "MATH 183/Pics/Screen Shot 2026-02-12 at 2.41.42 PM.png",
+    "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
+    "MATH 183/Random Variable/Distribution Form/X ~ Name(theta).md",
+    "MATH 183/Statistics",
+    "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
+    "MATH 183/Basic/iid.md",
+    "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
+    "MATH 183/Random Variable/Random Variable.md",
+    "MATH 183/Random Variable/Random Variable Functions/PMF.md",
+    "MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
     "CSE 29/malloc().md",
     "CSE 29/wait().md",
     "CSE 29/struct.md",
@@ -225,18 +241,7 @@
     "CSE 29/general/Hexadecimal Quick Lookup.md",
     "CSE 29/fork().md",
     "CSE 29/execvp().md",
-    "MATH 183/Basic/Practice Test.md",
-    "CSE 101/Greedy Algorithms/Greedy Method.md",
-    "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
-    "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
     "CSE 101/Greedy Algorithms",
-    "MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
-    "MATH 183/Random Variable/Random Variable Functions/Variance.md",
-    "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
-    "MATH 183/Random Variable/Distribution Form/X ~ Chi2(k).md",
-    "MATH 183/Random Variable/Random Variable Functions/PDF.md",
-    "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
-    "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
     "MATH 183/Random Variable/Random Variable Functions",
     "MATH 183/Random Variable/Random Variable Properties",
     "MATH 183/Random Variable",
@@ -246,14 +251,8 @@
     "CSE 101/Pics/Pasted image 20260202035628.png",
     "CSE 101/Pics/Pasted image 20260202034925.png",
     "CSE 101/Pics/Pasted image 20260201112406.png",
-    "CSE 101/Pics/Pasted image 20260201112330.png",
-    "CSE 140/Imgs/Pasted image 20260127215407.png",
-    "CSE 140/Imgs/Pasted image 20260127215341.png",
-    "CSE 140/Imgs/Pasted image 20260127214715.png",
-    "CSE 140/Imgs/Pasted image 20260127214308.png",
     "CSE 140/Imgs",
     "CSE 101/Graph Algorithms/Algorithms",
-    "CSE 101/Algorithms",
-    "MATH 183/Probability"
+    "CSE 101/Algorithms"
   ]
 }
