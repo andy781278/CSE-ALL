@@ -282,6 +282,7 @@
     },
     "CSE 140": {
       "children": [
+        "CSE 140/Finite State Machine",
         "CSE 140/Memory",
         "CSE 140/ALU Components",
         "CSE 140/Logic Gates.md",
@@ -301,8 +302,24 @@
       ],
       "sortOrder": "custom"
     },
+    "CSE 140/Finite State Machine": {
+      "children": [
+        "CSE 140/Finite State Machine/Finite State Machine.md",
+        "CSE 140/Finite State Machine/Mealy and Moore Machines.md"
+      ],
+      "sortOrder": "custom"
+    },
     "CSE 140/Imgs": {
       "children": [
+        "CSE 140/Imgs/Pasted image 20260216161823.png",
+        "CSE 140/Imgs/Pasted image 20260216161614.png",
+        "CSE 140/Imgs/Pasted image 20260216155348.png",
+        "CSE 140/Imgs/Pasted image 20260216155123.png",
+        "CSE 140/Imgs/Pasted image 20260216154427.png",
+        "CSE 140/Imgs/Pasted image 20260216153606.png",
+        "CSE 140/Imgs/Pasted image 20260216153209.png",
+        "CSE 140/Imgs/Pasted image 20260216152829.png",
+        "CSE 140/Imgs/Pasted image 20260216152439.png",
         "CSE 140/Imgs/Pasted image 20260215225503.png",
         "CSE 140/Imgs/Pasted image 20260215225300.png",
         "CSE 140/Imgs/Pasted image 20260215224826.png",
@@ -330,6 +347,8 @@
     },
     "CSE 140/Memory": {
       "children": [
+        "CSE 140/Memory/Counter.md",
+        "CSE 140/Memory/Register.md",
         "CSE 140/Memory/Bit Storage.md",
         "CSE 140/Memory/SR Latch.md",
         "CSE 140/Memory/Clock.md",
