@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35970d73cc2d365c",
+        "id": "f70c8cef3092a2bf",
         "type": "tabs",
         "children": [
           {
-            "id": "a79354b20e234a33",
+            "id": "f348088d3b03a155",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE 140/Finite State Machine/Finite State Machine.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finite State Machine"
+              "title": "New tab"
             }
           }
         ]
@@ -207,16 +203,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a79354b20e234a33",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
-    "Pasted image 20260216162418.png",
-    "Pasted image 20260216162242.png",
-    "Pasted image 20260216162157.png",
-    "CSE 140/Imgs/Pasted image 20260216152439.png",
+    "CSE 140/Homework.md",
+    "CSE 140/HW.excalidraw.md",
+    "CSE 140/Finite State Machine/Mealy and Moore Machines.md",
     "CSE 140/Finite State Machine/Finite State Machine.md",
+    "CSE 140/Imgs/Pasted Image 20260216182050_841.png",
+    "CSE 140/Imgs/Pasted image 20260216162418.png",
+    "CSE 140/Imgs/Pasted image 20260216162242.png",
+    "CSE 140/Imgs/Pasted image 20260216162157.png",
+    "CSE 140/Imgs/Pasted image 20260216152439.png",
     "CSE 140/Imgs/Pasted image 20260216161823.png",
     "CSE 140/Imgs/Pasted image 20260216161614.png",
-    "CSE 140/Finite State Machine/Mealy and Moore Machines.md",
     "CSE 140/Memory/Counter.md",
     "CSE 140/Memory/Register.md",
     "CSE 140/Memory/Bit Storage.md",
@@ -229,9 +228,6 @@
     "CSE 140/Imgs/Pasted image 20260216155123.png",
     "CSE 140/Finite State Machine",
     "CSE 140/Imgs/Pasted image 20260216154427.png",
-    "CSE 140/Imgs/Pasted image 20260216153606.png",
-    "CSE 140/Imgs/Pasted image 20260216153209.png",
-    "CSE 140/Homework.md",
     "CSE 140/Memory/Sequential Circuit.md",
     "CSE 140/Transistor.md",
     "CSE 140/Logic Gates.md",
@@ -247,7 +243,6 @@
     "CSE 29/wait().md",
     "CSE 29/struct.md",
     "CSE 29/C strings.md",
-    "CSE 29/general/void*.md",
     "CSE 29/general",
     "CSE 101/Greedy Algorithms",
     "MATH 183/Random Variable/Random Variable Functions",
