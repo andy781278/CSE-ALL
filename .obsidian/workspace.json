@@ -18,10 +18,23 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control"
+              "title": "Binary Search Divide and Conquer"
+            }
+          },
+          {
+            "id": "249a23407e3ff3f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 101/General Info/hw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "hw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,9 +255,13 @@
     "CSE 140/Memory/SR Latch.md",
     "CSE 140/Memory/Clock.md",
     "CSE 140/Imgs/Pasted image 20260216155348.png",
-    "CSE 140/Imgs/Pasted image 20260216155123.png",
     "CSE 140/Finite State Machine",
-    "CSE 140/Imgs/Pasted image 20260216154427.png",
+    "CSE 140/Memory/Sequential Circuit.md",
+    "CSE 140/Transistor.md",
+    "CSE 140/Logic Gates.md",
+    "CSE 140/Boolean Algebra.md",
+    "CSE 140/Transistor Circuits.md",
+    "CSE 140/ALU Components/Control.md",
     "CSE 140/Memory",
     "CSE 140/ALU Components",
     "CSE 29/general",
