@@ -11,18 +11,6 @@ How do we efficiently determine whether or not a cycle is formed?
 We use DSDS.
 ![[Disjoint Sets Data Structure|DSDS]]
 
-### Kruskals with DSDS
-```
-procedure Kruskal(undirectd connected graph G, edge weights w):
-	Makeset(v) for all v in V
-	X={}
-	Sort the edges in E in increasing order by weight
-	For all edges (u,v) in E until X is a connected graph
-		if find(u) != find(v):
-			add edge (u,v) to X
-			Union(u,v)
-```
-
 Time Analysis
 |V|makeset + 2|E|find + (|V|-1)union + sort(|E|)
 
