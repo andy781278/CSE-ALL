@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "Pasted image 20260217213148.png",
+        "Pasted image 20260217210417.png",
         "CSE 101",
         "CSE 140",
         "CSE 29",
@@ -209,8 +211,18 @@
       "children": [
         "CSE 101/Graph Algorithms",
         "CSE 101/Greedy Algorithms",
+        "CSE 101/Divide and Conquer",
         "CSE 101/General Info",
         "CSE 101/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Divide and Conquer": {
+      "children": [
+        "CSE 101/Divide and Conquer/Divide and Conquer.md",
+        "CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
+        "CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
+        "CSE 101/Divide and Conquer/Untitled.md"
       ],
       "sortOrder": "custom"
     },
