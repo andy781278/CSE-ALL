@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Binary Search Divide and Conquer"
             }
+          },
+          {
+            "id": "249a23407e3ff3f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 101/General Info/hw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "hw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,10 +220,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f97da9dff9b9d185",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
-    "CSE 101/Divide and Conquer/Selection.md",
     "CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
+    "CSE 101/General Info/hw.md",
+    "CSE 101/Divide and Conquer/Selection.md",
     "CSE 101/Divide and Conquer/Divide and Conquer.md",
     "CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
     "Pasted image 20260217213148.png",
@@ -246,7 +260,6 @@
     "CSE 140/Boolean Algebra.md",
     "CSE 140/Transistor Circuits.md",
     "CSE 140/ALU Components/Control.md",
-    "CSE 140/ALU Components/ALU.md",
     "CSE 140/Memory",
     "CSE 140/ALU Components",
     "CSE 29/general",
