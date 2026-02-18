@@ -2,8 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "Pasted image 20260217213148.png",
-        "Pasted image 20260217210417.png",
         "CSE 101",
         "CSE 140",
         "CSE 29",
@@ -179,6 +177,7 @@
     },
     "CSE 29": {
       "children": [
+        "CSE 29/nmap().md",
         "CSE 29/malloc().md",
         "CSE 29/struct.md",
         "CSE 29/wait().md",
@@ -282,6 +281,8 @@
     },
     "CSE 101/Pics": {
       "children": [
+        "CSE 101/Pics/Pasted image 20260217213148.png",
+        "CSE 101/Pics/Pasted image 20260217210417.png",
         "CSE 101/Pics/Pasted image 20260202035628.png",
         "CSE 101/Pics/Pasted image 20260202034925.png",
         "CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",

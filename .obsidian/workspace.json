@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3eb12cded23e3cbe",
+        "id": "b9dd5a1fb0cef89a",
         "type": "tabs",
         "children": [
           {
-            "id": "fddb9da3b1f16d60",
+            "id": "1e6682250b6b0cbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE 140/ALU Components/Control.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Binary Search Divide and Conquer"
-            }
-          },
-          {
-            "id": "249a23407e3ff3f2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "CSE 101/General Info/hw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "hw"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,8 +202,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fddb9da3b1f16d60",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
+    "CSE 101/Pics/Pasted image 20260217210417.png",
+    "CSE 101/General Info/hw.md",
+    "CSE 140/ALU Components/Control.md",
     "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
     "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
     "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
@@ -251,17 +237,8 @@
     "CSE 140/Imgs/Pasted image 20260216161614.png",
     "CSE 140/Memory/Counter.md",
     "CSE 140/Memory/Register.md",
-    "CSE 140/Memory/Bit Storage.md",
-    "CSE 140/Memory/SR Latch.md",
-    "CSE 140/Memory/Clock.md",
     "CSE 140/Imgs/Pasted image 20260216155348.png",
     "CSE 140/Finite State Machine",
-    "CSE 140/Memory/Sequential Circuit.md",
-    "CSE 140/Transistor.md",
-    "CSE 140/Logic Gates.md",
-    "CSE 140/Boolean Algebra.md",
-    "CSE 140/Transistor Circuits.md",
-    "CSE 140/ALU Components/Control.md",
     "CSE 140/Memory",
     "CSE 140/ALU Components",
     "CSE 29/general",
