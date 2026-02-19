@@ -1,2 +1,3 @@
 # uint64_t* heap = nmap(NULL, HEAP_SIZE, PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED, -1, 0)
 
+starts a heap

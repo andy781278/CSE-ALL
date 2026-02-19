@@ -22,4 +22,4 @@ $$CI(\alpha,\theta)=[\hat{\theta}+q_{1-\alpha /2}* SE(\hat{\theta}),\hat{\theta}
 $$CI(\alpha,\theta)=[\hat{\theta}-q_{\alpha/2}* SE(\hat{\theta}),\hat{\theta}+q_{\alpha /2}* SE(\hat{\theta}]$$
 $$CI(0.05,p)=\hat{p} \pm 1.96* SE(\hat{p})$$
 
-![[Screen Shot 2026-02-12 at 3.06.24 PM.png]]
+![[Screen Shot 2026-02-12 at 3.06.24 PM.png]]![[Screen Shot 2026-02-19 at 2.12.22 PM.png]]
