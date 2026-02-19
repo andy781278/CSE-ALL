@@ -221,7 +221,9 @@
         "CSE 101/Divide and Conquer/Divide and Conquer.md",
         "CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
         "CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
-        "CSE 101/Divide and Conquer/Selection.md"
+        "CSE 101/Divide and Conquer/Selection.md",
+        "CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
+        "CSE 101/Divide and Conquer/Quick Sort.md"
       ],
       "sortOrder": "custom"
     },
@@ -281,6 +283,7 @@
     },
     "CSE 101/Pics": {
       "children": [
+        "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
         "CSE 101/Pics/Pasted image 20260217213148.png",
         "CSE 101/Pics/Pasted image 20260217210417.png",
         "CSE 101/Pics/Pasted image 20260202035628.png",
