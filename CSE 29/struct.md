@@ -8,3 +8,15 @@ use the following so you can refer to structs as their name instead of saying st
 typedef (struct s) s;
 
 structs are passed by copy, not address, not like arrays
+
+```
+struct Person {
+    char name[50];
+    int age;
+};
+
+typedef struct {
+    char name[50];
+    int age;
+} Person;
+```

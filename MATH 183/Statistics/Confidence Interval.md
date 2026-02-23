@@ -1,4 +1,4 @@
-Given data $X_1,X_2,...,X_n$ observed iid from a unknown distribution $D(\theta)$
+	Given data $X_1,X_2,...,X_n$ observed iid from a unknown distribution $D(\theta)$
 
 Let $\hat{\theta} \equiv \hat{\theta}(X_1,X_2,...,X_n)$ be the sampling distribution
 

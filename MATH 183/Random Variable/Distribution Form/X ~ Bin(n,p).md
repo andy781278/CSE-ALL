@@ -10,3 +10,4 @@ $$E(X)=np$$
 $$Var(X)=np(1-p)$$
 if $X \textasciitilde Bin(n,p)$ and $H \textasciitilde Bin(m,p)$ and $X \perp Y$, then 
 $$X+Y=Bin(n+m,p)$$
+![[Pasted image 20260222173533.png]]

@@ -7,4 +7,4 @@ fopen(FILE$*$ stream, cosnt char$*$ read_mode)
 
 fclose(FILE* stream)
 
-fgets()
+fgets(char* Buffer, int size, FILE* stream)
