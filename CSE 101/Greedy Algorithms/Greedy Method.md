@@ -20,7 +20,7 @@ most general, almost universal
 - Let g be the first greedy decision.
 - Let AS be an arbitrary legal solution that does not pick g.
 - There is a solution AS' that does pick g and AS' is at least as good as AS.
-1. State what we know: Def of g, AS meets constraints
+1. State what we know: Definition of of g, and that AS meets constraints
 2. Define AS' from AS, g(usually by exchanging g with another choice)
 3. Prove that AS' meets constraints. Use 1,2
 4. Compare value/cost of AS' to AS. Use 2, sometimes 1
@@ -40,8 +40,10 @@ Correctness proof for earliest end time algorithm for Event Scheduling Problem
 - let AS be an arbitrary non-overlapping schedule that does not include G (Contradiction)
 - Claim: there is a schedule AS' that does include G such that $|AS'| \geq |AS|$
 - Let the events in AS be $J_1,...,J_k$, ordered by start and finish times ($J_1 \ne G$)
+
 - Claim: AS' is valid, it does not have overlapping events
 - Proof: Since AS is valid, any pair $J_i,J_l$ will not overlap, so it is sufficient to prove that G does not overlap with any of the $J_i$ events, particularly $J_2$.
+
 - Claim: G does not overlap with $J_2$.
 - Proof: $f(J_1)\leq s(J_2)$, $f(G)\leq f(J_1)$, $f(G)\leq s(J_2)$
 

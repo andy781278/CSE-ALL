@@ -95,3 +95,73 @@
 | ALB, BOS          | CHI | 3150     | 2200     | 1300     | 3250     | 3000     | 1450     | 100      | 350      | 2600     | 0   | 500      | 2800     |
 | BOS               | ALB | 3150     | 2200     | 1300     | 3250     | 3000     | 1450     | 100      | 350      | 2600     | 0   | 500      | 2800     |
 |                   | BOS | 3150     | 2200     | 1300     | 3250     | 3000     | 1450     | 100      | 350      | 2600     | 0   | 500      | 2800     |
+
+Test 2
+
+- input
+	- $[x_1,...,x_n]$, all the stopping points, and distance d, the max dist you can travel per day
+- solution format
+	- $[p_1,...,p_k]$ list of stopping points to camp at
+- constraints
+	- no adjacent stopping points are more than d distance apart
+	- $p_{i+1}-p_i \leq d$ for each i
+- objective
+	- The total amount of stopping points
+- minimize
+
+Exchange Argument
+- let g be the first greedy choice, which is $p_1$, the first stopping point you camp at
+- Consider an arbitrary solution AS that is legal and does not include g.
+- Claim: There is a solution AS' that does include g and has less stopping points than AS
+
+- we know g is the latest stopping point before you travel more than d distance. We know AS is valid, so it also has <= d distance between each of its stopping points.
+- We make AS' by exchanging the first stopping point in AS with g.
+- let's say AS = $[a_1,a_2,...,a_k]$, so AS' = $[g,a_2,...,a_k]$
+- We know AS' meets the constraints because we know that $a_1$ has to come before g.
+	- if $a_1$ comes after g, and is also legal (no more than d distance), then according to def of g, it should have been able to go that far as well, so there is no $a_1$ that can be after g.
+- So we know g is legal, so from start to g is <= d, and that the distance between g and $a_2$ has to be less than $a_1$ and $a_2$, since g is more ahead that $a_1$, this makes the AS' legal.
+- To show |AS'| <= |AS|, we have to indicate that it doesn't have to be 1 stop, g can surpass multiple stops. At the very least, it has to surpass 1 stop in AS, so it follows the construction of AS' that
+- OS' = OS-{all stops before g in OS} U {g}
+- therefore |AS'| <= |AS|
+
+- input
+	- n oxen $[Ox_1,Ox_2,..,Ox_n]$
+- solution format
+	- a list of pairings of the oxen
+- constraints
+	- no Ox can be in more than 1 team
+	- in a pair $(Ox_i,Ox_j)$, $S_i+S_j \geq P$
+- objective
+	- the number of pairings
+- maximize
+
+
+
+Greedy strategy II is wrong:
+[1,1,2,2,3,3], P=5
+(2,3)(2,3)
+(2,3)
+
+Greedy Strategy I is correct:
+- let g be the first pairing with the strongest and weakest oxen that meets the strength requirement, $g=(g_w,g_n)$
+- let AS be an arbitrary solution that does not pick g, let it be $[(a1w,a1s),(a2w,a2s)...,(ajw,ajs)]$
+- We make AS' by swapping the first pair with g.
+- Then AS' has at least as many pairings as AS.
+- AS' is valid because:
+	- def g states that g meets the strength requirement
+	- there are 4 scenarios:
+		- gw and gn aren't any other pairings
+			- then we need to change nothing, as it is already valid
+			- also this would make AS' = AS+1
+		- gw is in a pairing with sj with j != n, and gn is not paired
+			- then destroy the pair and throw away sj, and put gw and gn together
+			- this would make AS'=AS
+		- gn is in a pairing with sj with j != w, and gw is not paired
+			- then destroy the pairing and pair gn with gw
+			- this would make AS'=AS
+		- both gn is paired with sj, and gw is paired with si
+			- then destroy both pairings and pair gn and gw together, and also pair si and sj together.
+			- we know gn and gw is valid
+			- si and sj is valid because:
+				- we know that gw+si >= P, and we know that gw is the weakest, so sj>=gw, so replacing it would be sj+si>=P, transitiveness.
+
