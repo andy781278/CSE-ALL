@@ -165,3 +165,4 @@ Greedy Strategy I is correct:
 			- si and sj is valid because:
 				- we know that gw+si >= P, and we know that gw is the weakest, so sj>=gw, so replacing it would be sj+si>=P, transitiveness.
 
+seems like we need the master theorem a lot for this test

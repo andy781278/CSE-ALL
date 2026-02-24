@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 101/General Info/Test Prep.md",
+                "file": "CSE 21/Algorithms/Master Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test Prep"
+              "title": "Master Theorem"
             }
           }
         ]
@@ -228,14 +228,15 @@
   },
   "active": "9a1846746e5ac376",
   "lastOpenFiles": [
+    "CSE 21/Algorithms/Recursion.md",
+    "CSE 21/Algorithms/Master Theorem.md",
+    "CSE 101/General Info/Test Prep.md",
     "CSE 101/Divide and Conquer/Selection.md",
     "CSE 101/Greedy Algorithms/Greedy Method.md",
-    "CSE 101/General Info/Test Prep.md",
     "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
     "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md",
     "CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
     "CSE 101/Divide and Conquer/Divide and Conquer.md",
-    "CSE 21/Algorithms/Master Theorem.md",
     "CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
     "CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
     "CSE 101/Divide and Conquer/Quick Sort.md",
@@ -253,7 +254,6 @@
     "CSE 29/execvp().md",
     "CSE 29/fork().md",
     "CSE 29/struct.md",
-    "CSE 29/general/SRAM Cell.md",
     "MATH 183/Pics/Pasted image 20260222173533.png",
     "MATH 183/Pics/Screen Shot 2026-02-19 at 2.12.22 PM.png",
     "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
