@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Pasted image 20260302000549.png",
         "CSE 101",
         "CSE 140",
         "CSE 29",
@@ -208,11 +209,22 @@
     },
     "CSE 101": {
       "children": [
-        "CSE 101/Graph Algorithms",
-        "CSE 101/Greedy Algorithms",
+        "CSE 101/Dynamic Programming",
+        "CSE 101/Backtracking",
         "CSE 101/Divide and Conquer",
+        "CSE 101/Greedy Algorithms",
+        "CSE 101/Graph Algorithms",
         "CSE 101/General Info",
         "CSE 101/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Backtracking": {
+      "children": [
+        "CSE 101/Backtracking/Backtracking.md",
+        "CSE 101/Backtracking/8 Queens puzzle.md",
+        "CSE 101/Backtracking/Maximal Independent Set.md",
+        "CSE 101/Backtracking/Weighted Event Scheduling.md"
       ],
       "sortOrder": "custom"
     },
@@ -224,6 +236,14 @@
         "CSE 101/Divide and Conquer/Selection.md",
         "CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
         "CSE 101/Divide and Conquer/Quick Sort.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 101/Dynamic Programming": {
+      "children": [
+        "CSE 101/Dynamic Programming/Dynamic Programming.md",
+        "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
+        "CSE 101/Dynamic Programming/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -283,6 +303,7 @@
     },
     "CSE 101/Pics": {
       "children": [
+        "CSE 101/Pics/Pasted image 20260302000459.png",
         "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
         "CSE 101/Pics/Pasted image 20260217213148.png",
         "CSE 101/Pics/Pasted image 20260217210417.png",
