@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "Pasted image 20260302000549.png",
         "CSE 101",
         "CSE 140",
         "CSE 29",
@@ -243,7 +242,7 @@
       "children": [
         "CSE 101/Dynamic Programming/Dynamic Programming.md",
         "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
-        "CSE 101/Dynamic Programming/Untitled.md"
+        "CSE 101/Dynamic Programming/DP.md"
       ],
       "sortOrder": "custom"
     },
@@ -304,6 +303,7 @@
     "CSE 101/Pics": {
       "children": [
         "CSE 101/Pics/Pasted image 20260302000459.png",
+        "CSE 101/Pics/Pasted image 20260302000549.png",
         "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
         "CSE 101/Pics/Pasted image 20260217213148.png",
         "CSE 101/Pics/Pasted image 20260217210417.png",
