@@ -242,7 +242,8 @@
       "children": [
         "CSE 101/Dynamic Programming/Dynamic Programming.md",
         "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
-        "CSE 101/Dynamic Programming/DP.md"
+        "CSE 101/Dynamic Programming/DP.md",
+        "CSE 101/Dynamic Programming/Knapsack Problem.md"
       ],
       "sortOrder": "custom"
     },
@@ -320,6 +321,7 @@
     },
     "CSE 140": {
       "children": [
+        "CSE 140/RTL",
         "CSE 140/Finite State Machine",
         "CSE 140/Memory",
         "CSE 140/ALU Components",
@@ -350,6 +352,9 @@
     },
     "CSE 140/Imgs": {
       "children": [
+        "CSE 140/Imgs/Pasted image 20260304023733.png",
+        "CSE 140/Imgs/Pasted image 20260303210202.png",
+        "CSE 140/Imgs/Pasted image 20260303203228.png",
         "CSE 140/Imgs/Pasted Image 20260216182050_841.png",
         "CSE 140/Imgs/Pasted image 20260216162418.png",
         "CSE 140/Imgs/Pasted image 20260216162242.png",
@@ -390,6 +395,7 @@
     },
     "CSE 140/Memory": {
       "children": [
+        "CSE 140/Memory/Time Constraint.md",
         "CSE 140/Memory/Counter.md",
         "CSE 140/Memory/Register.md",
         "CSE 140/Memory/Bit Storage.md",
@@ -399,6 +405,13 @@
         "CSE 140/Memory/D Flip-Flop.md",
         "CSE 140/Memory/Static RAM.md",
         "CSE 140/Memory/Sequential Circuit.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 140/RTL": {
+      "children": [
+        "CSE 140/RTL/RTL.md",
+        "CSE 140/RTL/High Level State Machine.md"
       ],
       "sortOrder": "custom"
     },
