@@ -9,3 +9,7 @@ char* **strtok**(char* str, char delimiter) - parses str between delimiters, onl
 int **strcmp**(char* s1,char* s2) - compares two strings lexicographically. Return 0 if they are equal, <0 if first char that does not match is lower in s1 than in s2. >0 for first char bigger in s1 than s2.
 
 char* **strstr**(char* haystack, char* needle) - finds the needle in the haystack, finds the first substring needle in haystack and returns the first character of the substring if found, NULL if not found, haystack if empty needle.
+
+char* **strchr**(const char* s, int c) - scans s from left to right and returns a pointer to the first c occured.
+
+int **sscanf**(const char* input, const char* format, ...) - walks input and fills the variables according to format specifier.
