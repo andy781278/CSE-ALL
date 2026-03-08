@@ -240,15 +240,16 @@
     },
     "CSE 101/Dynamic Programming": {
       "children": [
+        "CSE 101/Dynamic Programming/String Reconstruction.md",
         "CSE 101/Dynamic Programming/Dynamic Programming.md",
         "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
-        "CSE 101/Dynamic Programming/DP.md",
         "CSE 101/Dynamic Programming/Knapsack Problem.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 101/General Info": {
       "children": [
+        "CSE 101/General Info/hw 101.md",
         "CSE 101/General Info/Test Prep.md",
         "CSE 101/General Info/General Progression of Algorithm Design.md",
         "CSE 101/General Info/Homework Due Thursday.md",
@@ -257,8 +258,7 @@
         "CSE 101/General Info/Methodical Algorithm.md",
         "CSE 101/General Info/Fibonacci.md",
         "CSE 101/General Info/Word Size.md",
-        "CSE 101/General Info/Set.md",
-        "CSE 101/General Info/hw.md"
+        "CSE 101/General Info/Set.md"
       ],
       "sortOrder": "custom"
     },

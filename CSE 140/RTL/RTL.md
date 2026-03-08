@@ -5,7 +5,7 @@ aliases:
 ### Design Process
 - Capture the behavior
 - Convert it into a circuit
-	- High level architecture
+	- High level architecture via HLSM
 	- Datapath capable of HLSM's data operations
 		- Define its inputs/outputs
 		- Instantiate registers

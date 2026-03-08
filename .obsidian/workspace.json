@@ -8,7 +8,41 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bb9819fb4d20e340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 140/Homework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Homework"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a82e4ba2fb746af",
+        "type": "tabs",
+        "children": [
+          {
             "id": "0cc7bb3c897608fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 140/Memory/Time Constraint.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time Constraint"
+            }
+          },
+          {
+            "id": "8d5079c658c6d179",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +54,23 @@
               "icon": "lucide-file",
               "title": "RTL"
             }
+          },
+          {
+            "id": "4b8e828c8d069f5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 140/Memory/Register.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Register"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,25 +255,31 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0cc7bb3c897608fa",
+  "active": "8d5079c658c6d179",
   "lastOpenFiles": [
-    "CSE 140/RTL/High Level State Machine.md",
+    "CSE 140/Memory/Register.md",
+    "CSE 140/Memory/Bit Storage.md",
+    "CSE 140/Memory/Counter.md",
     "CSE 140/RTL/RTL.md",
-    "CSE 140/Imgs/Pasted image 20260304023733.png",
+    "CSE 140/Homework.md",
+    "CSE 140/RTL/High Level State Machine.md",
     "CSE 140/Memory/Time Constraint.md",
+    "CSE 140/General Info.md",
+    "CSE 101/Backtracking/8 Queens puzzle.md",
+    "CSE 101/Backtracking/Backtracking.md",
+    "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
+    "CSE 101/Dynamic Programming/Dynamic Programming.md",
+    "CSE 101/Backtracking/Maximal Independent Set.md",
+    "CSE 101/Backtracking/Weighted Event Scheduling.md",
+    "CSE 101/Dynamic Programming/Knapsack Problem.md",
+    "CSE 101/Dynamic Programming/String Reconstruction.md",
+    "CSE 140/Imgs/Pasted image 20260304023733.png",
     "CSE 140/RTL",
     "CSE 140/Imgs/Pasted image 20260303210202.png",
     "CSE 140/Imgs/Pasted image 20260303203228.png",
     "CSE 140/Memory/Static RAM.md",
     "CSE 140/Memory/Sequential Circuit.md",
-    "CSE 140/Memory/Bit Storage.md",
     "CSE 140/Memory/SR Latch.md",
-    "CSE 140/Memory/Register.md",
-    "CSE 140/Memory/Counter.md",
-    "CSE 101/Dynamic Programming/Knapsack Problem.md",
-    "CSE 101/Dynamic Programming/DP.md",
-    "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
-    "CSE 101/Dynamic Programming/Dynamic Programming.md",
     "CSE 29/C String Functions.md",
     "CSE 29/C strings.md",
     "CSE 29/All Imports.md",
@@ -232,16 +287,11 @@
     "CSE 101/Pics/Pasted image 20260302000549.png",
     "CSE 101/Pics/Pasted image 20260302000459.png",
     "CSE 101/Dynamic Programming",
-    "CSE 101/Backtracking/Weighted Event Scheduling.md",
-    "CSE 101/Backtracking/Backtracking.md",
-    "CSE 101/Backtracking/Maximal Independent Set.md",
     "CSE 101/Backtracking/Untitled",
-    "CSE 101/Backtracking/8 Queens puzzle.md",
     "CSE 101/Backtracking",
     "CSE 29/Vim.md",
     "CSE 101/Divide and Conquer/Quick Sort.md",
     "CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
-    "CSE 101/Divide and Conquer/Selection.md",
     "MATH 183/Pics/Pasted image 20260222173533.png",
     "MATH 183/Pics/Screen Shot 2026-02-19 at 2.12.22 PM.png",
     "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
