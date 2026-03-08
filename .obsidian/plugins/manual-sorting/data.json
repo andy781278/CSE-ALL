@@ -417,6 +417,7 @@
     },
     "MATH 183": {
       "children": [
+        "MATH 183/Hypothesis Test",
         "MATH 183/Statistics",
         "MATH 183/Random Variable",
         "MATH 183/Probability",
@@ -442,8 +443,15 @@
       ],
       "sortOrder": "custom"
     },
+    "MATH 183/Hypothesis Test": {
+      "children": [
+        "MATH 183/Hypothesis Test/Hypothesis Test.md"
+      ],
+      "sortOrder": "custom"
+    },
     "MATH 183/Pics": {
       "children": [
+        "MATH 183/Pics/Pasted image 20260308002343.png",
         "MATH 183/Pics/Screen Shot 2026-02-12 at 3.06.24 PM.png",
         "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.35 PM.png",
         "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.12 PM.png",
