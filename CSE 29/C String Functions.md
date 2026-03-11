@@ -13,3 +13,5 @@ char* **strstr**(char* haystack, char* needle) - finds the needle in the haystac
 char* **strchr**(const char* s, int c) - scans s from left to right and returns a pointer to the first c occured.
 
 int **sscanf**(const char* input, const char* format, ...) - walks input and fills the variables according to format specifier.
+
+long int **strtol**(const char *nptr, char $\star \star$endptr, int base) - stdlib.h function that converts string representation of a number into int
