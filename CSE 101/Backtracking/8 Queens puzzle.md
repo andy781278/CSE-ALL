@@ -9,4 +9,4 @@ Backtracking:
 - one queen per column and row: 8! = 40000
 
 Eventual algorithm:
-- a possible implementation is to go column  by column, top to bottom, queen down, then eliminate to the right, then go to right column and put queen down. if not possible, then leave, marking that spot as no, and try a different spot in that clumn.
+- a possible implementation is to go column  by column, top to bottom, queen down, then eliminate to the right, then go to right column and put queen down. if not possible, then leave, marking that spot as no, and try a different spot in that column.

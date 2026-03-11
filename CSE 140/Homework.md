@@ -318,3 +318,54 @@ A B
 
 If the pattern is A=1, then B=1, then A or B, then true
 At that point, go back to 10.
+
+##### HW 5
+
+$T_{min} = t_{pcq}+t_{setup}+...$
+$T_{min} = 30+20+...$
+1. 30+25
+2. 25+25
+1 wins, so 55.
+$T_{min} = 30+20+55=105 ps$
+$F_{max}=1/105ps=9.5 GHz$
+
+$t_{hold}<20+(10)-t_{skew}$
+$30<30-t_{skew}$
+$t_{skew}<0$
+
+$T_c \geq t_{pcq}+(t_{pd}...)+t_{setup}$
+$T_c \geq 60+(40)+15$
+$T_c \geq 115ps$
+
+$110<25-t_{skew}$
+
+$t_{skew}< -85$
+80/27=3
+65/27=3
+
+27*3+40+15+60=196
+1/196*1000=5.1GHz
+
+$110<25+(5+3*27)-t_{skew}$
+$t_{skew}<25+(5+3*27)-110$
+$t_{skew}<1$
+
+HW 6
+
+![[Pasted image 20260310225021.png]]
+
+$T_c \geq t_{pcq}+t_{pd}+t_{setup}+t_{skew}$
+$T_c \geq 75+...$
+$T_c \geq 191ps$
+
+$t_{hold} < t_{ccq}+t_{cd}-t_{skew}$
+$60 < t_{cd}$
+60/8=7.5 round up to 8
+
+| CD\AB | 00  | 01  | 11  | 10  |
+| ----- | --- | --- | --- | --- |
+| 00    | 0   | 0   | 0   | 0   |
+| 01    | 0   | 0   | 0   | 0   |
+| 11    | 0   | 1   | 1   | 1   |
+| 10    | 0   | 1   | 1   | 0   |
+BC+ACD
