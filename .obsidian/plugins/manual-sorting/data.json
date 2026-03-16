@@ -2,12 +2,10 @@
   "customOrder": {
     "/": {
       "children": [
-        "sample_exam3.pdf",
-        "sample_exam3_solutions.pdf",
         "CSE 101",
+        "MATH 183",
         "CSE 140",
         "CSE 29",
-        "MATH 183",
         "CSE 21"
       ],
       "sortOrder": "custom"
@@ -355,6 +353,8 @@
     "CSE 140/Imgs": {
       "children": [
         "CSE 140/Imgs/Pasted image 20260310225021.png",
+        "CSE 140/Imgs/sample_exam3.pdf",
+        "CSE 140/Imgs/sample_exam3_solutions.pdf",
         "CSE 140/Imgs/Pasted image 20260304023733.png",
         "CSE 140/Imgs/Pasted image 20260303210202.png",
         "CSE 140/Imgs/Pasted image 20260303203228.png",
