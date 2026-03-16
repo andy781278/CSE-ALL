@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 140/RTL/High Level State Machine.md",
+                "file": "CSE 140/Memory/Time Constraint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "High Level State Machine"
+              "title": "Time Constraint"
             }
           },
           {
@@ -47,7 +47,8 @@
               "title": "HW.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,11 +233,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "63381bd8bd433edf",
+  "active": "540e3c26ba117944",
   "lastOpenFiles": [
     "CSE 140/HW.excalidraw.md",
-    "CSE 140/Homework.md",
+    "CSE 140/Memory/Time Constraint.md",
     "CSE 140/RTL/High Level State Machine.md",
+    "CSE 140/Homework.md",
+    "sample_exam3.pdf",
     "sample_exam3_solutions.pdf",
     "CSE 29/general/SRAM Cell.md",
     "CSE 29/general/3 Tests on Week 4, 8, 10.md",
@@ -259,7 +262,6 @@
     "CSE 29/malloc().md",
     "CSE 29/nmap().md",
     "CSE 140/Imgs/Pasted image 20260310225021.png",
-    "CSE 140/Memory/Time Constraint.md",
     "CSE 140/RTL/RTL.md",
     "MATH 183/Hypothesis Test",
     "MATH 183/Pics/Pasted image 20260308002343.png",
@@ -277,7 +279,6 @@
     "MATH 183/Pics/Screen Shot 2026-02-19 at 2.12.22 PM.png",
     "CSE 140/Finite State Machine",
     "CSE 140/Memory",
-    "CSE 140/ALU Components",
-    "CSE 29/general"
+    "CSE 140/ALU Components"
   ]
 }

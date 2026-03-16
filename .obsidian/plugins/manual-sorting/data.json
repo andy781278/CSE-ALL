@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "sample_exam3.pdf",
+        "sample_exam3_solutions.pdf",
         "CSE 101",
         "CSE 140",
         "CSE 29",
