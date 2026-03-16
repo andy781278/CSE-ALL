@@ -13,3 +13,4 @@ $$p_X(x)=p^x(1-p)^{1-x}$$
 $$E(X)=p$$
 $$E(X^2)=p$$
 $$Var(X)=p-p^2$$
+$$CLT: \hat p \sim N(p,\frac{p(1-p)}{n})$$

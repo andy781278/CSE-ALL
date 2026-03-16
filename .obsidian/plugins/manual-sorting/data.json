@@ -448,7 +448,8 @@
     },
     "MATH 183/Hypothesis Test": {
       "children": [
-        "MATH 183/Hypothesis Test/Hypothesis Test.md"
+        "MATH 183/Hypothesis Test/Hypothesis Test.md",
+        "MATH 183/Hypothesis Test/p-value.md"
       ],
       "sortOrder": "custom"
     },

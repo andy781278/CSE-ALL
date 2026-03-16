@@ -9,3 +9,5 @@ $$Var(X)=\lambda$$
 
 if $X \textasciitilde Poi(\lambda), Y \textasciitilde Poi(\gamma)$ and $X \perp Y$, then
 $$X+Y \textasciitilde Poi(\lambda + \gamma)$$
+
+$$\bar X \sim N\left(\lambda, \frac{\lambda}{n}\right)$$
