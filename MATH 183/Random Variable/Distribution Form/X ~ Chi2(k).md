@@ -8,3 +8,4 @@ $$E(X)=k$$
 $$Var(X)=2k$$
 Let $X \textasciitilde \chi^2(d)$, $Y \textasciitilde \chi^2(k)$, and $X \perp Y$, then
 $$X+Y \textasciitilde \chi^2(d+k)$$
+$$\frac{X}{\sqrt{\chi^2(k)/k}}\sim t(k)$$
