@@ -16,3 +16,4 @@ $$CDF: F_X(x)=P(X\leq x)=\begin{cases}
 \end{cases}$$
 $$E(X)=\frac{1}{\lambda}$$
 $$Var(X)=\frac{1}{\lambda^2}$$
+$$\bar X \sim N\left(\frac{1}{\lambda}, \frac{1}{n\lambda^2}\right)$$

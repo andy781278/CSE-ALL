@@ -12,7 +12,10 @@ BTKS(w[1..n],v[1..n],C)
 
 Total number of different recursive calls: (n+1)(C+1)
 - there are up to n+1 different items to take from, and the knapsack can take C+1 different items
-
+Subproblem:
+- KS[j,b] is the value holding j items and having b weight left.
+Base Case:
+- KS[0,b] for any b is 0, since we didn't take any items yet
 Recursion:
 - How to calculate KS[j,b]
 	- OUT: so if item j is not included in the backpack

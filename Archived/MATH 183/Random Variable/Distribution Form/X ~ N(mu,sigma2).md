@@ -14,4 +14,4 @@ Let $X \textasciitilde N(\mu _X,\sigma_X^2)$,$Y\textasciitilde N(\mu_Y,\sigma_Y^
 $$aX+bY \textasciitilde N(a\mu_X,b\mu_Y,a^2\sigma_X^2+b^2\sigma_Y^2)$$
 
 $$aX \textasciitilde N(a\mu_X , a^2\sigma_X^2)$$
-$$aX+b\textasciitilde N(a\mu_X+b,a^2\sigma_X^2)$$
+$$aX+b\sim N(a\mu_X+b,a^2\sigma_X^2)$$

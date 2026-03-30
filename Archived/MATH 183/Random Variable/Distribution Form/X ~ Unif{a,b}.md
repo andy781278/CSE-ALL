@@ -27,3 +27,4 @@ PDF: f_X(x)=\begin{cases}
 0 & \text{otherwise}
 \end{cases}
 $$
+$$\bar X \sim N\left(\frac{a+b}{2}, \frac{(b-a)^2}{12n}\right)$$
