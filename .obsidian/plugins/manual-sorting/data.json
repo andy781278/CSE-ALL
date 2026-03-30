@@ -2,520 +2,532 @@
   "customOrder": {
     "/": {
       "children": [
-        "CSE 101",
-        "CSE 140",
-        "CSE 29",
-        "MATH 183",
-        "CSE 21"
+        "CSE 151A",
+        "Archived"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21": {
+    "Archived": {
       "children": [
-        "CSE 21/Counting",
-        "CSE 21/Probability",
-        "CSE 21/Proof",
-        "CSE 21/Algorithms",
-        "CSE 21/Encode",
-        "CSE 21/Graph.md",
-        "CSE 21/Pics"
+        "Archived/CSE 101",
+        "Archived/CSE 140",
+        "Archived/CSE 29",
+        "Archived/MATH 183",
+        "Archived/CSE 21"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Algorithms": {
+    "Archived/CSE 29": {
       "children": [
-        "CSE 21/Algorithms/Algorithm.md",
-        "CSE 21/Algorithms/Stirling's Approximation.md",
-        "CSE 21/Algorithms/Loop Invariant.md",
-        "CSE 21/Algorithms/Sorting",
-        "CSE 21/Algorithms/Counting Seq of Sets",
-        "CSE 21/Algorithms/Recursion.md",
-        "CSE 21/Algorithms/Master Theorem.md",
-        "CSE 21/Algorithms/Optimization",
-        "CSE 21/Algorithms/Time Analysis.md",
-        "CSE 21/Algorithms/Searching",
-        "CSE 21/Algorithms/Big Notation.md",
-        "CSE 21/Algorithms/Multiplication.md"
+        "Archived/CSE 29/nmap().md",
+        "Archived/CSE 29/malloc().md",
+        "Archived/CSE 29/struct.md",
+        "Archived/CSE 29/wait().md",
+        "Archived/CSE 29/execvp().md",
+        "Archived/CSE 29/fork().md",
+        "Archived/CSE 29/Hashing.md",
+        "Archived/CSE 29/Pointers and References.md",
+        "Archived/CSE 29/Standard Input Output Functions.md",
+        "Archived/CSE 29/C String Functions.md",
+        "Archived/CSE 29/C strings.md",
+        "Archived/CSE 29/Print Tricks.md",
+        "Archived/CSE 29/All Imports.md",
+        "Archived/CSE 29/Vim.md",
+        "Archived/CSE 29/general"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Algorithms/Counting Seq of Sets": {
+    "Archived/CSE 29/general": {
       "children": [
-        "CSE 21/Algorithms/Counting Seq of Sets/n-bit strings.md",
-        "CSE 21/Algorithms/Counting Seq of Sets/Tower of Hanoi.md",
-        "CSE 21/Algorithms/Counting Seq of Sets/Pair of Elements.md",
-        "CSE 21/Algorithms/Counting Seq of Sets/Homogeneous Recurrence Relations with Constant Coefficients.md",
-        "CSE 21/Algorithms/Counting Seq of Sets/Dominoes.md",
-        "CSE 21/Algorithms/Counting Seq of Sets/Counting Sequences of Sets.md"
+        "Archived/CSE 29/general/void star.md",
+        "Archived/CSE 29/general/size_t.md",
+        "Archived/CSE 29/general/Program Memory.md",
+        "Archived/CSE 29/general/Hexadecimal Quick Lookup.md",
+        "Archived/CSE 29/general/3 Tests on Week 4, 8, 10.md",
+        "Archived/CSE 29/general/SRAM Cell.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Algorithms/Optimization": {
+    "Archived/CSE 101": {
       "children": [
-        "CSE 21/Algorithms/Optimization/Sum Triples.md",
-        "CSE 21/Algorithms/Optimization/Disjoint.md"
+        "Archived/CSE 101/Dynamic Programming",
+        "Archived/CSE 101/Backtracking",
+        "Archived/CSE 101/Divide and Conquer",
+        "Archived/CSE 101/Greedy Algorithms",
+        "Archived/CSE 101/Graph Algorithms",
+        "Archived/CSE 101/General Info",
+        "Archived/CSE 101/Pics"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Algorithms/Searching": {
+    "Archived/CSE 101/Backtracking": {
       "children": [
-        "CSE 21/Algorithms/Searching/Searching.md",
-        "CSE 21/Algorithms/Searching/Linear Search.md",
-        "CSE 21/Algorithms/Searching/Binary Search.md"
+        "Archived/CSE 101/Backtracking/Backtracking.md",
+        "Archived/CSE 101/Backtracking/8 Queens puzzle.md",
+        "Archived/CSE 101/Backtracking/Maximal Independent Set.md",
+        "Archived/CSE 101/Backtracking/Weighted Event Scheduling.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Algorithms/Sorting": {
+    "Archived/CSE 101/Divide and Conquer": {
       "children": [
-        "CSE 21/Algorithms/Sorting/Total Ordering.md",
-        "CSE 21/Algorithms/Sorting/Sorting.md",
-        "CSE 21/Algorithms/Sorting/Min Sort (Selection Sort).md",
-        "CSE 21/Algorithms/Sorting/Merge Sort.md",
-        "CSE 21/Algorithms/Sorting/Bubble Sort.md",
-        "CSE 21/Algorithms/Sorting/Arithmetic Series.md"
+        "Archived/CSE 101/Divide and Conquer/Divide and Conquer.md",
+        "Archived/CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
+        "Archived/CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
+        "Archived/CSE 101/Divide and Conquer/Selection.md",
+        "Archived/CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
+        "Archived/CSE 101/Divide and Conquer/Quick Sort.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Counting": {
+    "Archived/CSE 101/Dynamic Programming": {
       "children": [
-        "CSE 21/Counting/Counting.md",
-        "CSE 21/Counting/The 12-fold way.md",
-        "CSE 21/Counting/Stars and Bars.md",
-        "CSE 21/Counting/Fixed Density.md",
-        "CSE 21/Counting/Each character is used at least once.md",
-        "CSE 21/Counting/Integer Equations.md",
-        "CSE 21/Counting/Anagram.md",
-        "CSE 21/Counting/Permutations.md",
-        "CSE 21/Counting/Binomial Coefficient.md",
-        "CSE 21/Counting/r-Permutations.md",
-        "CSE 21/Counting/Quotient Rule.md",
-        "CSE 21/Counting/Product Rule.md",
-        "CSE 21/Counting/Multiset.md",
-        "CSE 21/Counting/Power Rule.md",
-        "CSE 21/Counting/Injective.md",
-        "CSE 21/Counting/Surjective.md",
-        "CSE 21/Counting/r-Combinations.md",
-        "CSE 21/Counting/Sum Rule.md"
+        "Archived/CSE 101/Dynamic Programming/String Reconstruction.md",
+        "Archived/CSE 101/Dynamic Programming/Dynamic Programming.md",
+        "Archived/CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
+        "Archived/CSE 101/Dynamic Programming/Knapsack Problem.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Encode": {
+    "Archived/CSE 101/General Info": {
       "children": [
-        "CSE 21/Encode/Theoretical Optimal Encoding.md",
-        "CSE 21/Encode/Variable Length Encodings.md",
-        "CSE 21/Encode/Encode.md",
-        "CSE 21/Encode/Encoding Graph.md",
-        "CSE 21/Encode/Ranking and Unranking Algorithm.md",
-        "CSE 21/Encode/Fixed Length Encodings.md",
-        "CSE 21/Encode/Huffman Coding.md"
+        "Archived/CSE 101/General Info/hw 101.md",
+        "Archived/CSE 101/General Info/Test Prep.md",
+        "Archived/CSE 101/General Info/General Progression of Algorithm Design.md",
+        "Archived/CSE 101/General Info/Homework Due Thursday.md",
+        "Archived/CSE 101/General Info/What class for.md",
+        "Archived/CSE 101/General Info/Obvious Algorithm.md",
+        "Archived/CSE 101/General Info/Methodical Algorithm.md",
+        "Archived/CSE 101/General Info/Fibonacci.md",
+        "Archived/CSE 101/General Info/Word Size.md",
+        "Archived/CSE 101/General Info/Set.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Pics": {
+    "Archived/CSE 101/Graph Algorithms": {
       "children": [
-        "CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
-        "CSE 21/Pics/Pasted image 20251123231900.png",
-        "CSE 21/Pics/Pasted image 20251123235144.png",
-        "CSE 21/Pics/Pasted image 20251123232429.png",
-        "CSE 21/Pics/Pasted image 20251117182734.png",
-        "CSE 21/Pics/Pasted image 20251124155119.png",
-        "CSE 21/Pics/Pasted image 20251124151419.png",
-        "CSE 21/Pics/Untitled.png",
-        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.35 PM.png",
-        "CSE 21/Pics/Pasted image 20251124151534.png",
-        "CSE 21/Pics/Pasted image 20251123231817.png",
-        "CSE 21/Pics/Screen Shot 2025-10-17 at 8.34.59 PM.png",
-        "CSE 21/Pics/Pasted image 20251124155141.png",
-        "CSE 21/Pics/Screen Shot 2025-11-17 at 2.36.39 PM.png",
-        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.17 PM.png",
-        "CSE 21/Pics/Screen Shot 2025-10-20 at 9.05.07 PM.png",
-        "CSE 21/Pics/Screen Shot 2025-11-17 at 1.06.03 PM.png",
-        "CSE 21/Pics/Pasted image 20251124141935.png",
-        "CSE 21/Pics/Screen Shot 2025-11-17 at 2.40.36 PM.png",
-        "CSE 21/Pics/Pasted image 20251123233639.png",
-        "CSE 21/Pics/Pasted image 20251123234627.png",
-        "CSE 21/Pics/Pasted image 20251124104039.png",
-        "CSE 21/Pics/Pasted image 20251124145310.png",
-        "CSE 21/Pics/Pasted image 20251124155103.png",
-        "CSE 21/Pics/Screen Shot 2025-11-17 at 1.09.35 PM.png",
-        "CSE 21/Pics/Pasted image 20251124154557.png"
+        "Archived/CSE 101/Graph Algorithms/Algorithms",
+        "Archived/CSE 101/Graph Algorithms/Proof Tricks.md",
+        "Archived/CSE 101/Graph Algorithms/Graph Search.md",
+        "Archived/CSE 101/Graph Algorithms/Bandwidth Problem.md",
+        "Archived/CSE 101/Graph Algorithms/Adjacency List.md",
+        "Archived/CSE 101/Graph Algorithms/Edge Types.md",
+        "Archived/CSE 101/Graph Algorithms/back edges.md",
+        "Archived/CSE 101/Graph Algorithms/Directed Acyclic Graphs.md",
+        "Archived/CSE 101/Graph Algorithms/Linearization.md",
+        "Archived/CSE 101/Graph Algorithms/Source.md",
+        "Archived/CSE 101/Graph Algorithms/Sink.md",
+        "Archived/CSE 101/Graph Algorithms/Strongly Connected Component.md",
+        "Archived/CSE 101/Graph Algorithms/Binary Heap.md",
+        "Archived/CSE 101/Graph Algorithms/Spanning Trees.md",
+        "Archived/CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Probability": {
+    "Archived/CSE 101/Graph Algorithms/Algorithms": {
       "children": [
-        "CSE 21/Probability/Probabilities.md",
-        "CSE 21/Probability/Binomial Distribution.md",
-        "CSE 21/Probability/Conditional Expectation.md",
-        "CSE 21/Probability/Distribution.md",
-        "CSE 21/Probability/Linearity of Expectation.md",
-        "CSE 21/Probability/Conditional Probabilities.md",
-        "CSE 21/Probability/Law of Total Expectation.md",
-        "CSE 21/Probability/Bayes' Theorem.md",
-        "CSE 21/Probability/Law of Total Probability.md",
-        "CSE 21/Probability/Expected Value (Average).md",
-        "CSE 21/Probability/Geometric Distribution.md",
-        "CSE 21/Probability/Uniform Distribution.md",
-        "CSE 21/Probability/Probability.md"
+        "Archived/CSE 101/Graph Algorithms/Algorithms/explore().md",
+        "Archived/CSE 101/Graph Algorithms/Algorithms/DFS().md",
+        "Archived/CSE 101/Graph Algorithms/Algorithms/BFS().md",
+        "Archived/CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
+        "Archived/CSE 101/Graph Algorithms/Algorithms/Prims().md",
+        "Archived/CSE 101/Graph Algorithms/Algorithms/Kruskals().md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 21/Proof": {
+    "Archived/CSE 101/Greedy Algorithms": {
       "children": [
-        "CSE 21/Proof/Proofs.md",
-        "CSE 21/Proof/Binomial Theorem.md",
-        "CSE 21/Proof/Induction.md",
-        "CSE 21/Proof/Symmetry Identity.md",
-        "CSE 21/Proof/Combinatorial proofs.md",
-        "CSE 21/Proof/Bijection Proof.md",
-        "CSE 21/Proof/Same-Set Proof.md",
-        "CSE 21/Proof/Sum Identity.md",
-        "CSE 21/Proof/bijection.md",
-        "CSE 21/Proof/Pascal's Identity.md"
+        "Archived/CSE 101/Greedy Algorithms/Greedy Method.md",
+        "Archived/CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
+        "Archived/CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 29": {
+    "Archived/CSE 101/Pics": {
       "children": [
-        "CSE 29/nmap().md",
-        "CSE 29/malloc().md",
-        "CSE 29/struct.md",
-        "CSE 29/wait().md",
-        "CSE 29/execvp().md",
-        "CSE 29/fork().md",
-        "CSE 29/Hashing.md",
-        "CSE 29/Pointers and References.md",
-        "CSE 29/Standard Input Output Functions.md",
-        "CSE 29/C String Functions.md",
-        "CSE 29/C strings.md",
-        "CSE 29/Print Tricks.md",
-        "CSE 29/All Imports.md",
-        "CSE 29/Vim.md",
-        "CSE 29/general"
+        "Archived/CSE 101/Pics/Pasted image 20260302000459.png",
+        "Archived/CSE 101/Pics/Pasted image 20260302000549.png",
+        "Archived/CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
+        "Archived/CSE 101/Pics/Pasted image 20260217213148.png",
+        "Archived/CSE 101/Pics/Pasted image 20260217210417.png",
+        "Archived/CSE 101/Pics/Pasted image 20260202035628.png",
+        "Archived/CSE 101/Pics/Pasted image 20260202034925.png",
+        "Archived/CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",
+        "Archived/CSE 101/Pics/Screen Shot 2026-01-12 at 9.29.48 PM.png",
+        "Archived/CSE 101/Pics/Pasted image 20260201112406.png",
+        "Archived/CSE 101/Pics/Screen Shot 2026-01-12 at 9.08.42 PM.png",
+        "Archived/CSE 101/Pics/Pasted image 20260201112330.png",
+        "Archived/CSE 101/Pics/Screen Shot 2026-01-07 at 1.25.51 PM.png"
       ],
       "sortOrder": "custom"
     },
-    "CSE 29/general": {
+    "Archived/CSE 140": {
       "children": [
-        "CSE 29/general/void star.md",
-        "CSE 29/general/size_t.md",
-        "CSE 29/general/Program Memory.md",
-        "CSE 29/general/Hexadecimal Quick Lookup.md",
-        "CSE 29/general/3 Tests on Week 4, 8, 10.md",
-        "CSE 29/general/SRAM Cell.md"
+        "Archived/CSE 140/sample_exam3_solutions.pdf",
+        "Archived/CSE 140/RTL",
+        "Archived/CSE 140/Finite State Machine",
+        "Archived/CSE 140/Memory",
+        "Archived/CSE 140/ALU Components",
+        "Archived/CSE 140/Logic Gates.md",
+        "Archived/CSE 140/Boolean Algebra.md",
+        "Archived/CSE 140/Transistor.md",
+        "Archived/CSE 140/Transistor Circuits.md",
+        "Archived/CSE 140/Homework.md",
+        "Archived/CSE 140/HW.excalidraw.md",
+        "Archived/CSE 140/General Info.md",
+        "Archived/CSE 140/Imgs"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101": {
+    "Archived/CSE 140/ALU Components": {
       "children": [
-        "CSE 101/Dynamic Programming",
-        "CSE 101/Backtracking",
-        "CSE 101/Divide and Conquer",
-        "CSE 101/Greedy Algorithms",
-        "CSE 101/Graph Algorithms",
-        "CSE 101/General Info",
-        "CSE 101/Pics"
+        "Archived/CSE 140/ALU Components/ALU.md",
+        "Archived/CSE 140/ALU Components/Control.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Backtracking": {
+    "Archived/CSE 140/Finite State Machine": {
       "children": [
-        "CSE 101/Backtracking/Backtracking.md",
-        "CSE 101/Backtracking/8 Queens puzzle.md",
-        "CSE 101/Backtracking/Maximal Independent Set.md",
-        "CSE 101/Backtracking/Weighted Event Scheduling.md"
+        "Archived/CSE 140/Finite State Machine/Finite State Machine.md",
+        "Archived/CSE 140/Finite State Machine/Mealy and Moore Machines.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Divide and Conquer": {
+    "Archived/CSE 140/Imgs": {
       "children": [
-        "CSE 101/Divide and Conquer/Divide and Conquer.md",
-        "CSE 101/Divide and Conquer/Multiplying Binary Numbers.md",
-        "CSE 101/Divide and Conquer/Binary Search Divide and Conquer.md",
-        "CSE 101/Divide and Conquer/Selection.md",
-        "CSE 101/Divide and Conquer/Sorting Divide and Conquer.md",
-        "CSE 101/Divide and Conquer/Quick Sort.md"
+        "Archived/CSE 140/Imgs/Pasted image 20260310225021.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260304023733.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260303210202.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260303203228.png",
+        "Archived/CSE 140/Imgs/Pasted Image 20260216182050_841.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216162418.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216162242.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216162157.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216161823.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216161614.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216155348.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216155123.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216154427.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216153606.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216153209.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216152829.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260216152439.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215225503.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215225300.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215224826.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215224600.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215224454.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215221553.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215214418.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215213031.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215181905.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215181748.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215181303.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215180859.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215175927.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215173805.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215164825.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215163000.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260215162430.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260127030755.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260127214715.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260127214308.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260127215341.png",
+        "Archived/CSE 140/Imgs/Pasted image 20260127215407.png"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Dynamic Programming": {
+    "Archived/CSE 140/Memory": {
       "children": [
-        "CSE 101/Dynamic Programming/String Reconstruction.md",
-        "CSE 101/Dynamic Programming/Dynamic Programming.md",
-        "CSE 101/Dynamic Programming/Weighted Event Scheduling with Dynamic Programming.md",
-        "CSE 101/Dynamic Programming/Knapsack Problem.md"
+        "Archived/CSE 140/Memory/Time Constraint.md",
+        "Archived/CSE 140/Memory/Counter.md",
+        "Archived/CSE 140/Memory/Register.md",
+        "Archived/CSE 140/Memory/Bit Storage.md",
+        "Archived/CSE 140/Memory/SR Latch.md",
+        "Archived/CSE 140/Memory/Clock.md",
+        "Archived/CSE 140/Memory/D Latch.md",
+        "Archived/CSE 140/Memory/D Flip-Flop.md",
+        "Archived/CSE 140/Memory/Static RAM.md",
+        "Archived/CSE 140/Memory/Sequential Circuit.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/General Info": {
+    "Archived/CSE 140/RTL": {
       "children": [
-        "CSE 101/General Info/hw 101.md",
-        "CSE 101/General Info/Test Prep.md",
-        "CSE 101/General Info/General Progression of Algorithm Design.md",
-        "CSE 101/General Info/Homework Due Thursday.md",
-        "CSE 101/General Info/What class for.md",
-        "CSE 101/General Info/Obvious Algorithm.md",
-        "CSE 101/General Info/Methodical Algorithm.md",
-        "CSE 101/General Info/Fibonacci.md",
-        "CSE 101/General Info/Word Size.md",
-        "CSE 101/General Info/Set.md"
+        "Archived/CSE 140/RTL/RTL.md",
+        "Archived/CSE 140/RTL/High Level State Machine.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Graph Algorithms": {
+    "Archived/MATH 183": {
       "children": [
-        "CSE 101/Graph Algorithms/Algorithms",
-        "CSE 101/Graph Algorithms/Proof Tricks.md",
-        "CSE 101/Graph Algorithms/Graph Search.md",
-        "CSE 101/Graph Algorithms/Bandwidth Problem.md",
-        "CSE 101/Graph Algorithms/Adjacency List.md",
-        "CSE 101/Graph Algorithms/Edge Types.md",
-        "CSE 101/Graph Algorithms/back edges.md",
-        "CSE 101/Graph Algorithms/Directed Acyclic Graphs.md",
-        "CSE 101/Graph Algorithms/Linearization.md",
-        "CSE 101/Graph Algorithms/Source.md",
-        "CSE 101/Graph Algorithms/Sink.md",
-        "CSE 101/Graph Algorithms/Strongly Connected Component.md",
-        "CSE 101/Graph Algorithms/Binary Heap.md",
-        "CSE 101/Graph Algorithms/Spanning Trees.md",
-        "CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md"
+        "Archived/MATH 183/Hypothesis Test",
+        "Archived/MATH 183/Statistics",
+        "Archived/MATH 183/Random Variable",
+        "Archived/MATH 183/Probability",
+        "Archived/MATH 183/Basic",
+        "Archived/MATH 183/Pics"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Graph Algorithms/Algorithms": {
+    "Archived/MATH 183/Basic": {
       "children": [
-        "CSE 101/Graph Algorithms/Algorithms/explore().md",
-        "CSE 101/Graph Algorithms/Algorithms/DFS().md",
-        "CSE 101/Graph Algorithms/Algorithms/BFS().md",
-        "CSE 101/Graph Algorithms/Algorithms/Dijkstras().md",
-        "CSE 101/Graph Algorithms/Algorithms/Prims().md",
-        "CSE 101/Graph Algorithms/Algorithms/Kruskals().md"
+        "Archived/MATH 183/Basic/Practice Test.md",
+        "Archived/MATH 183/Basic/What plot to use for type of variables.md",
+        "Archived/MATH 183/Basic/Efficacy.md",
+        "Archived/MATH 183/Basic/Statistics.md",
+        "Archived/MATH 183/Basic/Statistical Inference.md",
+        "Archived/MATH 183/Basic/Observation.md",
+        "Archived/MATH 183/Basic/Variable.md",
+        "Archived/MATH 183/Basic/Constant.md",
+        "Archived/MATH 183/Basic/Sample.md",
+        "Archived/MATH 183/Basic/Population.md",
+        "Archived/MATH 183/Basic/Types of Variables.md",
+        "Archived/MATH 183/Basic/iid.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Greedy Algorithms": {
+    "Archived/MATH 183/Hypothesis Test": {
       "children": [
-        "CSE 101/Greedy Algorithms/Greedy Method.md",
-        "CSE 101/Greedy Algorithms/Event Scheduling Problem.md",
-        "CSE 101/Greedy Algorithms/Event Scheduling With Multiple Rooms.md"
+        "Archived/MATH 183/Hypothesis Test/Hypothesis Test.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 101/Pics": {
+    "Archived/MATH 183/Pics": {
       "children": [
-        "CSE 101/Pics/Pasted image 20260302000459.png",
-        "CSE 101/Pics/Pasted image 20260302000549.png",
-        "CSE 101/Pics/Screen Shot 2026-02-18 at 6.06.30 PM.png",
-        "CSE 101/Pics/Pasted image 20260217213148.png",
-        "CSE 101/Pics/Pasted image 20260217210417.png",
-        "CSE 101/Pics/Pasted image 20260202035628.png",
-        "CSE 101/Pics/Pasted image 20260202034925.png",
-        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.47.15 PM.png",
-        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.29.48 PM.png",
-        "CSE 101/Pics/Pasted image 20260201112406.png",
-        "CSE 101/Pics/Screen Shot 2026-01-12 at 9.08.42 PM.png",
-        "CSE 101/Pics/Pasted image 20260201112330.png",
-        "CSE 101/Pics/Screen Shot 2026-01-07 at 1.25.51 PM.png"
+        "Archived/MATH 183/Pics/Pasted image 20260308002343.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-12 at 3.06.24 PM.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.35 PM.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.12 PM.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-12 at 2.45.29 PM.png",
+        "Archived/MATH 183/Pics/Pasted image 20260222173533.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-19 at 2.12.22 PM.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-02-12 at 2.41.42 PM.png",
+        "Archived/MATH 183/Pics/Pasted image 20260203063049.png",
+        "Archived/MATH 183/Pics/Screen Shot 2026-01-08 at 2.19.27 PM.png"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140": {
+    "Archived/MATH 183/Probability": {
       "children": [
-        "CSE 140/RTL",
-        "CSE 140/Finite State Machine",
-        "CSE 140/Memory",
-        "CSE 140/ALU Components",
-        "CSE 140/Logic Gates.md",
-        "CSE 140/Boolean Algebra.md",
-        "CSE 140/Transistor.md",
-        "CSE 140/Transistor Circuits.md",
-        "CSE 140/Homework.md",
-        "CSE 140/HW.excalidraw.md",
-        "CSE 140/General Info.md",
-        "CSE 140/Imgs"
+        "Archived/MATH 183/Probability/Independence.md",
+        "Archived/MATH 183/Probability/I think I already know this.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140/ALU Components": {
+    "Archived/MATH 183/Random Variable": {
       "children": [
-        "CSE 140/ALU Components/ALU.md",
-        "CSE 140/ALU Components/Control.md"
+        "Archived/MATH 183/Random Variable/Random Variable.md",
+        "Archived/MATH 183/Random Variable/Random Variable Properties",
+        "Archived/MATH 183/Random Variable/Random Variable Functions",
+        "Archived/MATH 183/Random Variable/Distribution Form"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140/Finite State Machine": {
+    "Archived/MATH 183/Random Variable/Distribution Form": {
       "children": [
-        "CSE 140/Finite State Machine/Finite State Machine.md",
-        "CSE 140/Finite State Machine/Mealy and Moore Machines.md"
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Name(theta).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Unif{a,b}.md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Geo(p).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Poi(lambda).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Exp(lambda).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
+        "Archived/MATH 183/Random Variable/Distribution Form/X ~ Chi2(k).md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140/Imgs": {
+    "Archived/MATH 183/Random Variable/Random Variable Functions": {
       "children": [
-        "CSE 140/Imgs/Pasted image 20260310225021.png",
-        "CSE 140/Imgs/Pasted image 20260304023733.png",
-        "CSE 140/Imgs/Pasted image 20260303210202.png",
-        "CSE 140/Imgs/Pasted image 20260303203228.png",
-        "CSE 140/Imgs/Pasted Image 20260216182050_841.png",
-        "CSE 140/Imgs/Pasted image 20260216162418.png",
-        "CSE 140/Imgs/Pasted image 20260216162242.png",
-        "CSE 140/Imgs/Pasted image 20260216162157.png",
-        "CSE 140/Imgs/Pasted image 20260216161823.png",
-        "CSE 140/Imgs/Pasted image 20260216161614.png",
-        "CSE 140/Imgs/Pasted image 20260216155348.png",
-        "CSE 140/Imgs/Pasted image 20260216155123.png",
-        "CSE 140/Imgs/Pasted image 20260216154427.png",
-        "CSE 140/Imgs/Pasted image 20260216153606.png",
-        "CSE 140/Imgs/Pasted image 20260216153209.png",
-        "CSE 140/Imgs/Pasted image 20260216152829.png",
-        "CSE 140/Imgs/Pasted image 20260216152439.png",
-        "CSE 140/Imgs/Pasted image 20260215225503.png",
-        "CSE 140/Imgs/Pasted image 20260215225300.png",
-        "CSE 140/Imgs/Pasted image 20260215224826.png",
-        "CSE 140/Imgs/Pasted image 20260215224600.png",
-        "CSE 140/Imgs/Pasted image 20260215224454.png",
-        "CSE 140/Imgs/Pasted image 20260215221553.png",
-        "CSE 140/Imgs/Pasted image 20260215214418.png",
-        "CSE 140/Imgs/Pasted image 20260215213031.png",
-        "CSE 140/Imgs/Pasted image 20260215181905.png",
-        "CSE 140/Imgs/Pasted image 20260215181748.png",
-        "CSE 140/Imgs/Pasted image 20260215181303.png",
-        "CSE 140/Imgs/Pasted image 20260215180859.png",
-        "CSE 140/Imgs/Pasted image 20260215175927.png",
-        "CSE 140/Imgs/Pasted image 20260215173805.png",
-        "CSE 140/Imgs/Pasted image 20260215164825.png",
-        "CSE 140/Imgs/Pasted image 20260215163000.png",
-        "CSE 140/Imgs/Pasted image 20260215162430.png",
-        "CSE 140/Imgs/Pasted image 20260127030755.png",
-        "CSE 140/Imgs/Pasted image 20260127214715.png",
-        "CSE 140/Imgs/Pasted image 20260127214308.png",
-        "CSE 140/Imgs/Pasted image 20260127215341.png",
-        "CSE 140/Imgs/Pasted image 20260127215407.png"
+        "Archived/MATH 183/Random Variable/Random Variable Functions/CDF.md",
+        "Archived/MATH 183/Random Variable/Random Variable Functions/PMF.md",
+        "Archived/MATH 183/Random Variable/Random Variable Functions/PDF.md",
+        "Archived/MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
+        "Archived/MATH 183/Random Variable/Random Variable Functions/Variance.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140/Memory": {
+    "Archived/MATH 183/Random Variable/Random Variable Properties": {
       "children": [
-        "CSE 140/Memory/Time Constraint.md",
-        "CSE 140/Memory/Counter.md",
-        "CSE 140/Memory/Register.md",
-        "CSE 140/Memory/Bit Storage.md",
-        "CSE 140/Memory/SR Latch.md",
-        "CSE 140/Memory/Clock.md",
-        "CSE 140/Memory/D Latch.md",
-        "CSE 140/Memory/D Flip-Flop.md",
-        "CSE 140/Memory/Static RAM.md",
-        "CSE 140/Memory/Sequential Circuit.md"
+        "Archived/MATH 183/Random Variable/Random Variable Properties/supp().md",
+        "Archived/MATH 183/Random Variable/Random Variable Properties/P(X=x).md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 140/RTL": {
+    "Archived/MATH 183/Statistics": {
       "children": [
-        "CSE 140/RTL/RTL.md",
-        "CSE 140/RTL/High Level State Machine.md"
+        "Archived/MATH 183/Statistics/Sampling Distribution.md",
+        "Archived/MATH 183/Statistics/Confidence Interval.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183": {
+    "CSE 151A": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 21": {
       "children": [
-        "MATH 183/Hypothesis Test",
-        "MATH 183/Statistics",
-        "MATH 183/Random Variable",
-        "MATH 183/Probability",
-        "MATH 183/Basic",
-        "MATH 183/Pics"
+        "Archived/CSE 21/Counting",
+        "Archived/CSE 21/Probability",
+        "Archived/CSE 21/Proof",
+        "Archived/CSE 21/Algorithms",
+        "Archived/CSE 21/Encode",
+        "Archived/CSE 21/Graph.md",
+        "Archived/CSE 21/Pics"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Basic": {
+    "Archived/CSE 21/Counting": {
       "children": [
-        "MATH 183/Basic/Practice Test.md",
-        "MATH 183/Basic/What plot to use for type of variables.md",
-        "MATH 183/Basic/Efficacy.md",
-        "MATH 183/Basic/Statistics.md",
-        "MATH 183/Basic/Statistical Inference.md",
-        "MATH 183/Basic/Observation.md",
-        "MATH 183/Basic/Variable.md",
-        "MATH 183/Basic/Constant.md",
-        "MATH 183/Basic/Sample.md",
-        "MATH 183/Basic/Population.md",
-        "MATH 183/Basic/Types of Variables.md",
-        "MATH 183/Basic/iid.md"
+        "Archived/CSE 21/Counting/Counting.md",
+        "Archived/CSE 21/Counting/The 12-fold way.md",
+        "Archived/CSE 21/Counting/Stars and Bars.md",
+        "Archived/CSE 21/Counting/Fixed Density.md",
+        "Archived/CSE 21/Counting/Each character is used at least once.md",
+        "Archived/CSE 21/Counting/Integer Equations.md",
+        "Archived/CSE 21/Counting/Anagram.md",
+        "Archived/CSE 21/Counting/Permutations.md",
+        "Archived/CSE 21/Counting/Binomial Coefficient.md",
+        "Archived/CSE 21/Counting/r-Permutations.md",
+        "Archived/CSE 21/Counting/Quotient Rule.md",
+        "Archived/CSE 21/Counting/Product Rule.md",
+        "Archived/CSE 21/Counting/Multiset.md",
+        "Archived/CSE 21/Counting/Power Rule.md",
+        "Archived/CSE 21/Counting/Injective.md",
+        "Archived/CSE 21/Counting/Surjective.md",
+        "Archived/CSE 21/Counting/r-Combinations.md",
+        "Archived/CSE 21/Counting/Sum Rule.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Hypothesis Test": {
+    "Archived/CSE 21/Probability": {
       "children": [
-        "MATH 183/Hypothesis Test/Hypothesis Test.md"
+        "Archived/CSE 21/Probability/Probabilities.md",
+        "Archived/CSE 21/Probability/Binomial Distribution.md",
+        "Archived/CSE 21/Probability/Conditional Expectation.md",
+        "Archived/CSE 21/Probability/Distribution.md",
+        "Archived/CSE 21/Probability/Linearity of Expectation.md",
+        "Archived/CSE 21/Probability/Conditional Probabilities.md",
+        "Archived/CSE 21/Probability/Law of Total Expectation.md",
+        "Archived/CSE 21/Probability/Bayes' Theorem.md",
+        "Archived/CSE 21/Probability/Law of Total Probability.md",
+        "Archived/CSE 21/Probability/Expected Value (Average).md",
+        "Archived/CSE 21/Probability/Geometric Distribution.md",
+        "Archived/CSE 21/Probability/Uniform Distribution.md",
+        "Archived/CSE 21/Probability/Probability.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Pics": {
+    "Archived/CSE 21/Proof": {
       "children": [
-        "MATH 183/Pics/Pasted image 20260308002343.png",
-        "MATH 183/Pics/Screen Shot 2026-02-12 at 3.06.24 PM.png",
-        "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.35 PM.png",
-        "MATH 183/Pics/Screen Shot 2026-02-12 at 2.46.12 PM.png",
-        "MATH 183/Pics/Screen Shot 2026-02-12 at 2.45.29 PM.png",
-        "MATH 183/Pics/Pasted image 20260222173533.png",
-        "MATH 183/Pics/Screen Shot 2026-02-19 at 2.12.22 PM.png",
-        "MATH 183/Pics/Screen Shot 2026-02-12 at 2.41.42 PM.png",
-        "MATH 183/Pics/Pasted image 20260203063049.png",
-        "MATH 183/Pics/Screen Shot 2026-01-08 at 2.19.27 PM.png"
+        "Archived/CSE 21/Proof/Proofs.md",
+        "Archived/CSE 21/Proof/Binomial Theorem.md",
+        "Archived/CSE 21/Proof/Induction.md",
+        "Archived/CSE 21/Proof/Symmetry Identity.md",
+        "Archived/CSE 21/Proof/Combinatorial proofs.md",
+        "Archived/CSE 21/Proof/Bijection Proof.md",
+        "Archived/CSE 21/Proof/Same-Set Proof.md",
+        "Archived/CSE 21/Proof/Sum Identity.md",
+        "Archived/CSE 21/Proof/bijection.md",
+        "Archived/CSE 21/Proof/Pascal's Identity.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Probability": {
+    "Archived/CSE 21/Algorithms": {
       "children": [
-        "MATH 183/Probability/Independence.md",
-        "MATH 183/Probability/I think I already know this.md"
+        "Archived/CSE 21/Algorithms/Algorithm.md",
+        "Archived/CSE 21/Algorithms/Stirling's Approximation.md",
+        "Archived/CSE 21/Algorithms/Loop Invariant.md",
+        "Archived/CSE 21/Algorithms/Sorting",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets",
+        "Archived/CSE 21/Algorithms/Recursion.md",
+        "Archived/CSE 21/Algorithms/Master Theorem.md",
+        "Archived/CSE 21/Algorithms/Optimization",
+        "Archived/CSE 21/Algorithms/Time Analysis.md",
+        "Archived/CSE 21/Algorithms/Searching",
+        "Archived/CSE 21/Algorithms/Big Notation.md",
+        "Archived/CSE 21/Algorithms/Multiplication.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Random Variable": {
+    "Archived/CSE 21/Algorithms/Sorting": {
       "children": [
-        "MATH 183/Random Variable/Random Variable.md",
-        "MATH 183/Random Variable/Random Variable Properties",
-        "MATH 183/Random Variable/Random Variable Functions",
-        "MATH 183/Random Variable/Distribution Form"
+        "Archived/CSE 21/Algorithms/Sorting/Total Ordering.md",
+        "Archived/CSE 21/Algorithms/Sorting/Sorting.md",
+        "Archived/CSE 21/Algorithms/Sorting/Min Sort (Selection Sort).md",
+        "Archived/CSE 21/Algorithms/Sorting/Merge Sort.md",
+        "Archived/CSE 21/Algorithms/Sorting/Bubble Sort.md",
+        "Archived/CSE 21/Algorithms/Sorting/Arithmetic Series.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Random Variable/Distribution Form": {
+    "Archived/CSE 21/Algorithms/Counting Seq of Sets": {
       "children": [
-        "MATH 183/Random Variable/Distribution Form/X ~ Name(theta).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Unif{a,b}.md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Ber(p).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Bin(n,p).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Geo(p).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Poi(lambda).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Exp(lambda).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
-        "MATH 183/Random Variable/Distribution Form/X ~ Chi2(k).md"
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/n-bit strings.md",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/Tower of Hanoi.md",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/Pair of Elements.md",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/Homogeneous Recurrence Relations with Constant Coefficients.md",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/Dominoes.md",
+        "Archived/CSE 21/Algorithms/Counting Seq of Sets/Counting Sequences of Sets.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Random Variable/Random Variable Functions": {
+    "Archived/CSE 21/Algorithms/Optimization": {
       "children": [
-        "MATH 183/Random Variable/Random Variable Functions/CDF.md",
-        "MATH 183/Random Variable/Random Variable Functions/PMF.md",
-        "MATH 183/Random Variable/Random Variable Functions/PDF.md",
-        "MATH 183/Random Variable/Random Variable Functions/Expected Value.md",
-        "MATH 183/Random Variable/Random Variable Functions/Variance.md"
+        "Archived/CSE 21/Algorithms/Optimization/Sum Triples.md",
+        "Archived/CSE 21/Algorithms/Optimization/Disjoint.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Random Variable/Random Variable Properties": {
+    "Archived/CSE 21/Algorithms/Searching": {
       "children": [
-        "MATH 183/Random Variable/Random Variable Properties/supp().md",
-        "MATH 183/Random Variable/Random Variable Properties/P(X=x).md"
+        "Archived/CSE 21/Algorithms/Searching/Searching.md",
+        "Archived/CSE 21/Algorithms/Searching/Linear Search.md",
+        "Archived/CSE 21/Algorithms/Searching/Binary Search.md"
       ],
       "sortOrder": "custom"
     },
-    "MATH 183/Statistics": {
+    "Archived/CSE 21/Encode": {
       "children": [
-        "MATH 183/Statistics/Sampling Distribution.md",
-        "MATH 183/Statistics/Confidence Interval.md"
+        "Archived/CSE 21/Encode/Theoretical Optimal Encoding.md",
+        "Archived/CSE 21/Encode/Variable Length Encodings.md",
+        "Archived/CSE 21/Encode/Encode.md",
+        "Archived/CSE 21/Encode/Encoding Graph.md",
+        "Archived/CSE 21/Encode/Ranking and Unranking Algorithm.md",
+        "Archived/CSE 21/Encode/Fixed Length Encodings.md",
+        "Archived/CSE 21/Encode/Huffman Coding.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 21/Pics": {
+      "children": [
+        "Archived/CSE 21/Pics/Screen Shot 2025-10-25 at 6.57.37 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123231900.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123235144.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123232429.png",
+        "Archived/CSE 21/Pics/Pasted image 20251117182734.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124155119.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124151419.png",
+        "Archived/CSE 21/Pics/Untitled.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.35 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124151534.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123231817.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-10-17 at 8.34.59 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124155141.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-11-17 at 2.36.39 PM.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-10-20 at 9.03.17 PM.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-10-20 at 9.05.07 PM.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-11-17 at 1.06.03 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124141935.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-11-17 at 2.40.36 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123233639.png",
+        "Archived/CSE 21/Pics/Pasted image 20251123234627.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124104039.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124145310.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124155103.png",
+        "Archived/CSE 21/Pics/Screen Shot 2025-11-17 at 1.09.35 PM.png",
+        "Archived/CSE 21/Pics/Pasted image 20251124154557.png"
       ],
       "sortOrder": "custom"
     }

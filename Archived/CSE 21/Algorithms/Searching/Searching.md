@@ -3,7 +3,7 @@
 Looking for an element in a list
 
 ![[Linear Search]]
-![[CSE 21/Algorithms/Searching/Binary Search]]
+![[Binary Search]]
 
 Binary Search is **asymptotically** faster than Linear Search (takes less time, and also takes less time the bigger the values are)
 
