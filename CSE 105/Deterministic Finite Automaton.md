@@ -13,6 +13,9 @@ The **computation** of DFA $M = (Q,\Sigma,\delta,s,F)$ on input $w \in \Sigma^*$
 - $w=w_1 w_2 ... w_n$
 - $q_0 = s$
 - $q_{i+1}=\delta(q_i,w_{i+1})$
+the computation is 
+- accepting if $q_n \in F$
+- rejecting if $q_n \notin F$
 
 Define computation mathematically
 Similar to Finite State Machine
