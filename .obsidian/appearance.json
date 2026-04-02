@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Typewriter"
+  "cssTheme": "ITS Theme",
+  "translucency": true,
+  "textFontFamily": "American Typewriter"
 }

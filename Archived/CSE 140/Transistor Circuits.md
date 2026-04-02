@@ -106,9 +106,9 @@ B ^FSrRhQHn
 
 y ^Chdz4EpM
 
-![[Transistor#NOT Gate]] ^GRHAX4cR
+![[Archived/CSE 140/Transistor#NOT Gate]] ^GRHAX4cR
 
-![[Transistor#NAND Gate]] ^9pJm9GbK
+![[Archived/CSE 140/Transistor#NAND Gate]] ^9pJm9GbK
 
 AND Gate ^ANpFkDi6
 
@@ -130,7 +130,7 @@ A ^pyQ9LOgr
 
 B ^zo6ra4uQ
 
-![[Transistor#AND Gate]] ^ncCkcxdi
+![[Archived/CSE 140/Transistor#AND Gate]] ^ncCkcxdi
 
 Y ^sKevKbtJ
 
@@ -154,7 +154,7 @@ X is bad, because that
 means 1 is going directly to 0
 1 and 0 should always be separated ^Au2UIZDl
 
-![[Transistor#Transmission Gate]] ^KeUCqxJs
+![[Archived/CSE 140/Transistor#Transmission Gate]] ^KeUCqxJs
 
 A ^2zX5KgbM
 

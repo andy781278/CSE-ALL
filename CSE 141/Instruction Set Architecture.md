@@ -1,0 +1,1 @@
+Allows Abstractions to convert hardware architecture into software

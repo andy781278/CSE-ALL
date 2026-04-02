@@ -1,0 +1,59 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "CdgDB_heo0tPOPEKwuhyk",
+      "name": "Red",
+      "value": "#fe8686"
+    },
+    {
+      "id": "HjjLNRd1W8oiwtDPumU8o",
+      "name": "Blue",
+      "value": "#8593ff"
+    },
+    {
+      "id": "bRTLRgEmKdZie4D1WQ6Zr",
+      "name": "Green",
+      "value": "#80ff95"
+    },
+    {
+      "id": "UVo5ygSSDs24lcyVLzVyc",
+      "name": "Orange",
+      "value": "#ffb38a"
+    },
+    {
+      "id": "FC7TCS9GvdQpe1qdy6OLg",
+      "name": "Cyan",
+      "value": "#75efff"
+    },
+    {
+      "id": "uzShqYc2PdSXqCVsOalMZ",
+      "name": "Purple",
+      "value": "#e894ff"
+    },
+    {
+      "id": "pvX0mo7z4gqssE8TXR9d0",
+      "name": "Pink",
+      "value": "#ffa3dd"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "CSE 105",
+      "color": "HjjLNRd1W8oiwtDPumU8o"
+    },
+    {
+      "path": "CSE 141",
+      "color": "bRTLRgEmKdZie4D1WQ6Zr"
+    },
+    {
+      "path": "CSE 151A",
+      "color": "UVo5ygSSDs24lcyVLzVyc"
+    },
+    {
+      "path": "CSE 100R",
+      "color": "CdgDB_heo0tPOPEKwuhyk"
+    }
+  ]
+}
