@@ -17,6 +17,12 @@ the computation is
 - accepting if $q_n \in F$
 - rejecting if $q_n \notin F$
 
+$\delta^*: Q \times \Sigma^* \rightarrow Q$
+$\delta^*(q,\epsilon)=q$
+$\delta^*(q,aw)=\delta^*(\delta(q,a)=q,w)$
+
+$L(M) = \{w\in\Sigma^* | \delta^*(s,w)\in F\}$
+
 Define computation mathematically
 Similar to Finite State Machine
 A graph where the vertices represent states, and the edges represent input.
