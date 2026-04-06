@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 151A/Classification/Learning Modalities.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Learning Modalities"
-            }
-          },
-          {
-            "id": "44ef096ef234fe52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "CSE 151A/Classification/Generative Models Classification.md",
                 "mode": "source",
                 "source": false
@@ -35,8 +21,7 @@
               "title": "Generative Models Classification"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,13 +206,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "39fab3cc1ae41cf2",
+  "active": "72f7fa373e083e8b",
   "lastOpenFiles": [
+    "CSE 151A/Classification/Learning Modalities.md",
+    "Archived/MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
+    "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/pics",
     "CSE 151A/pics/Pasted image 20260406000232.png",
     "CSE 151A/Classification/Nearest Neighbor Classification.md",
-    "CSE 151A/Classification/Learning Modalities.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/Classification/Prediction Problems.md",
     "CSE 151A/Classification",
     "CSE 100R/Difference between ADT and DT.md",
@@ -253,7 +239,6 @@
     "Archived/CSE 140/RTL/RTL.md",
     "Archived/CSE 140/HW.excalidraw.md",
     "Archived/CSE 140/Homework.md",
-    "Archived/CSE 140/sample_exam3_solutions.pdf",
     "Archived/CSE 29/general/SRAM Cell.md",
     "Archived/CSE 29/general/3 Tests on Week 4, 8, 10.md",
     "Archived/CSE 29/general/Hexadecimal Quick Lookup.md",
