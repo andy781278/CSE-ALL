@@ -558,8 +558,8 @@
     },
     "CSE 105": {
       "children": [
-        "CSE 105/Untitled.md",
-        "CSE 105/what cse 105 is about.md"
+        "CSE 105/CSE 105 Definitions.md",
+        "CSE 105/Deterministic Finite Automaton.md"
       ],
       "sortOrder": "custom"
     },
@@ -578,21 +578,31 @@
     },
     "CSE 151A": {
       "children": [
-        "CSE 151A/2D Image Classification",
-        "CSE 151A/general info"
+        "CSE 151A/Classification",
+        "CSE 151A/general info",
+        "CSE 151A/pics"
       ],
       "sortOrder": "custom"
     },
-    "CSE 151A/2D Image Classification": {
+    "CSE 151A/Classification": {
       "children": [
-        "CSE 151A/2D Image Classification/Nearest Neighbor Classification.md",
-        "CSE 151A/2D Image Classification/Metric.md"
+        "CSE 151A/Classification/Learning Modalities.md",
+        "CSE 151A/Classification/Prediction Problems.md",
+        "CSE 151A/Classification/Nearest Neighbor Classification.md",
+        "CSE 151A/Classification/Generative Models Classification.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 151A/general info": {
       "children": [
+        "CSE 151A/general info/Metric.md",
         "CSE 151A/general info/1st day info.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 151A/pics": {
+      "children": [
+        "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
       "sortOrder": "custom"
     }
