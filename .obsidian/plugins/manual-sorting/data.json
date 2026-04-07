@@ -566,13 +566,21 @@
     "CSE 141": {
       "children": [
         "CSE 141/Instruction Set Architecture.md",
-        "CSE 141/general info"
+        "CSE 141/general info",
+        "CSE 141/pics"
       ],
       "sortOrder": "custom"
     },
     "CSE 141/general info": {
       "children": [
         "CSE 141/general info/general info.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/pics": {
+      "children": [
+        "CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
+        "CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png"
       ],
       "sortOrder": "custom"
     },

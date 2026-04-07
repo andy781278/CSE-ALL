@@ -206,13 +206,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0b9a371cb9f70da0",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
+    "CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png",
+    "Archived/CSE 140/Memory/Time Constraint.md",
     "CSE 141/Instruction Set Architecture.md",
-    "CSE 105/Deterministic Finite Automaton.md",
-    "CSE 105/CSE 105 Definitions.md",
+    "CSE 141/general info/general info.md",
+    "CSE 141/pics",
+    "CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
     "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/Classification/Learning Modalities.md",
+    "CSE 105/Deterministic Finite Automaton.md",
+    "CSE 105/CSE 105 Definitions.md",
     "Archived/MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
     "CSE 151A/pics",
     "CSE 151A/pics/Pasted image 20260406000232.png",
@@ -221,7 +226,6 @@
     "CSE 151A/Classification",
     "CSE 100R/Difference between ADT and DT.md",
     "CSE 151A/general info/Metric.md",
-    "CSE 141/general info/general info.md",
     "CSE 100R",
     "Archived/CSE 140/Transistor.md",
     "CSE 105",
@@ -232,9 +236,7 @@
     "CSE 151A/2D Image Classification",
     "CSE 151A/general info",
     "Archived",
-    "CSE 151A",
     "Archived/MATH 183/Statistics/Confidence Interval.md",
-    "Archived/CSE 140/Memory/Time Constraint.md",
     "Archived/CSE 140/RTL/High Level State Machine.md",
     "Archived/CSE 140/RTL/RTL.md",
     "Archived/CSE 140/HW.excalidraw.md",
@@ -244,7 +246,6 @@
     "Archived/CSE 29/general/Hexadecimal Quick Lookup.md",
     "Archived/CSE 29/general/Program Memory.md",
     "Archived/CSE 29/general/size_t.md",
-    "Archived/CSE 29/general/void star.md",
     "Archived/CSE 140/Imgs/Pasted image 20260310225021.png",
     "Archived/MATH 183/Pics/Pasted image 20260308002343.png",
     "Pasted image 20260308002340.png",
@@ -252,7 +253,6 @@
     "Archived/CSE 140/Imgs/Pasted image 20260303210202.png",
     "Archived/CSE 140/Imgs/Pasted image 20260303203228.png",
     "Archived/CSE 101/Pics/Pasted image 20260302000549.png",
-    "Archived/CSE 101/Pics/Pasted image 20260302000459.png",
-    "Archived/MATH 183/Pics/Pasted image 20260222173533.png"
+    "Archived/CSE 101/Pics/Pasted image 20260302000459.png"
   ]
 }
