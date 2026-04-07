@@ -558,8 +558,15 @@
     },
     "CSE 105": {
       "children": [
-        "CSE 105/CSE 105 Definitions.md",
-        "CSE 105/Deterministic Finite Automaton.md"
+        "CSE 105/Automatons",
+        "CSE 105/CSE 105 Definitions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 105/Automatons": {
+      "children": [
+        "CSE 105/Automatons/Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Non-Deterministic Finite Automaton.md"
       ],
       "sortOrder": "custom"
     },

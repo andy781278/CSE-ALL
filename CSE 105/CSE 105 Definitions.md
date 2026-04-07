@@ -12,8 +12,8 @@ Solutions: Algorithms
 ### Definitions
 - String: finite sequence of symbols
 - Alphabet($\Sigma$): finite set of possible symbols
-- Language(L(a)): set of strings over some input (Regular Expression) (Regex) (denoted by R)
-	- L(a)={a}
+- Language/L(a): set of strings over some input of type Regular Expression (Regex) (denoted by R)
+	- $L(a)=\{a\}$
 	- $L(R_1 \cup R_2)=L(R_1)\cup L(R_2)$
 	- $L(R_1 \cdot R_2)=\{w_1 w_2 | w_1 \in L(R_1), w_2 \in L(R_2)\}$
 	- $L(R_1^*)=\{w_1,w_2,...,w_k | k\geq 0, \forall i, w_i \in L(R_1)\}$
