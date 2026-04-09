@@ -37,11 +37,9 @@ $L\subset \Sigma^*$ is regular if $\exists M$ (DFA)  such that $L(M)=L$
 The class of regular languages is closed under $op(L_1,L_2,...,L_k)=L$
 if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular$
 
-##### Proof for set difference
-Let $op(L_1)=\Sigma^* \backslash L_1$
-> [!tip] $\backslash$ or backslash stands for set difference
-
-> [!abstract] Are Regular Languages closed under op (set complement) ?
+##### Are Regular Languages closed under any operation op?
+> [!abstract] Are Regular Languages closed under set difference ($\backslash$) ?
+> Let $op(L_1)=\Sigma^* \backslash L_1$
 > Assume L is a regular language
 > By def. $\exists M$(DFA) such that $L(M)=L$
 > Let $M = (Q,\Sigma,\delta,s,F)$
@@ -49,4 +47,31 @@ Let $op(L_1)=\Sigma^* \backslash L_1$
 > Let $M'= (Q,\Sigma,\delta,s,\Sigma^* \backslash F)$
 > $L(M')=\bar L$
 > Q.E.D.
+
+> [!abstract] What about Union?
+> Let $M_A,M_B$ be DFA for A and B
+![[CSE105 Proof Reg. Lang. closed under union.excalidraw]]
+> You make a new state that automatically goes to both $M_A$ and $M_B$ with $\epsilon$, which is automatic
+> Then, we keep both DFA's accepting states, accepting the whole thing if we accept either one.
+
+
+> [!abstract] Concatenation ($A \cdot B$)
+> we do a similar thing, and we connect the accepting states of $M_A$ to the starting state of $M_B$
+> This way, the input has to pass both $M_A$ and $M_B$ to pass the whole thing
+
+> [!abstract] If $A$ is regular, then $A^*$ is regular
+> We have to make sure every loop is accepting, including the lack of a loop
+> Make arbitrary new state, make it accepting, connect it with $\epsilon$ to the starting states s. 
+> Connect accepting states to the starting states.
+
+
+> [!abstract] For Every Regular Expression
+> $\forall Regular Expression R \quad \exists \ NFA \  N \ L(N)=L(R)$
+> Proof: By cases (induction on the structure of R):
+> 1. $R=\emptyset$: a single state with no accepting states and nowhere else to go
+> 2. $R=\epsilon$: a single accepting state
+> 3. $R=a$: a starting state that takes input a to go to an accepting state
+> 4. $R=R_1 \cup R_2: N_1, N_2 \rightarrow N_1 \cup N_2$
+> 5. $R=R_1 \cdot R_2: N_1 \cdot N_2$
+> 6. $R = R_1^*: N_1^*$
 

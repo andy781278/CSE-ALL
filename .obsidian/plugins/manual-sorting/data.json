@@ -6,7 +6,8 @@
         "CSE 141",
         "CSE 151A",
         "CSE 100R",
-        "Archived"
+        "Archived",
+        "Excalidraw"
       ],
       "sortOrder": "custom"
     },
@@ -559,7 +560,8 @@
     "CSE 105": {
       "children": [
         "CSE 105/Automatons",
-        "CSE 105/CSE 105 Definitions.md"
+        "CSE 105/CSE 105 Definitions.md",
+        "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
@@ -621,6 +623,10 @@
       "children": [
         "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
+      "sortOrder": "custom"
+    },
+    "Excalidraw": {
+      "children": [],
       "sortOrder": "custom"
     }
   },
