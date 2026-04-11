@@ -614,6 +614,8 @@
     },
     "CSE 151A/general info": {
       "children": [
+        "CSE 151A/general info/Correlation.md",
+        "CSE 151A/general info/Covariance.md",
         "CSE 151A/general info/Metric.md",
         "CSE 151A/general info/1st day info.md"
       ],
@@ -621,6 +623,7 @@
     },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
         "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
       "sortOrder": "custom"

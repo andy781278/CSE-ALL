@@ -6,6 +6,8 @@ Each example (sample data point) consists of two random variables
 **Feature**: Random Variable X
 **Label**: Random Variable Y
 
+### 1 variable
+![[Screen Shot 2026-04-09 at 5.13.17 PM.png]]
 For each unique output (class) y, we have
 - probability of that class y, called $\pi_y=P(Y=y)$ 
 	- This gives the height of the distribution
@@ -23,3 +25,10 @@ $$P(Y=y|X=x)=\frac{P(Y=y)P(x|Y=y)}{P(x)}=\frac{\pi_yP_y(x)}{P(x)}$$
 to get the $P_y(x)$, we use a gaussian distribution $N(\mu,\sigma^2)$ with mean $\mu$ and variance $\sigma^2$, it follows the density function
 $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
 
+### 2 variable
+![[Screen Shot 2026-04-09 at 5.13.39 PM.png]]
+Now each class has:
+- mean $(\mu_1,\mu_2) \in \mathbb{R}^2$ where $\mu_1=E(X_1)$ and  $\mu_2 = E(X_2)$
+- covariance matrix $\Sigma = \begin{bmatrix} \Sigma_{11} & \Sigma_{12} \\ \Sigma_{21} & \Sigma_{22} \end{bmatrix}$
+density function:
+$$p(x_1,x_2)=\frac{1}{2\pi|\Sigma|^{1/2}}exp(-\frac{1}{2}\begin{bmatrix} x_1-\mu_1 \\ x_2-\mu_2 \end{bmatrix}^T \Sigma^{-1} \begin{bmatrix} x_1-\mu_1 \\ x_2-\mu_2 \end{bmatrix})$$
