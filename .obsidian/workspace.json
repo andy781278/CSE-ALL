@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3768f2fd6ae22508",
+        "id": "5f9c82b106a75910",
         "type": "tabs",
         "children": [
           {
-            "id": "60803608404b4f50",
+            "id": "08fa91f5520de4d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 151A/Classification/Generative Models Classification.md",
+                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generative Models Classification"
+              "title": "Deterministic Finite Automaton"
             }
           }
         ]
@@ -206,22 +206,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "60803608404b4f50",
+  "active": "08fa91f5520de4d0",
   "lastOpenFiles": [
+    "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Deterministic Finite Automaton.md",
+    "CSE 105/CSE 105 Definitions.md",
+    "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
+    "CSE 105/Homework.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/general info/Covariance.md",
     "CSE 151A/general info/Correlation.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
-    "Screen Shot 2026-04-09 at 5.13.39 PM.png",
+    "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
     "CSE 151A/Classification/Learning Modalities.md",
-    "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
-    "CSE 105/Automatons/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
     "Excalidraw",
     "CSE 141/Instruction Set Architecture.md",
     "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
     "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
-    "CSE 105/CSE 105 Definitions.md",
     "CSE 105/Automatons",
     "Untitled.base",
     "CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png",

@@ -6,8 +6,7 @@
         "CSE 141",
         "CSE 151A",
         "CSE 100R",
-        "Archived",
-        "Excalidraw"
+        "Archived"
       ],
       "sortOrder": "custom"
     },
@@ -561,7 +560,8 @@
       "children": [
         "CSE 105/Automatons",
         "CSE 105/CSE 105 Definitions.md",
-        "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md"
+        "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
+        "CSE 105/Homework.md"
       ],
       "sortOrder": "custom"
     },
@@ -624,12 +624,9 @@
     "CSE 151A/pics": {
       "children": [
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
+        "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
         "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
-      "sortOrder": "custom"
-    },
-    "Excalidraw": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
