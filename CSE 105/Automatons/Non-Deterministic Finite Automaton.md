@@ -27,3 +27,13 @@ $\forall \ NFA \quad N=(Q,\Sigma,\delta,s,F), \ \exists M=(Q',\Sigma',\delta',s'
 > $s'=\{s\}$
 > $F'=\{s|s \cap F \neq \emptyset \}$
 
+Using Epsilon-Closure Function, we can achieve it.
+
+NFA: $(Q,\Sigma, \delta, s, F)$
+DFA: $(p(Q),\Sigma,\delta',s',F')$
+$F' = \{s \in Q, s \cap F \neq \emptyset\}$
+$s'=\tilde{E}(\{s\})$
+$\delta'(S,a)=\tilde{E}(\underset{q\in \tilde{E}(S)}{\cup} \underset{q\in S}{\delta}(q,a))$
+
+Why would we translate NFA to DFA? So we can translate it back to RegEx
+To do that, we need to translate it to GNFA first.

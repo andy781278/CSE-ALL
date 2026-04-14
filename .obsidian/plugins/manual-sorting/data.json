@@ -2,12 +2,12 @@
   "customOrder": {
     "/": {
       "children": [
-        "Excalidraw",
         "CSE 105",
         "CSE 141",
         "CSE 151A",
         "CSE 100R",
-        "Archived"
+        "Archived",
+        "Excalidraw"
       ],
       "sortOrder": "custom"
     },
@@ -561,15 +561,25 @@
       "children": [
         "CSE 105/Automatons",
         "CSE 105/CSE 105 Definitions.md",
-        "CSE 105/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
+        "CSE 105/Drawings",
         "CSE 105/Homework.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 105/Automatons": {
       "children": [
+        "CSE 105/Automatons/Transitioning Between Automatons.md",
         "CSE 105/Automatons/Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Non-Deterministic Finite Automaton.md"
+        "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Epsilon-Closure Function.md",
+        "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 105/Drawings": {
+      "children": [
+        "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
+        "CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
