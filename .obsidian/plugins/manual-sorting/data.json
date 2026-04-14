@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Excalidraw",
         "CSE 105",
         "CSE 141",
         "CSE 151A",
@@ -627,6 +628,10 @@
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
         "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
+      "sortOrder": "custom"
+    },
+    "Excalidraw": {
+      "children": [],
       "sortOrder": "custom"
     }
   },
