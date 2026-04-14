@@ -75,3 +75,7 @@ if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular$
 > 5. $R=R_1 \cdot R_2: N_1 \cdot N_2$
 > 6. $R = R_1^*: N_1^*$
 
+### Flaws
+DFAs have no memory, so they can't describe languages that requires memory
+$L=\{0^n1^n | n \geq 0\}\subset L(0^*1^*)$
+ $\forall \text{ DFA } M, L(M)\neq L$
