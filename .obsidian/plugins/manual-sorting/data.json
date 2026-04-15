@@ -6,8 +6,7 @@
         "CSE 141",
         "CSE 151A",
         "CSE 100R",
-        "Archived",
-        "Excalidraw"
+        "Archived"
       ],
       "sortOrder": "custom"
     },
@@ -553,7 +552,8 @@
     },
     "CSE 100R": {
       "children": [
-        "CSE 100R/Difference between ADT and DT.md"
+        "CSE 100R/Difference between ADT and DT.md",
+        "CSE 100R/Homework.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
@@ -638,10 +638,6 @@
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
         "CSE 151A/pics/Pasted image 20260406000232.png"
       ],
-      "sortOrder": "custom"
-    },
-    "Excalidraw": {
-      "children": [],
       "sortOrder": "custom"
     }
   },

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Deterministic Finite Automaton"
             }
+          },
+          {
+            "id": "8c7669aecc8f6a1a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 100R/Homework.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Homework.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,13 +220,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "336aae1dd388033f",
+  "active": "8c7669aecc8f6a1a",
   "lastOpenFiles": [
+    "CSE 105/Automatons/Deterministic Finite Automaton.md",
+    "CSE 100R/Homework.excalidraw.md",
     "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
     "CSE 105/Drawings",
     "CSE 105/CSE 105 Definitions.md",
     "CSE 105/Automatons/Transitioning Between Automatons.md",
-    "CSE 105/Automatons/Deterministic Finite Automaton.md",
     "CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md",
     "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
     "CSE 105/Automatons/Epsilon-Closure Function.md",
