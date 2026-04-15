@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "69280dede2a6e132",
+        "id": "daeacf92e768227c",
         "type": "tabs",
         "children": [
           {
-            "id": "336aae1dd388033f",
+            "id": "41bd1998c2cbf2b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
+                "file": "CSE 141/Instruction Set Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deterministic Finite Automaton"
-            }
-          },
-          {
-            "id": "8c7669aecc8f6a1a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "CSE 100R/Homework.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Homework.excalidraw"
+              "title": "Instruction Set Architecture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,7 +207,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8c7669aecc8f6a1a",
+  "active": "41bd1998c2cbf2b8",
   "lastOpenFiles": [
     "CSE 105/Automatons/Deterministic Finite Automaton.md",
     "CSE 100R/Homework.excalidraw.md",

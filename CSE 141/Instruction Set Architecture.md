@@ -60,4 +60,3 @@ PC <- NPC
 ```
 First, Instruction Register takes in the next instruction from Instruction Memory.
 We make a variable NPC, which is the next PC's address, which is this one add 4 bytes. 4 bytes is 32 bits, which is how long an instruction is. By adding 32 bits, we skip over that instruction, and reach the next one. Then, we put that back into PC, so they can read the next instruction on the next cycle.
-
