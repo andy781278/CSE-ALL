@@ -1,0 +1,56 @@
+---
+aliases:
+  - PL
+---
+Used to prove language to not be regular
+![[Pumping Lemma.excalidraw]]
+
+> [!abstract] Pumping Lemma
+> $\forall$ Reg Lang $L$, $\exists p$ such that $\forall w \in L$,  $(|w| \geq p) \rightarrow \exists x,y,z$
+> 
+> 0. $w=xyz$
+> 1. $y \neq \epsilon$
+> 2. $|xy| \leq p$
+> 3. $\forall i \geq 0, xy^iz \in L$
+> 
+> Let $M:(Q,\Sigma,\delta,s,F)$ be a DFA such that $L(M)=L$ (M is regular)
+> Let $p=|Q|$ (p be number of states). Let $w \in L$ and assume $|w| \geq p = |Q|$ (w is the input, assume there are more inputs than there are states, so there has to be at least 1 loop somewhere)
+> $q_0 = s  \overset{w_1}{\rightarrow} q_1 \overset{w_2}{\rightarrow} q_2 ... \overset{w_r}{\rightarrow} q_r \rightarrow ... \rightarrow q_{|w|} \in F$
+> $\exists i < j \leq p, q_i = q_j$ (there are two states, pi and pj, that are equal, and i<j)
+> $x=w[1...i], y=[i+1,...,j], z=[j+1,...,|w|]$ (y is the loop, x is before, z is after)
+> 
+> Using Induction:
+> - Base Case: i=0
+> 	- $\delta^*(s,xz)=\delta^*(\delta^*(s,x),z)=\delta^*(q_i,z)=\delta^*(q_j,z)=f \in L$
+> - Induction: i+1
+> 	- $\delta^*(s,xy^{i+1}z)=\delta^*(\delta^*(s,x),yy^iz)=\delta^*(\delta^*(q_i,y),y^iz)=\delta^*(q_i,y^iz)=f \in F$
+
+$|xy|\leq |Q|$
+$y \neq \epsilon$
+$w = xyz \in L$
+
+$\delta^*(s,x)=q$
+$\delta^*(q,y)=q$
+$\delta^*(q,z)=f \in F$
+
+$\forall i \geq 0, xy^iz \in L$
+$\delta^*(s,xy^iz) = \delta^*(\delta^*(s,x) ,y^iz)$
+$=\delta^*(q,z)=f\in L(i=0)$
+$=\delta^*(q,yy^{i-1}z) =\delta^*(\delta^*(q,y) ,y^{i-1}z)=\delta^*(q,y^{i-1}z)=f\in F$
+
+### How to use it
+Claim: $L_{nn}$ is not regular
+Proof by Contradiction: Assume $L_{nn}$ is regular
+so by PL, $\exists p$ such that requirements 1,2,3 in the PL are satisfied
+Let $w=a^pb^p\in L, |w|=2p\geq p$
+$\exists x,y,z, w=xyz$
+1. $y \neq \epsilon \rightarrow |y|\neq 0$ (if y exists, then x ends at i, and that is before j starts)
+2. $|xy| \leq p \rightarrow x=a^|x|, y=a^|y|, z=a^{p-|x|-|y|}b^p$
+3. $i=0, xz=a^{|x|}a^{p-|x|-|y|}b^p = a^{p-|y|}b^p\notin L$
+
+Claim: $L_\neq=\{w \in \{a,b\}^* \text{ | w contains the same \# of a's as b's} \}$
+Proof by Contradiction: Assume $L_\neq$ is regular
+$L(a^*b^*)$ is regular (aaaaaaabbbbbbb)
+$L_\neq \cap L(a^*b^*)=L_{nn}$ is regular (this gets rid of the different orientations like 0101, and just keeps the 0011, the orientations where a precedes b)
+This creates a contradiction because we know $L_{nn}$ is not regular.
+Therefore $L_\neq$ is not regular

@@ -572,12 +572,14 @@
         "CSE 105/Automatons/Deterministic Finite Automaton.md",
         "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
         "CSE 105/Automatons/Epsilon-Closure Function.md",
-        "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md"
+        "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Pumping Lemma.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 105/Drawings": {
       "children": [
+        "CSE 105/Drawings/Pumping Lemma.excalidraw.md",
         "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
         "CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md"
       ],
@@ -610,6 +612,7 @@
     },
     "CSE 151A": {
       "children": [
+        "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
         "CSE 151A/pics"
@@ -627,6 +630,8 @@
     },
     "CSE 151A/general info": {
       "children": [
+        "CSE 151A/general info/Gradient.md",
+        "CSE 151A/general info/Mahalanobis Distance.md",
         "CSE 151A/general info/Correlation.md",
         "CSE 151A/general info/Covariance.md",
         "CSE 151A/general info/Metric.md",
@@ -639,6 +644,12 @@
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
         "CSE 151A/pics/Pasted image 20260406000232.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 151A/Regression": {
+      "children": [
+        "CSE 151A/Regression/Linear Regression.md"
       ],
       "sortOrder": "custom"
     }

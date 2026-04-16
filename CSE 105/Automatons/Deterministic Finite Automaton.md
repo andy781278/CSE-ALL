@@ -77,5 +77,6 @@ if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular$
 
 ### Flaws
 DFAs have no memory, so they can't describe languages that requires memory
-$L=\{0^n1^n | n \geq 0\}\subset L(0^*1^*)$
- $\forall \text{ DFA } M, L(M)\neq L$
+$L_{nn}=\{0^n1^n | n \geq 0\}\subset L(0^*1^*)$
+ $\forall \text{ DFA } M, L(M)\neq L_{nn}$
+This is also a flaw for NFA and GNFA. None of them have memory.
