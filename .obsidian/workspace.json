@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "daeacf92e768227c",
+        "id": "75ee187ce65253fb",
         "type": "tabs",
         "children": [
           {
-            "id": "41bd1998c2cbf2b8",
+            "id": "6a922e67c27b036c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 141/Instruction Set Architecture.md",
+                "file": "CSE 151A/general info/Metric.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Instruction Set Architecture"
+              "title": "Metric"
             }
           }
         ]
@@ -207,8 +207,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "41bd1998c2cbf2b8",
+  "active": "6a922e67c27b036c",
   "lastOpenFiles": [
+    "CSE 151A/general info/Covariance.md",
+    "CSE 151A/general info/Correlation.md",
+    "CSE 151A/Regression/Linear Regression.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
+    "CSE 151A/Regression",
+    "CSE 151A/general info/Gradient.md",
+    "CSE 151A/general info/Metric.md",
+    "CSE 151A/Classification/Learning Modalities.md",
+    "CSE 151A/Classification/Prediction Problems.md",
+    "CSE 151A/Classification/Nearest Neighbor Classification.md",
+    "CSE 151A/general info/Mahalanobis Distance.md",
+    "CSE 141/Instruction Set Architecture.md",
     "CSE 105/Automatons/Deterministic Finite Automaton.md",
     "CSE 100R/Homework.excalidraw.md",
     "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
@@ -219,8 +231,6 @@
     "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
     "CSE 105/Automatons/Epsilon-Closure Function.md",
     "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
-    "CSE 141/Instruction Set Architecture.md",
     "Archived/CSE 101/Backtracking/Maximal Independent Set.md",
     "Archived/CSE 101/Greedy Algorithms/Greedy Method.md",
     "Archived/CSE 140/sample_exam3_solutions.pdf",
@@ -230,29 +240,19 @@
     "CSE 105/Homework.md",
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
     "Screen Shot 2026-04-09 at 5.13.39 PM.png",
-    "CSE 151A/general info/Covariance.md",
-    "CSE 151A/general info/Correlation.md",
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
-    "CSE 151A/Classification/Learning Modalities.md",
     "Excalidraw",
     "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
     "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
     "CSE 105/Automatons",
     "Untitled.base",
     "CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png",
-    "Archived/CSE 140/Memory/Time Constraint.md",
-    "CSE 141/general info/general info.md",
     "CSE 141/pics",
     "CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
-    "Archived/MATH 183/Random Variable/Distribution Form/X ~ N(mu,sigma2).md",
     "CSE 151A/pics",
     "CSE 151A/pics/Pasted image 20260406000232.png",
-    "CSE 151A/Classification/Nearest Neighbor Classification.md",
-    "CSE 151A/Classification/Prediction Problems.md",
     "CSE 151A/Classification",
-    "CSE 100R/Difference between ADT and DT.md",
     "CSE 100R",
-    "CSE 105",
     "Archived/CSE 140/Imgs/Pasted image 20260310225021.png",
     "Archived/MATH 183/Pics/Pasted image 20260308002343.png"
   ]
