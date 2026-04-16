@@ -19,38 +19,49 @@ Execute multiple times per cycle
 
 #### Pipelining
 each cycle does all of the steps of the cycle, each instruction is at a different yet unique step and no overlap yet you can use all of the cycle.
+```
+Cycle:  1    2    3    4    5    6    7
+I1:     IF   ID   EX   MEM  WB
+I2:          IF   ID   EX   MEM  WB
+I3:               IF   ID   EX   MEM  WB
+```
 
 ### Key Problems
 - Operations
+	- How many?
 	- There can't be complex operations, as that will make the compiler freak out, and we need the compiler to be reliable for the programmers to trust it and safely write and debug code
 - Operands
+	- How many?
 - Instruction Format
+	- How define?
 	- we need to divide the instruction space into chunks
 		- Opcode
 		- fetch appropriate amount and specific Registers
 		- leftover for whatever depending on the Opcode
-	- Instruction Length
-		- Fixed-length (MIPS)
-			- 32 bits long only
-				- not a lot, makes things hard
-			- easy fetch and decode
-			- simplify pipelining and parallelism
-		- Variable-length (Intel)
-			- multi-step fetch and decode
-			- more flexible and compact instruction set
-		- Hybrid (ARM)
-			- middle ground
 
-### MIPS Instruction Format (fixed)
-![[Screen Shot 2026-04-08 at 5.25.18 PM.png]]
-- How to load memory?
-	- We put some literals into a register using immediate, and use that value as the address for the memory.
-- Why specifically this way?
-	- Historically, we did other stuff too, with varying results
-![[Screen Shot 2026-04-08 at 6.01.31 PM.png]]
+### Types of ISA
+- Based on instruction length, we have two categories of ISAs: RISC and CISC
+	- Reduced Instruction Set Computer RISC
+	- Complex Instruction Set Computer CISC
 
-#### How to Implement MIPS
-Every instruction specified in MIPS has a literal RTL translation. 
+#### RISC
+We have different types of ISAs based on Instruction Length, each has some number of instruction formats, which categorizes the actions the processor can do
+##### MIPS
+- Fixed-length
+	- 32 bits long only
+- easy fetch and decode
+- simplify pipelining and parallelism
+##### RISC-V
+- Variable-length 
+	- Can be 16 bits or 32 bits
+- multi-step fetch and decode
+- more flexible and compact instruction set
+##### ARM
+- Hybrid
+- middle ground
+
+### RTL
+Every instruction specified in RISC has a literal RTL translation. 
 They all have this structure:
 ```
 IR <- Mem[PC]
