@@ -51,13 +51,13 @@ Proof by Contradiction: Assume $L_{nn}$ is regular
 so by PL, $\exists p$ such that requirements 1,2,3 in the PL are satisfied
 Let $w=a^pb^p\in L, |w|=2p\geq p$
 $\exists x,y,z, w=xyz$
-1. $y \neq \epsilon \rightarrow |y|\neq 0$ 
-2. $|xy| \leq p \rightarrow x=a^|x|, y=a^|y|, z=a^{p-|x|-|y|}b^p$
-3. $i=0, xz=a^{|x|}a^{p-|x|-|y|}b^p = a^{p-|y|}b^p\notin L$
+1. $y \neq \epsilon \rightarrow |y|\neq 0$ (as long as we can attribute some input to y, anything, like a or b, even just once, this is satisfied)
+2. $|xy| \leq p \rightarrow x=a^{|x|}, y=a^{|y|}, z=a^{p-|x|-|y|}b^p$ (xy is less than p because they did not take all of a, there's still some a left over in z, and p is same length as a, so you can say $|xy| \leq p$)
+3. $i=0, xz=a^{|x|}a^{p-|x|-|y|}b^p = a^{p-|y|}b^p\notin L$ (to disprove you just need 1 case to fail, this case fails) (y is missing because i=0) (we mathematically proved that for i=0, this expression is not in L, because a and b are different length, $p-y<p$ because $y>0$.)
 
 Claim: $L_\neq=\{w \in \{a,b\}^* \text{ | w contains the same \# of a's as b's} \}$
 Proof by Contradiction: Assume $L_\neq$ is regular
-$L(a^*b^*)$ is regular (aaaaaaabbbbbbb)
-$L_\neq \cap L(a^*b^*)=L_{nn}$ is regular (this gets rid of the different orientations like 0101, and just keeps the 0011, the orientations where a precedes b)
+$L(a^*b^*)$ is regular (aaaabbbbbbb) (abb)(b)(a)()
+$L_\neq \cap L(a^*b^*)=L_{nn}$ is regular because intersection is closed under regular languages. (this gets rid of the different orientations like 0101, and just keeps the 0011, the orientations where a precedes b)
 This creates a contradiction because we know $L_{nn}$ is not regular.
 Therefore $L_\neq$ is not regular
