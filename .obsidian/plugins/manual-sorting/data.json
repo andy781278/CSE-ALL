@@ -586,6 +586,8 @@
     "CSE 141": {
       "children": [
         "CSE 141/Instruction Set Architecture.md",
+        "CSE 141/MIPS.md",
+        "CSE 141/RISC-V.md",
         "CSE 141/general info",
         "CSE 141/pics"
       ],
