@@ -43,7 +43,7 @@ Make a subset called validation set, run tests and find the k with lowest test e
 But actually, you perform this by looping through the data set, for each data i, compute the NN classifier using every point but i, this is because if you didn't remove i, then it would classify itself every time, so you get 100% accuracy, which is meaningless.
 
 ##### 10-fold
-We divide the data into 10 parts, and for each part, use kNN with the rest of the data set, find its error $e^i$, then find the average of $e^i$ over all 10 calculations. We do this with k from 1 to large number, and find the k with lowest e overall.
+We divide the data into 10 parts, and for each part, we use that part as testing, and the rest as data. We find the kNN for all points in that fold, using the data from the folds we aren't in. When we're done, we find the error rate of the whole thing, since each data point is used for kNN exactly once.
 
 ### Run Time
 Run time is O(n), too slow
@@ -60,3 +60,6 @@ Route q to a leaf cell and return the NN in that cell. This might not be the tru
 ##### Comprehensive search
 grow the search region to other cells that cannot be ruled out using the triangle inequality
 
+This way, run time becomes O(log n)
+
+But as dimension gets large, this stops being the case

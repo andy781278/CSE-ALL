@@ -2,8 +2,8 @@ We fit a line to a bunch of points
 
 linear equation is $y=mx+b$, we need to find m and b
 
-pick a line $(a,b)$ based on $(x^(1),y^(1)),...,(x^{(n)},y^{(n)}) \in \mathbb{R} \times \mathbb{R}$
-- $x^{(i)}$ and $y^{(i)}$ are predictor and reponse variables
+pick a line $(a,b)$ based on $(x^{(1)},y^{(1)}),...,(x^{(n)},y^{(n)}) \in \mathbb{R} \times \mathbb{R}$
+- $x^{(i)}$ and $y^{(i)}$ are predictor and response variables
 
 minimize the mean square error (MSE)
 $$MSE(a,b) = \frac{1}{n}\Sigma^n_{i=1}(y^{(i)}-(ax^{(i)}+b))^2$$

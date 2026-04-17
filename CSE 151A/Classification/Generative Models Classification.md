@@ -24,8 +24,9 @@ to get the $P_y(x)$, we use a gaussian distribution $N(\mu,\sigma^2)$ with mean 
 $$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
 
 #### Classifying 1 Variable
-to classify a new x: pick the label y with the **largest** $P(x,y)$ or $\pi_y P_y(x)$
-
+to classify a new x: pick the label y with the **largest** $P(x,y)$ or $\pi_y P_y(x)$ or $P(x|y)P(y)$
+- get $\pi_y$  or $P(y)$ by dividing the number of data with label y with the total data points
+- get $P_y(x)$ or $P(x|y)$ by using the gaussian distribution density function.
 
 ### 2 Variable  Classification
 ![[Screen Shot 2026-04-09 at 5.13.39 PM.png]]
