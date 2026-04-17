@@ -39,6 +39,9 @@ We must run tests with k from 1 to some large number every time we make a new mo
 ####  Cross Validation
 ##### Leave-1-out
 Make a subset called validation set, run tests and find the k with lowest test error with that set, then use that k for the rest of the data
+
+But actually, you perform this by looping through the data set, for each data i, compute the NN classifier using every point but i, this is because if you didn't remove i, then it would classify itself every time, so you get 100% accuracy, which is meaningless.
+
 ##### 10-fold
 We divide the data into 10 parts, and for each part, use kNN with the rest of the data set, find its error $e^i$, then find the average of $e^i$ over all 10 calculations. We do this with k from 1 to large number, and find the k with lowest e overall.
 
