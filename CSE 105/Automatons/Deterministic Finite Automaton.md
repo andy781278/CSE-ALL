@@ -35,7 +35,7 @@ $L\subset \Sigma^*$ is regular if $\exists M$ (DFA)  such that $L(M)=L$
 
 #### reg. lang. is closed
 The class of regular languages is closed under $op(L_1,L_2,...,L_k)=L$
-if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular$
+if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular
 
 ##### Are Regular Languages closed under any operation op?
 > [!abstract] Are Regular Languages closed under set difference ($\backslash$) ?
