@@ -90,3 +90,4 @@ string: $q_0 q_1 ... q_{n-1} [[]e[]]...$
 - the extra symbol describes if its accepting state or not
 - next is the transitions, which is described by $[[a]e[b]]$, where e on state a goes to state b. The start state is []
 Regular Expression: $([[(0\cup 1)^*] (\epsilon \cup 0 \cup 1)[(0 \cup 1)^*]])^*$
+- states without transition: point epsilon transition to itself

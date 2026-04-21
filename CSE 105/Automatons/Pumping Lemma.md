@@ -61,3 +61,11 @@ $L(a^*b^*)$ is regular (aaaabbbbbbb) (abb)(b)(a)()
 $L_\neq \cap L(a^*b^*)=L_{nn}$ is regular because intersection is closed under regular languages. (this gets rid of the different orientations like 0101, and just keeps the 0011, the orientations where a precedes b)
 This creates a contradiction because we know $L_{nn}$ is not regular.
 Therefore $L_\neq$ is not regular
+
+Claim: The set of well formed arithmetic expressions is not regular
+$\Sigma=\{0,1,+,\times,(,)\}$
+Assume L is not regular.
+Take $L\cap (^*0)^*=L'$
+By closure, L' is regular
+but $L'=\{(^n0)^n | n \geq 0\}$
+This makes it the same format as $L_{nn}$, which is not regular, so contradiction.

@@ -573,7 +573,8 @@
         "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
         "CSE 105/Automatons/Epsilon-Closure Function.md",
         "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Pumping Lemma.md"
+        "CSE 105/Automatons/Pumping Lemma.md",
+        "CSE 105/Automatons/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -587,6 +588,7 @@
     },
     "CSE 141": {
       "children": [
+        "CSE 141/Measurement of Performance.md",
         "CSE 141/Instruction Set Architecture.md",
         "CSE 141/MIPS.md",
         "CSE 141/RISC-V.md",

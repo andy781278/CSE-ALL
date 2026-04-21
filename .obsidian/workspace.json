@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
+                "file": "CSE 105/Automatons/Context Free Grammars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deterministic Finite Automaton"
+              "title": "Context Free Grammars"
             }
           }
         ]
@@ -210,6 +210,7 @@
   "active": "86b4e31c5ade04a3",
   "lastOpenFiles": [
     "CSE 105/Automatons/Pumping Lemma.md",
+    "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Automatons/Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Transitioning Between Automatons.md",
     "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
@@ -234,7 +235,6 @@
     "CSE 151A/general info/1st day info.md",
     "CSE 151A/general info/Test Review.md",
     "Archived/CSE 21/Probability/Bayes' Theorem.md",
-    "Archived/CSE 21/Probability/Law of Total Expectation.md",
     "CSE 151A/Regression",
     "CSE 105/Drawings",
     "Archived/CSE 140/sample_exam3_solutions.pdf",
