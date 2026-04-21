@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "63d6a0d3f24d491e",
+        "id": "96b9d68e3b7b65c9",
         "type": "tabs",
         "children": [
           {
-            "id": "d6d971971e2e6b80",
+            "id": "86b4e31c5ade04a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 141/Measurement of Performance.md",
+                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Measurement of Performance"
+              "title": "Deterministic Finite Automaton"
             }
           }
         ]
@@ -207,17 +207,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6d971971e2e6b80",
+  "active": "86b4e31c5ade04a3",
   "lastOpenFiles": [
-    "CSE 141/general info/general info.md",
+    "CSE 105/Automatons/Pumping Lemma.md",
+    "CSE 105/Automatons/Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Transitioning Between Automatons.md",
+    "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
     "CSE 141/Measurement of Performance.md",
+    "CSE 141/general info/general info.md",
     "CSE 141/RISC-V.md",
     "CSE 141/MIPS.md",
     "CSE 141/Instruction Set Architecture.md",
     "CSE 105/Homework.md",
     "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Pumping Lemma.md",
     "CSE 151A/Regression/Linear Regression.md",
     "CSE 151A/Classification/Nearest Neighbor Classification.md",
     "CSE 151A/Classification/Learning Modalities.md",
@@ -233,8 +235,6 @@
     "CSE 151A/general info/Test Review.md",
     "Archived/CSE 21/Probability/Bayes' Theorem.md",
     "Archived/CSE 21/Probability/Law of Total Expectation.md",
-    "CSE 105/Drawings/Pumping Lemma.excalidraw.md",
-    "CSE 105/CSE 105 Definitions.md",
     "CSE 151A/Regression",
     "CSE 105/Drawings",
     "Archived/CSE 140/sample_exam3_solutions.pdf",
