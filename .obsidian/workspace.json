@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "96b9d68e3b7b65c9",
+        "id": "36662b9a3caf027d",
         "type": "tabs",
         "children": [
           {
-            "id": "86b4e31c5ade04a3",
+            "id": "f9ce3f8289133fe0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "CSE 105/Automatons/Context Free Grammars.md",
-                "mode": "source",
-                "source": false
+                "file": "CSE 100R/Homework.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Context Free Grammars"
+              "icon": "excalidraw-icon",
+              "title": "Homework.excalidraw"
             }
           }
         ]
@@ -207,10 +205,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "86b4e31c5ade04a3",
+  "active": "f9ce3f8289133fe0",
   "lastOpenFiles": [
-    "CSE 105/Automatons/Pumping Lemma.md",
     "CSE 105/Automatons/Context Free Grammars.md",
+    "CSE 105/Automatons/Pumping Lemma.md",
     "CSE 105/Automatons/Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Transitioning Between Automatons.md",
     "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
