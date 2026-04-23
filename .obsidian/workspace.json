@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "a663da5c57a10a86",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "a66a4938495d9513",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "64a59d5f7ff1528c",
+            "id": "72d60983915a7e8c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSE 105/Automatons/Push Down Automaton.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Push Down Automaton"
             }
           }
         ]
@@ -200,11 +204,19 @@
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "39fab3cc1ae41cf2",
+  "active": "72d60983915a7e8c",
   "lastOpenFiles": [
+    "CSE 105/Automatons/Context Free Grammars.md",
+    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
+    "CSE 105/Automatons/Finite Automaton",
+    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
+    "CSE 105/CSE 105 Definitions.md",
+    "Home.md",
     "CSE 141/ISA/MIPS.md",
     "CSE 141/Homework.md",
     "CSE 141/Computer.md",
@@ -227,13 +239,6 @@
     "CSE 100R/DT",
     "CSE 100R/ADT",
     "CSE 100R/Homework.excalidraw.md",
-    "CSE 105/Automatons/Context Free Grammars.md",
-    "CSE 105/Automatons/Pumping Lemma.md",
-    "CSE 105/Automatons/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Transitioning Between Automatons.md",
-    "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
-    "CSE 141/general info/general info.md",
-    "CSE 105/Homework.md",
     "CSE 151A/Regression",
     "CSE 105/Drawings",
     "Archived/CSE 140/sample_exam3_solutions.pdf",
@@ -246,7 +251,6 @@
     "CSE 105/Automatons",
     "Untitled.base",
     "CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png",
-    "CSE 141/pics",
     "CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
     "CSE 151A/pics/Pasted image 20260406000232.png",
     "Archived/CSE 140/Imgs/Pasted image 20260310225021.png",

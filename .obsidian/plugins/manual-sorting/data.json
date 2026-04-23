@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Home.md",
         "CSE 105",
         "CSE 141",
         "CSE 151A",
@@ -590,13 +591,20 @@
     },
     "CSE 105/Automatons": {
       "children": [
+        "CSE 105/Automatons/Finite Automaton",
         "CSE 105/Automatons/Context Free Grammars.md",
-        "CSE 105/Automatons/Transitioning Between Automatons.md",
-        "CSE 105/Automatons/Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Non-Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Epsilon-Closure Function.md",
-        "CSE 105/Automatons/Generative Non-Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Pumping Lemma.md"
+        "CSE 105/Automatons/Push Down Automaton.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 105/Automatons/Finite Automaton": {
+      "children": [
+        "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
+        "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
+        "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
+        "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md"
       ],
       "sortOrder": "custom"
     },
@@ -610,6 +618,7 @@
     },
     "CSE 141": {
       "children": [
+        "CSE 141/Computer.md",
         "CSE 141/ISA",
         "CSE 141/Measurement of Performance.md",
         "CSE 141/Homework.md",
