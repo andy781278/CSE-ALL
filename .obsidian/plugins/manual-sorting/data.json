@@ -552,8 +552,30 @@
     },
     "CSE 100R": {
       "children": [
+        "CSE 100R/ADT",
+        "CSE 100R/DT",
         "CSE 100R/Difference between ADT and DT.md",
         "CSE 100R/Homework.excalidraw.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 100R/ADT": {
+      "children": [
+        "CSE 100R/ADT/Stack.md",
+        "CSE 100R/ADT/Queue.md",
+        "CSE 100R/ADT/Deque.md",
+        "CSE 100R/ADT/List.md",
+        "CSE 100R/ADT/Priority Queue.md",
+        "CSE 100R/ADT/Set.md",
+        "CSE 100R/ADT/Map.md",
+        "CSE 100R/ADT/Tree.md",
+        "CSE 100R/ADT/Graph.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 100R/DT": {
+      "children": [
+        "CSE 100R/DT/Primitives.md"
       ],
       "sortOrder": "custom"
     },
@@ -588,10 +610,8 @@
     },
     "CSE 141": {
       "children": [
+        "CSE 141/ISA",
         "CSE 141/Measurement of Performance.md",
-        "CSE 141/Instruction Set Architecture.md",
-        "CSE 141/MIPS.md",
-        "CSE 141/RISC-V.md",
         "CSE 141/general info",
         "CSE 141/pics"
       ],
@@ -600,6 +620,14 @@
     "CSE 141/general info": {
       "children": [
         "CSE 141/general info/general info.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA": {
+      "children": [
+        "CSE 141/ISA/Instruction Set Architecture.md",
+        "CSE 141/ISA/MIPS.md",
+        "CSE 141/ISA/RISC-V.md"
       ],
       "sortOrder": "custom"
     },

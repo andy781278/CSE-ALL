@@ -36,4 +36,4 @@ Theoretical Best: $Log_2 (\binom{109}{9}) = 42$, let's try to accomplish it
 ### Theoretical Optimal Encoding ![[Theoretical Optimal Encoding]]
 
 ### Ranking and Unranking Algorithm ![[Ranking and Unranking Algorithm]]
-![[Graph]]
+![[Archived/CSE 21/Graph]]
