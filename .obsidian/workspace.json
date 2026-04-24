@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "7adf771cd08d7e41",
         "type": "tabs",
         "children": [
           {
-            "id": "72d60983915a7e8c",
+            "id": "cb7be8fda3d210d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/Automatons/Push Down Automaton.md",
+                "file": "CSE 151A/general info/Covariance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push Down Automaton"
+              "title": "Covariance"
+            }
+          },
+          {
+            "id": "7ca54a2b60a2be14",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 151A/Homework.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Homework"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,15 +221,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "72d60983915a7e8c",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
-    "CSE 105/Automatons/Context Free Grammars.md",
+    "CSE 151A/general info/Covariance.md",
+    "CSE 151A/Homework.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
+    "CSE 151A/general info/Mahalanobis Distance.md",
+    "CSE 151A/general info/Gradient.md",
+    "CSE 151A/Classification/Learning Modalities.md",
+    "CSE 151A/Classification/Prediction Problems.md",
+    "CSE 151A/Classification/Nearest Neighbor Classification.md",
+    "CSE 151A/general info/Correlation.md",
+    "CSE 151A/general info/Metric.md",
+    "CSE 151A/Regression/Linear Regression.md",
+    "Home.md",
+    "CSE 100R/ADT/Set CSE 100R.md",
     "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
     "CSE 105/Automatons/Finite Automaton",
     "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 105/CSE 105 Definitions.md",
-    "Home.md",
     "CSE 141/ISA/MIPS.md",
     "CSE 141/Homework.md",
     "CSE 141/Computer.md",
@@ -226,19 +251,8 @@
     "CSE 141/ISA",
     "CSE 100R/ADT/Priority Queue.md",
     "CSE 100R/ADT/List.md",
-    "CSE 100R/ADT/Deque.md",
-    "CSE 100R/ADT/Queue.md",
-    "CSE 100R/ADT/Stack.md",
-    "CSE 100R/ADT/Tree.md",
-    "CSE 100R/ADT/ADT BST.md",
-    "CSE 100R/ADT/Graph.md",
-    "CSE 100R/ADT/Map.md",
-    "CSE 100R/ADT/Set.md",
-    "CSE 100R/DT/Primitives.md",
-    "CSE 100R/Difference between ADT and DT.md",
     "CSE 100R/DT",
     "CSE 100R/ADT",
-    "CSE 100R/Homework.excalidraw.md",
     "CSE 151A/Regression",
     "CSE 105/Drawings",
     "Archived/CSE 140/sample_exam3_solutions.pdf",

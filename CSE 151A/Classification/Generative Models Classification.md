@@ -9,10 +9,10 @@ Each example (sample data point) consists of two random variables
 ### 1 Variable Classification
 ![[Screen Shot 2026-04-09 at 5.13.17 PM.png]]
 For each unique output (class) y, we have
-- probability of that class y, called $\pi_y=P(Y=y)$ 
-	- This gives the height of the distribution
-- distribution of data in class y, called $P_y(x)=P(X=x|Y=y)$
-	- This gives the location and width of the distribution
+$\pi_y=P(Y=y)$ 
+- probability of class y being picked, calculated from data point with class y / total data points
+$P_y(x)=P(X=x|Y=y)$
+- distribution of data in class y, or the probability of picking this specific data given you've picked a label y
 
 Overall Joint Distribution:
 $$P(x,y)=P(X=x|Y=y)=P(Y=y)P(X=x|Y=y)=\pi_y P_y(x)$$

@@ -562,12 +562,12 @@
     },
     "CSE 100R/ADT": {
       "children": [
+        "CSE 100R/ADT/Set CSE 100R.md",
         "CSE 100R/ADT/Stack.md",
         "CSE 100R/ADT/Queue.md",
         "CSE 100R/ADT/Deque.md",
         "CSE 100R/ADT/List.md",
         "CSE 100R/ADT/Priority Queue.md",
-        "CSE 100R/ADT/Set.md",
         "CSE 100R/ADT/Map.md",
         "CSE 100R/ADT/Tree.md",
         "CSE 100R/ADT/Graph.md"
@@ -655,6 +655,7 @@
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
+        "CSE 151A/Drawing 2026-04-23 20.01.29.excalidraw.md",
         "CSE 151A/pics"
       ],
       "sortOrder": "custom"
