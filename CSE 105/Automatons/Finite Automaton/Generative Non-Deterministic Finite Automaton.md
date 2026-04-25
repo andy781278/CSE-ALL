@@ -10,6 +10,8 @@ $\delta:(Q\backslash \{f\})\times(Q \times \{s\}) \rightarrow RegEx$
 
 ### Converting DFA to GNFA
 Our goal is to collapse everything in DFA down to 2 states, starting and accepting states, and their transition becomes the RegEx we are looking for.
+- Every starting state is connected to a new starting state with $\epsilon$ transition.
+- Every accepting state connects to a new accepting state with $\epsilon$ transition.
 - Every edge is an element in the RegEx
 - Every loop is that input star-ed
 - Loops created by transitioning to multiple states instead are replaced by a self loop that has the RegEx equivalent of the multi-state loop

@@ -54,6 +54,8 @@ $\exists x,y,z, w=xyz$
 1. $y \neq \epsilon \rightarrow |y|\neq 0$ (as long as we can attribute some input to y, anything, like a or b, even just once, this is satisfied)
 2. $|xy| \leq p \rightarrow x=a^{|x|}, y=a^{|y|}, z=a^{p-|x|-|y|}b^p$ (xy is less than p because they did not take all of a, there's still some a left over in z, and p is same length as a, so you can say $|xy| \leq p$)
 3. $i=0, xz=a^{|x|}a^{p-|x|-|y|}b^p = a^{p-|y|}b^p\notin L$ (to disprove you just need 1 case to fail, this case fails) (y is missing because i=0) (we mathematically proved that for i=0, this expression is not in L, because a and b are different length, $p-y<p$ because $y>0$.)
+> [!info] Self Explanation
+> To prove by contradiction, we just have to pick an arbitrary p, and find a single example where it doesn't work. Since all w has to work for that p, a single counter example is enough to disprove that it's regular. Since we picked an arbitrary p, we can apply it to every p and reject the pumping lemma.
 
 Claim: $L_\neq=\{w \in \{a,b\}^* \text{ | w contains the same \# of a's as b's} \}$
 Proof by Contradiction: Assume $L_\neq$ is regular
@@ -64,7 +66,7 @@ Therefore $L_\neq$ is not regular
 
 Claim: The set of well formed arithmetic expressions is not regular
 $\Sigma=\{0,1,+,\times,(,)\}$
-Assume L is not regular.
+Assume L is regular.
 Take $L\cap (^*0)^*=L'$
 By closure, L' is regular
 but $L'=\{(^n0)^n | n \geq 0\}$

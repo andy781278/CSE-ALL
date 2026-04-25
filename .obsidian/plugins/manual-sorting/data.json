@@ -652,10 +652,10 @@
     },
     "CSE 151A": {
       "children": [
+        "CSE 151A/Homework.md",
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
-        "CSE 151A/Drawing 2026-04-23 20.01.29.excalidraw.md",
         "CSE 151A/pics"
       ],
       "sortOrder": "custom"

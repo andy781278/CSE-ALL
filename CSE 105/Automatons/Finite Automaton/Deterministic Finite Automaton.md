@@ -65,8 +65,8 @@ if $\forall L_1,...,L_k$ are regular, then $op(L_1,...,L_k)$ is regular
 > Connect accepting states to the starting states.
 
 
-> [!abstract] For Every Regular Expression
-> $\forall Regular Expression R \quad \exists \ NFA \  N \ L(N)=L(R)$
+> [!abstract] Every Regular Expression can be an NFA
+> $\forall RegEx \ R \quad \exists \ NFA \ \  N \ \  s.t. \ L(N)=L(R)$
 > Proof: By cases (induction on the structure of R):
 > 1. $R=\emptyset$: a single state with no accepting states and nowhere else to go
 > 2. $R=\epsilon$: a single accepting state
