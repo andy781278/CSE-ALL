@@ -9,7 +9,7 @@ Definition: A DFA is a 5-tuple $M = (Q,\Sigma,\delta,s,F)$ where:
 - $s$ is the start state
 - $F \subseteq Q$ is called accepting states, where output is accept
 
-> [!NOTE]
+> [!info]
 > Define computation mathematically
 > Similar to Finite State Machine
 > A graph where the vertices represent states, and the edges represent input. you traverse through the graph from the given sequence of inputs, and then determine states where output is 1
