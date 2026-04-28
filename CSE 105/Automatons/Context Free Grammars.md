@@ -48,3 +48,13 @@ $Y \rightarrow \epsilon | YY'$
 $Y' \rightarrow b|X'a$
 $T \rightarrow aTa | bXAa | aAYb$
 $A \rightarrow \epsilon | a A$
+
+### Convert from Push Down Automaton
+We convert PDA $(Q,...)$ to $G=\{V=\{A_{pq}\}_{p,q\in Q},A_{sf}\}$
+Make these rules for every p,q,r,t:
+- $A_{pq}\rightarrow a$
+- $A_{pt}\rightarrow aA_{qr}b \ \} k^2$
+- $A_{pt}\rightarrow A_{pr}A_{rt} \ \} n^3$
+- $A_{pp}\rightarrow \epsilon$
+![[PDA to CFG.excalidraw]]
+
