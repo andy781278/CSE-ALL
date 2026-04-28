@@ -4,17 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "955c0bf4ce1ee05a",
+        "id": "5d74e359d7fc6de6",
         "type": "tabs",
         "children": [
           {
-            "id": "5c20e4ee391c93f0",
+            "id": "3fd4c5b4d6030376",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "excalidraw",
+              "state": {
+                "file": "CSE 105/Homework.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Homework"
+            }
+          },
+          {
+            "id": "f2aae6a1af03fdce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 105/Practice.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Practice"
+            }
+          },
+          {
+            "id": "2fc990bf70df9fdb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CSE 105/mt1_practice.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "mt1_practice"
             }
           }
         ]
@@ -204,8 +232,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5c20e4ee391c93f0",
+  "active": "3fd4c5b4d6030376",
   "lastOpenFiles": [
+    "CSE 105/mt1_practice.pdf",
+    "CSE 105/Homework.md",
+    "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
+    "CSE 105/Practice.md",
+    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
+    "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
+    "CSE 141/ISA/MIPS.md",
+    "CSE 141/ISA/Instruction Set Architecture.md",
+    "Home.md",
     "CSE 151A/Regression/Logistic Regression.md",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/Regression/Gradient Descent.md",
@@ -214,28 +252,19 @@
     "CSE 151A/Learning Modalities.md",
     "CSE 151A/pics/Pasted image 20260426202621.png",
     "CSE 151A/Homework.md",
-    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
     "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Automatons/Push Down Automaton.md",
     "CSE 105/CSE 105 Definitions.md",
     "CSE 141/pics/Pasted Image 20260424210933_313.png",
     "CSE 141/pics/Pasted Image 20260424210921_135.png",
     "CSE 141/pics/Pasted Image 20260424210926_786.png",
-    "Home.md",
     "CSE 141/Homework.md",
     "CSE 141/ISA/RISC-V.md",
-    "CSE 141/ISA/MIPS.md",
     "CSE 141/Computer.md",
     "CSE 141/Measurement of Performance.md",
-    "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
-    "CSE 105/Homework.md",
     "Archived/CSE 21/Proof/Induction.md",
-    "CSE 151A/general info/Covariance.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 105/Automatons/Finite Automaton",
     "CSE 141/ISA",
     "CSE 100R/DT",
@@ -249,7 +278,6 @@
     "Excalidraw",
     "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
     "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
-    "CSE 105/Automatons",
-    "Untitled.base"
+    "CSE 105/Automatons"
   ]
 }
