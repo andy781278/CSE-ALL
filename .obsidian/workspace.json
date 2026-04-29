@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a693a8816b0893f",
+            "id": "263339586d92b3d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,20 +32,9 @@
               "icon": "excalidraw-icon",
               "title": "Homework"
             }
-          },
-          {
-            "id": "c22a56fb1831380e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CSE 105/mt1_practice.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "mt1_practice"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,16 +221,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3a693a8816b0893f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 105/Homework.md",
-    "CSE 105/mt1_practice.pdf",
     "CSE 105/Practice.md",
+    "CSE 105/Homework.md",
+    "Home.md",
+    "CSE 105/mt1_practice.pdf",
     "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Drawings/PDA to CFG.excalidraw.md",
     "CSE 105/Automatons/Push Down Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
-    "Home.md",
     "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
