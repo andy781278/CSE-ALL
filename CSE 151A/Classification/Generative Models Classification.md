@@ -52,3 +52,11 @@ $$f_j(x)=log(\pi_j,P_j(x))$$
 to classify point x, pick the largest $f_j(x)$
 
 Special case: $\Sigma_1=...=\Sigma_k$, then the boundaries are linear
+
+
+### Boundary Shapes
+**Linear:** Both classes share the same covariance matrix, e.g. both are identity. Quadratic terms cancel and you get a straight line.
+
+**Spherical:** Both covariances are different scalar multiples of identity, e.g. $\Sigma_1 = 0.5I$ and $\Sigma_2 = 2I$. Both bells are circular but different sizes, so the boundary is a circle.
+
+**Other quadratic (ellipse/hyperbola):** Both covariances are different and not multiples of identity, e.g. $\Sigma_1 = [[2,1],[1,2]]$ and $\Sigma_2 = [[1,0],[0,3]]$. The quadratic terms don't cancel and you get a curved conic boundary.

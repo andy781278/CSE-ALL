@@ -13,38 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/CSE 105 Definitions.md",
+                "file": "CSE 151A/Classification/Generative Models Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSE 105 Definitions"
+              "title": "Generative Models Classification"
             }
           },
           {
-            "id": "ff62bafe9dd77dfd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "CSE 105/Homework.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Homework"
-            }
-          },
-          {
-            "id": "54ccb18d2a7278d1",
+            "id": "71d00b702b319409",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/Automatons/Context Free Grammars.md",
+                "file": "CSE 151A/general info/Covariance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Context Free Grammars"
+              "title": "Covariance"
             }
           }
         ]
@@ -236,35 +224,35 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 151A/general info/Covariance.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
+    "CSE 151A/Regression/Logistic Regression.md",
+    "CSE 151A/Regression/Linear Regression.md",
+    "CSE 151A/general info/Correlation.md",
+    "CSE 151A/general info/Metric.md",
+    "CSE 151A/Regression/Gradient Descent.md",
+    "CSE 151A/Classification/Nearest Neighbor Classification.md",
+    "CSE 151A/general info/1st day info.md",
+    "CSE 151A/general info/Gradient.md",
+    "Home.md",
     "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
     "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
-    "CSE 105/Homework.md",
     "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
     "CSE 105/CSE 105 Definitions.md",
+    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Homework.md",
     "CSE 105/Drawings/PDA to CFG.excalidraw.md",
     "CSE 105/Drawings/Pumping Lemma.excalidraw.md",
     "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
     "CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md",
     "CSE 105/Practice.md",
     "CSE 105/mt1_practice.pdf",
-    "Home.md",
-    "CSE 100R/ADT/Graph CSE 100R.md",
-    "CSE 141/ISA/MIPS.md",
-    "CSE 141/Homework.md",
-    "CSE 141/ISA/Instruction Set Architecture.md",
-    "CSE 151A/Regression/Logistic Regression.md",
     "CSE 151A/pics/Pasted image 20260426224046.png",
-    "CSE 151A/Regression/Gradient Descent.md",
-    "CSE 151A/Regression/Linear Regression.md",
-    "CSE 151A/general info/Gradient.md",
-    "CSE 151A/Learning Modalities.md",
     "CSE 151A/pics/Pasted image 20260426202621.png",
-    "CSE 151A/Homework.md",
     "CSE 141/pics/Pasted Image 20260424210933_313.png",
     "CSE 141/pics/Pasted Image 20260424210921_135.png",
     "CSE 141/pics/Pasted Image 20260424210926_786.png",
