@@ -570,7 +570,10 @@
         "CSE 100R/Data Structures/Binary Search Tree.md",
         "CSE 100R/Data Structures/Treap.md",
         "CSE 100R/Data Structures/AVL Tree.md",
-        "CSE 100R/Data Structures/Red-Black Tree.md"
+        "CSE 100R/Data Structures/Red-Black Tree.md",
+        "CSE 100R/Data Structures/Trie.md",
+        "CSE 100R/Data Structures/Ternary Search Tree.md",
+        "CSE 100R/Data Structures/Hash Table.md"
       ],
       "sortOrder": "custom"
     },

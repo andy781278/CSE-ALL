@@ -24,10 +24,20 @@ AVL Tree
 Red-Black Tree
 
 # Set
-
+LinkedList
+ArrayList
+Binary Search Tree
+Treap
+AVL Tree
+Red-Black Tree
 
 # Map
-
+LinkedList
+ArrayList
+Binary Search Tree
+Treap
+AVL Tree
+Red-Black Tree
 
 # Graph
 
