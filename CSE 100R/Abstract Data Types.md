@@ -3,7 +3,8 @@ aliases:
   - ADT
 ---
 # Stack
-
+### ArrayList
+### LinkedList
 # Queue
 
 # Deque
@@ -21,8 +22,6 @@ aliases:
 # Graph
 
 # Set
-
-# Heap
 
 # BST
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 100R/Abstract Data Types.md",
+                "file": "CSE 100R/Data Structures/ArrayList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abstract Data Types"
+              "title": "ArrayList"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
+                "file": "CSE 100R/Data Structures/ArrayList.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deterministic Finite Automaton"
+              "title": "Outline of ArrayList"
             }
           },
           {
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,10 +207,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "39fab3cc1ae41cf2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 100R/Difference between ADT and DT.md",
+    "CSE 100R/Data Structures/LinkedList.md",
+    "CSE 100R/Data Structures/ArrayList.md",
     "CSE 100R/Abstract Data Types.md",
+    "CSE 100R/Data Structures/Binary Search Tree.md",
+    "CSE 100R/Data Structures",
+    "CSE 100R/Difference between ADT and DT.md",
     "CSE 100R/Homework.excalidraw.md",
     "CSE 100R/DT/Primitives.md",
     "CSE 100R/ADT/Stack.md",
@@ -233,9 +236,6 @@
     "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/general info/Covariance.md",
     "CSE 151A/Regression/Logistic Regression.md",
-    "CSE 151A/Regression/Linear Regression.md",
-    "CSE 151A/general info/Correlation.md",
-    "CSE 151A/general info/Metric.md",
     "CSE 105/mt1_practice.pdf",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/pics/Pasted image 20260426202621.png",
@@ -254,7 +254,6 @@
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
     "Excalidraw",
     "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
-    "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
-    "CSE 105/Automatons"
+    "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png"
   ]
 }

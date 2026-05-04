@@ -553,30 +553,18 @@
     },
     "CSE 100R": {
       "children": [
-        "CSE 100R/ADT",
-        "CSE 100R/DT",
+        "CSE 100R/Abstract Data Types.md",
+        "CSE 100R/Data Structures",
         "CSE 100R/Difference between ADT and DT.md",
         "CSE 100R/Homework.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
-    "CSE 100R/ADT": {
+    "CSE 100R/Data Structures": {
       "children": [
-        "CSE 100R/ADT/Stack.md",
-        "CSE 100R/ADT/Queue.md",
-        "CSE 100R/ADT/Deque.md",
-        "CSE 100R/ADT/List.md",
-        "CSE 100R/ADT/Priority Queue.md",
-        "CSE 100R/ADT/Set CSE 100R.md",
-        "CSE 100R/ADT/Map.md",
-        "CSE 100R/ADT/Tree.md",
-        "CSE 100R/ADT/Graph CSE 100R.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 100R/DT": {
-      "children": [
-        "CSE 100R/DT/Primitives.md"
+        "CSE 100R/Data Structures/ArrayList.md",
+        "CSE 100R/Data Structures/LinkedList.md",
+        "CSE 100R/Data Structures/Binary Search Tree.md"
       ],
       "sortOrder": "custom"
     },
