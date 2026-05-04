@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 100R/Data Structures/Ternary Search Tree.md",
+                "file": "CSE 100R/Data Structures/Hash Table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ternary Search Tree"
+              "title": "Hash Table"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 100R/Data Structures/Ternary Search Tree.md",
+                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ternary Search Tree"
+              "title": "Outline of Deterministic Finite Automaton"
             }
           },
           {
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,34 +210,34 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 100R/Data Structures/Trie.md",
     "CSE 100R/Data Structures/Ternary Search Tree.md",
-    "CSE 100R/Data Structures/Hash Table.md",
-    "CSE 100R/Data Structures/ArrayList.md",
-    "CSE 100R/Data Structures/Heap.md",
+    "CSE 100R/Data Structures/Trie.md",
     "CSE 100R/Data Structures/Red-Black Tree.md",
-    "CSE 100R/Data Structures/SkipList.md",
-    "CSE 100R/Data Structures/Treap.md",
-    "CSE 100R/Abstract Data Types.md",
-    "CSE 100R/Difference between ADT and DT.md",
     "CSE 100R/Data Structures/AVL Tree.md",
+    "CSE 100R/Data Structures/Treap.md",
     "CSE 100R/Data Structures/Binary Search Tree.md",
-    "CSE 100R/Data Structures/LinkedList.md",
+    "CSE 100R/Data Structures/Heap.md",
     "CSE 100R/Data Structures/Circular Array.md",
-    "CSE 100R/Data Structures",
-    "CSE 100R/Homework.excalidraw.md",
-    "CSE 100R/DT/Primitives.md",
-    "CSE 100R/ADT/Stack.md",
-    "CSE 100R/ADT/Queue.md",
-    "CSE 100R/ADT/List.md",
-    "CSE 100R/ADT/Map.md",
-    "CSE 100R/ADT/Set CSE 100R.md",
-    "CSE 100R/ADT/Priority Queue.md",
-    "CSE 100R/ADT/Graph CSE 100R.md",
+    "CSE 100R/Data Structures/LinkedList.md",
+    "CSE 100R/Data Structures/SkipList.md",
+    "CSE 100R/Data Structures/ArrayList.md",
+    "CSE 100R/Abstract Data Types.md",
     "Home.md",
-    "CSE 141/Measurement of Performance.md",
-    "CSE 141/Computer.md",
+    "CSE 141/ISA/MIPS.md",
+    "CSE 100R/Data Structures/Hash Table.md",
+    "CSE 100R/Data Structures",
+    "CSE 141/Homework.md",
+    "CSE 105/Practice.md",
+    "CSE 105/Homework.md",
     "CSE 105/mt1_practice.pdf",
+    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
+    "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Context Free Grammars.md",
+    "CSE 105/Drawings/PDA to CFG.excalidraw.md",
+    "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/pics/Pasted image 20260426202621.png",
     "CSE 141/pics/Pasted Image 20260424210933_313.png",
