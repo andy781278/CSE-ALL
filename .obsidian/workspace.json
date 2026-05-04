@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CSE 100R/Abstract Data Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Abstract Data Types"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,8 +208,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
+    "CSE 100R/Difference between ADT and DT.md",
+    "CSE 100R/Abstract Data Types.md",
+    "CSE 100R/Homework.excalidraw.md",
+    "CSE 100R/DT/Primitives.md",
+    "CSE 100R/ADT/Stack.md",
+    "CSE 100R/ADT/Queue.md",
+    "CSE 100R/ADT/List.md",
+    "CSE 100R/ADT/Map.md",
+    "CSE 100R/ADT/Set CSE 100R.md",
+    "CSE 100R/ADT/Priority Queue.md",
+    "CSE 100R/ADT/Graph CSE 100R.md",
     "Home.md",
     "CSE 141/Measurement of Performance.md",
     "CSE 141/Computer.md",
@@ -225,17 +236,6 @@
     "CSE 151A/Regression/Linear Regression.md",
     "CSE 151A/general info/Correlation.md",
     "CSE 151A/general info/Metric.md",
-    "CSE 151A/Regression/Gradient Descent.md",
-    "CSE 151A/Classification/Nearest Neighbor Classification.md",
-    "CSE 151A/general info/1st day info.md",
-    "CSE 151A/general info/Gradient.md",
-    "CSE 105/Automatons/Context Free Grammars.md",
-    "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
-    "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
-    "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
     "CSE 105/mt1_practice.pdf",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/pics/Pasted image 20260426202621.png",
