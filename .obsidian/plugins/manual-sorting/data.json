@@ -564,7 +564,13 @@
       "children": [
         "CSE 100R/Data Structures/ArrayList.md",
         "CSE 100R/Data Structures/LinkedList.md",
-        "CSE 100R/Data Structures/Binary Search Tree.md"
+        "CSE 100R/Data Structures/SkipList.md",
+        "CSE 100R/Data Structures/Circular Array.md",
+        "CSE 100R/Data Structures/Heap.md",
+        "CSE 100R/Data Structures/Binary Search Tree.md",
+        "CSE 100R/Data Structures/Treap.md",
+        "CSE 100R/Data Structures/AVL Tree.md",
+        "CSE 100R/Data Structures/Red-Black Tree.md"
       ],
       "sortOrder": "custom"
     },

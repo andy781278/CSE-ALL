@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 100R/Data Structures/ArrayList.md",
+                "file": "CSE 100R/Data Structures/Treap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ArrayList"
+              "title": "Treap"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 100R/Data Structures/ArrayList.md",
+                "file": "CSE 100R/Data Structures/Treap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ArrayList"
+              "title": "Outline of Treap"
             }
           },
           {
@@ -209,12 +209,18 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 100R/Data Structures/LinkedList.md",
-    "CSE 100R/Data Structures/ArrayList.md",
-    "CSE 100R/Abstract Data Types.md",
+    "CSE 100R/Data Structures/AVL Tree.md",
+    "CSE 100R/Data Structures/Treap.md",
+    "CSE 100R/Data Structures/Red-Black Tree.md",
     "CSE 100R/Data Structures/Binary Search Tree.md",
-    "CSE 100R/Data Structures",
+    "CSE 100R/Data Structures/Heap.md",
+    "CSE 100R/Abstract Data Types.md",
+    "CSE 100R/Data Structures/ArrayList.md",
+    "CSE 100R/Data Structures/LinkedList.md",
+    "CSE 100R/Data Structures/SkipList.md",
     "CSE 100R/Difference between ADT and DT.md",
+    "CSE 100R/Data Structures/Circular Array.md",
+    "CSE 100R/Data Structures",
     "CSE 100R/Homework.excalidraw.md",
     "CSE 100R/DT/Primitives.md",
     "CSE 100R/ADT/Stack.md",
@@ -230,12 +236,6 @@
     "CSE 141/general info/general info.md",
     "CSE 141/Homework.md",
     "CSE 141/ISA/RISC-V.md",
-    "CSE 141/ISA/MIPS.md",
-    "CSE 141/ISA/Instruction Set Architecture.md",
-    "Archived/CSE 140/Memory/Time Constraint.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
-    "CSE 151A/general info/Covariance.md",
-    "CSE 151A/Regression/Logistic Regression.md",
     "CSE 105/mt1_practice.pdf",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/pics/Pasted image 20260426202621.png",

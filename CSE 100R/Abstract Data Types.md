@@ -3,26 +3,40 @@ aliases:
   - ADT
 ---
 # Stack
-### ArrayList
-### LinkedList
+ArrayList
+LinkedList
+
 # Queue
+ArrayList
+LinkedList
 
 # Deque
-
-# List
+LinkedList
+Circular Array
 
 # PQ
-
-# Map
-
-# Tree
+Heap
 
 # Binary Search Tree
-
-# Graph
+Binary Search Tree
+Treap
+AVL Tree
+Red-Black Tree
 
 # Set
 
+
+# Map
+
+
+# Graph
+
+
+# List
+
+
 # BST
 
+
 # Trie
+
