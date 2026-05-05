@@ -636,13 +636,27 @@
     "CSE 141/ISA": {
       "children": [
         "CSE 141/ISA/Instruction Set Architecture.md",
-        "CSE 141/ISA/MIPS.md",
-        "CSE 141/ISA/RISC-V.md"
+        "CSE 141/ISA/RISC",
+        "CSE 141/ISA/CISC"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA/CISC": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA/RISC": {
+      "children": [
+        "CSE 141/ISA/RISC/MIPS.md",
+        "CSE 141/ISA/RISC/RISC-V.md",
+        "CSE 141/ISA/RISC/Pipelining.md",
+        "CSE 141/ISA/RISC/Hazard.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 141/pics": {
       "children": [
+        "CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
         "CSE 141/pics/Pasted Image 20260424210921_135.png",
         "CSE 141/pics/Pasted Image 20260424210926_786.png",
         "CSE 141/pics/Pasted Image 20260424210933_313.png",

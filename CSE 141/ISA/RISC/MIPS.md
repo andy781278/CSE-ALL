@@ -5,3 +5,4 @@ Mips has 3 instruction formats:
 - Why specifically this way?
 	- Historically, we did other stuff too, with varying results
 ![[Screen Shot 2026-04-08 at 6.01.31 PM.png]]
+

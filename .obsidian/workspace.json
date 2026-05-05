@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 100R/Data Structures/Hash Table.md",
+                "file": "CSE 141/ISA/RISC/Hazard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hash Table"
+              "title": "Hazard"
             }
           }
         ]
@@ -210,7 +210,18 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 141/ISA/RISC/Pipelining.md",
+    "CSE 141/ISA/RISC/Hazard.md",
+    "CSE 141/ISA/RISC/RISC-V.md",
+    "CSE 141/ISA/Instruction Set Architecture.md",
+    "CSE 141/ISA/RISC/MIPS.md",
+    "CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
+    "Home.md",
+    "CSE 141/ISA/CISC",
+    "CSE 141/ISA/RISC",
+    "CSE 141/Computer.md",
     "CSE 100R/Data Structures/Ternary Search Tree.md",
+    "CSE 100R/Data Structures/Hash Table.md",
     "CSE 100R/Data Structures/Trie.md",
     "CSE 100R/Data Structures/Red-Black Tree.md",
     "CSE 100R/Data Structures/AVL Tree.md",
@@ -222,9 +233,6 @@
     "CSE 100R/Data Structures/SkipList.md",
     "CSE 100R/Data Structures/ArrayList.md",
     "CSE 100R/Abstract Data Types.md",
-    "Home.md",
-    "CSE 141/ISA/MIPS.md",
-    "CSE 100R/Data Structures/Hash Table.md",
     "CSE 100R/Data Structures",
     "CSE 141/Homework.md",
     "CSE 105/Practice.md",
@@ -232,12 +240,6 @@
     "CSE 105/mt1_practice.pdf",
     "CSE 105/Automatons/Push Down Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
-    "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Context Free Grammars.md",
-    "CSE 105/Drawings/PDA to CFG.excalidraw.md",
-    "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
-    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 151A/pics/Pasted image 20260426224046.png",
     "CSE 151A/pics/Pasted image 20260426202621.png",
     "CSE 141/pics/Pasted Image 20260424210933_313.png",
@@ -249,12 +251,9 @@
     "CSE 100R/ADT",
     "CSE 151A/Regression",
     "CSE 105/Drawings",
-    "Archived/CSE 140/sample_exam3_solutions.pdf",
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png",
     "Screen Shot 2026-04-09 at 5.13.39 PM.png",
     "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
-    "Excalidraw",
-    "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
-    "CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png"
+    "CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png"
   ]
 }
