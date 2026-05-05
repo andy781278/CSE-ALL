@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 105/Automatons/Push Down Automaton.md",
+                "file": "CSE 105/Automatons/Turing Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push Down Automaton"
+              "title": "Turing Machine"
             }
           }
         ]
@@ -210,14 +210,15 @@
   },
   "active": "bc301e0c23256fb5",
   "lastOpenFiles": [
+    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Automatons/Turing Machine.md",
+    "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md",
     "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
     "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
-    "CSE 105/Automatons/Context Free Grammars.md",
-    "CSE 105/Automatons/Push Down Automaton.md",
     "CSE 141/ISA/RISC/Hazard.md",
     "CSE 141/ISA/RISC/Pipelining.md",
     "CSE 141/ISA/RISC/RISC-V.md",
@@ -238,7 +239,6 @@
     "CSE 100R/Data Structures/Heap.md",
     "CSE 100R/Data Structures/Circular Array.md",
     "CSE 100R/Data Structures/LinkedList.md",
-    "CSE 100R/Data Structures/SkipList.md",
     "CSE 100R/Data Structures",
     "CSE 105/mt1_practice.pdf",
     "CSE 151A/pics/Pasted image 20260426224046.png",

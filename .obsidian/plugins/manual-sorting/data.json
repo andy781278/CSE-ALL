@@ -592,7 +592,8 @@
       "children": [
         "CSE 105/Automatons/Finite Automaton",
         "CSE 105/Automatons/Context Free Grammars.md",
-        "CSE 105/Automatons/Push Down Automaton.md"
+        "CSE 105/Automatons/Push Down Automaton.md",
+        "CSE 105/Automatons/Untitled.md"
       ],
       "sortOrder": "custom"
     },
