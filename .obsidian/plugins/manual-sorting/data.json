@@ -590,10 +590,10 @@
     },
     "CSE 105/Automatons": {
       "children": [
+        "CSE 105/Automatons/Turing Machine.md",
         "CSE 105/Automatons/Finite Automaton",
         "CSE 105/Automatons/Context Free Grammars.md",
-        "CSE 105/Automatons/Push Down Automaton.md",
-        "CSE 105/Automatons/Untitled.md"
+        "CSE 105/Automatons/Push Down Automaton.md"
       ],
       "sortOrder": "custom"
     },
@@ -637,13 +637,8 @@
     "CSE 141/ISA": {
       "children": [
         "CSE 141/ISA/Instruction Set Architecture.md",
-        "CSE 141/ISA/RISC",
-        "CSE 141/ISA/CISC"
+        "CSE 141/ISA/RISC"
       ],
-      "sortOrder": "custom"
-    },
-    "CSE 141/ISA/CISC": {
-      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {
@@ -670,11 +665,11 @@
     },
     "CSE 151A": {
       "children": [
-        "CSE 151A/Homework.md",
         "CSE 151A/Learning Modalities.md",
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
+        "CSE 151A/Homework.md",
         "CSE 151A/pics"
       ],
       "sortOrder": "custom"
@@ -689,6 +684,7 @@
     },
     "CSE 151A/general info": {
       "children": [
+        "CSE 151A/general info/Convexity.md",
         "CSE 151A/general info/Gradient.md",
         "CSE 151A/general info/Mahalanobis Distance.md",
         "CSE 151A/general info/Correlation.md",
@@ -701,6 +697,7 @@
     },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260506035705.png",
         "CSE 151A/pics/Pasted image 20260426202621.png",
         "CSE 151A/pics/Pasted image 20260426224046.png",
         "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.17 PM.png",
@@ -711,6 +708,7 @@
     },
     "CSE 151A/Regression": {
       "children": [
+        "CSE 151A/Regression/Regression.md",
         "CSE 151A/Regression/Linear Regression.md",
         "CSE 151A/Regression/Logistic Regression.md",
         "CSE 151A/Regression/Gradient Descent.md"

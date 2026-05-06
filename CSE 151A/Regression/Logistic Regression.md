@@ -26,12 +26,11 @@ $$L(\vec w)=\sum^{n}_{i=1}ln(1+e^{-y^{(i)}(\vec w\cdot x^{(i)})})$$
 
 Unlike linear regression, it is super hard to minimize the loss function, because if you take the gradient, you're gonna get a non-linear function of w that can't be isolated algebraically. Therefore, there is no closed form solution for $\vec w$.
 
-Instead, we'll use optimization, we'll use gradient descent. It works because logistic regression only has 1 minima, like a parabola.
-
+Instead, we'll use optimization, we'll use gradient descent. It works because logistic regression only has 1 minima, like a parabola (or convex shape).
+ 
 To start, set $w_0=0$
 For $t=0,1,2,...$ until convergence:
-$$w_{t+1}=w_t-\eta\nabla(\sum_{i=1}^n-logP(y^{(i)}|x^{(i)}))$$
-where $\eta$ is the step size
+$$w_{t+1}=w_t+\eta_t\sum_{i=1}^ny^{(i)}x^{(i)}P(-y^{(i)}|x^{(i)})$$
 
 ### Example
 sort reviews into good or bad review

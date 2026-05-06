@@ -1,4 +1,3 @@
-In regression, we fit a line to a bunch of points
 For linear regression, this line needs to be defined by slope and y-intercept
 linear equation is $y=ax+b$, we need to find a and b
 
