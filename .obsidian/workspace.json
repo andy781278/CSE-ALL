@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "Turing Machine"
             }
+          },
+          {
+            "id": "d4a47045b132ac0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deterministic Finite Automaton"
+            }
           }
         ]
       }
@@ -208,8 +222,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "39fab3cc1ae41cf2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Turing Machine.md",
     "CSE 105/Automatons/Push Down Automaton.md",
     "Home.md",
     "CSE 151A/Classification/Linear Classifier.md",
@@ -237,9 +253,7 @@
     "Archived/CSE 140/Memory/Time Constraint.md",
     "Archived/CSE 140/Memory/Counter.md",
     "Archived/CSE 140/Memory/Sequential Circuit.md",
-    "CSE 141/ISA/RISC/Hazard.md",
     "CSE 151A/pics/Pasted image 20260506035705.png",
-    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
     "CSE 141/ISA/CISC",
     "CSE 141/ISA/RISC",
