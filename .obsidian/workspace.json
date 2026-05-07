@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 151A/Classification/Linear Classifier.md",
+                "file": "CSE 105/Automatons/Turing Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Classifier"
+              "title": "Turing Machine"
             }
           }
         ]
@@ -210,10 +210,11 @@
   },
   "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
-    "CSE 151A/pics/Pasted image 20260507035112.png",
-    "CSE 151A/pics/Pasted image 20260507033435.png",
+    "CSE 105/Automatons/Push Down Automaton.md",
     "Home.md",
     "CSE 151A/Classification/Linear Classifier.md",
+    "CSE 151A/pics/Pasted image 20260507035112.png",
+    "CSE 151A/pics/Pasted image 20260507033435.png",
     "CSE 151A/pics/Pasted image 20260507021842.png",
     "CSE 151A/Regression/Logistic Regression.md",
     "CSE 151A/Regression/Gradient Descent.md",
@@ -254,7 +255,6 @@
     "CSE 100R/DT",
     "CSE 100R/ADT",
     "CSE 151A/Regression",
-    "CSE 105/Drawings",
-    "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png"
+    "CSE 105/Drawings"
   ]
 }
