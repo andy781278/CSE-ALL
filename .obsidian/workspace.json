@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "CSE 151A/Classification/Linear Classifier.md",
-                "mode": "source",
-                "source": false
+                "file": "CSE 141/Homework.md"
               },
-              "icon": "lucide-file",
-              "title": "Linear Classifier"
+              "icon": "excalidraw-icon",
+              "title": "Homework"
             }
           }
         ]
@@ -208,37 +206,38 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "39fab3cc1ae41cf2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 151A/pics/Pasted image 20260507035112.png",
-    "CSE 151A/pics/Pasted image 20260507033435.png",
+    "CSE 141/Measurement of Performance.md",
+    "CSE 141/Homework.md",
+    "CSE 141/ISA/RISC/Hazard.md",
+    "CSE 141/ISA/RISC/Pipelining.md",
     "Home.md",
-    "CSE 151A/Classification/Linear Classifier.md",
-    "CSE 151A/pics/Pasted image 20260507021842.png",
-    "CSE 151A/Regression/Logistic Regression.md",
-    "CSE 151A/Regression/Gradient Descent.md",
+    "CSE 105/Automatons/Push Down Automaton.md",
+    "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+    "CSE 105/Automatons/Context Free Grammars.md",
     "CSE 151A/Regression/Linear Regression.md",
-    "CSE 151A/Classification/Generative Models Classification.md",
+    "CSE 151A/Regression/Logistic Regression.md",
     "CSE 151A/Classification/Nearest Neighbor Classification.md",
-    "CSE 151A/Classification/Prediction Problems.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/Regression/Regression.md",
-    "CSE 151A/general info/Convexity.md",
-    "CSE 151A/general info/Test Review.md",
-    "CSE 151A/general info/1st day info.md",
-    "CSE 151A/general info/Hessian.md",
+    "CSE 151A/Regression/Gradient Descent.md",
+    "CSE 151A/Classification/Prediction Problems.md",
+    "CSE 151A/Classification/Linear Classifier.md",
     "CSE 151A/general info/positive semidefinite.md",
     "CSE 151A/general info/Gradient.md",
+    "CSE 151A/general info/Hessian.md",
+    "CSE 151A/general info/Convexity.md",
+    "CSE 151A/general info/Covariance.md",
+    "Archived/MATH 183/Basic/Population.md",
+    "CSE 151A/pics/Pasted image 20260507035112.png",
+    "CSE 151A/pics/Pasted image 20260507033435.png",
+    "CSE 151A/pics/Pasted image 20260507021842.png",
+    "CSE 151A/general info/Test Review.md",
+    "CSE 151A/general info/1st day info.md",
     "CSE 151A/general info/Metric.md",
-    "CSE 141/ISA/RISC/Pipelining.md",
     "CSE 141/ISA/RISC/MIPS.md",
-    "Archived/CSE 140/Memory/Register.md",
-    "Archived/CSE 140/Memory/Bit Storage.md",
-    "Archived/CSE 140/Memory/Time Constraint.md",
-    "Archived/CSE 140/Memory/Counter.md",
-    "Archived/CSE 140/Memory/Sequential Circuit.md",
-    "CSE 141/ISA/RISC/Hazard.md",
     "CSE 151A/pics/Pasted image 20260506035705.png",
-    "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
     "CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
     "CSE 141/ISA/CISC",
     "CSE 141/ISA/RISC",
@@ -254,7 +253,6 @@
     "CSE 100R/DT",
     "CSE 100R/ADT",
     "CSE 151A/Regression",
-    "CSE 105/Drawings",
-    "CSE 151A/pics/Screen Shot 2026-04-09 at 5.13.39 PM.png"
+    "CSE 105/Drawings"
   ]
 }

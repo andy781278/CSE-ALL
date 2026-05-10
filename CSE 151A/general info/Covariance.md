@@ -15,9 +15,17 @@ But when cov(X,Y)=0, X and Y are not necessarily independent
 ### Covariance Matrix
 For a random vector $X=(X_1,...,X_d)^T$ with mean $\mu=E[X]$, the covariance matrix
 $\sum \in \mathbb{R}^{d\times d}$ has entries
+
+##### Population
 $$\sum_{ij} = cov(X_i,X_j)=E[(X_i-\mu_i)(X_j-\mu_j)]$$
 Matrix Form (symmetric):
 $$\Sigma_{ij}=E[(X-\mu)(X-\mu)^T]$$
+
+##### Empirical
+$$\sum_{ij}= \frac{1}{n}\sum_{k=1}^n(X_i^{(k)}-\bar x_i)(X_j^{(k)}-\bar x_j)$$
+
+
+
 The covariance matrix is positive semidefinite: for every $a \in R^d$,
 $$a^T \Sigma a = Var(a^T X) \geq 0$$
 since $a^TX$ is a scalar random variable (variance is non-negative)
