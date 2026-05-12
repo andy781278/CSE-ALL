@@ -593,7 +593,8 @@
         "CSE 105/Automatons/Finite Automaton",
         "CSE 105/Automatons/Context Free Grammars.md",
         "CSE 105/Automatons/Push Down Automaton.md",
-        "CSE 105/Automatons/Turing Machine.md"
+        "CSE 105/Automatons/Turing Machine.md",
+        "CSE 105/Automatons/Language that represents Turing Machine.md"
       ],
       "sortOrder": "custom"
     },
@@ -636,9 +637,14 @@
     },
     "CSE 141/ISA": {
       "children": [
+        "CSE 141/ISA/CISC",
         "CSE 141/ISA/Instruction Set Architecture.md",
         "CSE 141/ISA/RISC"
       ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA/CISC": {
+      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {

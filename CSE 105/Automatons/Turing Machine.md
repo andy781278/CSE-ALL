@@ -52,3 +52,4 @@ Let $T(<M>)$ be:
 2. transform M into an equivalent REX R using the method from Chapter 1
 3. Run $M_{EREX}(R)$
 
+
