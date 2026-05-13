@@ -24,8 +24,17 @@ For a MIPS pipeline with shared data/instruction memory, two instructions would 
 - Branch determines flow of control
 	- Fetching next instruction depends on branch outcome
 	- Pipeline can't always fetch the correct instruction
+- Use Stall
+	- You can stall until after you determined the outcome of the branch to fetch the next instruction 
 - Use Branch Prediction
-	- put the instructions after the branch as if there was no branch, assuming it does not go through. If it does, flush out all the instructions, which means just making the instructions no-ops, and make them do nothing, and just let them pass.
+	- Branch-Not-Taken
+		- put the instructions after the branch as if there was no branch, assuming it does not go through.
+		- If it does, flush out all the instructions, which means just making the instructions no-ops, and make them do nothing, and just let them pass.
+		- This way, in case the branch is no taken, we can forgo the stall, but if the branch is taken, we do pretty much stall that whole time, but it is better than having stalls the whole way.
+- There are better ones, like Static Branch Prediction and Dynamic Branch Prediction, but those aren't really specific
+
+### Stalling
+Force control values in ID/EX register to be 0, those control values include everything that it passes to, so it is everything
 
 ### Forwarding
 When you recently calculated the result to write back into a register $r in WB stage that you need in previous active stages, you can wire it back directly to them instead of having them retrieve them 
