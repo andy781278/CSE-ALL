@@ -10,22 +10,27 @@ $Init(w)=(q_s,\epsilon,w)$
 > - the tape can be moved left or right each transition, transitions are defined by the symbol you're on, and you overwrite that symbol when you leave.
 
 
-$f:\Sigma^*\rightarrow\Sigma^*$ is TM-compatible if $\exists \ TM \ M$
+$f:\Sigma^*\rightarrow\Sigma^*$ is TM-computable if $\exists \ TM \ M$
 $(q_s,w)\rightarrow...\rightarrow(q_a/q_r,w'), w'=f(w)$
 > [!info] Self Explanation
-> A function is TM-compatible if it transforms a string into another of the same alphabet
+> Function f is computable if there exists a TM s.t. given w on tape, it always halts on f(w) on tape at the end, i.e. it doesn't loop.
+> 1. starts with w on tape
+> 2. always halts / no loops
+> 3. outputs f(w) when it halts
 
 
 $L(M)$ is the set of strings $w\in\Sigma^*$ such that $M(w)$ accepts
 $L=L(M)$ is TM-recognizable
 > [!info] Self Explanation
-> 
+> L is recognizable if the TM it represents accepts everything in L. It's not obligated to reject.
+> Confirms membership, but can't confirm non-membership
 
 
 $M$ is a decider if $\forall w\in\Sigma^*$, $M(w)$ terminates.
 $L=L(M)$ where $M$ is a decider. $L$ is TM-decidable
 > [!info] Self Explanation
-> A turing machine that terminates itself if it discovers that it goes in an infinite loop.
+> L is decidable if the TM it represents accepts everything in L and rejects everything not in L and infinite loops.
+> We can get a definite answer on membership or non-membership for any string in $\Sigma^*$
 
 
 ### Emptiness Problem
