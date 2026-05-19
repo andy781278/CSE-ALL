@@ -638,8 +638,13 @@
     "CSE 141/ISA": {
       "children": [
         "CSE 141/ISA/Instruction Set Architecture.md",
+        "CSE 141/ISA/CISC",
         "CSE 141/ISA/RISC"
       ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA/CISC": {
+      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {
