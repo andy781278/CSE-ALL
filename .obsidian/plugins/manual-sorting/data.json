@@ -580,6 +580,7 @@
     },
     "CSE 105": {
       "children": [
+        "CSE 105/Computability",
         "CSE 105/Automatons",
         "CSE 105/CSE 105 Definitions.md",
         "CSE 105/Drawings",
@@ -594,8 +595,7 @@
         "CSE 105/Automatons/Finite Automaton",
         "CSE 105/Automatons/Context Free Grammars.md",
         "CSE 105/Automatons/Push Down Automaton.md",
-        "CSE 105/Automatons/Turing Machine.md",
-        "CSE 105/Automatons/Language that represents Turing Machine.md"
+        "CSE 105/Automatons/Turing Machine.md"
       ],
       "sortOrder": "custom"
     },
@@ -607,6 +607,25 @@
         "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
         "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
         "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 105/Computability": {
+      "children": [
+        "CSE 105/Computability/TM Properties.md",
+        "CSE 105/Computability/Collatz Conjecture.md",
+        "CSE 105/Computability/Mapping Reduction.md",
+        "CSE 105/Computability/Languages"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 105/Computability/Languages": {
+      "children": [
+        "CSE 105/Computability/Languages/HALT.md",
+        "CSE 105/Computability/Languages/Empty.md",
+        "CSE 105/Computability/Languages/Diag.md",
+        "CSE 105/Computability/Languages/Accept.md",
+        "CSE 105/Computability/Languages/Lx.md"
       ],
       "sortOrder": "custom"
     },
