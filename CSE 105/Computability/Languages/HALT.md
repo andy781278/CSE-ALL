@@ -1,3 +1,8 @@
+
+> [!info] Analogy
+> Hotel $HALT$ contains a computer with the following rule:
+> - 
+
 $L_{HALT}=\{<M,w>|\text{M is a TM and halts on w}\}$
 
 $L_{HALT}$ is not decidable, it is recognizable

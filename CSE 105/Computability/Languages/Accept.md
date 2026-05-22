@@ -1,3 +1,4 @@
+
 $A_{TM}=\{<M,w>|\text{M is a TM, w is a string, }w\in L(M)\}$
 
 $A_{TM}\in RE$?

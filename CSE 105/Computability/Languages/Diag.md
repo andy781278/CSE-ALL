@@ -1,3 +1,4 @@
+
 $Diag=\{<M>|\text{ M is a TM, }<M>\notin L(M)\}$
 
 > [!info] Diag
