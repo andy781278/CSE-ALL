@@ -556,7 +556,8 @@
         "CSE 100R/Abstract Data Types.md",
         "CSE 100R/Data Structures",
         "CSE 100R/Difference between ADT and DT.md",
-        "CSE 100R/Homework.excalidraw.md"
+        "CSE 100R/Homework.excalidraw.md",
+        "CSE 100R/Untitled.md"
       ],
       "sortOrder": "custom"
     },
@@ -657,13 +658,8 @@
     "CSE 141/ISA": {
       "children": [
         "CSE 141/ISA/Instruction Set Architecture.md",
-        "CSE 141/ISA/CISC",
         "CSE 141/ISA/RISC"
       ],
-      "sortOrder": "custom"
-    },
-    "CSE 141/ISA/CISC": {
-      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {

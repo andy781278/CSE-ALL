@@ -27,7 +27,7 @@ Given training data $(x^{(1)},y^{(1)}),...,(x^{(n)},y^{(n)})\in \mathbb{R}^d\tim
 Find $w\in\mathbb{R}^d$ and $b\in\mathbb{R}$ such that:
 $y^{(1)}(wx^{(i)})\geq 1$ for all $i$
 we wan to maximize the margin $\gamma$, can show $\gamma=1/||w||$
-equivalently: find w wiht the smallest norm $||w||$ such that $\forall (x,y): t(wx+b)\geq1$
+equivalently: find w with the smallest norm $||w||$ such that $\forall (x,y): t(wx+b)\geq1$
 
 We want to maximize the margin because that gives us better predictions against unseen data
 
