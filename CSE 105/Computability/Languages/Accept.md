@@ -1,4 +1,7 @@
 
+> [!info] Analogy
+> King $Halt$ takes $<V,v>$ parchments where Lord V accepts villager v as one of his subjects
+
 $A_{TM}=\{<M,w>|\text{M is a TM, w is a string, }w\in L(M)\}$
 
 $A_{TM}\in RE$?

@@ -553,11 +553,11 @@
     },
     "CSE 100R": {
       "children": [
+        "CSE 100R/Homework.md",
         "CSE 100R/Abstract Data Types.md",
         "CSE 100R/Data Structures",
         "CSE 100R/Difference between ADT and DT.md",
-        "CSE 100R/Homework.excalidraw.md",
-        "CSE 100R/Untitled.md"
+        "CSE 100R/Homework.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
@@ -621,7 +621,7 @@
     },
     "CSE 105/Computability/Languages": {
       "children": [
-        "CSE 105/Computability/Languages/HALT.md",
+        "CSE 105/Computability/Languages/Halt.md",
         "CSE 105/Computability/Languages/Empty.md",
         "CSE 105/Computability/Languages/Diag.md",
         "CSE 105/Computability/Languages/Accept.md",

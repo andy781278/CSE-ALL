@@ -1,4 +1,7 @@
 
+> [!info] Analogy
+> King $Diag$ takes $<V>$ parchments where Lord V would reject his own parchment $<V>$ if it were handed to him as a villager
+
 $Diag=\{<M>|\text{ M is a TM, }<M>\notin L(M)\}$
 
 > [!info] Diag

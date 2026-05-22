@@ -1,7 +1,6 @@
 
 > [!info] Analogy
-> Hotel $HALT$ contains a computer with the following rule:
-> - 
+> King $Halt$ takes $<V,v>$ parchments where Lord V reaches a verdict with Villager v without deliberating forever
 
 $L_{HALT}=\{<M,w>|\text{M is a TM and halts on w}\}$
 

@@ -1,3 +1,10 @@
+> [!info] Analogy
+> Measurement of the competency of a King ($\leq_m$)
+> $A\leq_m B$ means King $A$ has less or equal competence or than King $B$
+> A more competent King are better than making decisions and not stall
+> A Recognizer King is less competent than a Decider King
+> A Non-Recognizer King is less competent than a Recognizer King
+
 $Diag=\{<M>|\text{ M is a TM, }<M>\notin L(M)\}$
 $Diag\leq_m HALT=\{<M>|\text{M is a TM, }M(\epsilon)\text{ does not loop}\}$
 $Diag\leq_m E_{TM}=\{<M>|\text{M is a TM, }L(M)=\emptyset\}$

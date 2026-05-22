@@ -22,7 +22,7 @@ we use stochastic gradient descent to find the minimum loss, we called this the 
 If the training data is separable, then the perceptron can easily find a linear classifier with zero training error, it will converge within a finite number of steps, the number of iterations can be bounded in terms of the margin, roughly, a measure of the space between the two classes
 ![[Pasted image 20260507021842.png]]
 
-##### Maximal Margin Separator
+### Support Vector Machine (SVM) (Maximal Margin Separator)
 Given training data $(x^{(1)},y^{(1)}),...,(x^{(n)},y^{(n)})\in \mathbb{R}^d\times\{-1,+1\}$
 Find $w\in\mathbb{R}^d$ and $b\in\mathbb{R}$ such that:
 $y^{(1)}(wx^{(i)})\geq 1$ for all $i$
@@ -52,6 +52,7 @@ Parameter C manages tradeoff between margin and slack
 - The more the margin, the more confident/accurate the model
 - The more the slack, the more you tolerate misclassified points to enlarge the margin.
 
-The more the C, the stricter the model, so lower C is more lenient to errors, so margin will grow.
+High C -> Stricter Model -> Tighter Margin, less tolerance for misclassification
+Low C -> Looser Model -> Wider Margin, more tolerance more misclassification
 
 To find the best C, test it with a logarithmic range to find the lowest error. We can also use 5-fold cross validation

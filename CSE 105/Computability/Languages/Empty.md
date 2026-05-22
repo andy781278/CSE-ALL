@@ -1,3 +1,8 @@
+
+> [!info] Analogy
+> King $Empty$ takes $<V>$ parchments where Lord V accepts no subjects at all
+> $L(V)=\emptyset$
+
 Given a DFA M, determine if $L(M)=\emptyset$
 $E_{DFA}=\{<M>|\text{ M is a DFA, and }L(M)=\emptyset\}$
 $E_{REX}=\{<R>|\text{ R is regex, such that }L(R)\neq\emptyset\}$
