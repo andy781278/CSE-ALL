@@ -97,3 +97,36 @@ M' makes every state accepting except for the new qd state. But every state also
 
 Since M' is a valid DFA and L(M') = T(L), T(L) is regular. Therefore regular languages are closed under T.
 
+1. Give CFG Rules:
+
+$L=\{a^nb^m | n \leq m \leq 2n\}$
+
+$(V,\Sigma,S,R)$
+$V: \{S\}$
+$\Sigma: \{a,b\}$
+$S: S$
+$R:$
+$S\rightarrow aSb | aSbb | \epsilon$
+
+$L=\{a^ib^jc^k | i+j=k,i\geq 1, j \geq 2, k \geq 3\}$
+
+$(V,\Sigma,S,R)$
+$V: \{S,\}$
+$\Sigma: \{a,b,c\}$
+$S: S$
+$R:$
+$S\rightarrow aBc | bAc$
+$A\rightarrow aAc$
+$B\rightarrow bAc$
+
+$L=\{w\in\{a,b\}^* | \text{w is not a palindrome, and w contains an even number of as}\}$
+
+$(V,\Sigma,S,R)$
+$V: \{S,A,X\}$
+$\Sigma: \{a,b\}$
+$S: S$
+$R:$
+$S\rightarrow aaS | bS | Saa | Sb | A$
+$A \rightarrow aXb | bXa$
+$X \rightarrow aaX | bX | a$
+

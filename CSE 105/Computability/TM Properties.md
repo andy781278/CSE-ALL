@@ -62,3 +62,66 @@ $L\in D: \text{ if }\exists \ TM \ M$
 - $\forall w\in L, M(w)$ accepts
 - $\forall w\notin L, M(w)$ rejects 
 
+### Closure under Ops
+
+#### Decidable
+> [!abstract] Intersection ($A \cap B$)
+> If A and B are decidable, then $A \cap B$ is decidable
+> Let $M_A$ and $M_B$ be deciders for A and B. We want to build a decider M for $A\cap B$
+> ```
+> M(x):
+> 	Run MA(x)
+> 	Run MB(x)
+> 	If both accept then ACCEPT
+> 	else REJECT
+> ```
+> 1. $x\in A\cap B\rightarrow x\in L(M)$
+> 2. $x\notin A\cap B\rightarrow x\notin L(M)$
+> 3. M always Halts
+
+#### Recognizable
+> [!abstract] Intersection ($A \cap B$)
+> If A and B are recognizable, then $A \cap B$ is recognizable
+> Let $M_A$ and $M_B$ be recognizers for A and B. We want to build a recognizer M for $A\cap B$
+> ```
+> M(x):
+> 	Run MA(x)
+> 	Run MB(x)
+> 	If both accept then ACCEPT
+> 	else REJECT
+> ```
+> 1. $x\in A\cap B\rightarrow x\in L(M)$
+> 2. $x\notin A\cap B\rightarrow x\notin L(M)$
+
+#### Co-Recognizable
+> [!abstract] Intersection ($A \cap B$)
+> If A and B are co-recognizable, then $A \cap B$ is co-recognizable
+> Let $M_A$ and $M_B$ be recognizers for $\bar A$ and $\bar B$. We want to build a co-recognizer M for $\bar A\cup \bar B$
+> ```
+> M(x):
+> 	for n=1,2,...:
+> 		Run MA(x) for n steps
+> 		Run MB(x) for n steps
+> 		If either accept then ACCEPT
+> ```
+> 1. $x\in \bar A\cup \bar B\rightarrow x\in L(M)$
+> 2. $x\notin \bar A\cup \bar B\rightarrow x\notin L(M)$
+
+> [!abstract] Mapping Reductions ($A \leq_m B$)
+> If $A \leq_m B$ and B is coRE, then A is coRE
+> Let $M_B$ be a recognizer for $\bar B$
+> Let T be a TM computing the reduction $f: A\rightarrow B$
+> $x\in A\rightarrow f(x)\in B, x\notin A \rightarrow f(x)\notin B$
+> $T(x)=f(x)$
+> We need to build a recognizer M for $\bar A$
+> ```
+> M(x):
+> 	y=T(x)
+> 	Run MB(y)
+> 	If accept ACCEPT
+> 	else REJECT
+> ```
+> 1. $x\notin A\rightarrow M(x)$ accepts
+> 2. $x\in A\rightarrow M(x)$ does not accept
+
+
