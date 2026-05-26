@@ -700,7 +700,8 @@
         "CSE 151A/Classification/Prediction Problems.md",
         "CSE 151A/Classification/Nearest Neighbor Classification.md",
         "CSE 151A/Classification/Generative Models Classification.md",
-        "CSE 151A/Classification/Linear Classifier.md"
+        "CSE 151A/Classification/Linear Classifier.md",
+        "CSE 151A/Classification/Linear Programming.md"
       ],
       "sortOrder": "custom"
     },
@@ -721,6 +722,7 @@
     },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260526000310.png",
         "CSE 151A/pics/Pasted image 20260507035112.png",
         "CSE 151A/pics/Pasted image 20260506035705.png",
         "CSE 151A/pics/Pasted image 20260507021842.png",

@@ -38,10 +38,17 @@ $L=L(M)$ is TM-recognizable
 > [!info] Self Explanation
 >-  L is recognizable if the TM it represents accepts everything in L. It's not obligated to reject.
 > - Confirms membership, but can't confirm non-membership
-> - 
 
 $RE=\{L(M)|\text{ M is a TM}\}$
 $L(M)=\{w\in\Sigma^*|M(w)\text{ accepts}\}$
+
+### co-Recognizable
+$L(M)$ is the set of strings $w\in\Sigma^*$ such that $M(w)$ rejects
+$L=L(M)$ is TM-co-recognizable
+> [!info] Self Explanation
+>- coRE means you don't loop on reject, only on accept
+>- can confirm non-membership, not membership
+>- if a language is RE and coRE, they are D
 
 ### Decidable
 $M$ is a decider if $\forall w\in\Sigma^*$, $M(w)$ terminates.

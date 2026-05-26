@@ -35,8 +35,12 @@ We want to maximize the margin because that gives us better predictions against 
 
 Maximum-margin Linear Classifier or the hard-margin support vector machine
 as long as the data is linearly separable
-$$\underset{w\in\mathbb{R}^d,b\in\mathbb{R}}{min}||w||^2$$
+$$(PRIMAL)\underset{w\in\mathbb{R}^d,b\in\mathbb{R}}{min}||w||^2$$
 such that $y^{(i)}(wx^{(i)}+b)\geq1$ for all i from 1 to n
+
+- This is a convex optimization problem
+	- Convex objective function
+	- Linear constraints
 
 ##### Support Vectors
 Support vectors are training points exactly on the margin
@@ -56,3 +60,18 @@ High C -> Stricter Model -> Tighter Margin, less tolerance for misclassification
 Low C -> Looser Model -> Wider Margin, more tolerance more misclassification
 
 To find the best C, test it with a logarithmic range to find the lowest error. We can also use 5-fold cross validation
+
+
+
+##### Perceptron Algorithm: Dual Form
+- initialize a=0 and b=0
+- Keep cycling through training data $(x^{(i)},y^{(i)})$:
+	- if point misclassified:
+		- $a_i=a_i+1$
+		- $b=b+y^{(i)}$
+
+Complementary slackness: At optimality, $w=\sum_i \alpha_i y^{(i)}x^{(i)}$ and $a_i\geq 0 \rightarrow y^{(i)}(wx^{(i)}+b)=1$
+
+$$(DUAL) \ \underset{a\in \mathbb{R}^n}{min} \sum_{i=1}^n a_i - \frac{1}{2}\sum_{i,j=1}^n a_ia_jy^{(i)}y^{(j)}(x^{(i)}x^{(j)}))$$
+such that $\sum_{i=1}^n a_i y^{(i)}=0, a\geq 0$
+

@@ -8,3 +8,9 @@ $Init(w)=(q_s,\epsilon,w)$
 > A turing machine has states, transitions between states, and a tape.
 > - states and transitions function as normal
 > - the tape can be moved left or right each transition, transitions are defined by the symbol you're on, and you overwrite that symbol when you leave.
+
+
+$\text{read;write,direction}$
+- read a set of possible inputs or blank
+- write current cell to alphabet or blank
+- direction: L, R, move 1 cell in that direction

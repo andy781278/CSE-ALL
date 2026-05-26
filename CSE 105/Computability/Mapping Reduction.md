@@ -23,6 +23,14 @@ $Diag\leq_m E_{TM}=\{<M>|\text{M is a TM, }L(M)=\emptyset\}$
 > - If $w\in A$, then $f(w)\in B$
 > - If $w\notin A$, then $f(w)\notin B$
 
+> [!info] Analogy
+> - In order to compare competency between two kingdoms, we need a royal translator ($f$) that takes a parchment from one Kingdom and translates it to the other. This way, we can compare them easier.
+> - A translator only has to finish and not loop (computable) to be usable. Their usefulness is determined by how accurate they are in mapping one kingdom to the other.
+> Here's how you prove competency:
+> 1. Define the translator f
+> 2. Argue f always finishes
+> 3. Prove the iff - accepting parchments from A maps to accepting parchments from B. Unaccepting parchments from A maps to unaccepting parchments from B.
+
 then $Diag\in RE\leftarrow$ if $E_{TM}\in RE$
 $M'(w)=M(f(w)),L(M)=E{TM}$
 $L(M')=Diag$
