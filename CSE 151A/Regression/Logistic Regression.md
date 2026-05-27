@@ -40,3 +40,11 @@ Bag-of-words: vectoral representation of text sentences
 Code positive as +1 and negative as -1.
 ![[Pasted image 20260426224046.png]]
 Final test error: 0.21
+
+### Multiclass
+**Label space**: $\mathcal{Y} = \{1, 2, \ldots, k\}$
+**Parametrized classifier**: $w_1, \ldots, w_k \in \mathbb{R}^d$, $b_1, \ldots, b_k \in \mathbb{R}$: $$\Pr(y = j \mid x) = \frac{e^{w_j \cdot x + b_j}}{e^{w_1 \cdot x + b_1} + \cdots + e^{w_k \cdot x + b_k}}$$**Prediction**: given a point $x$, predict label $\arg\max_j (w_j \cdot x + b_j)$.
+**Learning**:
+	Given: $(x^{(1)}, y^{(1)}), \ldots, (x^{(n)}, y^{(n)})$.
+	Find: $w_1, \ldots, w_k \in \mathbb{R}^d$ and $b_1, \ldots, b_k \in \mathbb{R}$ that maximize the likelihood $$\prod_{i=1}^{n} \Pr(y^{(i)} \mid x^{(i)})$$ Taking negative log gives a convex minimization problem.
+

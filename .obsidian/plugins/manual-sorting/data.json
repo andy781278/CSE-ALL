@@ -621,7 +621,7 @@
     },
     "CSE 105/Computability/Languages": {
       "children": [
-        "CSE 105/Computability/Languages/HALT.md",
+        "CSE 105/Computability/Languages/Halt.md",
         "CSE 105/Computability/Languages/Empty.md",
         "CSE 105/Computability/Languages/Diag.md",
         "CSE 105/Computability/Languages/Accept.md",
@@ -657,14 +657,9 @@
     },
     "CSE 141/ISA": {
       "children": [
-        "CSE 141/ISA/CISC",
         "CSE 141/ISA/Instruction Set Architecture.md",
         "CSE 141/ISA/RISC"
       ],
-      "sortOrder": "custom"
-    },
-    "CSE 141/ISA/CISC": {
-      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {
@@ -691,7 +686,7 @@
     },
     "CSE 151A": {
       "children": [
-        "CSE 151A/Learning Modalities.md",
+        "CSE 151A/Decision Trees.md",
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
@@ -705,8 +700,15 @@
         "CSE 151A/Classification/Prediction Problems.md",
         "CSE 151A/Classification/Nearest Neighbor Classification.md",
         "CSE 151A/Classification/Generative Models Classification.md",
-        "CSE 151A/Classification/Linear Classifier.md",
-        "CSE 151A/Classification/Linear Programming.md"
+        "CSE 151A/Classification/Discriminative"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 151A/Classification/Discriminative": {
+      "children": [
+        "CSE 151A/Classification/Discriminative/Linear Classifier.md",
+        "CSE 151A/Classification/Discriminative/Linear Programming.md",
+        "CSE 151A/Classification/Discriminative/Kernel.md"
       ],
       "sortOrder": "custom"
     },
@@ -720,6 +722,7 @@
         "CSE 151A/general info/Correlation.md",
         "CSE 151A/general info/Covariance.md",
         "CSE 151A/general info/Metric.md",
+        "CSE 151A/general info/Learning Modalities.md",
         "CSE 151A/general info/1st day info.md",
         "CSE 151A/general info/Test Review.md"
       ],
@@ -727,6 +730,9 @@
     },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260527062541.png",
+        "CSE 151A/pics/Pasted image 20260527063300.png",
+        "CSE 151A/pics/Pasted image 20260527063537.png",
         "CSE 151A/pics/Pasted image 20260526000310.png",
         "CSE 151A/pics/Pasted image 20260507035112.png",
         "CSE 151A/pics/Pasted image 20260506035705.png",

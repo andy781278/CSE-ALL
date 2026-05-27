@@ -54,7 +54,9 @@ $y^*=(1,1,0)$
 $c^Tx \leq b^T y$
 
 **Strong Duality**: ($x^*,y^*$ optimal do exist)
-$c^Tx^* =\leq= b^T y^*$
+$c^Tx^* =b^T y^*$
+
+or if there exists some optimum $w^*$ where the $p^*=q^*$
 
 Slackness at optimum is complementary
 if $y^*_i > 0$ then $s_i=0$
@@ -62,3 +64,24 @@ if $x^*_i > 0$ then $z_i=0$
 $y^*_i s_i=0$
 $x^*_i z_i=0$
 
+Meaning if slack is 0, then the stars are not 0.
+If the stars are zero, then slack is not 0.
+
+Support vectors that are on the boundary have slack 0, and $\alpha_i$ not 0. If they're not on the boundary, then slack is not 0, and $\alpha_i$ is 0.
+
+$w^*=\sum_{i=1}^na_i^*y_ix_i$
+
+Removing non-support vectors does not change w.
+
+ $\alpha_i^*(y^{(i)}(wx^{(i)}+b)-1)=0$
+
+### Farkas Theorem
+For Feasibility
+Exactly one of the following holds:
+1. $\exists x\geq 0, \ s.t. \ Ax\leq b$
+2. $\exists y\geq0 \ s.t. \ A^Ty\geq 0, b^Ty<0$
+
+$min \ b^T y \ s.t. \ A^Ty\leq c, y\geq 0$ is satisfied by $y=0$
+$y_i \geq 0$ for each primal inequality $\sum_j A_{ij}x_j\leq b_i$
+
+The existence of y s.t. $A^Ty\geq 0$ and $b^Ty<0$ proves that there is no feasible point x in primary
