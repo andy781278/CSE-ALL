@@ -111,22 +111,139 @@ $S\rightarrow aSb | aSbb | \epsilon$
 $L=\{a^ib^jc^k | i+j=k,i\geq 1, j \geq 2, k \geq 3\}$
 
 $(V,\Sigma,S,R)$
-$V: \{S,\}$
+$V: \{S,T\}$
 $\Sigma: \{a,b,c\}$
 $S: S$
 $R:$
-$S\rightarrow aBc | bAc$
-$A\rightarrow aAc$
-$B\rightarrow bAc$
+$S\rightarrow aSc | aTc$
+$T\rightarrow bTc | bbcc$
 
 $L=\{w\in\{a,b\}^* | \text{w is not a palindrome, and w contains an even number of as}\}$
 
 $(V,\Sigma,S,R)$
-$V: \{S,A,X\}$
+$V: \{S,E,O\}$
 $\Sigma: \{a,b\}$
 $S: S$
 $R:$
-$S\rightarrow aaS | bS | Saa | Sb | A$
-$A \rightarrow aXb | bXa$
-$X \rightarrow aaX | bX | a$
+
+$S\rightarrow aSa | bSb | aOb | bOa$
+$E\rightarrow aOb|bOa|aEa|bEb|b|\epsilon$
+$O\rightarrow aEb|bEa | aOa | bOb | a$
+
+3. $w=a^ib^jc^k$ such that $k=i\cdot j$, give TM that represents $L=\{w\}$
+
+When TM reads a, they replace a with ax, TM goes to find the next b, and for every b, TM replaces b with bx, goes right until they find c, replace c with x, then goes back to bx and replace bx with b, then go to the next b. When you have no more c left, you reject. If there's no more a, then we accept.
+
+4. Mapping Reductions
+
+$E_{TM}\leq_m EQ_{TM}$
+
+$E_{TM}=\{<M>|\text{ M is a TM, and }L(M)=\emptyset\}$
+$EQ_{TM}=\{<M_1,M_2>|L(M_1)=L(M_2)\}$
+
+We construct two machines:
+
+```
+M1'(x):
+	Run M(x)
+	If M accepts x:
+		// not E
+		ACCEPT
+	else:
+		// E
+		REJECT
+M2'(x):
+	REJECT
+```
+
+$f(<M>)=<M_1',M_2'>$
+
+$<M>\in E_{TM}\rightarrow <M_1',M_2'>\in EQ_{TM} \rightarrow L(M_1')=L(M_2')$
+
+If the parchment is in E, it means the parchment accepts no villagers, so M1' will either loop or reject, and M2' will reject, meaning they are equal
+
+$<M>\notin E_{TM}\rightarrow <M_1',M_2'>\notin EQ_{TM} \rightarrow L(M_1')\neq L(M_2')$
+
+If parchment is not in E, it means M has at least 1 villager, meaning M1' accepts at least once, but M2' always rejects, meaning they are not equal
+
+
+$A_{TM} \leq_m ALL_{TM}$
+
+$A_{TM}=\{<M,w>|\text{M is a TM, w is a string, }w\in L(M)\}$
+$ALL_{TM} = \{<M>|\text{M is a TM and }L(M)=\Sigma^*\}$
+
+We construct machine M':
+
+```
+M'(x):
+	Run M on w
+	If M accepts w:
+		ACCEPT
+	else:
+		REJECT
+```
+
+$<M,w>\in A_{TM}\rightarrow <M'>\in ALL_{TM}$
+$<M,w>\notin A_{TM}\rightarrow <M'>\notin ALL_{TM}$
+
+
+$E_{TM}\leq_m ODD$
+
+$E_{TM}=\{<M>|\text{ M is a TM, and }L(M)=\emptyset\}$
+$ODD = \{<M>|\text{M is a TM and accepts odd length strings only}\}$
+
+```
+M'(x):
+	If |x| is odd: ACCEPT
+	// E detection
+	Simulate M on all strings parallel
+	If M accepts any string:
+		ACCEPT
+```
+
+$<M>\in E_{TM}\rightarrow <M'>\in ODD_{TM}$
+
+If a lord wants to join E, they have to accept nobody. Such lord must also be accepted by ODD, how?
+
+You build a translation between two lords, if such translation exist, then they are chum good buddies and they will accept each other's lords.
+
+This translation is M'. What's in the translation?
+
+$<M>\notin E_{TM}\rightarrow <M'>\notin ODD_{TM}$
+
+M is a random lord. But M' has even subjects, any subjects means M is not E, so, you know, it rejects.
+
+5. Decidability
+
+$L=\{<M_1,M_2>|\text{M1 and M2 are TMs such that }L(M_1)\subseteq L(M_2)\}$
+
+Is $L \in RE$?
+To show that it's not, we prove $\overline{A_{TM}}\leq_m L$
+$\overline{A_{TM}}=\{<M,w>|\text{M is a TM, w is a string, }w\notin L(M)\}$
+```
+M1'(x):
+	Simulate M on w, if M accepts, ACCEPT
+M2'(x):
+	REJECT
+```
+
+$<M,w>\in \overline{A_{TM}}\rightarrow M_1'\text{  loops foeever}\rightarrow L(M_1')=\emptyset,L(M_2')=\emptyset,\emptyset\subseteq\emptyset\rightarrow<M_1,M_2>\in L$
+$<M,w>\notin \overline{A_{TM}}\rightarrow M_1'\text{  accepts w}\rightarrow L(M_1')=\{w\},L(M_2')=\emptyset,\emptyset\subsetneq\{w\}\rightarrow<M_1,M_2>\notin L$
+
+Is $L\in coRE$?
+To show that it's not, we prove $A_{TM}\leq_m L$
+$A_{TM}=\{<M,w>|\text{M is a TM, w is a string, }w\in L(M)\}$
+```
+M1'(x):
+	If M accepts w: ACCEPT
+M2'(x):
+	Simulate M on w
+	if M accepts: ACCEPT
+```
+
+$<M,w>\in A_{TM}\rightarrow L(M1')=\{w\},L(M_2')=\Sigma^*,\{w\}\subseteq\Sigma^*\rightarrow<M_1,M_2>\in L$
+$<M,w>\in A_{TM}\rightarrow L(M1')=\{w\},L(M_2')=\emptyset,\{w\}\subsetneq\emptyset\rightarrow<M_1,M_2>\notin L$
+
+
+6. Closure Properties
 
