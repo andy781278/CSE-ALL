@@ -85,6 +85,8 @@ $$(PRIMAL)\underset{w\in\mathbb{R}^d,b\in\mathbb{R},\xi\in\mathbb{R}^d}{min}||w|
 such that $y^{(i)}(wx^{(i)}+b)\geq1-\xi_i$ for all i from 1 to n, $\xi\geq 0$
 ![[Pasted image 20260507035112.png]]
 
+$\xi^{(i)} = \max(0, 1 - y^{(i)}(w \cdot x^{(i)} + b))$
+
 Parameter C manages tradeoff between margin and slack
 - The more the margin, the more confident/accurate the model
 - The more the slack, the more you tolerate misclassified points to enlarge the margin.
