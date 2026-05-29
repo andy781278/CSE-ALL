@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "Home.md",
         "CSE 105",
         "CSE 141",
         "CSE 151A",
@@ -686,11 +685,15 @@
     },
     "CSE 151A": {
       "children": [
+        "CSE 151A/Neural Networks",
+        "CSE 151A/Statistical Stability.md",
+        "CSE 151A/Ensemble Method.md",
         "CSE 151A/Decision Trees.md",
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
         "CSE 151A/Homework.md",
+        "CSE 151A/Drawings",
         "CSE 151A/pics"
       ],
       "sortOrder": "custom"
@@ -712,6 +715,12 @@
       ],
       "sortOrder": "custom"
     },
+    "CSE 151A/Drawings": {
+      "children": [
+        "CSE 151A/Drawings/AdaboostToWeakClassifier.excalidraw.md"
+      ],
+      "sortOrder": "custom"
+    },
     "CSE 151A/general info": {
       "children": [
         "CSE 151A/general info/positive semidefinite.md",
@@ -728,8 +737,19 @@
       ],
       "sortOrder": "custom"
     },
+    "CSE 151A/Neural Networks": {
+      "children": [
+        "CSE 151A/Neural Networks/Feedforward Neural Networks.md"
+      ],
+      "sortOrder": "custom"
+    },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260528173847.png",
+        "CSE 151A/pics/Pasted image 20260528180427.png",
+        "CSE 151A/pics/Pasted image 20260528180335.png",
+        "CSE 151A/pics/Pasted image 20260528173420.png",
+        "CSE 151A/pics/Home.md",
         "CSE 151A/pics/Pasted image 20260527062541.png",
         "CSE 151A/pics/Pasted image 20260527063300.png",
         "CSE 151A/pics/Pasted image 20260527063537.png",
