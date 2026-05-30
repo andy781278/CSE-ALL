@@ -639,6 +639,7 @@
     },
     "CSE 141": {
       "children": [
+        "CSE 141/Caches.md",
         "CSE 141/Computer.md",
         "CSE 141/ISA",
         "CSE 141/Measurement of Performance.md",
@@ -672,6 +673,8 @@
     },
     "CSE 141/pics": {
       "children": [
+        "CSE 141/pics/Pasted image 20260529184531.png",
+        "CSE 141/pics/Pasted image 20260529192659.png",
         "CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
         "CSE 141/pics/Pasted Image 20260424210921_135.png",
         "CSE 141/pics/Pasted Image 20260424210926_786.png",
