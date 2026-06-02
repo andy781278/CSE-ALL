@@ -55,3 +55,43 @@ $f(<M>)=<M>^R$
 $<M>\in Diag \rightarrow f(<M>)\in DiagR \rightarrow <M>^R \notin DiagR$
 
 $g(<M>)=<M'>$ where $M'(w)=M(w^R)$
+
+### Proof
+$x\in A\leftrightarrow f(x)\in B$
+If $L(M_B)=B$ and $M_R(x)=f(x)$
+then $M(x)=M_B(M_R(x))$ satisfies $L(M)=A$
+
+1. $\forall x, x\in L(M)\rightarrow x\in A$
+Equivalently (by contrapositive):
+$\forall x, x\notin A \rightarrow x \notin L(M)$
+- Assume $x\notin A$
+- Then $f(x)\notin B$
+- Then $M_R(x)=f(x)\notin B$
+- Then $M(x)=M_B(f(x))=REJECT/LOOP$
+- Therefore $x\notin L(M)$
+
+2. $\forall x, x\in A \rightarrow x\in L(M)$
+- Assume $x\in A$
+- Then $f(x)\in B$
+- Then $M_R(x)\in B$
+- Then $M(x)=M_B(M_R(x))=M_B(f(x))= ACCEPT$
+- Therefore $x\in L(M)$
+
+
+$x\in A\leftrightarrow f(x)\in B$
+If $L(DFA_B)=B$ and $FA_R(x)=f(x)$
+then $M(x)=DFA_B(FA_R(x))$ satisfies $L(M)=A$
+
+Then he talked about FST (Finite State Transducer)
+Also known as Moore Machine / Mealy Machine
+
+Which we already learned
+
+But here's a definition from this class
+
+$T=(Q,\Sigma,\Gamma,s\in Q, \delta)$
+$\delta:Q\times\Sigma\rightarrow Q\times\Gamma^*$
+
+If $M_B$ is a DFA, and $T$ is a FST, then there is a DFA $M_A$
+$M_A(x)=M_B(T(x))$
+
