@@ -1,9 +1,5 @@
 A small fast memory that behaves/acts like a much larger memory. The Cache is essentially a small copy of the main memory, so that it takes less time for CPU to get what it needs.
 
-Since caches are smaller, it's a hashing problem to map the big memory to the small one.
-
-There are possible collisions, when multiple addresses hit the same space in the cache. Those issues have to be resolved in 1 cycle.
-
 **Cache Hit** - Success, data is in cache when asked
 
 **Cache Miss** - Fail, data is not in cache when asked
@@ -23,6 +19,37 @@ There are possible collisions, when multiple addresses hit the same space in the
 **Data cache** - Cache that only holds data
 
 **Unified Cache** - has both Data and Instructions
+
+### Cache Anatomy
+Essentially, with a software scope, a cache is a lookup table with a key value pairing. The key is the memory address decomposed into the tag, and index, and offset, and the value is the value corresponding to the memory address, if it's been found. If it's not, then it will be pulled along with some neighbors in a big block from the main memory into the cache, possibly replacing others in chunks or blocks or lines, but always a block at a time, nothing less, nothing more.
+
+### Load Cache Designs
+Since caches are smaller, it's a hashing problem to map the big memory to the small one. There are possible collisions, when multiple addresses hit the same space in the cache. Those issues have to be resolved in 1 cycle.
+
+> [!info] Address Decomposition
+> The size of the offset, index, and tag depends on the length of the memory address, as well as cache design, basically, it's up to you. Here's some rules:
+> - $\text{Offset Length} = log_2 (\text{Block Size})$, so you can pinpoint the data from within the cache line/block
+> - $\text{Index Length} = log_2 (\text{Number of Lines/Blocks})$, so you can find which block/line potentially has your data
+> - $Tag$ is used for verification, to see if your block is the same as the one from memory that has your data.
+
+There are three types of caches, each with a different strategy to handle the issue.
+#### Direct Map
+Each memory address has a corresponding cache block, this makes it easy to find data, but multiple data can fight over the same block.
+
+
+
+#### Fully Associative
+Any address can go in any slot, which makes it easier to pull data into the cache without conflicts, but finding that data means checking every block, which is expensive.
+
+- No index, only Offset and Tag.
+- 
+
+#### Set Associative
+
+
+### Cache Performance
+$CPI=\text{Base CPI}+ \text{(Instruction Cache Miss Rate + Data Cache Miss Rate) * Miss Penalty}$
+$CPI=\text{Base CPI + (Memory Accesses/instruction * Miss rate * Miss penalty)}$
 
 ![[Pasted image 20260529192659.png]]
 

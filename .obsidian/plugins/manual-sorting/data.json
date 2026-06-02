@@ -620,7 +620,7 @@
     },
     "CSE 105/Computability/Languages": {
       "children": [
-        "CSE 105/Computability/Languages/Halt.md",
+        "CSE 105/Computability/Languages/HALT.md",
         "CSE 105/Computability/Languages/Empty.md",
         "CSE 105/Computability/Languages/Diag.md",
         "CSE 105/Computability/Languages/Accept.md",
@@ -657,9 +657,14 @@
     },
     "CSE 141/ISA": {
       "children": [
+        "CSE 141/ISA/CISC",
         "CSE 141/ISA/Instruction Set Architecture.md",
         "CSE 141/ISA/RISC"
       ],
+      "sortOrder": "custom"
+    },
+    "CSE 141/ISA/CISC": {
+      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {
