@@ -620,7 +620,7 @@
     },
     "CSE 105/Computability/Languages": {
       "children": [
-        "CSE 105/Computability/Languages/HALT.md",
+        "CSE 105/Computability/Languages/Halt.md",
         "CSE 105/Computability/Languages/Empty.md",
         "CSE 105/Computability/Languages/Diag.md",
         "CSE 105/Computability/Languages/Accept.md",
@@ -657,14 +657,9 @@
     },
     "CSE 141/ISA": {
       "children": [
-        "CSE 141/ISA/CISC",
         "CSE 141/ISA/Instruction Set Architecture.md",
         "CSE 141/ISA/RISC"
       ],
-      "sortOrder": "custom"
-    },
-    "CSE 141/ISA/CISC": {
-      "children": [],
       "sortOrder": "custom"
     },
     "CSE 141/ISA/RISC": {
@@ -693,7 +688,11 @@
     },
     "CSE 151A": {
       "children": [
-        "CSE 151A/Neural Networks",
+        "CSE 151A/Uncertainty Qualification.md",
+        "CSE 151A/Adversary.md",
+        "CSE 151A/Distribution Shift.md",
+        "CSE 151A/Generalization.md",
+        "CSE 151A/Neural Networks.md",
         "CSE 151A/Statistical Stability.md",
         "CSE 151A/Ensemble Method.md",
         "CSE 151A/Decision Trees.md",
@@ -745,14 +744,19 @@
       ],
       "sortOrder": "custom"
     },
-    "CSE 151A/Neural Networks": {
-      "children": [
-        "CSE 151A/Neural Networks/Feedforward Neural Networks.md"
-      ],
-      "sortOrder": "custom"
-    },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260603233028.png",
+        "CSE 151A/pics/Pasted image 20260603233947.png",
+        "CSE 151A/pics/Pasted image 20260603220855.png",
+        "CSE 151A/pics/Pasted image 20260603220057.png",
+        "CSE 151A/pics/Pasted image 20260603220010.png",
+        "CSE 151A/pics/Pasted image 20260603183900.png",
+        "CSE 151A/pics/Pasted image 20260603205846.png",
+        "CSE 151A/pics/Pasted image 20260603183547.png",
+        "CSE 151A/pics/Pasted image 20260603182340.png",
+        "CSE 151A/pics/Pasted image 20260603183333.png",
+        "CSE 151A/pics/Pasted image 20260603183008.png",
         "CSE 151A/pics/Pasted image 20260528173847.png",
         "CSE 151A/pics/Pasted image 20260528180427.png",
         "CSE 151A/pics/Pasted image 20260528180335.png",
