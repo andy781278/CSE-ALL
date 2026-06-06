@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "Home.md",
         "CSE 105",
         "CSE 141",
         "CSE 151A",
@@ -552,10 +553,10 @@
     },
     "CSE 100R": {
       "children": [
-        "CSE 100R/Homework.md",
         "CSE 100R/Abstract Data Types.md",
         "CSE 100R/Data Structures",
         "CSE 100R/Difference between ADT and DT.md",
+        "CSE 100R/Homework.md",
         "CSE 100R/Homework.excalidraw.md"
       ],
       "sortOrder": "custom"
@@ -761,7 +762,6 @@
         "CSE 151A/pics/Pasted image 20260528180427.png",
         "CSE 151A/pics/Pasted image 20260528180335.png",
         "CSE 151A/pics/Pasted image 20260528173420.png",
-        "CSE 151A/pics/Home.md",
         "CSE 151A/pics/Pasted image 20260527062541.png",
         "CSE 151A/pics/Pasted image 20260527063300.png",
         "CSE 151A/pics/Pasted image 20260527063537.png",

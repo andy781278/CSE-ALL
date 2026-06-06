@@ -6,9 +6,9 @@
 - [x] CSE 105: May 28th
 - [x] CSE 151A: May 29th
 
-##### Finals
+### Finals
 - [ ] CSE 100R: Jun 6th 2PM
-- [ ] CSE 105: Jun 9th 3PM
+- [x] CSE 105: Jun 9th 3PM
 - [ ] CSE 151A: Jun 12th 3PM
 - [ ] CSE 141: Jun 12th 7PM
 

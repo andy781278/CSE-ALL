@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4101b78bbbb0dddc",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d3a9f983a35d116a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "CSE 151A/Distribution Shift.md",
-                "mode": "source",
-                "source": false
+                "file": "CSE 100R/Homework.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Distribution Shift"
+              "icon": "excalidraw-icon",
+              "title": "Homework.excalidraw"
             }
           }
         ]
@@ -208,15 +206,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d3a9f983a35d116a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 151A/Generalization.md",
+    "CSE 100R/Data Structures/Red-Black Tree.md",
+    "CSE 100R/Data Structures/AVL Tree.md",
+    "CSE 100R/Homework.md",
+    "CSE 100R/Homework.excalidraw.md",
+    "CSE 100R/Data Structures/Trie.md",
+    "CSE 100R/Data Structures/Ternary Search Tree.md",
+    "CSE 100R/Data Structures/Binary Search Tree.md",
+    "CSE 100R/Data Structures/SkipList.md",
+    "CSE 100R/Data Structures/Heap.md",
+    "CSE 100R/Data Structures/Treap.md",
+    "CSE 100R/Data Structures/Hash Table.md",
+    "Home.md",
+    "CSE 100R/Abstract Data Types.md",
+    "CSE 100R/Data Structures/ArrayList.md",
+    "CSE 100R/Difference between ADT and DT.md",
+    "CSE 100R/Data Structures/Circular Array.md",
+    "CSE 100R/Data Structures/LinkedList.md",
+    "CSE 141/Caches.md",
+    "CSE 151A/Uncertainty Qualification.md",
+    "CSE 151A/Decision Trees.md",
+    "CSE 151A/Ensemble Method.md",
+    "CSE 151A/Statistical Stability.md",
     "CSE 151A/Neural Networks.md",
+    "CSE 151A/Generalization.md",
     "CSE 151A/Distribution Shift.md",
     "CSE 151A/Adversary.md",
-    "CSE 151A/Statistical Stability.md",
-    "CSE 151A/Ensemble Method.md",
-    "CSE 151A/Uncertainty Qualification.md",
     "CSE 151A/pics/Pasted image 20260603233947.png",
     "CSE 151A/pics/Pasted image 20260603233028.png",
     "CSE 151A/pics/Pasted image 20260603220010.png",
@@ -227,28 +244,9 @@
     "CSE 151A/pics/Pasted image 20260603183547.png",
     "CSE 151A/pics/Pasted image 20260603183333.png",
     "CSE 151A/pics/Pasted image 20260603183008.png",
-    "CSE 151A/general info/Learning Modalities.md",
-    "CSE 151A/general info/1st day info.md",
-    "CSE 151A/general info/Test Review.md",
-    "CSE 151A/Regression/Gradient Descent.md",
-    "CSE 151A/pics/Home.md",
-    "CSE 105/Computability/Mapping Reduction.md",
-    "CSE 141/Caches.md",
-    "Archived/CSE 140/Finite State Machine/Mealy and Moore Machines.md",
-    "Archived/CSE 140/Finite State Machine/Finite State Machine.md",
-    "CSE 141/Computer.md",
-    "CSE 105/Practice.md",
     "CSE 151A/Neural Networks",
-    "CSE 151A/Drawings/AdaboostToWeakClassifier.excalidraw.md",
     "CSE 151A/Drawings",
-    "CSE 151A/Decision Trees.md",
-    "CSE 151A/Classification/Discriminative/Linear Programming.md",
-    "CSE 151A/Classification/Discriminative/Linear Classifier.md",
-    "CSE 151A/Classification/Discriminative/Kernel.md",
     "CSE 151A/Classification/Discriminative",
-    "CSE 105/Computability/TM Properties.md",
-    "CSE 105/Automatons/Context Free Grammars.md",
-    "CSE 105/Homework.md",
     "CSE 105/Computability/Languages",
     "CSE 105/Computability",
     "CSE 141/ISA/CISC",

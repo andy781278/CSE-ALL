@@ -25,7 +25,7 @@ Given a data set S of n labeled points:
 		- At each node restrict one of k features chosen at random
 
 Example settings:
-- n'=n, k=\sqrt{d} for d dimensional data
+- $n'=n, k=\sqrt{d}$ for d dimensional data
 
 Final predictor: majority vote of h1...hT
 

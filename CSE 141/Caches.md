@@ -48,8 +48,8 @@ Any address can go in any slot, which makes it easier to pull data into the cach
 
 
 ### Cache Performance
-$CPI=\text{Base CPI}+ \text{(Instruction Cache Miss Rate + Data Cache Miss Rate) * Miss Penalty}$
-$CPI=\text{Base CPI + (Memory Accesses/instruction * Miss rate * Miss penalty)}$
+$MCPI=\text{Base CPI}+ \text{(Instruction Cache Miss Rate + Data Cache Miss Rate) * Miss Penalty}$
+$MCPI=\text{Base CPI + (Memory Accesses/instruction * Miss rate * Miss penalty)}$
 
 ![[Pasted image 20260529192659.png]]
 
@@ -61,11 +61,17 @@ When retrieving data from bigger memory, we retrieve it in blocks/lines.
 ### Writing with caches
 - Hitting
 	- Write back
+		- Writes only into cache, and make the block dirty
+		- This way, multiple writes can be performed on that block before it's put back into main memory, saving a lot of time
 	- Write through
+		- Writes directly into cache and main memory
 - Missing
 	- Write Allocate
-	- Write no Allocate
-
+		- brings the block into the cache before performing write
+		- useful if you know you'll need that segment again
+	- Write around
+		- Goes around the cache and writes directly into main memory
+		- useful for if you know you won't need that again
 In real life, there are two bottlenecks that needs to be solved
 
 - Memory Latency Wall

@@ -9,3 +9,6 @@ Time: $O(log(n))$
 Time: $O(log(n))$
 
 Better for many Insert/Remove calls
+
+Rule:
+Every node (not including itself) has to hit the same number of black nodes on every path it has down to NULL, which is inexistent children
