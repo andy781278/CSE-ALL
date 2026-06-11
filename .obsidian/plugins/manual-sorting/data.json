@@ -3,16 +3,16 @@
     "/": {
       "children": [
         "Home.md",
-        "CSE 105",
         "CSE 141",
         "CSE 151A",
-        "CSE 100R",
         "Archived"
       ],
       "sortOrder": "custom"
     },
     "Archived": {
       "children": [
+        "Archived/CSE 100R",
+        "Archived/CSE 105",
         "Archived/CSE 101",
         "Archived/CSE 140",
         "Archived/CSE 29",
@@ -217,6 +217,33 @@
       ],
       "sortOrder": "custom"
     },
+    "Archived/CSE 100R": {
+      "children": [
+        "Archived/CSE 100R/Abstract Data Types.md",
+        "Archived/CSE 100R/Data Structures",
+        "Archived/CSE 100R/Difference between ADT and DT.md",
+        "Archived/CSE 100R/Homework.md",
+        "Archived/CSE 100R/Homework.excalidraw.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 100R/Data Structures": {
+      "children": [
+        "Archived/CSE 100R/Data Structures/ArrayList.md",
+        "Archived/CSE 100R/Data Structures/LinkedList.md",
+        "Archived/CSE 100R/Data Structures/SkipList.md",
+        "Archived/CSE 100R/Data Structures/Circular Array.md",
+        "Archived/CSE 100R/Data Structures/Heap.md",
+        "Archived/CSE 100R/Data Structures/Binary Search Tree.md",
+        "Archived/CSE 100R/Data Structures/Treap.md",
+        "Archived/CSE 100R/Data Structures/AVL Tree.md",
+        "Archived/CSE 100R/Data Structures/Red-Black Tree.md",
+        "Archived/CSE 100R/Data Structures/Trie.md",
+        "Archived/CSE 100R/Data Structures/Ternary Search Tree.md",
+        "Archived/CSE 100R/Data Structures/Hash Table.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Archived/CSE 101": {
       "children": [
         "Archived/CSE 101/Linear Programming",
@@ -345,6 +372,66 @@
         "Archived/CSE 101/Pics/Screen Shot 2026-01-12 at 9.08.42 PM.png",
         "Archived/CSE 101/Pics/Pasted image 20260201112330.png",
         "Archived/CSE 101/Pics/Screen Shot 2026-01-07 at 1.25.51 PM.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105": {
+      "children": [
+        "Archived/CSE 105/Computability",
+        "Archived/CSE 105/Automatons",
+        "Archived/CSE 105/CSE 105 Definitions.md",
+        "Archived/CSE 105/Drawings",
+        "Archived/CSE 105/Homework.md",
+        "Archived/CSE 105/Practice.md",
+        "Archived/CSE 105/mt1_practice.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105/Automatons": {
+      "children": [
+        "Archived/CSE 105/Automatons/Finite Automaton",
+        "Archived/CSE 105/Automatons/Context Free Grammars.md",
+        "Archived/CSE 105/Automatons/Push Down Automaton.md",
+        "Archived/CSE 105/Automatons/Turing Machine.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105/Automatons/Finite Automaton": {
+      "children": [
+        "Archived/CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
+        "Archived/CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
+        "Archived/CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
+        "Archived/CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
+        "Archived/CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
+        "Archived/CSE 105/Automatons/Finite Automaton/Pumping Lemma.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105/Computability": {
+      "children": [
+        "Archived/CSE 105/Computability/TM Properties.md",
+        "Archived/CSE 105/Computability/Collatz Conjecture.md",
+        "Archived/CSE 105/Computability/Mapping Reduction.md",
+        "Archived/CSE 105/Computability/Languages"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105/Computability/Languages": {
+      "children": [
+        "Archived/CSE 105/Computability/Languages/Halt.md",
+        "Archived/CSE 105/Computability/Languages/Empty.md",
+        "Archived/CSE 105/Computability/Languages/Diag.md",
+        "Archived/CSE 105/Computability/Languages/Accept.md",
+        "Archived/CSE 105/Computability/Languages/Lx.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 105/Drawings": {
+      "children": [
+        "Archived/CSE 105/Drawings/PDA to CFG.excalidraw.md",
+        "Archived/CSE 105/Drawings/Pumping Lemma.excalidraw.md",
+        "Archived/CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
+        "Archived/CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
@@ -551,93 +638,6 @@
       ],
       "sortOrder": "custom"
     },
-    "CSE 100R": {
-      "children": [
-        "CSE 100R/Abstract Data Types.md",
-        "CSE 100R/Data Structures",
-        "CSE 100R/Difference between ADT and DT.md",
-        "CSE 100R/Homework.md",
-        "CSE 100R/Homework.excalidraw.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 100R/Data Structures": {
-      "children": [
-        "CSE 100R/Data Structures/ArrayList.md",
-        "CSE 100R/Data Structures/LinkedList.md",
-        "CSE 100R/Data Structures/SkipList.md",
-        "CSE 100R/Data Structures/Circular Array.md",
-        "CSE 100R/Data Structures/Heap.md",
-        "CSE 100R/Data Structures/Binary Search Tree.md",
-        "CSE 100R/Data Structures/Treap.md",
-        "CSE 100R/Data Structures/AVL Tree.md",
-        "CSE 100R/Data Structures/Red-Black Tree.md",
-        "CSE 100R/Data Structures/Trie.md",
-        "CSE 100R/Data Structures/Ternary Search Tree.md",
-        "CSE 100R/Data Structures/Hash Table.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105": {
-      "children": [
-        "CSE 105/Computability",
-        "CSE 105/Automatons",
-        "CSE 105/CSE 105 Definitions.md",
-        "CSE 105/Drawings",
-        "CSE 105/Homework.md",
-        "CSE 105/Practice.md",
-        "CSE 105/mt1_practice.pdf"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105/Automatons": {
-      "children": [
-        "CSE 105/Automatons/Finite Automaton",
-        "CSE 105/Automatons/Context Free Grammars.md",
-        "CSE 105/Automatons/Push Down Automaton.md",
-        "CSE 105/Automatons/Turing Machine.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105/Automatons/Finite Automaton": {
-      "children": [
-        "CSE 105/Automatons/Finite Automaton/Transitioning Between Automatons.md",
-        "CSE 105/Automatons/Finite Automaton/Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Finite Automaton/Non-Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Finite Automaton/Epsilon-Closure Function.md",
-        "CSE 105/Automatons/Finite Automaton/Generative Non-Deterministic Finite Automaton.md",
-        "CSE 105/Automatons/Finite Automaton/Pumping Lemma.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105/Computability": {
-      "children": [
-        "CSE 105/Computability/TM Properties.md",
-        "CSE 105/Computability/Collatz Conjecture.md",
-        "CSE 105/Computability/Mapping Reduction.md",
-        "CSE 105/Computability/Languages"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105/Computability/Languages": {
-      "children": [
-        "CSE 105/Computability/Languages/Halt.md",
-        "CSE 105/Computability/Languages/Empty.md",
-        "CSE 105/Computability/Languages/Diag.md",
-        "CSE 105/Computability/Languages/Accept.md",
-        "CSE 105/Computability/Languages/Lx.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "CSE 105/Drawings": {
-      "children": [
-        "CSE 105/Drawings/PDA to CFG.excalidraw.md",
-        "CSE 105/Drawings/Pumping Lemma.excalidraw.md",
-        "CSE 105/Drawings/CSE105 Proof Reg. Lang. closed under union.excalidraw.md",
-        "CSE 105/Drawings/Transitioning Between Automatons.excalidraw.md"
-      ],
-      "sortOrder": "custom"
-    },
     "CSE 141": {
       "children": [
         "CSE 141/Caches.md",
@@ -701,6 +701,7 @@
         "CSE 151A/Classification",
         "CSE 151A/general info",
         "CSE 151A/Homework.md",
+        "CSE 151A/Untitled.md",
         "CSE 151A/Drawings",
         "CSE 151A/pics"
       ],
@@ -708,7 +709,6 @@
     },
     "CSE 151A/Classification": {
       "children": [
-        "CSE 151A/Classification/Prediction Problems.md",
         "CSE 151A/Classification/Nearest Neighbor Classification.md",
         "CSE 151A/Classification/Generative Models Classification.md",
         "CSE 151A/Classification/Discriminative"
@@ -731,6 +731,7 @@
     },
     "CSE 151A/general info": {
       "children": [
+        "CSE 151A/general info/Prediction Problems.md",
         "CSE 151A/general info/positive semidefinite.md",
         "CSE 151A/general info/Convexity.md",
         "CSE 151A/general info/Hessian.md",
@@ -747,6 +748,16 @@
     },
     "CSE 151A/pics": {
       "children": [
+        "CSE 151A/pics/Pasted image 20260609201651.png",
+        "CSE 151A/pics/Pasted image 20260609211413.png",
+        "CSE 151A/pics/Pasted image 20260609211242.png",
+        "CSE 151A/pics/Pasted image 20260609211122.png",
+        "CSE 151A/pics/Pasted image 20260609210759.png",
+        "CSE 151A/pics/Pasted image 20260609210634.png",
+        "CSE 151A/pics/Pasted image 20260609204833.png",
+        "CSE 151A/pics/Pasted image 20260609204401.png",
+        "CSE 151A/pics/Pasted image 20260609201717.png",
+        "CSE 151A/pics/Pasted image 20260609201548.png",
         "CSE 151A/pics/Pasted image 20260603233028.png",
         "CSE 151A/pics/Pasted image 20260603233947.png",
         "CSE 151A/pics/Pasted image 20260603220855.png",

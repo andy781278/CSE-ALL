@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "512c6773b8fe7e2a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "CSE 100R/Homework.excalidraw.md"
+                "file": "CSE 151A/Uncertainty Qualification.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Homework.excalidraw"
+              "icon": "lucide-file",
+              "title": "Uncertainty Qualification"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
+                "file": "CSE 151A/Uncertainty Qualification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deterministic Finite Automaton"
+              "title": "Backlinks for Uncertainty Qualification"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE 140/ALU Components/Control.md",
+                "file": "CSE 151A/Uncertainty Qualification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Control"
+              "title": "Outgoing links from Uncertainty Qualification"
             }
           },
           {
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 105/Automatons/Deterministic Finite Automaton.md",
+                "file": "CSE 151A/Uncertainty Qualification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deterministic Finite Automaton"
+              "title": "Outline of Uncertainty Qualification"
             }
           },
           {
@@ -169,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -184,11 +186,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 382.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -203,56 +205,57 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "claude-sidebar:New Claude Tab": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "512c6773b8fe7e2a",
   "lastOpenFiles": [
-    "CSE 100R/Data Structures/Red-Black Tree.md",
-    "CSE 100R/Data Structures/AVL Tree.md",
-    "CSE 100R/Homework.md",
-    "CSE 100R/Homework.excalidraw.md",
-    "CSE 100R/Data Structures/Trie.md",
-    "CSE 100R/Data Structures/Ternary Search Tree.md",
-    "CSE 100R/Data Structures/Binary Search Tree.md",
-    "CSE 100R/Data Structures/SkipList.md",
-    "CSE 100R/Data Structures/Heap.md",
-    "CSE 100R/Data Structures/Treap.md",
-    "CSE 100R/Data Structures/Hash Table.md",
-    "Home.md",
-    "CSE 100R/Abstract Data Types.md",
-    "CSE 100R/Data Structures/ArrayList.md",
-    "CSE 100R/Difference between ADT and DT.md",
-    "CSE 100R/Data Structures/Circular Array.md",
-    "CSE 100R/Data Structures/LinkedList.md",
-    "CSE 141/Caches.md",
-    "CSE 151A/Uncertainty Qualification.md",
-    "CSE 151A/Decision Trees.md",
-    "CSE 151A/Ensemble Method.md",
-    "CSE 151A/Statistical Stability.md",
-    "CSE 151A/Neural Networks.md",
-    "CSE 151A/Generalization.md",
-    "CSE 151A/Distribution Shift.md",
     "CSE 151A/Adversary.md",
-    "CSE 151A/pics/Pasted image 20260603233947.png",
-    "CSE 151A/pics/Pasted image 20260603233028.png",
-    "CSE 151A/pics/Pasted image 20260603220010.png",
-    "CSE 151A/pics/Pasted image 20260603220855.png",
-    "CSE 151A/pics/Pasted image 20260603220057.png",
-    "CSE 151A/pics/Pasted image 20260603205846.png",
-    "CSE 151A/pics/Pasted image 20260603183900.png",
-    "CSE 151A/pics/Pasted image 20260603183547.png",
-    "CSE 151A/pics/Pasted image 20260603183333.png",
-    "CSE 151A/pics/Pasted image 20260603183008.png",
+    "CSE 151A/Distribution Shift.md",
+    "CSE 151A/Generalization.md",
+    "CSE 151A/Uncertainty Qualification.md",
+    "CSE 151A/Neural Networks.md",
+    "CSE 151A/Statistical Stability.md",
+    "CSE 151A/Ensemble Method.md",
+    "CSE 151A/Decision Trees.md",
+    "CSE 151A/Regression/Logistic Regression.md",
+    "CSE 151A/Classification/Discriminative/Linear Classifier.md",
+    "CSE 151A/general info/Prediction Problems.md",
+    "CSE 151A/general info/Convexity.md",
+    "CSE 151A/general info/positive semidefinite.md",
+    "CSE 151A/Classification/Generative Models Classification.md",
+    "CSE 151A/Classification/Nearest Neighbor Classification.md",
+    "CSE 151A/Classification/Discriminative/Kernel.md",
+    "CSE 151A/Classification/Discriminative/Linear Programming.md",
+    "CSE 151A/Hw 151A.md",
+    "CSE 151A/Homework 151A Draw.md",
+    "CSE 151A/Regression/Gradient Descent.md",
+    "CSE 151A/Regression/Linear Regression.md",
+    "CSE 151A/Regression/Regression.md",
+    "CSE 151A/general info/Hessian.md",
+    "CSE 151A/general info/Gradient.md",
+    "CSE 151A/general info/Mahalanobis Distance.md",
+    "CSE 151A/general info/Correlation.md",
+    "CSE 151A/pics/Pasted image 20260609201717.png",
+    "CSE 151A/pics/Pasted image 20260609211413.png",
+    "CSE 151A/pics/Pasted image 20260609211242.png",
+    "CSE 151A/pics/Pasted image 20260609211122.png",
+    "CSE 151A/pics/Pasted image 20260609210759.png",
+    "CSE 151A/pics/Pasted image 20260609210634.png",
+    "CSE 151A/pics/Pasted image 20260609204833.png",
+    "CSE 151A/pics/Pasted image 20260609204401.png",
+    "CSE 151A/pics/Pasted image 20260609201548.png",
+    "CSE 151A/pics/Pasted image 20260609201651.png",
     "CSE 151A/Neural Networks",
     "CSE 151A/Drawings",
     "CSE 151A/Classification/Discriminative",
-    "CSE 105/Computability/Languages",
-    "CSE 105/Computability",
+    "Archived/CSE 105/Computability/Languages",
+    "Archived/CSE 105/Computability",
     "CSE 141/ISA/CISC",
     "CSE 141/ISA/RISC",
-    "CSE 100R/Data Structures",
-    "CSE 105/mt1_practice.pdf",
-    "CSE 105/Automatons/Finite Automaton"
+    "Archived/CSE 100R/Data Structures",
+    "Archived/CSE 105/mt1_practice.pdf",
+    "Archived/CSE 105/Automatons/Finite Automaton"
   ]
 }
