@@ -38,14 +38,5 @@
       "value": "#ffa3dd"
     }
   ],
-  "fileColors": [
-    {
-      "path": "CSE 141",
-      "color": "bRTLRgEmKdZie4D1WQ6Zr"
-    },
-    {
-      "path": "CSE 151A",
-      "color": "UVo5ygSSDs24lcyVLzVyc"
-    }
-  ]
+  "fileColors": []
 }
