@@ -640,13 +640,15 @@
     },
     "CSE 141": {
       "children": [
+        "CSE 141/Virtual Memory.md",
         "CSE 141/Caches.md",
         "CSE 141/Computer.md",
         "CSE 141/ISA",
         "CSE 141/Measurement of Performance.md",
         "CSE 141/Homework.md",
         "CSE 141/general info",
-        "CSE 141/pics"
+        "CSE 141/pics",
+        "CSE 141/course_2026_cse141_final_review_0.pdf"
       ],
       "sortOrder": "custom"
     },
@@ -689,6 +691,8 @@
     },
     "CSE 151A": {
       "children": [
+        "CSE 151A/Homework 151A Draw.md",
+        "CSE 151A/Hw 151A.md",
         "CSE 151A/Uncertainty Qualification.md",
         "CSE 151A/Adversary.md",
         "CSE 151A/Distribution Shift.md",
@@ -700,8 +704,6 @@
         "CSE 151A/Regression",
         "CSE 151A/Classification",
         "CSE 151A/general info",
-        "CSE 151A/Homework.md",
-        "CSE 151A/Untitled.md",
         "CSE 151A/Drawings",
         "CSE 151A/pics"
       ],

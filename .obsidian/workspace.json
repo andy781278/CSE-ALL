@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "512c6773b8fe7e2a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 151A/Uncertainty Qualification.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Uncertainty Qualification"
+              "title": "Home"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE 151A/Uncertainty Qualification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Uncertainty Qualification"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE 151A/Uncertainty Qualification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Uncertainty Qualification"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE 151A/Uncertainty Qualification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Uncertainty Qualification"
+              "title": "Outline"
             }
           },
           {
@@ -205,16 +202,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "homepage:Open homepage": false,
-      "claude-sidebar:New Claude Tab": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "512c6773b8fe7e2a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 151A/Classification/Discriminative/Kernel.md",
+    "Home.md",
+    "CSE 141/Caches.md",
+    "CSE 141/Homework.md",
+    "CSE 141/Virtual Memory.md",
+    "CSE 141/ISA/RISC/Hazard.md",
+    "CSE 141/ISA/RISC/Pipelining.md",
+    "CSE 141/ISA/RISC/MIPS.md",
+    "CSE 141/ISA/Instruction Set Architecture.md",
+    "CSE 141/Measurement of Performance.md",
+    "course_2026_cse141_final_review.pdf",
+    "CSE 141/course_2026_cse141_final_review_0.pdf",
+    "CSE 141/Computer.md",
+    "CSE 151A/Uncertainty Qualification.md",
     "CSE 151A/Adversary.md",
     "CSE 151A/Distribution Shift.md",
     "CSE 151A/Generalization.md",
-    "CSE 151A/Uncertainty Qualification.md",
     "CSE 151A/Neural Networks.md",
     "CSE 151A/Statistical Stability.md",
     "CSE 151A/Ensemble Method.md",
@@ -226,17 +235,6 @@
     "CSE 151A/general info/positive semidefinite.md",
     "CSE 151A/Classification/Generative Models Classification.md",
     "CSE 151A/Classification/Nearest Neighbor Classification.md",
-    "CSE 151A/Classification/Discriminative/Kernel.md",
-    "CSE 151A/Classification/Discriminative/Linear Programming.md",
-    "CSE 151A/Hw 151A.md",
-    "CSE 151A/Homework 151A Draw.md",
-    "CSE 151A/Regression/Gradient Descent.md",
-    "CSE 151A/Regression/Linear Regression.md",
-    "CSE 151A/Regression/Regression.md",
-    "CSE 151A/general info/Hessian.md",
-    "CSE 151A/general info/Gradient.md",
-    "CSE 151A/general info/Mahalanobis Distance.md",
-    "CSE 151A/general info/Correlation.md",
     "CSE 151A/pics/Pasted image 20260609201717.png",
     "CSE 151A/pics/Pasted image 20260609211413.png",
     "CSE 151A/pics/Pasted image 20260609211242.png",
@@ -254,8 +252,6 @@
     "Archived/CSE 105/Computability",
     "CSE 141/ISA/CISC",
     "CSE 141/ISA/RISC",
-    "Archived/CSE 100R/Data Structures",
-    "Archived/CSE 105/mt1_practice.pdf",
-    "Archived/CSE 105/Automatons/Finite Automaton"
+    "Archived/CSE 100R/Data Structures"
   ]
 }

@@ -31,21 +31,40 @@ Since caches are smaller, it's a hashing problem to map the big memory to the sm
 > - $\text{Offset Length} = log_2 (\text{Block Size})$, so you can pinpoint the data from within the cache line/block
 > - $\text{Index Length} = log_2 (\text{Number of Lines/Blocks})$, so you can find which block/line potentially has your data
 > - $Tag$ is used for verification, to see if your block is the same as the one from memory that has your data.
+> - Address = A bits total
+> - Cache size = C bytes
+> - Block size = B bytes
+> - Ways = N
 
 There are three types of caches, each with a different strategy to handle the issue.
 #### Direct Map
-Each memory address has a corresponding cache block, this makes it easy to find data, but multiple data can fight over the same block.
+Each memory address has a specific corresponding cache block, this makes it easy to find data, but multiple data can fight over the same block.
 
-
+`S=C/B, which means Index length is log2(cache size / block size)`
+`[ Tag | Index | Offset ]`
+`A - (index + offset) bits | log₂(S) bits | log₂(B) bits`
 
 #### Fully Associative
-Any address can go in any slot, which makes it easier to pull data into the cache without conflicts, but finding that data means checking every block, which is expensive.
+Any address can go in any slot, which makes it easier to pull data into the cache without conflicts, but finding that data means checking every block, which is expensive. No index, only Offset and Tag.
 
-- No index, only Offset and Tag.
-- 
-
+`[ Tag | Offset ]`
+`A - offset bits | log₂(B) bits`
 #### Set Associative
+A middle ground between direct map and fully associative. The cache is divided up into sets, and the index is used to find which set to look in, then the hardware scans all data in that set in parallel, since it's hardwired number of data per set, we don't have to check sequentially.
 
+The number of sets is S, which is gotten by $S=\frac{C}{BN}$, where C is cache size, B is block size, and N is number of ways.
+
+So as the number of ways increase, S, or the number of sets decrease, it's inverse.
+
+| Method                    | # of sets | # of ways |
+| ------------------------- | --------- | --------- |
+| Direct Map                | 8         | 1         |
+| 2 way                     | 4         | 2         |
+| 4 way                     | 2         | 4         |
+| 8 way (Fully Associative) | 1         | 8         |
+
+`[ Tag | Index | Offset ]`
+`A - (index + offset) bits | log₂(S) bits | log₂(B) bits`
 
 ### Cache Performance
 $MCPI=\text{Base CPI}+ \text{(Instruction Cache Miss Rate + Data Cache Miss Rate) * Miss Penalty}$
@@ -63,6 +82,7 @@ When retrieving data from bigger memory, we retrieve it in blocks/lines.
 	- Write back
 		- Writes only into cache, and make the block dirty
 		- This way, multiple writes can be performed on that block before it's put back into main memory, saving a lot of time
+		- When you need to replace a dirty block, you first write it back into main memory
 	- Write through
 		- Writes directly into cache and main memory
 - Missing
