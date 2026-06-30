@@ -3,6 +3,7 @@
     "/": {
       "children": [
         "Home.md",
+        "CSE 151B",
         "Archived"
       ],
       "sortOrder": "custom"
@@ -535,6 +536,57 @@
       ],
       "sortOrder": "custom"
     },
+    "Archived/CSE 141": {
+      "children": [
+        "Archived/CSE 141/Virtual Memory.md",
+        "Archived/CSE 141/Caches.md",
+        "Archived/CSE 141/Computer.md",
+        "Archived/CSE 141/ISA",
+        "Archived/CSE 141/Measurement of Performance.md",
+        "Archived/CSE 141/Homework.md",
+        "Archived/CSE 141/general info",
+        "Archived/CSE 141/pics",
+        "Archived/CSE 141/course_2026_cse141_final_review_0.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 141/general info": {
+      "children": [
+        "Archived/CSE 141/general info/general info.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 141/ISA": {
+      "children": [
+        "Archived/CSE 141/ISA/Instruction Set Architecture.md",
+        "Archived/CSE 141/ISA/RISC"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 141/ISA/RISC": {
+      "children": [
+        "Archived/CSE 141/ISA/RISC/MIPS.md",
+        "Archived/CSE 141/ISA/RISC/RISC-V.md",
+        "Archived/CSE 141/ISA/RISC/Pipelining.md",
+        "Archived/CSE 141/ISA/RISC/Hazard.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Archived/CSE 141/pics": {
+      "children": [
+        "Archived/CSE 141/pics/Pasted image 20260529184531.png",
+        "Archived/CSE 141/pics/Pasted image 20260529192659.png",
+        "Archived/CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
+        "Archived/CSE 141/pics/Pasted Image 20260424210921_135.png",
+        "Archived/CSE 141/pics/Pasted Image 20260424210926_786.png",
+        "Archived/CSE 141/pics/Pasted Image 20260424210933_313.png",
+        "Archived/CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
+        "Archived/CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
+        "Archived/CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
+        "Archived/CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png"
+      ],
+      "sortOrder": "custom"
+    },
     "Archived/CSE 151A": {
       "children": [
         "Archived/CSE 151A/Homework 151A Draw.md",
@@ -749,55 +801,8 @@
       ],
       "sortOrder": "custom"
     },
-    "Archived/CSE 141": {
-      "children": [
-        "Archived/CSE 141/Virtual Memory.md",
-        "Archived/CSE 141/Caches.md",
-        "Archived/CSE 141/Computer.md",
-        "Archived/CSE 141/ISA",
-        "Archived/CSE 141/Measurement of Performance.md",
-        "Archived/CSE 141/Homework.md",
-        "Archived/CSE 141/general info",
-        "Archived/CSE 141/pics",
-        "Archived/CSE 141/course_2026_cse141_final_review_0.pdf"
-      ],
-      "sortOrder": "custom"
-    },
-    "Archived/CSE 141/ISA": {
-      "children": [
-        "Archived/CSE 141/ISA/Instruction Set Architecture.md",
-        "Archived/CSE 141/ISA/RISC"
-      ],
-      "sortOrder": "custom"
-    },
-    "Archived/CSE 141/ISA/RISC": {
-      "children": [
-        "Archived/CSE 141/ISA/RISC/MIPS.md",
-        "Archived/CSE 141/ISA/RISC/RISC-V.md",
-        "Archived/CSE 141/ISA/RISC/Pipelining.md",
-        "Archived/CSE 141/ISA/RISC/Hazard.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Archived/CSE 141/general info": {
-      "children": [
-        "Archived/CSE 141/general info/general info.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Archived/CSE 141/pics": {
-      "children": [
-        "Archived/CSE 141/pics/Pasted image 20260529184531.png",
-        "Archived/CSE 141/pics/Pasted image 20260529192659.png",
-        "Archived/CSE 141/pics/Screen Shot 2026-05-04 at 5.24.43 PM.png",
-        "Archived/CSE 141/pics/Pasted Image 20260424210921_135.png",
-        "Archived/CSE 141/pics/Pasted Image 20260424210926_786.png",
-        "Archived/CSE 141/pics/Pasted Image 20260424210933_313.png",
-        "Archived/CSE 141/pics/Screen Shot 2026-04-08 at 5.25.18 PM.png",
-        "Archived/CSE 141/pics/Screen Shot 2026-04-08 at 6.01.31 PM.png",
-        "Archived/CSE 141/pics/Screen Shot 2026-04-06 at 5.14.11 PM.png",
-        "Archived/CSE 141/pics/Screen Shot 2026-04-06 at 5.39.17 PM.png"
-      ],
+    "CSE 151B": {
+      "children": [],
       "sortOrder": "custom"
     }
   },
