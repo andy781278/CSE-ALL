@@ -1,14 +1,2 @@
-### Midterms
-- [x] CSE 105: Apr 30th
-- [x] CSE 100R: May 4th 
-- [x] CSE 151A: May 8th
-- [x] CSE 141: May 13th 
-- [x] CSE 105: May 28th
-- [x] CSE 151A: May 29th
-
-### Finals
-- [x] CSE 100R: Jun 6th 2PM
-- [x] CSE 105: Jun 9th 3PM
-- [x] CSE 151A: Jun 12th 3PM
-- [x] CSE 141: Jun 12th 7PM
-
+- [ ]  CSE 110 Lab - before Thursday
+- [ ] CSE 167 HW - in a long time

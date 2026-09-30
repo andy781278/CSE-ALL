@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "61c0d73569ed1244",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "408a59c2e5c88c9a",
+            "id": "55efc4ca11f47669",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 151B/Regularization.md",
+                "file": "CSE 167/Vector Graphics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regularization"
+              "title": "Vector Graphics"
+            }
+          },
+          {
+            "id": "5f3f4638770a0ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE 110/Requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Requirements"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "custom",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -205,9 +222,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "408a59c2e5c88c9a",
+  "active": "39fab3cc1ae41cf2",
   "lastOpenFiles": [
-    "CSE 151B/Regularization.md",
+    "CSE 110/Images/Screen Shot 2026-09-28 at 4.29.27 PM.png",
+    "CSE 167/Images/Screen Shot 2026-09-28 at 2.29.23 PM.png",
+    "CSE 167/Vector Graphics.md",
+    "CSE 110/Requirements.md",
+    "CSE 167/Images",
+    "CSE 110/Images",
+    "CSE 167/Shaders.md",
+    "Home.md",
+    "CSE 110",
+    "CSE 167",
+    "CSE 120/Untitled.md",
+    "Archived/CSE 141/ISA/RISC/MIPS.md",
+    "Archived/CSE 141/ISA/Instruction Set Architecture.md",
+    "CSE 120/Regularization.md",
     "Archived/CSE 151A/Regression/Linear Regression.md",
     "Archived/CSE 151A/Generalization.md",
     "Archived/CSE 151A/Neural Networks.md",
@@ -220,22 +250,14 @@
     "Archived/CSE 151A/Classification/Discriminative/Kernel.md",
     "Archived/CSE 151A/Classification/Discriminative/Linear Programming.md",
     "Archived/CSE 151A/Classification/Discriminative/Linear Classifier.md",
-    "Home.md",
-    "CSE 151B",
+    "CSE 120",
     "Archived/CSE 141/Caches.md",
     "Archived/CSE 141/Homework.md",
     "Archived/CSE 141/Virtual Memory.md",
     "Archived/CSE 141/ISA/RISC/Hazard.md",
     "Archived/CSE 141/ISA/RISC/Pipelining.md",
-    "Archived/CSE 141/ISA/RISC/MIPS.md",
-    "Archived/CSE 141/ISA/Instruction Set Architecture.md",
-    "Archived/CSE 141/Measurement of Performance.md",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
-    "Archived/CSE 141/Computer.md",
-    "Archived/CSE 151A/Uncertainty Qualification.md",
-    "Archived/CSE 151A/Adversary.md",
-    "Archived/CSE 151A/Distribution Shift.md",
     "Archived/CSE 151A/pics/Pasted image 20260609201717.png",
     "Archived/CSE 151A/pics/Pasted image 20260609211413.png",
     "Archived/CSE 151A/pics/Pasted image 20260609211242.png",
@@ -244,14 +266,8 @@
     "Archived/CSE 151A/pics/Pasted image 20260609210634.png",
     "Archived/CSE 151A/pics/Pasted image 20260609204833.png",
     "Archived/CSE 151A/pics/Pasted image 20260609204401.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609201548.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609201651.png",
     "CSE 151A/Neural Networks",
     "Archived/CSE 151A/Drawings",
-    "Archived/CSE 151A/Classification/Discriminative",
-    "Archived/CSE 105/Computability/Languages",
-    "Archived/CSE 105/Computability",
-    "CSE 141/ISA/CISC",
-    "Archived/CSE 141/ISA/RISC"
+    "Archived/CSE 151A/Classification/Discriminative"
   ]
 }
