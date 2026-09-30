@@ -421,11 +421,11 @@
     },
     "Archived/CSE 105/Computability/Languages": {
       "children": [
-        "Archived/CSE 105/Computability/Languages/Halt.md",
-        "Archived/CSE 105/Computability/Languages/Empty.md",
-        "Archived/CSE 105/Computability/Languages/Diag.md",
-        "Archived/CSE 105/Computability/Languages/Accept.md",
-        "Archived/CSE 105/Computability/Languages/Lx.md"
+        "Archived/CSE 105/Computability/Languages/105_Lx.md",
+        "Archived/CSE 105/Computability/Languages/105_Halt.md",
+        "Archived/CSE 105/Computability/Languages/105_Empty.md",
+        "Archived/CSE 105/Computability/Languages/105_Diag.md",
+        "Archived/CSE 105/Computability/Languages/105_Accept.md"
       ],
       "sortOrder": "custom"
     },
@@ -818,15 +818,15 @@
     },
     "CSE 120": {
       "children": [
-        "CSE 120/Untitled.md"
+        "CSE 120/Architecture Support.md"
       ],
       "sortOrder": "custom"
     },
     "CSE 167": {
       "children": [
-        "CSE 167/Images",
         "CSE 167/Vector Graphics.md",
-        "CSE 167/Shaders.md"
+        "CSE 167/Shaders.md",
+        "CSE 167/Images"
       ],
       "sortOrder": "custom"
     },
