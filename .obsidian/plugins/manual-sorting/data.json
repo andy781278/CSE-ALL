@@ -818,7 +818,16 @@
     },
     "CSE 120": {
       "children": [
-        "CSE 120/Architecture Support.md"
+        "CSE 120/Processes.md",
+        "CSE 120/Architecture Support.md",
+        "CSE 120/Pics"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 120/Pics": {
+      "children": [
+        "CSE 120/Pics/Pasted image 20261006205238.png",
+        "CSE 120/Pics/Pasted image 20261006204156.png"
       ],
       "sortOrder": "custom"
     },

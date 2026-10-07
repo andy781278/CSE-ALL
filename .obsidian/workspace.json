@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 167/Transformation.md",
+                "file": "CSE 120/Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformation"
+              "title": "Processes"
             }
           }
         ]
@@ -209,10 +209,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 120/Architecture Support.md",
+    "CSE 120/Processes.md",
+    "Archived/CSE 29/fork().md",
+    "CSE 120/Pics/Pasted image 20261006205238.png",
+    "CSE 120/Pics",
+    "CSE 120/Pics/Pasted image 20261006204156.png",
+    "Home.md",
+    "CSE 167/Transformation.md",
     "CSE 167/Polylines.md",
     "CSE 167/Shaders.md",
     "CSE 167/Vector Graphics.md",
-    "CSE 167/Transformation.md",
     "Archived/CSE 151A/Regression/Linear Regression.md",
     "Archived/CSE 151A/Regression/Regression.md",
     "Archived/CSE 151A/Decision Trees.md",
@@ -221,8 +228,6 @@
     "Archived/CSE 151A/Generalization.md",
     "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
     "CSE 110/Requirements.md",
-    "Home.md",
-    "CSE 120/Architecture Support.md",
     "Archived/CSE 105/Computability/Languages/105_Lx.md",
     "Archived/CSE 105/Computability/Languages/105_Halt.md",
     "Archived/CSE 105/Computability/Languages/105_Empty.md",
@@ -234,14 +239,12 @@
     "CSE 110/Images",
     "CSE 110",
     "CSE 167",
-    "CSE 120/Untitled.md",
     "Archived/CSE 141/ISA/RISC/MIPS.md",
     "Archived/CSE 141/ISA/Instruction Set Architecture.md",
     "CSE 120/Regularization.md",
     "Archived/CSE 151A/Neural Networks.md",
     "Archived/CSE 151A/Hw 151A.md",
     "Archived/CSE 151A/Homework 151A Draw.md",
-    "Archived/CSE 151A/Regression/Logistic Regression.md",
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
@@ -250,10 +253,7 @@
     "Archived/CSE 151A/pics/Pasted image 20260609211242.png",
     "Archived/CSE 151A/pics/Pasted image 20260609211122.png",
     "Archived/CSE 151A/pics/Pasted image 20260609210759.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609210634.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609204833.png",
     "CSE 151A/Neural Networks",
-    "Archived/CSE 151A/Drawings",
-    "Archived/CSE 151A/Classification/Discriminative"
+    "Archived/CSE 151A/Drawings"
   ]
 }

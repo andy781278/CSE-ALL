@@ -1,5 +1,7 @@
 {
-  "cssTheme": "GitHub Theme",
+  "cssTheme": "AnuPpuccin",
   "translucency": true,
-  "textFontFamily": "American Typewriter"
+  "textFontFamily": "American Typewriter",
+  "theme": "system",
+  "accentColor": "#ababab"
 }
