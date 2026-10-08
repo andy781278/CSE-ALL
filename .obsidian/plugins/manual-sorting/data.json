@@ -833,7 +833,8 @@
     },
     "CSE 167": {
       "children": [
-        "CSE 167/anti-aliasing.md",
+        "CSE 167/Transparency.md",
+        "CSE 167/Anti-Aliasing.md",
         "CSE 167/Transformation.md",
         "CSE 167/Polylines.md",
         "CSE 167/Vector Graphics.md",
@@ -844,6 +845,8 @@
     },
     "CSE 167/Images": {
       "children": [
+        "CSE 167/Images/Pasted image 20261007192342.png",
+        "CSE 167/Images/Pasted image 20261007192157.png",
         "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
         "CSE 167/Images/Screen Shot 2026-09-28 at 2.29.23 PM.png"
       ],
