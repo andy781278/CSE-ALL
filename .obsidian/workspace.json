@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 167/Transformation.md",
+                "file": "CSE 110/Prototypes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformation"
+              "title": "Prototypes"
             }
           }
         ]
@@ -209,10 +209,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 110/Requirements.md",
+    "CSE 110/Prototypes.md",
+    "CSE 167/Transformation.md",
     "CSE 167/Polylines.md",
     "CSE 167/Shaders.md",
     "CSE 167/Vector Graphics.md",
-    "CSE 167/Transformation.md",
     "Archived/CSE 151A/Regression/Linear Regression.md",
     "Archived/CSE 151A/Regression/Regression.md",
     "Archived/CSE 151A/Decision Trees.md",
@@ -220,7 +222,6 @@
     "Archived/CSE 151A/Statistical Stability.md",
     "Archived/CSE 151A/Generalization.md",
     "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
-    "CSE 110/Requirements.md",
     "Home.md",
     "CSE 120/Architecture Support.md",
     "Archived/CSE 105/Computability/Languages/105_Lx.md",
@@ -241,7 +242,6 @@
     "Archived/CSE 151A/Neural Networks.md",
     "Archived/CSE 151A/Hw 151A.md",
     "Archived/CSE 151A/Homework 151A Draw.md",
-    "Archived/CSE 151A/Regression/Logistic Regression.md",
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
