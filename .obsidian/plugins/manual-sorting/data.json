@@ -833,6 +833,7 @@
     },
     "CSE 167": {
       "children": [
+        "CSE 167/anti-aliasing.md",
         "CSE 167/Transformation.md",
         "CSE 167/Polylines.md",
         "CSE 167/Vector Graphics.md",
