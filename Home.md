@@ -1,2 +1,2 @@
-- [ ]  CSE 110 Lab - before Thursday
-- [ ] CSE 167 HW - in a long time
+- [ ] CSE 167 HW - OCT 12TH
+- [ ] 

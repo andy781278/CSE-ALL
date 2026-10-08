@@ -32,6 +32,7 @@ events are unnatural change in control flow that the CPU doesn't know what to do
 There are two types of events:
 ##### Interrupts
 Caused by external event like device finishes I/O, timer expires
+Can only happen between two instructions (precise interrupt)
 Analogy: receiving a phone call, text message
 ##### Exceptions
 Caused by executing instructions, CPU requires software intervention to handle a fault or trap
@@ -77,3 +78,31 @@ When faults are generated, and user program exits, and hands control back to OS,
 
 Hardware handlers delegate to user program handlers, and programming languages can delegate these handlers to user written code.
 
+## Timer
+A mechanism that generates an interrupt after a period of time, a **privileged instruction**
+- critical for any OS
+- fallback mechanism by which the OS reclaims control over the machine
+When timer expires, generate interrupt, which is then handled by kernel, which controls what runs next
+- basis for OS Scheduler
+- Prevents infinite loops, so OS can always take back control from malicious/erroneous programs that heavily use CPU resources
+- Also used for time-based functions
+- one hardware timer per CPU core
+- OS can create additional virtual timers with no limits
+
+## I/O Completion
+- Interrupts are the basis for any asynchronous I/O
+- Every key press is an interrupt
+	- OS initiates I/O
+	- Device operates independently from the rest of the machine
+	- Device sends interrupt signal to CPU when done
+	- OS maintains a vector table containing a list of addresses of kernel routines to handle various events
+	- CPU looks up kernel address indexed by interrupt number, context switches to routine
+
+## Synchronization
+Interrupts cause difficult problems
+- it can happen at any time
+- a handler can execute that interferes with code that was interrupted
+OS must synchronize concurrent executions
+Need to guarantee that short instruction sequences execute atomically
+- disable interrupts - turn off interrupts before sequence, execute sequences, turn interrupt back on
+- special atomic instructions - read/modify/write a memory address atomically
