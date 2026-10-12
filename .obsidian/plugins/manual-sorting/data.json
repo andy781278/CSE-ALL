@@ -805,6 +805,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Prototypes.md",
         "CSE 110/Requirements.md",
         "CSE 110/Images"
       ],
@@ -833,6 +834,7 @@
     },
     "CSE 167": {
       "children": [
+        "CSE 167/3D Graphics.md",
         "CSE 167/Perlin Noise.md",
         "CSE 167/Transparency.md",
         "CSE 167/Anti-Aliasing.md",
@@ -848,6 +850,7 @@
       "children": [
         "CSE 167/Images/Pasted image 20261008014809.png",
         "CSE 167/Images/Pasted image 20261007192342.png",
+        "CSE 167/Images/Pasted image 20261012011415.png",
         "CSE 167/Images/Pasted image 20261007192157.png",
         "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
         "CSE 167/Images/Screen Shot 2026-09-28 at 2.29.23 PM.png"
