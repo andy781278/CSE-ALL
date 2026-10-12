@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "Pasted image 20261012014100.png",
         "Home.md",
         "CSE 110",
         "CSE 167",
@@ -806,6 +805,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Testing.md",
         "CSE 110/Prototypes.md",
         "CSE 110/Requirements.md",
         "CSE 110/Images"
@@ -814,7 +814,8 @@
     },
     "CSE 110/Images": {
       "children": [
-        "CSE 110/Images/Screen Shot 2026-09-28 at 4.29.27 PM.png"
+        "CSE 110/Images/Screen Shot 2026-09-28 at 4.29.27 PM.png",
+        "CSE 110/Images/Pasted image 20261012035917.png"
       ],
       "sortOrder": "custom"
     },
@@ -851,6 +852,7 @@
       "children": [
         "CSE 167/Images/Pasted image 20261008014809.png",
         "CSE 167/Images/Pasted image 20261007192342.png",
+        "CSE 167/Images/Pasted image 20261012014100.png",
         "CSE 167/Images/Pasted image 20261012011415.png",
         "CSE 167/Images/Pasted image 20261007192157.png",
         "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
