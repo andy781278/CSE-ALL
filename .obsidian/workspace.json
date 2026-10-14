@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 110/Patterns.md",
+                "file": "CSE 120/Threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Patterns"
+              "title": "Threads"
             }
           }
         ]
@@ -209,12 +209,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 167/3D Graphics.md",
+    "CSE 120/Pics/Pasted image 20261014000710.png",
+    "CSE 120/Processes.md",
+    "CSE 120/Threads.md",
+    "Home.md",
     "CSE 110/Patterns.md",
+    "CSE 167/3D Graphics.md",
     "CSE 110/Images/Screen Shot 2026-09-28 at 4.29.27 PM.png",
     "CSE 110/Images/Pasted image 20261012035917.png",
     "CSE 167/Images/Pasted image 20261012014100.png",
-    "Home.md",
     "CSE 110/Testing.md",
     "CSE 110/Prototypes.md",
     "CSE 167/Images/Pasted image 20261012011415.png",
@@ -242,8 +245,6 @@
     "CSE 110/Images",
     "CSE 110",
     "CSE 167",
-    "CSE 120/Untitled.md",
-    "Archived/CSE 141/ISA/RISC/MIPS.md",
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",

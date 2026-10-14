@@ -113,3 +113,17 @@ Sometimes it might be worth for the parent to wait() until the child process has
 - Unit: `wait()`, Windows: `WaitForSingleObject()`
 - you can also use `wiatpid()` to wait for a specific child process to end
 - wait returns exit value to parent, so child can communicate how it terminated
+
+
+# Cons
+- Processes are costly to create
+- Communicating between processes are costly, since they need to go through the OS as a medium every time, and thus we need to store the entire program into memory and bring it back constantly.
+- forking is also slow when you need multiple processes at once
+
+A lot of processes are actually similar, and only differ with PC, SP and registers
+
+We should separate processes from execution states:
+- Process: address space, privileges, resources
+- Execution State: PC, SP, registers
+Basically, running a program should be different from having the program.
+Execution State is a name too long, let's call it Threads.

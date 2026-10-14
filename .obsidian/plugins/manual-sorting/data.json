@@ -822,6 +822,7 @@
     },
     "CSE 120": {
       "children": [
+        "CSE 120/Threads.md",
         "CSE 120/Processes.md",
         "CSE 120/Architecture Support.md",
         "CSE 120/Pics"
@@ -831,6 +832,7 @@
     "CSE 120/Pics": {
       "children": [
         "CSE 120/Pics/Pasted image 20261006205238.png",
+        "CSE 120/Pics/Pasted image 20261014000710.png",
         "CSE 120/Pics/Pasted image 20261006204156.png"
       ],
       "sortOrder": "custom"
