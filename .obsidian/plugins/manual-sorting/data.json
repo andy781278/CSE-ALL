@@ -805,6 +805,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Patterns.md",
         "CSE 110/Testing.md",
         "CSE 110/Prototypes.md",
         "CSE 110/Requirements.md",
