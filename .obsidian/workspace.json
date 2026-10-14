@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 120/Threads.md",
+                "file": "CSE 120/Synchronization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Threads"
+              "title": "Synchronization"
             }
           }
         ]
@@ -209,9 +209,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 120/Architecture Support.md",
+    "CSE 120/Pics/Pasted image 20261014140557.png",
+    "CSE 120/Synchronization.md",
+    "CSE 120/Threads.md",
+    "CSE 120/Pics/Pasted image 20261014133010.png",
+    "CSE 120/Pics/Pasted image 20261014132803.png",
     "CSE 120/Pics/Pasted image 20261014000710.png",
     "CSE 120/Processes.md",
-    "CSE 120/Threads.md",
     "Home.md",
     "CSE 110/Patterns.md",
     "CSE 167/3D Graphics.md",
@@ -234,12 +239,10 @@
     "Archived/CSE 151A/Statistical Stability.md",
     "Archived/CSE 151A/Generalization.md",
     "CSE 167/Images/Screen Shot 2026-10-02 at 2.05.56 PM.png",
-    "CSE 120/Architecture Support.md",
     "Archived/CSE 105/Computability/Languages/105_Lx.md",
     "Archived/CSE 105/Computability/Languages/105_Halt.md",
     "Archived/CSE 105/Computability/Languages/105_Empty.md",
     "Archived/CSE 105/Computability/Languages/105_Diag.md",
-    "Archived/CSE 105/Computability/Languages/105_Accept.md",
     "CSE 167/Images/Screen Shot 2026-09-28 at 2.29.23 PM.png",
     "CSE 167/Images",
     "CSE 110/Images",
@@ -248,10 +251,6 @@
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
-    "Archived/CSE 151A/pics/Pasted image 20260609201717.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609211413.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609211242.png",
-    "Archived/CSE 151A/pics/Pasted image 20260609211122.png",
     "CSE 151A/Neural Networks",
     "Archived/CSE 151A/Drawings",
     "Archived/CSE 151A/Classification/Discriminative"
