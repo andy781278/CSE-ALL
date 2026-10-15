@@ -50,4 +50,3 @@ Methods of protecting critical sections
 - Semaphores - basic, easy to get the hang of, but harder to program with
 - Monitors - high level, requires langauge support, operations implicit
 - Messages - simple models of communication and sync based on atomic transfer of data across a channel, direct application to distributed systems
-
