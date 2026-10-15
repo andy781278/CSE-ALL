@@ -29,5 +29,25 @@ context switch can happen between any two instructions, so you can, at worst cas
 
 We use **Mutual Exclusion**, which means only one thread in a process can access a shared resource at a time.
 
+### Critical Section
 The part of code that uses mutual exclusion is called a **Critical Section**, which means only one thread can execute that part of code at a time, and when they're done, the next one can come in and execute that section.
+
+Requirements
+1. Mutual Exclusion - if one thread is critical, no other is
+2. Progress - a thread in the critical section will eventually leave it, if some thread is not in critical section, then they cannot prevent other threads from entering it
+3. Bounded waiting - some thread will eventually enter critical section if they wait long enough
+4. Performance - the overhead of entering and exiting critical section is small with respect to the rest
+
+Properties
+- Safety Property - nothing bad happens
+- Liveliness Property - something good happens
+- Performance Property - fast
+Rule of thumb: safety first
+
+Methods of protecting critical sections
+- Atomic read/write - can provide atomicity but not practical for progrmaming
+- Locks - primitive, minimal semantics, used to build others
+- Semaphores - basic, easy to get the hang of, but harder to program with
+- Monitors - high level, requires langauge support, operations implicit
+- Messages - simple models of communication and sync based on atomic transfer of data across a channel, direct application to distributed systems
 
