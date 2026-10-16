@@ -41,3 +41,5 @@ We've been making a program to use the GPU directly, but we can write a program 
 Today, hardware ras serves as a fast default environment that works efficiently in most cases
 ![[Screen Shot 2026-10-16 at 2.07.34 PM.png]]
 
+![[Screen Shot 2026-10-16 at 2.49.12 PM.png]]
+
