@@ -846,7 +846,9 @@
     "CSE 120/Synchronization": {
       "children": [
         "CSE 120/Synchronization/Synchronization.md",
-        "CSE 120/Synchronization/Locks.md"
+        "CSE 120/Synchronization/Locks.md",
+        "CSE 120/Synchronization/Semaphores.md",
+        "CSE 120/Synchronization/Monitors.md"
       ],
       "sortOrder": "custom"
     },
