@@ -36,3 +36,8 @@ Occlusion culling: Skip triangles that is completely covered by another
 
 Frustum culling: Skip triangles too far from the camera
 
+### Hardware Rasterization
+We've been making a program to use the GPU directly, but we can write a program that can utilize fixed more efficient GPU graphics pipeline to do things faster.
+Today, hardware ras serves as a fast default environment that works efficiently in most cases
+![[Screen Shot 2026-10-16 at 2.07.34 PM.png]]
+
