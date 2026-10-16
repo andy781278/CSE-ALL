@@ -3,7 +3,7 @@ More readable code is better, but how?
 SOLID
 
 ### SRP - Single Responsibility Principle
-A class should only be responsible for one thing, it should do its own calculations, and not do calculations of another, or have others to work for it that it isn't meant to do. To check, write The (class) (method)s itself, and if it sounds wrong, then add a doer to do it for them.
+A class should only be responsible for one thing, it should do its own calculations, and not do calculations of another, or have others to work for it that it isn't meant to do. To check, write The (class) (method)s itself, and if it sounds wrong, then add a doer to do it for them. Separate the changes into small commits and small PRs, since it takes less time to review and feedback.
 
 ### Open-closed Principle
 Classes should be open for extension but closed for modification, which means you should be extending the class with interfaces, which extends functionality with additional implementations
