@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 167/Rasterization.md",
+                "file": "CSE 110/SOLID Principle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rasterization"
+              "title": "SOLID Principle"
             }
           }
         ]
@@ -209,9 +209,11 @@
   },
   "active": "fdc5c0e87743e253",
   "lastOpenFiles": [
-    "Screen Shot 2026-10-16 at 2.49.12 PM.png",
-    "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
+    "CSE 110/Model-View-Controller.md",
+    "CSE 110/SOLID Principle.md",
+    "CSE 110/Images/Screen Shot 2026-10-16 at 2.49.12 PM.png",
     "CSE 167/Rasterization.md",
+    "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.51.52 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.45.06 PM.png",
     "CSE 167/3D Graphics.md",
@@ -223,8 +225,6 @@
     "joe.md",
     "CSE 167/Shaders.md",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.17.56 PM.png",
-    "CSE 167/Images/Screen Shot 2026-10-16 at 12.17.15 PM.png",
-    "CSE 110/Model-View-Controller.md",
     "CSE 120/Synchronization/Semaphores.md",
     "CSE 120/Synchronization/Monitors.md",
     "CSE 120/Synchronization/Synchronization.md",
