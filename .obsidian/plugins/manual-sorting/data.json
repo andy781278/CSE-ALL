@@ -805,6 +805,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/SOLID Principle.md",
         "CSE 110/Model-View-Controller.md",
         "CSE 110/Patterns.md",
         "CSE 110/Testing.md",

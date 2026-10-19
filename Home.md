@@ -1,10 +1,9 @@
 - [ ] CSE 120
 	- [ ] Lecture 2
-	- [ ] Project Oct 21
-	- [ ] HW Oct 22
+	- [ ] Project Oct 21 WED
+	- [ ] HW Oct 22 THUR
 - [ ] CSE 167
-	- [ ] Lecture 2
-	- [ ] HW Oct 26
+	- [ ] Lecture 1
+	- [ ] HW Oct 26 NEXT MON
 - [ ] CSE 110
-	- [ ] Project Oct 19
-
+	- [ ] Project Oct 19 TODAY
