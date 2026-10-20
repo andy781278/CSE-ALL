@@ -1,5 +1,5 @@
 - [ ] CSE 120
-	- [ ] Lecture 2
+	- [ ] Lecture 1
 	- [ ] Midterm Oct 27 NEXT TUE
 	- [ ] Project Oct 21 WED
 	- [ ] HW Oct 22 THUR

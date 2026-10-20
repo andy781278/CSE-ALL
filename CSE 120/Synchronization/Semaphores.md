@@ -66,4 +66,80 @@ withdraw(account, amount) {
 int readcount = 0;
 Semaphore mutex = 1;
 Semaphore w_or_r = 1;
+
+writer {
+	w_or_r.decr(); //locks out readers
+	Write;
+	w_or_r.incr(); //up for grabs
+}
+
+reader{
+	mutex.decr(); //locks readcount
+	readcount++; // 1 more reader
+	if (readcount==1) { 
+		w_or_r.decr(); // sync with writers
+	}
+	mutex.incr(); // unlock readcount
+	Read;
+	mutex.decr(); // lock readcount
+	readcount--; // 1 less reader
+	if(readcount==0){
+		w_or_r.incr(); // up for grabs
+	}
+	mutex.incr(); // unlock readcount
+}
 ```
+
+If the int is 0, things trying to `decr` it will be stuck until it gets higher?
+`w_or_r` coordinates between readers or writers, `decr` on it makes it 0, and makes it unavailable for the other class until you are done.
+`mutex` locks readcount since other readers will see mutex decrease but it's at 0, so it gets stuck?
+
+#### Bounded Buffer Problem
+- there is a set of resource buffers shared by producer and consumer threads
+	- Producer inserts resource into buffer set
+	- consumer removes resource from the buffer set
+- producer and consumer execute at different rates
+	- no serialization of one behind another
+	- task are independent and decoupled
+	- buffer set allows each to run without explicit handoff
+- Safety
+	- seq of consumed values is prefix of seq of produced values
+
+- Invariants
+	- $0 \leq \# p - \# c \leq N$ - produced never more than N
+	- $0 \leq (\# c - \# p) + N \leq N$ - consumed never more than produced
+- use three semaphores:
+	- empty - count of empty buffers
+	- full - count of full buffers
+	- mutex - mutual exclusion to shared set of buffers
+
+```
+Semaphore mutex = 1;
+Semaphore empty = N;
+Semaphore full = 0;
+
+producer{
+	while (1) {
+		Produce new resource;
+		empty.decr(); // wait for empty buffer
+		mutex.decr(); // lock buffer list
+		Add resource to empty buffer;
+		mutex.incr(); // unlock buffer list
+		full.incr(); // note a full buffer
+	}
+}
+
+consumer{
+	while (1) {
+		full.decr(); // wait for a full buffer
+		mutex.decr(); // lock buffer
+		Remove resource from a full buffer;
+		mutex.incr(); // unlock buffer
+		empty.incr(); // note empty buffer
+		Consume resource;
+	}
+}
+```
+
+
+A possible downside to Semaphores is that a reaer won't know if the author intended for the Semaphore to be used as a binary or counting semaphore.
