@@ -805,7 +805,9 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Code Review.md",
         "CSE 110/SOLID Principle.md",
+        "CSE 110/Sprints.md",
         "CSE 110/Model-View-Controller.md",
         "CSE 110/Patterns.md",
         "CSE 110/Testing.md",
@@ -826,6 +828,8 @@
     },
     "CSE 120": {
       "children": [
+        "CSE 120/Deadlock.md",
+        "CSE 120/Scheduling.md",
         "CSE 120/Synchronization",
         "CSE 120/Threads.md",
         "CSE 120/Processes.md",

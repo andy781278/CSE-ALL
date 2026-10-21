@@ -4,9 +4,10 @@
 	- [ ] Project Oct 23 FRI
 	- [ ] HW Oct 22 THUR
 - [ ] CSE 167
-	- [ ] Lecture 2
+	- [ ] Lecture 3
 	- [ ] HW Oct 26 NEXT MON
 - [ ] CSE 110
 	- [x] Lecture 0
 	- [ ] Midterm Oct 23 FRI
 	- [ ] Sprint 1 2 weeks ish
+
