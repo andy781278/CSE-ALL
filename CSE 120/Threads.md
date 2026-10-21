@@ -40,11 +40,11 @@ So we use both kernel and user level threads
 
 ### Implementing Threads
 
-KThread.fork - starts a thread
+KThread.fork - starts a thread, marks itself ready, and puts itself on the ready queue
 KThread.sleep - blocks a thread from running
 KThread.ready - start the given thread
-KThread.yield - voluntarily give up the processor
-KThread.join - Block  until another thread finishes
+KThread.yield - voluntarily give up the processor, puts self back to end of ready queue
+KThread.join - Block until another thread finishes, join blocks the caller until itself finishes, by then it would place the caller in the back of the ready queue
 KThread.finish - terminate the calling thread
 
 #### Thread Scheduling
