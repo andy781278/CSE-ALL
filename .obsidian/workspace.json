@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 382.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,10 +208,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9e972eec3f5241e5",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 167/Rasterization.md",
+    "Archived/CSE 101/Graph Algorithms/Algorithms/explore().md",
+    "Archived/CSE 101/Graph Algorithms/Algorithms/DFS().md",
     "Home.md",
+    "CSE 167/Rasterization.md",
     "CSE 110/Testing.md",
     "CSE 110/Patterns.md",
     "CSE 110/Prototypes.md",
@@ -244,8 +247,6 @@
     "CSE 120/Synchronization.md",
     "CSE 167/Perlin Noise.md",
     "CSE 167/Transformation.md",
-    "CSE 167/Polylines.md",
-    "CSE 167/Vector Graphics.md",
     "CSE 167/Images",
     "CSE 110/Images",
     "CSE 110",

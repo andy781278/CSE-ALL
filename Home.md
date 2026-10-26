@@ -1,11 +1,11 @@
 - [ ] CSE 120
-	- [x] Lecture 0
+	- [ ] Lecture 1
 	- [ ] Midterm Oct 27 NEXT TUE
 	- [x] Project Oct 23 FRI ✅ 2026-10-23
 	- [x] HW Oct 22 THUR ✅ 2026-10-23
 - [ ] CSE 167
-	- [ ] Lecture 3
-	- [ ] HW Oct 26 NEXT MON
+	- [x] Lecture 3 ✅ 2026-10-26
+	- [x] HW Oct 26 NEXT MON ✅ 2026-10-26
 - [ ] CSE 110
 	- [x] Lecture 0
 	- [x] Midterm Oct 23 FRI ✅ 2026-10-23
@@ -14,16 +14,6 @@
 # LeetCode Plan for Internship Assessments
 
 Six weeks at about 1 hour a day in Python, about 70 problems, ordered by topic, ending with timed mock assessments.
-
-## Day 1 baseline test
-
-Solve these 3 medium problems with a 40-minute timer each, without looking anything up.
-
-- [x] Group Anagrams ✅ 2026-10-26
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Number of Islands
-
-If you solve 2 or 3, skip ahead and spend Weeks 1 and 2 on one review day each. If you solve 0 or 1, follow all 6 weeks in order.
 
 ## Daily routine
 
