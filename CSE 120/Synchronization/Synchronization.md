@@ -1,4 +1,4 @@
-FWhen we have multiple threads in the same process, they need to work together, share resources, access shared data structures, and coordinate their execution
+When we have multiple threads in the same process, they need to work together, share resources, access shared data structures, and coordinate their execution
 
 For correctness we need to control this cooperation using synchronization to restrict the interweaving of thread executions that might cause bugs
 

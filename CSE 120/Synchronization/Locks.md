@@ -1,4 +1,4 @@
-A lock is an object in memory providing two operations:
+rA lock is an object in memory providing two operations:
 - `acquire()` to enter a critical section
 - `release()` to leave a critical section
 

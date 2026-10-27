@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CSE 120/Deadlock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Deadlock"
             }
           }
         ]
@@ -210,9 +210,18 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "CSE 120/Scheduling.md",
+    "CSE 120/Deadlock.md",
+    "CSE 120/Synchronization/Monitors.md",
+    "CSE 120/Synchronization/Synchronization.md",
+    "CSE 120/Synchronization/Semaphores.md",
+    "CSE 120/Synchronization/Locks.md",
+    "CSE 120/Threads.md",
+    "CSE 120/Processes.md",
+    "CSE 120/Architecture Support.md",
+    "Home.md",
     "Archived/CSE 101/Graph Algorithms/Algorithms/explore().md",
     "Archived/CSE 101/Graph Algorithms/Algorithms/DFS().md",
-    "Home.md",
     "CSE 167/Rasterization.md",
     "CSE 110/Testing.md",
     "CSE 110/Patterns.md",
@@ -222,14 +231,6 @@
     "CSE 110/Code Review.md",
     "CSE 110/SOLID Principle.md",
     "CSE 110/Requirements.md",
-    "CSE 120/Synchronization/Locks.md",
-    "CSE 120/Threads.md",
-    "CSE 120/Processes.md",
-    "CSE 120/Deadlock.md",
-    "CSE 120/Scheduling.md",
-    "CSE 120/Synchronization/Monitors.md",
-    "CSE 120/Synchronization/Semaphores.md",
-    "CSE 120/Synchronization/Synchronization.md",
     "CSE 110/Images/Screen Shot 2026-10-16 at 2.49.12 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.51.52 PM.png",
@@ -246,7 +247,6 @@
     "CSE 120/Synchronization",
     "CSE 120/Synchronization.md",
     "CSE 167/Perlin Noise.md",
-    "CSE 167/Transformation.md",
     "CSE 167/Images",
     "CSE 110/Images",
     "CSE 110",

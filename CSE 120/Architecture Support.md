@@ -30,38 +30,23 @@ events are unnatural change in control flow that the CPU doesn't know what to do
 	- so OS only runs when events fire and user programs are not in play
 
 There are two types of events:
-##### Interrupts
+#### Interrupts
 Caused by external event like device finishes I/O, timer expires
 Can only happen between two instructions (precise interrupt)
 Analogy: receiving a phone call, text message
-##### Exceptions
+#### Exceptions
 Caused by executing instructions, CPU requires software intervention to handle a fault or trap
 Analogy: divide by 0
 We then take all the current state of the CPU and saves it to memory, then we transfer control to OS in a context switch. After the system handler handles the event, the memory is used to load everything back to how it was, and resume instructions.
-
 Events can be Unexpected or Deliberate
 - deliberate events are thrown in order for user apps to ask the OS to work for them
-
-### System Calls
-For when a user wants to do something privileged, it must call an OS procedure.
-- crossing the protection boundary, protected procedure call, protected control transfer
-- CPU ISA provides a sys call instruction that
-	- causes an exception, goes to kernel handler
-	- passes parameter determining system routine to call
-	- saves caller state
-	- changes user to kernel
-	- then after stuff is done, goes back to the program and restores everything
-- ARM: SVC (supervisor call)
-- x86: INT (interruption)
-
-## Faults
+#### Faults
 Similar to exceptions, hardware can detect and report exceptional conditions like page fault (different fault), unaligned access, divide by zero.
 - Upon exception, hardware faults
 - they save state, so it is sort of paused and stored away, can be used later
 
 Faults are not necessarily bad, they can be used deliberately for debugging, garbage collection, performance optimization
-
-#### Handling Faults
+##### Handling Faults
 When faults are generated, and user program exits, and hands control back to OS, the OS runs an event handler to handle the events, they have several options:
 - Fix the exceptional condition and returning to the faulting context
 	- Page faults can have OS bring the page into memory
@@ -77,6 +62,19 @@ When faults are generated, and user program exits, and hands control back to OS,
 		- blue screen of death
 
 Hardware handlers delegate to user program handlers, and programming languages can delegate these handlers to user written code.
+#### System Calls
+For when a user wants to do something privileged, it must call an OS procedure.
+- crossing the protection boundary, protected procedure call, protected control transfer
+- CPU ISA provides a sys call instruction that
+	- causes an exception, goes to kernel handler
+	- passes parameter determining system routine to call
+	- saves caller state
+	- changes user to kernel
+	- then after stuff is done, goes back to the program and restores everything
+- ARM: SVC (supervisor call)
+- x86: INT (interruption)
+
+
 
 ## Timer
 A mechanism that generates an interrupt after a period of time, a **privileged instruction**
