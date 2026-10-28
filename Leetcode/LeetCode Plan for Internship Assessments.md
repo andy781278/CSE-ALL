@@ -16,10 +16,10 @@ On Sunday each week, do a timed set of 3 problems from that week in 90 minutes.
 - [x] Valid Anagram ✅ 2026-10-26
 - [x] Top K Frequent Elements ✅ 2026-10-26
 - [x] Product of Array Except Self ✅ 2026-10-26
-- [ ] Longest Consecutive Sequence
-- [ ] Valid Palindrome
-- [ ] Two Sum II
-- [ ] 3Sum
+- [x] Longest Consecutive Sequence ✅ 2026-10-27
+- [x] Valid Palindrome ✅ 2026-10-27
+- [x] Two Sum II ✅ 2026-10-27
+- [x] 3Sum ✅ 2026-10-27
 - [ ] Container With Most Water
 - [ ] Valid Sudoku
 

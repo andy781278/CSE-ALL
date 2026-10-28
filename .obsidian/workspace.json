@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ad8b06c5b99c4b73",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "9fc241824a3367ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "94cbad3740d8e66f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LeetCode Plan for Internship Assessments.md",
+                "file": "Leetcode/LeetCode Plan for Internship Assessments.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "LeetCode Plan for Internship Assessments"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,45 +208,46 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "94cbad3740d8e66f",
+  "active": "9fc241824a3367ee",
   "lastOpenFiles": [
+    "Leetcode/Union Find.md",
+    "Leetcode/Prefix Sum.md",
+    "Leetcode/Two Pointers.md",
+    "Leetcode/LeetCode Plan for Internship Assessments.md",
+    "Archived/CSE 101/Graph Algorithms/Disjoint Sets Data Structure.md",
+    "Archived/CSE 101/Graph Algorithms/Spanning Trees.md",
+    "Archived/CSE 21/Algorithms/Optimization/Disjoint.md",
+    "Archived/CSE 101/Graph Algorithms/Binary Heap.md",
+    "Archived/CSE 101/Graph Algorithms/Strongly Connected Component.md",
+    "Archived/CSE 101/Graph Algorithms/Sink.md",
+    "Archived/CSE 101/Graph Algorithms/Source.md",
+    "Archived/CSE 101/Graph Algorithms/Graph Search.md",
+    "Archived/CSE 100R/Data Structures/Circular Array.md",
+    "Archived/CSE 100R/Data Structures/Binary Search Tree.md",
+    "Archived/CSE 100R/Data Structures/Heap.md",
+    "Archived/CSE 100R/Data Structures/Hash Table.md",
+    "Archived/CSE 100R/Data Structures/Ternary Search Tree.md",
+    "Archived/CSE 100R/Data Structures/Trie.md",
+    "Archived/CSE 100R/Data Structures/Red-Black Tree.md",
+    "Archived/CSE 100R/Data Structures/AVL Tree.md",
+    "Archived/CSE 100R/Data Structures/Treap.md",
+    "Archived/CSE 100R/Homework.md",
+    "Archived/CSE 100R/Difference between ADT and DT.md",
     "Home.md",
-    "LeetCode Plan for Internship Assessments.md",
+    "Leetcode",
     "CSE 120/Synchronization/Monitors.md",
     "CSE 120/Deadlock.md",
-    "CSE 120/Scheduling.md",
-    "CSE 120/Synchronization/Synchronization.md",
-    "CSE 120/Synchronization/Semaphores.md",
-    "CSE 120/Synchronization/Locks.md",
-    "CSE 120/Threads.md",
-    "CSE 120/Processes.md",
-    "CSE 120/Architecture Support.md",
-    "Archived/CSE 101/Graph Algorithms/Algorithms/explore().md",
-    "Archived/CSE 101/Graph Algorithms/Algorithms/DFS().md",
-    "CSE 167/Rasterization.md",
-    "CSE 110/Testing.md",
-    "CSE 110/Patterns.md",
-    "CSE 110/Prototypes.md",
-    "CSE 110/Sprints.md",
-    "CSE 110/Model-View-Controller.md",
-    "CSE 110/Code Review.md",
-    "CSE 110/SOLID Principle.md",
-    "CSE 110/Requirements.md",
     "CSE 110/Images/Screen Shot 2026-10-16 at 2.49.12 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.51.52 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.45.06 PM.png",
-    "CSE 167/3D Graphics.md",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.40.35 PM.png",
     "CSE 167/Images/joe.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.22.21 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.27.32 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.33.23 PM.png",
-    "joe.md",
-    "CSE 167/Shaders.md",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.17.56 PM.png",
     "CSE 120/Synchronization",
-    "CSE 120/Synchronization.md",
     "CSE 167/Images",
     "CSE 110/Images",
     "CSE 110",
@@ -269,7 +255,6 @@
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
     "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
-    "CSE 151A/Neural Networks",
-    "Archived/CSE 151A/Drawings"
+    "CSE 151A/Neural Networks"
   ]
 }
