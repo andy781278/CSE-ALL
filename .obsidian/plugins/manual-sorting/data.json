@@ -806,6 +806,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Bugs.md",
         "CSE 110/Code Review.md",
         "CSE 110/SOLID Principle.md",
         "CSE 110/Sprints.md",
@@ -902,7 +903,9 @@
         "Leetcode/LeetCode Plan for Internship Assessments.md",
         "Leetcode/Two Pointers.md",
         "Leetcode/Prefix Sum.md",
-        "Leetcode/Union Find.md"
+        "Leetcode/Union Find.md",
+        "Leetcode/Boyer-Moore majority vote algorithm.md",
+        "Leetcode/Dynamic Programming.md"
       ],
       "sortOrder": "custom"
     }
