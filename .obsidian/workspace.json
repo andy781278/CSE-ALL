@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "CSE 167/Ray Tracing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "e8a099e168be21c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSE 110/Keep Credential Safe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Keep Credential Safe"
+              "title": "Ray Tracing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,11 +207,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e8a099e168be21c6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 110/STRIDE.md",
-    "CSE 110/Keep Credential Safe.md",
+    "CSE 167/Subdivision.md",
+    "CSE 167/Ray Tracing.md",
+    "CSE 167/Rasterization.md",
     "Home.md",
+    "CSE 110/Keep Credential Safe.md",
+    "CSE 110/STRIDE.md",
     "Leetcode/Dynamic Programming.md",
     "Archived/CSE 101/Dynamic Programming/Dynamic Programming.md",
     "Archived/CSE 101/Dynamic Programming/String Reconstruction.md",
@@ -248,9 +236,6 @@
     "CSE 120/Scheduling.md",
     "CSE 120/Deadlock.md",
     "CSE 110/Sprints.md",
-    "CSE 110/Requirements.md",
-    "CSE 110/SOLID Principle.md",
-    "CSE 110/Prototypes.md",
     "CSE 110/Images/Screen Shot 2026-10-16 at 2.49.12 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.51.52 PM.png",
