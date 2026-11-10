@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 167/Ray Tracing.md",
+                "file": "CSE 110/Teamwork.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ray Tracing"
+              "title": "Teamwork"
             }
           }
         ]
@@ -209,11 +209,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "CSE 167/Subdivision.md",
-    "CSE 167/Ray Tracing.md",
-    "CSE 167/Rasterization.md",
-    "Home.md",
     "CSE 110/Keep Credential Safe.md",
+    "CSE 110/Teamwork.md",
+    "Home.md",
+    "CSE 167/Ray Tracing.md",
+    "CSE 167/Subdivision.md",
+    "CSE 167/Rasterization.md",
     "CSE 110/STRIDE.md",
     "Leetcode/Dynamic Programming.md",
     "Archived/CSE 101/Dynamic Programming/Dynamic Programming.md",
@@ -235,7 +236,6 @@
     "CSE 120/Threads.md",
     "CSE 120/Scheduling.md",
     "CSE 120/Deadlock.md",
-    "CSE 110/Sprints.md",
     "CSE 110/Images/Screen Shot 2026-10-16 at 2.49.12 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 2.07.34 PM.png",
     "CSE 167/Images/Screen Shot 2026-10-16 at 12.51.52 PM.png",

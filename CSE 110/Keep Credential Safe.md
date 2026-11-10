@@ -13,3 +13,11 @@ precomputed hashes of common passwords
 use salts to mitigate
 
 Each user gets a random salt that alters the hash, so two users with same password gets different hashes, also makes it harder to brute force, nearly impossible
+
+
+Authorize people access that is actually needed, don't over-give unnecessarily.
+
+
+Have more than just one security check, individual checks can be imperfect (two factor authentication)
+
+

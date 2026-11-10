@@ -864,6 +864,8 @@
     },
     "CSE 167": {
       "children": [
+        "CSE 167/Ray Tracing.md",
+        "CSE 167/Subdivision.md",
         "CSE 167/Rasterization.md",
         "CSE 167/3D Graphics.md",
         "CSE 167/Perlin Noise.md",
