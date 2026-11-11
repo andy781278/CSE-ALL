@@ -806,6 +806,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Teamwork.md",
         "CSE 110/Keep Credential Safe.md",
         "CSE 110/STRIDE.md",
         "CSE 110/Bugs.md",
@@ -832,6 +833,8 @@
     },
     "CSE 120": {
       "children": [
+        "CSE 120/Paging.md",
+        "CSE 120/Memory Management.md",
         "CSE 120/Deadlock.md",
         "CSE 120/Scheduling.md",
         "CSE 120/Synchronization",
@@ -844,6 +847,19 @@
     },
     "CSE 120/Pics": {
       "children": [
+        "CSE 120/Pics/Pasted image 20261111001834.png",
+        "CSE 120/Pics/Pasted image 20261110233634.png",
+        "CSE 120/Pics/Pasted image 20261110232732.png",
+        "CSE 120/Pics/Pasted image 20261110232636.png",
+        "CSE 120/Pics/Pasted image 20261110231928.png",
+        "CSE 120/Pics/Pasted image 20261110231924.png",
+        "CSE 120/Pics/Pasted image 20261110230858.png",
+        "CSE 120/Pics/Pasted image 20261110230700.png",
+        "CSE 120/Pics/Pasted image 20261110230229.png",
+        "CSE 120/Pics/Pasted image 20261110230227.png",
+        "CSE 120/Pics/Pasted image 20261110225912.png",
+        "CSE 120/Pics/Pasted image 20261110225640.png",
+        "CSE 120/Pics/Pasted image 20261110224255.png",
         "CSE 120/Pics/Pasted image 20261014140557.png",
         "CSE 120/Pics/Pasted image 20261014133010.png",
         "CSE 120/Pics/Pasted image 20261014132803.png",
