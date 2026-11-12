@@ -11,7 +11,7 @@ Translating addresses
 - Page table determines page frame number (PFN)
 - Physical address is PFN::offset (concatenate)
 
-Page tables
+### Page tables
 - Map virtual page number (VPN) to page frame number (PFN)
 - VPN is the index into the table that determines PFN
 - PFN is also physical page number
@@ -24,7 +24,7 @@ Example:
 - 0x2 + 468 = 0x2468
 
 
-Page Table Entries (PTE)
+### Page Table Entries (PTE)
 ![[Pasted image 20261110230858.png]]
 Modify bit says whether or not the page has been written
 Reference bit says whether the page has bee naccessed
@@ -33,7 +33,7 @@ Protection bits says what operations are allowed on the page (read, write, execu
 - PTE for page 0 is no-read, no-write, and no-execute
 PFN determines physical pages
 
-### Advantages
+##### Advantages
 - Easy to allocate memory
 	- it is completely arbitrary, a virtual page does not care which physical page it uses
 	- memory comes from a list of fixed-sized chunks
@@ -44,7 +44,7 @@ PFN determines physical pages
 	- use valid bit to detect references to swapped pages
 	- pagers are convinent multiple of the disk block size
 
-### Limitations
+##### Limitations
 - Can still have internal fragmentation when processes don't use memory in multiples of a page
 - Memory reference overhead, 2 refences per address lookup
 	- Use hardware cache of lookups
@@ -114,3 +114,32 @@ A process only needs a subset of its virtual pages loaded, the rest can be just 
 - As memory fills up, allocating a page requires another existing one to be evicted, which puts them back to disk.
 - You can put them back to their corresponding file if you are using a file system.
 - All done by OS
+
+### Example of data retrieval
+Situation: Process is executing on the CPU, and it issues a read to an address
+- Virtual address goes to the TLB in the MMU
+- TLB does a lookup using the page number of the address
+- Common case:
+	- page number found and matches, returns a page table entry (PTE) for he mapping for the address
+	- TLB validates PTE protection allows reads
+	- PTE specifies which physical frame holds the page
+	- MMU combines physical frame and offset into a physical address
+	- MMU reads from that physical address and returns value to CPU
+- Uncommon case:
+	- TLB miss
+	- two options
+		- Hardware, TLB goes into the page table and try and find the right page (common case)
+		- Software, TLB asks the OS to retrieve the page
+	- Can cause a recursive fault if the page table is paged out, solved by wiring page tables for OS address space
+	- After retrieval, restart translation
+	- its possible the page is invalid because of protection bits, and it forms a page fault
+All in hardware
+
+### Page Fault
+PTE can indicate a protection fault, TLB traps to the OS (software takes over)
+- read/write/execute operations not permitted on page
+	- OS usually send fault back up to process or use for other purposes
+- invalid bit where virtual page is not mapped or page not in physical memory
+	- Virtual page 0 is always inaccessible and invalid
+	- virtual page not mapped: OS sends fault to process (segmentation fault)
+	- page not in physical memory: demand paging, OS allocates frame, read from disk, maps PTE to physical frame

@@ -833,8 +833,7 @@
     },
     "CSE 120": {
       "children": [
-        "CSE 120/Paging.md",
-        "CSE 120/Memory Management.md",
+        "CSE 120/Virtual Memory",
         "CSE 120/Deadlock.md",
         "CSE 120/Scheduling.md",
         "CSE 120/Synchronization",
@@ -847,7 +846,11 @@
     },
     "CSE 120/Pics": {
       "children": [
+        "CSE 120/Pics/Pasted image 20261111164423.png",
         "CSE 120/Pics/Pasted image 20261111001834.png",
+        "CSE 120/Pics/Pasted image 20261111163957.png",
+        "CSE 120/Pics/Pasted image 20261111002933.png",
+        "CSE 120/Pics/Pasted image 20261111163410.png",
         "CSE 120/Pics/Pasted image 20261110233634.png",
         "CSE 120/Pics/Pasted image 20261110232732.png",
         "CSE 120/Pics/Pasted image 20261110232636.png",
@@ -875,6 +878,18 @@
         "CSE 120/Synchronization/Locks.md",
         "CSE 120/Synchronization/Semaphores.md",
         "CSE 120/Synchronization/Monitors.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "CSE 120/Virtual Memory": {
+      "children": [
+        "CSE 120/Virtual Memory/Memory Management.md",
+        "CSE 120/Virtual Memory/Paging.md",
+        "CSE 120/Virtual Memory/Shared Memory.md",
+        "CSE 120/Virtual Memory/Copy-On-Write.md",
+        "CSE 120/Virtual Memory/Mapped Files.md",
+        "CSE 120/Virtual Memory/Program Loading.md",
+        "CSE 120/Virtual Memory/Virtual Memory Policies.md"
       ],
       "sortOrder": "custom"
     },

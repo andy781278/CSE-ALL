@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 120/Paging.md",
+                "file": "CSE 120/Virtual Memory/Virtual Memory Policies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paging"
+              "title": "Virtual Memory Policies"
             }
           }
         ]
@@ -209,22 +209,27 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Pasted image 20261111002933.png",
-    "CSE 120/Pics/Pasted image 20261111001834.png",
+    "CSE 120/Virtual Memory/Program Loading.md",
+    "CSE 120/Virtual Memory/Virtual Memory Policies.md",
+    "CSE 120/Virtual Memory",
+    "CSE 120/Virtual Memory/Mapped Files.md",
+    "CSE 120/Virtual Memory/Shared Memory.md",
+    "CSE 120/Virtual Memory/Copy-On-Write.md",
+    "CSE 120/Pics/Pasted image 20261111164423.png",
+    "CSE 120/Virtual Memory/Paging.md",
+    "CSE 120/Pics/Pasted image 20261111163957.png",
+    "Pasted image 20261111163348.png",
+    "CSE 120/Pics/Pasted image 20261111163410.png",
     "CSE 120/Pics/Pasted image 20261110232636.png",
-    "CSE 120/Paging.md",
+    "CSE 120/Pics/Pasted image 20261111002933.png",
+    "CSE 120/Pics/Pasted image 20261111001834.png",
     "CSE 120/Pics/Pasted image 20261110233634.png",
     "CSE 120/Pics/Pasted image 20261110232732.png",
-    "CSE 120/Memory Management.md",
+    "CSE 120/Virtual Memory/Memory Management.md",
     "CSE 120/Processes.md",
     "CSE 120/Architecture Support.md",
     "Home.md",
     "CSE 120/Pics/Pasted image 20261110230229.png",
-    "CSE 120/Pics/Pasted image 20261110231928.png",
-    "CSE 120/Pics/Pasted image 20261110231924.png",
-    "CSE 120/Pics/Pasted image 20261110230858.png",
-    "CSE 120/Pics/Pasted image 20261110230700.png",
-    "CSE 120/Pics/Pasted image 20261110230227.png",
     "CSE 110/Teamwork.md",
     "CSE 110/Keep Credential Safe.md",
     "CSE 167/Ray Tracing.md",
@@ -241,10 +246,6 @@
     "Archived/CSE 101/Dynamic Programming/Bellman Ford Algorithm.md",
     "Leetcode/Two Pointers.md",
     "Leetcode/LeetCode Plan for Internship Assessments.md",
-    "Leetcode/Boyer-Moore majority vote algorithm.md",
-    "Leetcode/Union Find.md",
-    "Leetcode/Prefix Sum.md",
-    "CSE 110/Bugs.md",
     "Leetcode",
     "CSE 120/Synchronization",
     "CSE 167/Images",
@@ -253,7 +254,6 @@
     "CSE 167",
     "CSE 120",
     "course_2026_cse141_final_review.pdf",
-    "Archived/CSE 141/course_2026_cse141_final_review_0.pdf",
-    "CSE 151A/Neural Networks"
+    "Archived/CSE 141/course_2026_cse141_final_review_0.pdf"
   ]
 }
