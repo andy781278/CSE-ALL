@@ -806,6 +806,7 @@
     },
     "CSE 110": {
       "children": [
+        "CSE 110/Ethics.md",
         "CSE 110/Teamwork.md",
         "CSE 110/Keep Credential Safe.md",
         "CSE 110/STRIDE.md",

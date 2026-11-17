@@ -3,5 +3,6 @@
   "translucency": true,
   "textFontFamily": "American Typewriter",
   "theme": "system",
-  "accentColor": "#ababab"
+  "accentColor": "#ababab",
+  "showRibbon": true
 }
