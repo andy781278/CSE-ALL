@@ -806,7 +806,8 @@
     },
     "CSE 110": {
       "children": [
-        "CSE 110/Ethics.md",
+        "CSE 110/Analysis.md",
+        "CSE 110/POUR.md",
         "CSE 110/Teamwork.md",
         "CSE 110/Keep Credential Safe.md",
         "CSE 110/STRIDE.md",
@@ -936,6 +937,7 @@
     },
     "Leetcode": {
       "children": [
+        "Leetcode/Everything I need plan.md",
         "Leetcode/LeetCode Plan for Internship Assessments.md",
         "Leetcode/Two Pointers.md",
         "Leetcode/Prefix Sum.md",
