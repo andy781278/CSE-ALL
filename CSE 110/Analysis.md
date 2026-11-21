@@ -23,3 +23,13 @@ runs the programs
 Often complete
 
 Analysis must be super fast, in general they are either incomplete or unsound.
+
+
+### Model Checking
+consider program to be a state machine, see if any possible states are bad
+Draw state transition diagram
+make sure transitioning into bad state is impossible
+
+### Abstract interpretation
+Analyze program, annotating variables with information about possible values
+
