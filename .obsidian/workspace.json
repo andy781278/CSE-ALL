@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 110/POUR.md",
+                "file": "CSE 110/Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POUR"
+              "title": "Analysis"
             }
           }
         ]
@@ -209,8 +209,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
+    "CSE 110/Untitled.md",
+    "CSE 110/Analysis.md",
     "CSE 110/POUR.md",
+    "Home.md",
     "CSE 110/Ethics.md",
     "CSE 110/Teamwork.md",
     "CSE 120/Virtual Memory/Virtual Memory Policies.md",
@@ -244,8 +246,6 @@
     "Archived/CSE 101/Dynamic Programming/Longest Increasing Subsequence.md",
     "Archived/CSE 101/Dynamic Programming/Edit Distance.md",
     "Archived/CSE 101/Dynamic Programming/Bellman Ford Algorithm.md",
-    "Leetcode/Two Pointers.md",
-    "Leetcode/LeetCode Plan for Internship Assessments.md",
     "Leetcode",
     "CSE 120/Synchronization",
     "CSE 167/Images",
