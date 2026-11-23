@@ -49,7 +49,7 @@
 	- reverse
 	- traverse normally and remove
 	- reverse
-- [ ] IRU cache
+- [ ] LRU cache
 Monday
 - [ ] longest substring without repeating characters
 - [ ] merge intervals
