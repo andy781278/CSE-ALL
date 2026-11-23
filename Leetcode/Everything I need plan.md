@@ -1,32 +1,72 @@
+- [ ] DeepSpace Nov 25th
+- [ ] IBM Nov 28th
+	- [ ] 1
+	- [ ] 2
+
 - [x] Two sum
+	- One pass
+	- build a map of [value : index] pairs as you traverse
+	- see if your current value's remainder is in map or not
+	- map is O(1) find, 1 map find per element for n elements
+	- O(n) Time
 - [x] Longest common prefix
+	- for every char in first word:
+		- for every word:
+			- if char no match then fail
+		- if fail then return output
+		- otherwise add to output and continue
 - [x] group anagrams
+	- have a table
+	- for each word:
+		- sort the word
+		- if the sorted word is in table, then add to the list said on the table value
+		- if the sorted word is new, then add to result with itself in a list alone, save on table with value being the result index
 - [x] binary search
+	- use low and high ptr, init to edge
+	- find middle between low and high
+	- if middle is lower than target, target is higher then middle, low = mid+1
+	- if middle is higher than target, target is lower than middle, high = mid-1
+	- if find return if not dne
 - [x] quick sort
+	- use low and high ptr, init to edge
+	- partition on low and high, return lt and gt, the elements between lt and gt is guaranteed to be in the correct place
+	- recursively call quicksort on the spaces between low and lt-1, and between gt+1 and high
+	- in partition, set lt and i to low, set gt to high
+	- set a random pivot
+	- until i>=gt, if current element (i) is in the lt-gt field but is not pivot, then move it to the corresponding field
+		- if it is less than pivot, move to left of lt, i++
+		- if it is more than pivot, move to the right of gt, i don't move
+		- if it is pivot, it good, i++
+	- return if low >= high
 - [x] search a 2d matrix
+	- convert 2d matrix to 1d array, pretend the table doesn't exist when finding middle, then converting index to 2d matrix index when comparing
 - [x] valid palindrome
+	- convert string using "".join(c for c in s if c.isalnum())
+	- two pointers at edge, go to middle, if different, leave, exit true
 - [x] reverse linked list
+	- Stack push all then pop all
 - [x] remove nth node form end of list
-Monday
+	- reverse
+	- traverse normally and remove
+	- reverse
 - [ ] IRU cache
+Monday
 - [ ] longest substring without repeating characters
 - [ ] merge intervals
-Tuesday
 - [ ] maximum subarray
+Tuesday
 - [ ] subarray sum equals
-Wednesday
 - [ ] invert binary tree
 - [ ] binary tree level order traversal
+Wednesday
 - [ ] diameter or binary tree
-Thursday
 - [ ] number of islands
 - [ ] rotting orange
-Friday
+Thursday
 - [ ] course schedule
-Saturday
 - [ ] course schedule ii
 - [ ] climbing stairs
-Sunday
+Friday
 - [ ] coin change
 - [ ] product of array except self
 - [ ] subsets
