@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Everything I need plan.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Everything I need plan"
+              "title": "Home"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "Leetcode/Everything I need plan.md",
+    "Home.md",
     "Archived/CSE 101/Divide and Conquer/Quick Sort.md",
     "Leetcode/LeetCode Plan for Internship Assessments.md",
     "Leetcode/Dynamic Programming.md",

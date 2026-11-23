@@ -1,12 +1,10 @@
 - [ ] CSE 120
 	- [ ] Lecture 4
-	- [x] Midterm Oct 27 NEXT TUE ✅ 2026-11-10
-	- [x] Project Oct 23 FRI ✅ 2026-10-23
-	- [x] HW Oct 22 THUR ✅ 2026-10-23
+	- [ ] Project
+	- [ ] HW
 - [ ] CSE 167
-	- [ ] Lecture 1
-	- [x] HW Oct 26 NEXT MON ✅ 2026-10-26
+	- [ ] Lecture 8
+	- [ ] HW Nov 25 Wed
 - [ ] CSE 110
 	- [x] Lecture 0
-	- [x] Midterm Oct 23 FRI ✅ 2026-10-23
-	- [ ] Sprint 1 1 week
+	- [ ] Sprint 3
