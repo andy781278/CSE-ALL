@@ -49,7 +49,10 @@
 	- reverse
 	- traverse normally and remove
 	- reverse
-- [ ] LRU cache
+- [x] LRU cache
+	- Use an OrderedDict
+	- move_to_end(key) moves key to the end if its in it
+	- popitem(last=False) pops front
 Monday
 - [ ] longest substring without repeating characters
 - [ ] merge intervals
