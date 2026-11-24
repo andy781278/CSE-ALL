@@ -2,6 +2,8 @@
 - [ ] IBM Nov 28th
 	- [ ] 1
 	- [ ] 2
+- [ ] Epic Dec 2nd Wed 12PM
+
 
 - [x] Two sum
 	- One pass
@@ -54,9 +56,23 @@
 	- move_to_end(key) moves key to the end if its in it
 	- popitem(last=False) pops front
 Monday
-- [ ] longest substring without repeating characters
-- [ ] merge intervals
-- [ ] maximum subarray
+- [x] longest substring without repeating characters
+	- Sliding window, keep a map of chars:bool to see if they're in the current window
+	- expand window to the right if its new chars
+	- shrink window from the left if its a repeated char until the repeated char is passed from the left, remember to false all the passed chars by i in map
+- [x] merge intervals
+	- sort the intervals by their start
+		- intervals.sort(key=lambda x: x[0])
+			- sort takes a key with default None, but we can specify a different key
+			- key has to be a fxn, we can make a fxn with one line with lambda
+			- lambda x:y takes in x and returns y, x can be many var, y is an expression returned
+	- loop the intervals, if last interval's end is later or equal than this interval's begin, then merge
+	- otherwise append
+- [x] maximum subarray
+	- DP
+	- store best up to this point at that point
+	- for each point, get the max between last+current vs current
+	- the max overall of all the maxes is the max
 Tuesday
 - [ ] subarray sum equals
 - [ ] invert binary tree
