@@ -3,7 +3,7 @@
 	- [ ] Project
 	- [ ] HW
 - [ ] CSE 167
-	- [ ] Lecture 8
+	- [ ] Lecture 5
 	- [ ] HW Nov 25 Wed
 - [ ] CSE 110
 	- [x] Lecture 0

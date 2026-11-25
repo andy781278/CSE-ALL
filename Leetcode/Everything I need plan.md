@@ -1,4 +1,4 @@
-- [ ] DeepSpace Nov 25th
+- [x] DeepSpace Nov 25th
 - [ ] IBM Nov 28th
 	- [ ] 1
 	- [ ] 2
