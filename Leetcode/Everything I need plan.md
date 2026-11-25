@@ -74,11 +74,20 @@ Monday
 	- for each point, get the max between last+current vs current
 	- the max overall of all the maxes is the max
 Tuesday
-- [ ] subarray sum equals
-- [ ] invert binary tree
-- [ ] binary tree level order traversal
+- [x] subarray sum equals
+	- keep a map of count of value to occurrence
+	- loop through the elements, for each index, add to cur, and if cur-k is in count, add occurrences to total
+	- add 1 to count[cur]
+- [x] invert binary tree
+	- Just recursively call swap on children while you are not null
+- [x] binary tree level order traversal
+	- recursively put nodes into a queue
+	- for each level, empty the queue and put in children, add those children to a new list
 Wednesday
-- [ ] diameter or binary tree
+- [x] diameter or binary tree
+	- recurs through the tree
+	- at each node, if its children add to more than max, set max to that
+	- return to its parents 1+max(left, right), where leaves get 0
 - [ ] number of islands
 - [ ] rotting orange
 Thursday
