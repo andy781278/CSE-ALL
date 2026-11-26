@@ -87,8 +87,14 @@ Wednesday
 	- recurs through the tree
 	- at each node, if its children add to more than max, set max to that
 	- return to its parents 1+max(left, right), where leaves get 0
-- [ ] number of islands
-- [ ] rotting orange
+- [x] number of islands
+	- loop through all
+	- for each, recursively visit neighbor and set them to 0
+- [x] rotting oranges
+	- keep track of fresh tomatoes
+	- have inital rotten in a queue
+	- for every minute, pop all and visit neighbors
+	- when queue is empty or no more fresh, you exit
 Thursday
 - [ ] course schedule
 - [ ] course schedule ii

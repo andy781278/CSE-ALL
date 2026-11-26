@@ -3,8 +3,8 @@
 	- [ ] Project
 	- [ ] HW
 - [ ] CSE 167
-	- [ ] Lecture 5
-	- [ ] HW Nov 25 Wed
+	- [x] Lecture 0
+	- [ ] HW Today
 - [ ] CSE 110
 	- [x] Lecture 0
-	- [ ] Sprint 3
+	- [ ] Sprint 3 Today (PR)
