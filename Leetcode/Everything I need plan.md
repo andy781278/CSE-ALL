@@ -96,9 +96,25 @@ Wednesday
 	- for every minute, pop all and visit neighbors
 	- when queue is empty or no more fresh, you exit
 Thursday
-- [ ] course schedule
-- [ ] course schedule ii
-- [ ] climbing stairs
+- [x] course schedule
+	- make a table with node:neighbors that it can reach.
+	- make a graph where the nodes are the courses, and the edges are the prerequisites, where a->b means b needs a.
+	- run DFS on that graph, set ur state to 1, run explore on neighbors, then set ur state to 2.
+	- If ur neighbor is 1, then we have issue, and we should return all and report we can't do it
+	- If ur neighbor is 2, then we can skip it
+	- When all's said and done and nothing's wrong, we return we can do it all and there's no loop.
+- [x] course schedule ii
+	- keep track of m and m2
+		- m keeps track of how much dependencies each course has left
+		- m2 keeps track of each course's neighbors
+	- put independent courses in a queue
+	- while queue is not empty, take the first one, put it in result, and find its neighbors with m2 and reduce all their m by 1, if they're 0, we can safely put them into the queue
+	- if result is less than the number of courses, then we can't do it all, otherwise we can
+- [x] climbing stairs
+	- classic dynamic problem
+	- you can only climb 1 or 2, so in terms of all possibilities, you must account for the ones where you came from n-1, and also the ones where you came from n-2
+	- with that in mind we can recursively solve very easily, but very slowly
+	- to speed it up, we just keep 2 values and update them as we go from bottom to the top, starting with base cases, prev1 = 1, and prev2 = 1, and starting at 2.
 Friday
 - [ ] coin change
 - [ ] product of array except self
