@@ -112,10 +112,29 @@ Thursday
 	- if result is less than the number of courses, then we can't do it all, otherwise we can
 - [x] climbing stairs
 	- classic dynamic problem
+	- val(n)=val(n-1)+val(n-2)
 	- you can only climb 1 or 2, so in terms of all possibilities, you must account for the ones where you came from n-1, and also the ones where you came from n-2
 	- with that in mind we can recursively solve very easily, but very slowly
 	- to speed it up, we just keep 2 values and update them as we go from bottom to the top, starting with base cases, prev1 = 1, and prev2 = 1, and starting at 2.
 Friday
-- [ ] coin change
-- [ ] product of array except self
-- [ ] subsets
+- [x] coin change
+	- another dynamic problem
+	- val(n)=1+min(val-coin for coin in coins)
+	- We're looking for minimum amount of coins, so each one adds 1 if appropriate.
+	- But we are looking back more than 1 or 2, so we must store everything instead of just 2
+	- bottom up again
+	- in the end, if that last val(n) is too big, which we initialized it to be big, we'll know there's no such sequence, but otherwise that's the answer
+- [x] product of array except self
+	- two two passes, only 1 array is needed, but u can do 2 to comprehend
+	- l[i] keeps track of everything before i multiplied tgt
+	- r[i] keeps track of everything after i multiplied tgt
+	- at the edges, it's just 1
+	- then just mult tgt two lists for each index
+	- for 1 list, you can just loop once, and for the second loop, keep a single var and update list element with it, then update it with list element
+- [x] subsets
+	- lets say the function is f(i,l) with a new i=0 and empty l
+	- i scans the nums, l keeps track of the current sublist
+	- we call return f(i+1,l)+f(i+1,l+nums[i])
+	- we double each time, and this will cover all grounds, 2^n
+	- if i is up, return the list we have made l as a sublist so the total can add it all tgt into a big list
+
